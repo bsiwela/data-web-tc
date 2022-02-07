@@ -35,6 +35,9 @@ for url_file in file_list:
 
     # converting it to geojson
     nc.zip2geojson(filename)
+    
+    # removing nc file
+    os.remove(filename)
 
     # adding lineString for storm shapefile
     if 'storm' in filename:
