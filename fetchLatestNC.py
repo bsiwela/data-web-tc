@@ -30,6 +30,9 @@ else:
 
         # converting it to geojson
         nc.nc2geojson(filename, N=50)
+        
+        # removing nc file
+        os.remove(filename)
 
         # moving created files to folder
         filePath = f'{os.path.splitext(filename)[0]}.geojson'
