@@ -35,9 +35,6 @@ for url_file in file_list:
 
     # converting it to geojson
     nc.zip2geojson(filename)
-    
-    # removing nc file
-    os.remove(filename)
 
     # adding lineString for storm shapefile
     if 'storm' in filename:
@@ -66,6 +63,9 @@ for url_file in file_list:
 
         geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
         gdf.to_file(geojsonFilePath, driver='GeoJSON')
+
+    # removing nc file
+    os.remove(filename)
 
     # moving created files to folder
     filePath = f'{os.path.splitext(filename)[0]}.geojson'
