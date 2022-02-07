@@ -1,4 +1,5 @@
 import os
+import shutil
 import requests
 import pandas as pd
 import nczip2geojson as nc
@@ -29,6 +30,10 @@ else:
 
         # converting it to geojson
         nc.nc2geojson(filename, N=50)
+
+        # moving created files to folder
+        filePath = f'{os.path.splitext(filename)[0]}.geojson'
+        shutil.move(filePath, os.path.join('mpres_data', filePath))
 
 
 
