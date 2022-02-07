@@ -39,9 +39,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      # execute python script
+      # execute python script fetchLatestSHP.py
       - name: execute python script
         run: python fetchLatestSHP.py
+        
+      # execute python script fetchLatestNC.py
+      - name: execute python script
+        run: python fetchLatestNC.py
       
       # commit files
       - name: commit files
