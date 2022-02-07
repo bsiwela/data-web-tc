@@ -41,10 +41,16 @@ jobs:
           
       # execute python script fetchLatestSHP.py
       - name: execute python script
+        env:
+          KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
+          KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
         run: python fetchLatestSHP.py
         
       # execute python script fetchLatestNC.py
       - name: execute python script
+        env:
+          KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
+          KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
         run: python fetchLatestNC.py
       
       # commit files
