@@ -7,8 +7,8 @@ from io import StringIO
 from urllib.parse import urlparse
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/tc_realtime/arc_tc_data.csv'
-username = 'arc2'
-password = 'ARC09876KAC54321!'
+username = os.environ.get('KAC_USERNAME')
+password = os.environ.get('KAC_PASSWORD')
 
 csv = requests.get(url, auth=(username, password))
 data = pd.read_csv(StringIO(csv.text))
