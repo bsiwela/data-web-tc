@@ -11,8 +11,8 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/mpres_data/'
-username = 'arc2'
-password = 'ARC09876KAC54321!'
+username = os.environ.get('KAC_USERNAME')
+password = os.environ.get('KAC_PASSWORD')
 
 
 def listFilesUrl(url, username, password, ext=''):
