@@ -49,8 +49,8 @@ for url_file in file_list:
                 lons = gdf_storm['LON'].values
                 lats = gdf_storm['LAT'].values
                 if tech == 'FCST' and last_lon and last_lat:
-                    np.insert(lons, 0, last_lon)
-                    np.insert(lats, 0, last_lat)
+                    lons = np.insert(lons, 0, last_lon)
+                    lats = np.insert(lats, 0, last_lat)
                 if len(lons) > 1 and len(lats) > 1:
                     lineString = geom.LineString([(lon, lat) for lon, lat in zip(lons, lats)])
                     row = gdf_storm.iloc[-1]
