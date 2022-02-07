@@ -41,7 +41,7 @@ jobs:
           
       # execute python script
       - name: execute python script
-        run: python fetchLatestData.py
+        run: python fetchLatestSHP.py
       
       # commit files
       - name: commit files
