@@ -1,5 +1,7 @@
 import os
+import shutil
 import requests
+import pandas as pd
 import geopandas as gpd
 import numpy as np
 import shapely.geometry as geom
@@ -22,6 +24,7 @@ file_list = listFilesUrl(url, username, password, ext='.zip')
 
 for url_file in file_list:
     filename = os.path.basename(urlparse(url_file).path)
+    print(f'Dealing with {filename}')
     r = requests.get(url_file, auth=(username, password))
 
     # writing the file locally
@@ -48,17 +51,22 @@ for url_file in file_list:
                 if tech == 'FCST' and last_lon and last_lat:
                     np.insert(lons, 0, last_lon)
                     np.insert(lats, 0, last_lat)
-                lineString = geom.LineString([(lon, lat) for lon, lat in zip(lons, lats)])
-                row = gdf_storm.iloc[-1]
-                if tech == 'TRAK':
-                    last_lon = row.LON
-                    last_lat = row.LAT
-                row.geometry = lineString
-                gdf = gdf.append(row)
+                if len(lons) > 1 and len(lats) > 1:
+                    lineString = geom.LineString([(lon, lat) for lon, lat in zip(lons, lats)])
+                    row = gdf_storm.iloc[-1]
+                    if tech == 'TRAK':
+                        last_lon = row.LON
+                        last_lat = row.LAT
+                    row.geometry = lineString
+                    gdf = gdf.append(row)
 
 
         geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
         gdf.to_file(geojsonFilePath, driver='GeoJSON')
+
+    # moving created files to folder
+    filePath = f'{os.path.splitext(filename)[0]}.geojson'
+    shutil.move(filePath, os.path.join('mpres_data', filePath))
 
 
 
