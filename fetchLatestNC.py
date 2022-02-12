@@ -7,19 +7,20 @@ from io import StringIO
 from urllib.parse import urlparse
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/tc_realtime/arc_tc_data.csv'
-username = os.environ.get('KAC_USERNAME')
-password = os.environ.get('KAC_PASSWORD')
+username = os.environ['KAC_USERNAME']
+password = os.environ['KAC_PASSWORD']
 
 csv = requests.get(url, auth=(username, password))
-data = pd.read_csv(StringIO(csv.text))
+data = pd.read_csv(StringIO(csv.text), header=None)
 
-if 'NONE' in data.columns:
+
+if data.iloc[0][0] == 'NONE':
     print('No new data from KAC')
 else:
-    print('Could read data from KAC')
+    print('Data currently on KAC ...')
     for url_file in data[data.columns[-1]].unique():
-    #url_file = data.columns[-1]
         filename = os.path.basename(urlparse(url_file).path)
+        print(f'\tProcessing {filename} ...')
         r = requests.get(url_file, auth=(username, password))
 
         # writing the file locally
@@ -37,6 +38,3 @@ else:
         # moving created files to folder
         filePath = f'{os.path.splitext(filename)[0]}.geojson'
         shutil.move(filePath, os.path.join('mpres_data', filePath))
-
-
-
