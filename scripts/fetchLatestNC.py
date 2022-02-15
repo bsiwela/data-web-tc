@@ -15,7 +15,7 @@ csv = requests.get(url, auth=(username, password))
 data = pd.read_csv(StringIO(csv.text), header=None)
 
 # switching to the appropriate directory
-os.chdir('../tc_realtime')
+os.chdir('tc_realtime')
 
 if data.iloc[0][0] == 'NONE':
     print('No new data from KAC ...')
