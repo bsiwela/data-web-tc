@@ -1,5 +1,6 @@
 import os
 import shutil
+import glob
 import requests
 import pandas as pd
 import nczip2geojson as nc
@@ -15,7 +16,10 @@ data = pd.read_csv(StringIO(csv.text), header=None)
 
 
 if data.iloc[0][0] == 'NONE':
-    print('No new data from KAC')
+    print('No new data from KAC ...')
+    for file in glob.glob('../tc_realtime/*.*'):
+        print(f'\tRemoving {file}')
+        os.remove(file)
 else:
     print('Data currently on KAC ...')
     for url_file in data[data.columns[-1]].unique():
@@ -37,4 +41,4 @@ else:
 
         # moving created files to folder
         filePath = f'{os.path.splitext(filename)[0]}.geojson'
-        shutil.move(filePath, os.path.join('mpres_data', filePath))
+        shutil.move(filePath, os.path.join('../tc_realtime', filePath))
