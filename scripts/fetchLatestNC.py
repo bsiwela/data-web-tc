@@ -14,10 +14,12 @@ password = os.environ['KAC_PASSWORD']
 csv = requests.get(url, auth=(username, password))
 data = pd.read_csv(StringIO(csv.text), header=None)
 
+# switching to the appropriate directory
+os.chdir('../tc_realtime')
 
 if data.iloc[0][0] == 'NONE':
     print('No new data from KAC ...')
-    for file in glob.glob('../tc_realtime/*.*'):
+    for file in glob.glob('*.*'):
         print(f'\tRemoving {file}')
         os.remove(file)
 else:
@@ -41,4 +43,4 @@ else:
 
         # moving created files to folder
         filePath = f'{os.path.splitext(filename)[0]}.geojson'
-        shutil.move(filePath, os.path.join('../tc_realtime', filePath))
+        #shutil.move(filePath, os.path.join('../tc_realtime', filePath))
