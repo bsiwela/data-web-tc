@@ -68,7 +68,7 @@ def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak
         return # if the zip file is not an actual shapefile
 
 
-def nc2geojson(ncfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=100):
+def nc2geojson(ncfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50):
 
     ds = xr.open_dataset(ncfile, decode_times=False)
 
@@ -190,7 +190,7 @@ if __name__ == '__main__':
     parser.add_argument('-p', '--path', type=str, help='Path to folder to scan', default=None, dest='path')
     parser.add_argument('-nr', '--non_recursive', action='store_true', help='Recursive process', default=False, dest='non_recursive')
     parser.add_argument('-f', '--fields', help='List of fields to extract from NetCDF', nargs='+', default=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], dest='fields')
-    parser.add_argument('-n', help='Number of Polygons to discretize the raw data', default=100, dest='N')
+    parser.add_argument('-n', help='Number of Polygons to discretize the raw data', default=50, dest='N')
     args = parser.parse_args()
 
     processFilesPath(path=args.path, recursive=not(args.non_recursive), fields=args.fields, N=args.N)
