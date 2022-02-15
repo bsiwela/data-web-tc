@@ -86,55 +86,6 @@ def fetchHistoryJTWC(url, adm_file, mapping_file):
 
 
 
-        for url_file in file_list_nc:
-
-            filename = os.path.basename(urlparse(url_file).path)
-            print(f'Dealing with {filename} ... ', end='')
-            r = requests.get(url_file, auth=(username, password))
-
-            # writing the file locally
-            if r.status_code == 200:
-                with open(filename, 'wb') as out:
-                    for bits in r.iter_content():
-                        out.write(bits)
-            print('received')
-
-            # converting it to geojson
-            nc.nc2geojson(filename, N=50)
-
-            # adding lineString for storm shapefile
-            if 'storm' in filename:
-                gdf = gpd.read_file(filename)
-
-                # looping through storms
-                for storm_id in gdf.ATCFID.unique():
-                    last_lon = None
-                    last_lat = None
-                    for tech in gdf.TECH.unique():
-                        gdf_storm = gdf[(gdf.ATCFID == storm_id) & (gdf.TECH == tech)].sort_values(by=['DTG'])
-                        lons = gdf_storm['LON'].values
-                        lats = gdf_storm['LAT'].values
-                        if tech == 'FCST' and last_lon and last_lat:
-                            lons = np.insert(lons, 0, last_lon)
-                            lats = np.insert(lats, 0, last_lat)
-                        if len(lons) > 1 and len(lats) > 1:
-                            lineString = geom.LineString([(lon, lat) for lon, lat in zip(lons, lats)])
-                            row = gdf_storm.iloc[-1]
-                            if tech == 'TRAK':
-                                last_lon = row.LON
-                                last_lat = row.LAT
-                            row.geometry = lineString
-                            gdf = gdf.append(row)
-
-
-                geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
-                gdf.to_file(geojsonFilePath, driver='GeoJSON')
-
-            # removing nc file
-            os.remove(filename)
-
-
-
 
 if __name__ == '__main__':
 
