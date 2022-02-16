@@ -26,10 +26,7 @@ def listFilesUrl(url, username, password, ext=''):
 
 def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
 
-    print(f'Welcome to the historical data script...')
-    print(f'\tLoading files')
-    dir_list = listFilesUrl(url, username, password, ext='1980/')
-    #dir_list = listFilesUrl(url, username, password, ext='/')[1:]
+    dir_list = listFilesUrl(url, username, password, ext='/')[1:]
     adm_df = gpd.read_file(adm_file)
     mapping = pd.read_parquet(mapping_file)
 
@@ -37,26 +34,18 @@ def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
         file_list_zip = listFilesUrl(url_dir, username, password, ext='.zip')
         file_list_nc = listFilesUrl(url_dir, username, password, ext='.nc')
 
-        print(f'\tFound files')
-        for file in file_list_zip:
-            print(f'\t\t{file}')
-
         # check if directory exists
         year_dir = os.path.join('jtwc_history',os.path.basename(os.path.normpath(url_dir)))
-        print(f'\n\tCheck if {year_dir} exists')
         exists = os.path.isdir(year_dir)
-        print(f'\t{year_dir} {"exists" if exists else "doesnt exist"}')
         if not exists:
             os.makedirs(year_dir)
 
-        print(f'\n\tSwitching dir...')
         os.chdir(year_dir)
 
-        print(f'\tStart of the loop')
         for url_file in file_list_zip:
 
             filename = os.path.basename(urlparse(url_file).path)
-            print(f'\t\tDealing with {filename}')
+            print(f'Dealing with {filename}')
             r = requests.get(url_file, auth=(username, password))
 
             # writing the file locally
