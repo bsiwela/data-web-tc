@@ -1,0 +1,10 @@
+{
+    "mpres_data": [
+        "mpres_data/taos_swio_ofcl_storms_shp.geojson",
+        "mpres_data/taos_swio30s_ofcl_windwater_shp.geojson",
+        "mpres_data/postevent/README.md"
+    ],
+    "tc_realtime": [
+        "tc_realtime/README.md"
+    ]
+}
