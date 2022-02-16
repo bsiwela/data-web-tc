@@ -26,6 +26,7 @@ import xarray as xr
 import shapely.geometry as geom
 import rasterio.features
 from zipfile import ZipFile
+from compactGeoJSON import densify
 
 
 def processFilesPath(path, recursive, fields, N):
@@ -43,20 +44,20 @@ def processFilesPath(path, recursive, fields, N):
         print()
 
 
-def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=100):
+def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50):
 
     def zip2nc(zipfile):
         with ZipFile(zipfile, 'r') as zipObject:
             zippedFiles = zipObject.namelist()
             for zippedFile in zippedFiles:
-                if zippedFile.endswith('.zip') and 'past' in zippedFile:
+                if zippedFile.endswith('.zip'):
                     zipObject.extract(zippedFile, os.path.split(zipfile)[0])
                     zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
                     zip2nc(zippedFile)
                     os.remove(zippedFile)
-                elif zippedFile.endswith('.nc') and 'past' in zippedFile: # only keep past and not fcst
+                elif zippedFile.endswith('.nc'): # only keep past and not fcst
                     zipObject.extract(zippedFile, os.path.split(zipfile)[0])
-                    zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
+                    #zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
                     nc2geojson(zippedFile, fields, N)
                     os.remove(zippedFile)
 
@@ -70,7 +71,7 @@ def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak
 
 def nc2geojson(ncfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50):
 
-    ds = xr.open_dataset(ncfile, decode_times=False)
+    ds = xr.open_dataset(ncfile, engine='netcdf4', decode_times=False)
 
     storm_dict = {'name': ds.storm_name, 'year': ds.atcfid[-4:], 'id': ds.atcfid}
 
@@ -171,6 +172,7 @@ def nc2geojson(ncfile, fields=['storm_position', 'past_rain_total', 'past_peak_w
     gdf = gpd.GeoDataFrame(df,geometry=geometries)
     geojsonFilePath = f'{os.path.splitext(ncfile)[0]}.geojson'
     gdf.to_file(geojsonFilePath, driver='GeoJSON')
+    densify(geojsonFilePath)
 
     # compacting geojson even further, by removing blank spaces
     with open(geojsonFilePath, 'r') as f:
