@@ -4,10 +4,11 @@ name: createIndex
 
 # Controls when the workflow will run
 on:
-  push:
-    paths:
-      - 'mpres_data/**'
-      - 'tc_realtime/**'
+  workflow_dispatch:
+  #push:
+    #paths:
+      #- 'mpres_data/**'
+      #- 'tc_realtime/**'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
