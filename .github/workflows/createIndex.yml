@@ -8,6 +8,9 @@ on:
     paths:
       - 'mpres_data/**'
       - 'tc_realtime/**'
+      
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -38,9 +41,11 @@ jobs:
           pip install -r scripts/requirements.txt
         
       # execute python script createIndex.py
-      - name: execute python script createIndex.py
+      - name: execute python script v.py
+        env:
+          KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
+          KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
         run: python scripts/createIndex.py
-    
       
       # commit files
       - name: commit files
@@ -57,3 +62,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main  
+
