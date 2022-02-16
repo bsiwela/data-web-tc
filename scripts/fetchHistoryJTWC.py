@@ -30,11 +30,14 @@ def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
     adm_df = gpd.read_file(adm_file)
     mapping = pd.read_parquet(mapping_file)
 
+    dir_root = os.path.abspath(os.getcwd())
+
     for url_dir in dir_list:
         file_list_zip = listFilesUrl(url_dir, username, password, ext='.zip')
         file_list_nc = listFilesUrl(url_dir, username, password, ext='.nc')
 
         # check if directory exists
+        os.chdir(dir_root)
         year_dir = os.path.join('jtwc_history',os.path.basename(os.path.normpath(url_dir)))
         exists = os.path.isdir(year_dir)
         if not exists:
