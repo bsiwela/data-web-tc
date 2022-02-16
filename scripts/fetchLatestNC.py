@@ -21,7 +21,8 @@ if data.iloc[0][0] == 'NONE':
     print('No new data from KAC ...')
     for file in glob.glob('*.*'):
         print(f'\tRemoving {file}')
-        os.remove(file)
+        if file.endswith('.zip') or file.endswith('.nc') or file.endswith('.json') or file.endswith('.geojson'):
+            os.remove(file)
 else:
     print('Data currently on KAC ...')
     for url_file in data[data.columns[-1]].unique():
