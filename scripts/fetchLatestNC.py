@@ -16,6 +16,7 @@ data = pd.read_csv(StringIO(csv.text), header=None)
 
 # switching to the appropriate directory
 os.chdir('tc_realtime')
+dir_root = os.path.abspath(os.getcwd())
 
 if data.iloc[0][0] == 'NONE':
     print('No new data from KAC ...')
@@ -26,22 +27,26 @@ if data.iloc[0][0] == 'NONE':
 else:
     print('Data currently on KAC ...')
     for url_file in data[data.columns[-1]].unique():
+        os.chdir(dir_root)
         filename = os.path.basename(urlparse(url_file).path)
         print(f'\tProcessing {filename} ...')
+
         r = requests.get(url_file, auth=(username, password))
 
+        print(f'\t\tDownloading {url_file} ...')
         # writing the file locally
-        if r.status_code == 200:
-            with open(filename, 'wb') as out:
-                for bits in r.iter_content():
-                    out.write(bits)
+        try:
+            if r.status_code == 200:
+                with open(filename, 'wb') as out:
+                    for bits in r.iter_content():
+                        out.write(bits)
 
-        # converting it to geojson
-        nc.nc2geojson(filename, N=50)
+            # converting it to geojson
+            nc.nc2geojson(filename, N=50)
 
-        # removing nc file
-        os.remove(filename)
+            # removing nc file
+            os.remove(filename)
 
-        # moving created files to folder
-        filePath = f'{os.path.splitext(filename)[0]}.geojson'
-        #shutil.move(filePath, os.path.join('../tc_realtime', filePath))
+        except:
+            print(f'\t\t\033[91mCouldnt download {url_file}\033[0m')
+            continue
