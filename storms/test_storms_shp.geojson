@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "ID": null, "LAT": null, "LON": null, "VMAX": null, "MSLP": null, "RMAX": null, "FSPD": null, "FDIR": null, "RENV": null, "PENV": null, "VALIDT": null, "DTG": null, "LATNOW": null, "LONNOW": null, "WINDNOW": null, "DIRNOW": null, "SPDNOW": null, "TECH": null, "ADVNR": null, "ATCFID": null, "NAME": "PLACEHOLDER", "FTECH": null, "FCST_DTG": null, "RUN_DTG": null, "BASIN": null, "STMNR": null, "CAT_ID": null, "CAT_DESC": null, "MSGID": null, "VALIDTIME": null }, "geometry": { "type": "Point", "coordinates": [ 0.0, -89.9 ] } }
-]
-}
