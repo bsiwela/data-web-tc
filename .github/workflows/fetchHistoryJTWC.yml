@@ -21,7 +21,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Starting script fetchLatestData
+        run: echo Starting script fetchHistoryJTWC
 
       # Set up python
       - name: setup python
@@ -35,7 +35,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
         
-      # execute python script fetchLatestNC.py
+      # execute python script fetchHistoryJTWC.py
       - name: execute python script fetchHistoryJTWC.py
         env:
           KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
