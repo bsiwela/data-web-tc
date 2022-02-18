@@ -49,18 +49,33 @@ for subfolder in list_subfolder:
         filename = os.path.basename(urlparse(url_file).path)
 
         print(f'Dealing with {filename}')
-        r = requests.get(url_file, auth=(username, password))
-
-        # writing the file locally
-        if r.status_code == 200:
-            with open(filename, 'wb') as out:
-                for bits in r.iter_content():
-                    out.write(bits)
+        # r = requests.get(url_file, auth=(username, password))
+        #
+        # # writing the file locally
+        # if r.status_code == 200:
+        #     with open(filename, 'wb') as out:
+        #         for bits in r.iter_content():
+        #             out.write(bits)
 
         print(f'\tCopied local file {filename}')
 
-        # converting it to geojson
-        nc.zip2geojson(filename)
+        with ZipFile(filename, 'r') as zipObject:
+            zippedFiles = zipObject.namelist()
+            for zippedFile in zippedFiles:
+                if zippedFile.endswith('.nc'): # only keep past and not fcst
+                    zipObject.extract(zippedFile) #, os.path.split(zipfile)[0])
+                    #zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
+                    nc.nc2geojson(zippedFile)
+                else:
+                    print(f'Unknown file format for: {zippedFile}')
+
+
+
+
+
+
+        # converting it to geojson but keeping the reference to the extracted zip file
+        #ncFile = nc.zip2geojson(filename, remove=False)
 
         # adding lineString for storm shapefile
         if 'shp' in filename:
@@ -91,15 +106,13 @@ for subfolder in list_subfolder:
             geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
             gdf.to_file(geojsonFilePath, driver='GeoJSON')
 
-        cwd_path = os.path.abspath(os.getcwd())
-        os.chdir(root_root)
+        # running loss generation
         if 'nc' in subfolder:
-            # running loss generation
-            calculateLosses(storm_file=os.path.join(cwd_path,filename), exp_file='arc_exposure.gzip', adm_file='adm2_full_precision.json', mapping_file='mapping.gzip', split=False, geojson=False)
-        os.chdir(cwd_path)
+            calculateLosses(storm_file=zippedFile, exp_file=os.path.join(root_root,'arc_exposure.gzip'), adm_file=os.path.join(root_root,'adm2_full_precision.json'), mapping_file=os.path.join(root_root,'mapping.gzip'), split=False, geojson=False)
 
-        # removing nc file
+        # removing zip and nc files
         os.remove(filename)
+        os.remove(zippedFile)
 
 
 
