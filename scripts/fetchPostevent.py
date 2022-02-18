@@ -26,6 +26,7 @@ def listFilesUrl(url, username, password, ext=''):
 
 list_subfolder = ['taos_swio30s_ofcl_windwater_nc', 'taos_swio30s_ofcl_windwater_shp']
 
+root_root = os.path.abspath(os.getcwd())
 os.chdir('mpres_data/postevent')
 dir_root = os.path.abspath(os.getcwd())
 
@@ -90,9 +91,12 @@ for subfolder in list_subfolder:
             geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
             gdf.to_file(geojsonFilePath, driver='GeoJSON')
 
+        cwd_path = os.path.abspath(os.getcwd())
+        os.chdir(root_root)
         if 'nc' in subfolder:
             # running loss generation
-            calculateLosses(storm_file=filename, exp_file='arc_exposure.gzip', adm_file='adm2_full_precision.json', mapping_file='mapping.gzip', split=False, geojson=False)
+            calculateLosses(storm_file=os.path.join(cwd_path,filename), exp_file='arc_exposure.gzip', adm_file='adm2_full_precision.json', mapping_file='mapping.gzip', split=False, geojson=False)
+        os.chdir(cwd_path)
 
         # removing nc file
         os.remove(filename)
