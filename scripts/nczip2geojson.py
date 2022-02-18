@@ -41,7 +41,6 @@ def processFilesPath(path, recursive, fields, N):
 
     for ncfile in glob.glob(f'**/*.nc', recursive=recursive):
         nc2geojson(ncfile, fields, N)
-        print()
 
 
 def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50):
@@ -54,12 +53,10 @@ def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak
                     zipObject.extract(zippedFile, os.path.split(zipfile)[0])
                     zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
                     zip2nc(zippedFile)
-                    os.remove(zippedFile)
                 elif zippedFile.endswith('.nc'): # only keep past and not fcst
-                    zipObject.extract(zippedFile, os.path.split(zipfile)[0])
+                    zipObject.extract(zippedFile) #, os.path.split(zipfile)[0])
                     #zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
                     nc2geojson(zippedFile, fields, N)
-                    os.remove(zippedFile)
 
     try: # if it is a shapefile .zip
         gdf = gpd.read_file(zipfile)
