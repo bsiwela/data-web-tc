@@ -41,13 +41,13 @@ else:
         print(f'\t\tDownloading {url_file} ...')
         # writing the file locally
         try:
-            # if r.status_code == 200:
-            #     with open(filename, 'wb') as out:
-            #         for bits in r.iter_content():
-            #             out.write(bits)
-            #
-            # # converting it to geojson
-            # nc.nc2geojson(filename, N=50)
+            if r.status_code == 200:
+                with open(filename, 'wb') as out:
+                    for bits in r.iter_content():
+                        out.write(bits)
+
+            # converting it to geojson
+            nc.nc2geojson(filename, N=50)
 
             # keeping file
             files_to_keep.append(os.path.splitext(filename)[0])
