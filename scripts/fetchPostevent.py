@@ -59,15 +59,18 @@ for subfolder in list_subfolder:
 
         print(f'\tCopied local file {filename}')
 
-        with ZipFile(filename, 'r') as zipObject:
-            zippedFiles = zipObject.namelist()
-            for zippedFile in zippedFiles:
-                if zippedFile.endswith('.nc'): # only keep past and not fcst
-                    zipObject.extract(zippedFile) #, os.path.split(zipfile)[0])
-                    #zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
-                    nc.nc2geojson(zippedFile)
-                else:
-                    print(f'Unknown file format for: {zippedFile}')
+        if subfolder == 'taos_swio30s_ofcl_windwater_nc':
+            with ZipFile(filename, 'r') as zipObject:
+                zippedFiles = zipObject.namelist()
+                for zippedFile in zippedFiles:
+                    if zippedFile.endswith('.nc'): # only keep past and not fcst
+                        zipObject.extract(zippedFile) #, os.path.split(zipfile)[0])
+                        #zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
+                        nc.nc2geojson(zippedFile)
+                    else:
+                        print(f'Unknown file format for: {zippedFile}')
+        elif subfolder == 'taos_swio30s_ofcl_windwater_shp':
+            nc.zip2geojson(filename)
 
 
 
