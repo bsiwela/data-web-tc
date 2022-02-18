@@ -49,13 +49,13 @@ for subfolder in list_subfolder:
         filename = os.path.basename(urlparse(url_file).path)
 
         print(f'Dealing with {filename}')
-        # r = requests.get(url_file, auth=(username, password))
-        #
-        # # writing the file locally
-        # if r.status_code == 200:
-        #     with open(filename, 'wb') as out:
-        #         for bits in r.iter_content():
-        #             out.write(bits)
+        r = requests.get(url_file, auth=(username, password))
+
+        # writing the file locally
+        if r.status_code == 200:
+            with open(filename, 'wb') as out:
+                for bits in r.iter_content():
+                    out.write(bits)
 
         print(f'\tCopied local file {filename}')
 
