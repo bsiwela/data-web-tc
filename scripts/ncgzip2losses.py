@@ -110,7 +110,7 @@ def loss_calculation(expclass, vms, surge, numexp, stval, coval, dmin=0.01):
 def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson, csv_file='../losses.csv'):
 
     # reading files: storm (nc), exposure (dbf), adm (json), mapping (json)
-    storm_df = xr.open_dataset(storm_file, decode_times=False)
+    storm_df = xr.open_dataset(storm_file, engine='netcdf4', decode_times=False)
     exp_df = pd.read_parquet(exp_file)
     adm_df = gpd.read_file(adm_file)
     mapping = pd.read_parquet(mapping_file)
