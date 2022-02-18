@@ -9,6 +9,7 @@ import nczip2geojson as nc
 from io import StringIO
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+from ncgzip2losses import calculateLosses
 
 import xarray as xr
 from zipfile import ZipFile
@@ -89,8 +90,14 @@ for subfolder in list_subfolder:
             geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
             gdf.to_file(geojsonFilePath, driver='GeoJSON')
 
+        if 'nc' in subfolder:
+            # running loss generation
+            calculateLosses(storm_file=filename, exp_file='arc_exposure.gzip', adm_file='adm2_full_precision.json', mapping_file='mapping.gzip', split=False, geojson=False)
+
         # removing nc file
         os.remove(filename)
+
+
 
 
 
