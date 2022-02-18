@@ -69,19 +69,17 @@ for subfolder in list_subfolder:
                         nc.nc2geojson(zippedFile)
                     else:
                         print(f'Unknown file format for: {zippedFile}')
+
+                    # running loss generation
+                    calculateLosses(storm_file=zippedFile, exp_file=os.path.join(root_root, 'arc_exposure.gzip'),
+                                        adm_file=os.path.join(root_root, 'adm2_full_precision.json'),
+                                        mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
+                                        geojson=False)
+                    os.remove(zippedFile)
+
         elif subfolder == 'taos_swio30s_ofcl_windwater_shp':
             nc.zip2geojson(filename)
 
-
-
-
-
-
-        # converting it to geojson but keeping the reference to the extracted zip file
-        #ncFile = nc.zip2geojson(filename, remove=False)
-
-        # adding lineString for storm shapefile
-        if 'shp' in filename:
             gdf = gpd.read_file(filename)
 
             # looping through storms
@@ -109,13 +107,9 @@ for subfolder in list_subfolder:
             geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
             gdf.to_file(geojsonFilePath, driver='GeoJSON')
 
-        # running loss generation
-        if 'nc' in subfolder:
-            calculateLosses(storm_file=zippedFile, exp_file=os.path.join(root_root,'arc_exposure.gzip'), adm_file=os.path.join(root_root,'adm2_full_precision.json'), mapping_file=os.path.join(root_root,'mapping.gzip'), split=False, geojson=False)
-
         # removing zip and nc files
         os.remove(filename)
-        os.remove(zippedFile)
+
 
 
 
