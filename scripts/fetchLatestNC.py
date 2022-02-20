@@ -1,5 +1,4 @@
 import os
-import shutil
 import glob
 import requests
 import json
@@ -7,6 +6,7 @@ import pandas as pd
 import nczip2geojson as nc
 from io import StringIO
 from urllib.parse import urlparse
+from utils import listFilesUrl, fetchUrl
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/tc_realtime/arc_tc_data.csv'
 username = os.environ['KAC_USERNAME']
@@ -17,7 +17,8 @@ data = pd.read_csv(StringIO(csv.text), header=None)
 with open('index.json', 'r') as f:
     index = json.load(f)
 files_tc_realtime = [os.path.splitext(os.path.split(p)[1])[0] for p in index['tc_realtime']]
-files_to_keep = []
+files_tc_realtime_url = [os.path.splitext(os.path.split(url)[1])[0] for url in data[data.columns[-1]].values]
+files_to_remove = [file for file in files_tc_realtime if file not in files_tc_realtime_url]
 
 # switching to the appropriate directory
 os.chdir('tc_realtime')
@@ -34,35 +35,17 @@ else:
     for url_file in data[data.columns[-1]].unique():
         os.chdir(dir_root)
         filename = os.path.basename(urlparse(url_file).path)
-        print(f'\tProcessing {filename} ...')
 
-        r = requests.get(url_file, auth=(username, password))
+        downloaded = fetchUrl(url_file, username, password)
 
-        print(f'\t\tDownloading {url_file} ...')
-        # writing the file locally
-        try:
-            if r.status_code == 200:
-                with open(filename, 'wb') as out:
-                    for bits in r.iter_content():
-                        out.write(bits)
-
-            # converting it to geojson
-            nc.nc2geojson(filename, N=50)
-
-            # keeping file
-            files_to_keep.append(os.path.splitext(filename)[0])
-
-            # removing nc file
-            os.remove(filename)
-
-        except:
-            print(f'\t\t\033[91mCouldnt download {url_file}\033[0m')
-            continue
+        if downloaded:
+            nc.nc2geojson(filename, N=50)  # converting it to geojson
+            os.remove(filename) # removing nc file
 
     os.chdir(dir_root)
-    for file in [os.path.split(p)[1] for p in index['tc_realtime'] if os.path.splitext(os.path.split(p)[1])[0] not in files_to_keep]:
+    for file in files_to_remove:
         try:
-            file_path = os.path.join('tc_realtime',file)
+            file_path = f'{file}.geojson'
             os.remove(file_path)
             print(f'\t\t\033[91mRemoved {file_path} which was not anymore in KAC repo tc_realtime ...\033[0m')
         except:
