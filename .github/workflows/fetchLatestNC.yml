@@ -4,7 +4,7 @@ name: fetchLatestNC
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow every 3h
+  # Triggers the workflow every 10th minute
   schedule:
     - cron: '10 */1 * * *'
 
