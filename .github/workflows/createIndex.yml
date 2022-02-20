@@ -8,8 +8,8 @@ on:
     branches:
       - main
     paths:
-      - 'mpres_data'
-      - 'tc_realtime'
+      - mpres_data/**
+      - tc_realtime/**
       
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
