@@ -6,7 +6,7 @@ name: fetchLatestSHP
 on:
   # Triggers the workflow every 30 minutes
   schedule:
-    - cron: '30 * * * *'
+    - cron: '*/30 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
