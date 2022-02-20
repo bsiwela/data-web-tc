@@ -1,6 +1,8 @@
 {
     "mpres_data": [
+        "mpres_data/taos_swio_ofcl_storms_shp.zip.sha256",
         "mpres_data/taos_swio_ofcl_storms_shp.geojson",
+        "mpres_data/taos_swio30s_ofcl_windwater_shp.zip.sha256",
         "mpres_data/taos_swio30s_ofcl_windwater_shp.geojson",
         "mpres_data/postevent/README.md",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
