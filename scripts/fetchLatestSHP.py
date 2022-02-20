@@ -1,6 +1,7 @@
 import os
 import shutil
 import requests
+import time
 import pandas as pd
 import geopandas as gpd
 import numpy as np
@@ -11,8 +12,8 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/mpres_data/'
-username = os.environ.get('KAC_USERNAME')
-password = os.environ.get('KAC_PASSWORD')
+username = os.environ['KAC_USERNAME']
+password = os.environ['KAC_PASSWORD']
 
 
 def listFilesUrl(url, username, password, ext=''):
@@ -20,18 +21,32 @@ def listFilesUrl(url, username, password, ext=''):
     soup = BeautifulSoup(page, 'html.parser')
     return [url + '/' + node.get('href') for node in soup.find_all('a') if node.get('href').endswith(ext)]
 
-file_list = listFilesUrl(url, username, password, ext='.zip')
-
-for url_file in file_list:
-    filename = os.path.basename(urlparse(url_file).path)
-    print(f'Dealing with {filename}')
+def fetchUrl(url_file, username, password, filename=None):
     r = requests.get(url_file, auth=(username, password))
+    downloaded = False
+
+    if filename is None:
+        filename = os.path.basename(urlparse(url_file).path)
 
     # writing the file locally
     if r.status_code == 200:
         with open(filename, 'wb') as out:
             for bits in r.iter_content():
                 out.write(bits)
+        downloaded = not(downloaded)
+    else:
+        return False
+
+    print(f'Download {filename} : {"" if downloaded else "un"}sucessful')
+    return downloaded
+
+file_list = listFilesUrl(url, username, password, ext='.zip')
+
+os.chdir('mpres_data')
+
+for url_file in file_list:
+    filename = os.path.basename(urlparse(url_file).path)
+    downloaded = fetchUrl(url_file, username, password)
 
     # converting it to geojson
     nc.zip2geojson(filename)
@@ -67,10 +82,4 @@ for url_file in file_list:
     # removing nc file
     os.remove(filename)
 
-    # moving created files to folder
-    filePath = f'{os.path.splitext(filename)[0]}.geojson'
-    shutil.move(filePath, os.path.join('mpres_data', filePath))
-
-
-
-
+    downloaded = fetchUrl(f'{url_file}.sha256', username, password)
