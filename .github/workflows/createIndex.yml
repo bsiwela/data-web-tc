@@ -43,11 +43,12 @@ jobs:
           pip install -r scripts/requirements.txt
         
       # execute python script createIndex.py
-      - name: execute python script v.py
-        env:
-          KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
-          KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
+      - name: execute python script createIndex.py
         run: python scripts/createIndex.py
+        
+      # execute python script latestStorms.py
+      - name: execute python script latestStorms.py
+        run: python scripts/latestStorms.py
       
       # commit files
       - name: commit files
