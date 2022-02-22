@@ -49,7 +49,7 @@ else:
                 calculateLosses(storm_file=filename, exp_file=os.path.join(root_root, 'arc_exposure.gzip'),
                                 adm_file=os.path.join(root_root, 'adm2_full_precision.json'),
                                 mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
-                                geojson=False)
+                                geojson=False, prefix='fcst')
 
             os.remove(filename) # removing nc file
 
