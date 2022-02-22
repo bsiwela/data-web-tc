@@ -107,7 +107,7 @@ def loss_calculation(expclass, vms, surge, numexp, stval, coval, dmin=0.01):
     return loss
 
 
-def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson, csv_file='../losses.csv'):
+def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson, prefix='swath', csv_file='../losses.csv'):
 
     # reading files: storm (nc), exposure (dbf), adm (json), mapping (json)
     storm_df = xr.open_dataset(storm_file, engine='netcdf4', decode_times=False)
@@ -126,9 +126,9 @@ def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson
     dx = lons[2] - lons[1]
 
     # reading variables of interest
-    swath_peak_wind = storm_df.variables['swath_peak_wind'][:].values
-    swath_peak_water = storm_df.variables['swath_peak_water'][:].values
-    swath_peak_sigwaveht = storm_df.variables['swath_peak_sigwaveht'][:].values
+    swath_peak_wind = storm_df.variables[f'{prefix}_peak_wind'][:].values
+    swath_peak_water = storm_df.variables[f'{prefix}_peak_water'][:].values
+    swath_peak_sigwaveht = storm_df.variables[f'{prefix}_peak_sigwaveht'][:].values
     stormId = storm_df.atcfid
 
     # initializing count of unidentified exp_id's
