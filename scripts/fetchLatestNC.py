@@ -7,10 +7,13 @@ import nczip2geojson as nc
 from io import StringIO
 from urllib.parse import urlparse
 from utils import listFilesUrl, fetchUrl
+from ncgzip2losses import calculateLosses
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/tc_realtime/arc_tc_data.csv'
 username = os.environ['KAC_USERNAME']
 password = os.environ['KAC_PASSWORD']
+
+root_root = os.path.abspath(os.getcwd())
 
 csv = requests.get(url, auth=(username, password))
 data = pd.read_csv(StringIO(csv.text), header=None)
@@ -40,6 +43,14 @@ else:
 
         if downloaded:
             nc.nc2geojson(filename, N=50)  # converting it to geojson
+
+            if 'JTWC' in filename:
+                # running loss generation
+                calculateLosses(storm_file=filename, exp_file=os.path.join(root_root, 'arc_exposure.gzip'),
+                                adm_file=os.path.join(root_root, 'adm2_full_precision.json'),
+                                mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
+                                geojson=False)
+
             os.remove(filename) # removing nc file
 
     os.chdir(dir_root)
