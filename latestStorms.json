@@ -1,0 +1,88 @@
+{
+    "current_storms": {
+        "current_storms": [
+            "SH132022"
+        ],
+        "storms_shp": [
+            "SH132022"
+        ],
+        "windwater_shp": [
+            "SH132022"
+        ]
+    },
+    "mpres_data": {
+        "SH012022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH012022.geojson",
+            "storm_name": "PADDY",
+            "validtime": "2021-11-24 12:00:00"
+        },
+        "SH022022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH022022.geojson",
+            "storm_name": "TERATAI",
+            "validtime": "2021-12-09 06:00:00"
+        },
+        "SH032022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH032022.geojson",
+            "storm_name": "RUBY",
+            "validtime": "2021-12-14 18:00:00"
+        },
+        "SH042022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH042022.geojson",
+            "storm_name": "SETH",
+            "validtime": "2022-01-01 06:00:00"
+        },
+        "SH052022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH052022.geojson",
+            "storm_name": "CODY",
+            "validtime": "2022-01-13 12:00:00"
+        },
+        "SH062022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH062022.geojson",
+            "storm_name": "TIFFANY",
+            "validtime": "2022-01-12 00:00:00"
+        },
+        "SH072022": {
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
+            "storm_name": "ANA",
+            "validtime": "2022-01-24 18:00:00"
+        },
+        "SH082022": {
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH082022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH082022.geojson",
+            "storm_name": "BATSIRAI",
+            "validtime": "2022-02-08 12:00:00"
+        },
+        "SH092022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH092022.geojson",
+            "storm_name": "NINE",
+            "validtime": "2022-02-03 18:00:00"
+        },
+        "SH102022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH102022.geojson",
+            "storm_name": "CLIFF",
+            "validtime": "2022-02-06 18:00:00"
+        },
+        "SH112022": {
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH112022.geojson",
+            "storm_name": "DOVI",
+            "validtime": "2022-02-11 18:00:00"
+        },
+        "SH122022": {
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH122022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH122022_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH122022.geojson",
+            "storm_name": "DUMAKO",
+            "validtime": "2022-02-15 18:00:00"
+        }
+    },
+    "tc_realtime": {
+        "SH132022": {
+            "fmee": "tc_realtime/taostc_SH132022_FMEE_SLOSH.geojson",
+            "jtwc": "tc_realtime/taostc_SH132022_JTWC_SLOSH.geojson",
+            "storm_name": "EMNATI"
+        }
+    }
+}
