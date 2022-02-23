@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: fetchLatestSHP
+name: fetchRealTime
 
 # Controls when the workflow will run
 on:
@@ -25,7 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Starting script fetchLatestSHP
+        run: echo Starting script fetchRealTime
 
       # Set up python
       - name: setup python
@@ -45,6 +45,21 @@ jobs:
           KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
           KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
         run: python scripts/fetchLatestSHP.py
+        
+      # execute python script fetchLatestNC.py
+      - name: execute python script fetchLatestNC.py
+        env:
+          KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
+          KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
+        run: python scripts/fetchLatestNC.py
+        
+      # execute python script createIndex.py
+      - name: execute python script createIndex.py
+        run: python scripts/createIndex.py
+        
+      # execute python script latestStorms.py
+      - name: execute python script latestStorms.py
+        run: python scripts/latestStorms.py
       
       # commit files
       - name: commit files
