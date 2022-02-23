@@ -6,7 +6,7 @@ name: fetchLatestNC
 on:
   # Triggers the workflow every 10th minute
   schedule:
-    - cron: '5 */1 * * *'
+    - cron: '7 */1 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
