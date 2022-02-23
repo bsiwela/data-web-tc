@@ -95,6 +95,7 @@
             "fmee": "tc_realtime/taostc_SH132022_FMEE_SLOSH.geojson",
             "id": "SH132022",
             "jtwc": "tc_realtime/taostc_SH132022_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH132022_losses_adm.json",
             "storm_name": "EMNATI"
         }
     ]

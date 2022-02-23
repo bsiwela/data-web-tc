@@ -26,6 +26,7 @@
     ],
     "tc_realtime": [
         "tc_realtime/taostc_SH132022_FMEE_SLOSH.geojson",
+        "tc_realtime/SH132022_losses_adm.json",
         "tc_realtime/taostc_SH132022_JTWC_SLOSH.geojson",
         "tc_realtime/README.md"
     ]
