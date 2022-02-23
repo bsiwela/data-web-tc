@@ -4,9 +4,9 @@ name: createIndex
 
 # Controls when the workflow will run
 on:
-  push:
-    branches:
-      - main
+  #push:
+    #branches:
+      #- main
     #paths:
     #  - tc_realtime/**
     #  - mpres_data/**
