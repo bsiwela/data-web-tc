@@ -77,9 +77,17 @@ for subfolder in list_subfolder:
                             os.remove(zippedFile)
 
                 elif subfolder == 'taos_swio30s_ofcl_windwater_shp':
-                    nc.zip2geojson(filename)
+                    filename_shp = f'shp_{filename}'
+                    with ZipFile(filename, 'r') as zipObject:
+                        zippedFiles = zipObject.namelist()
+                        with ZipFile(filename_shp, 'w') as zipObject2write:
+                            for zippedFile in zippedFiles:
+                                if 'tk_pts' in zippedFile:
+                                    zipObject.extract(zippedFile)
+                                    zipObject2write.write(zippedFile)
+                                    os.remove(zippedFile)
 
-                    gdf = gpd.read_file(filename)
+                    gdf = gpd.read_file(filename_shp)
 
                     # looping through storms
                     for storm_id in gdf.ATCFID.unique():
@@ -106,11 +114,8 @@ for subfolder in list_subfolder:
                     geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
                     gdf.to_file(geojsonFilePath, driver='GeoJSON')
 
+                    # removing intermediate shp file
+                    os.remove(filename_shp)
+
                 # removing zip and nc files
                 os.remove(filename)
-
-
-
-
-
-
