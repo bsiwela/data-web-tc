@@ -27,7 +27,7 @@ for dir in dirs:
                             if loss_file in dict_files[dir]:
                                 dict_storms[dir][i]['losses'] = loss_file
                             if shp_file in dict_files[dir]:
-                                dict_storms[dir][i]['shp'] = loss_file
+                                dict_storms[dir][i]['shp'] = shp_file
                                 with open(file, 'r') as f:
                                     data = json.load(f)
                                 dict_storms[dir][i]['storm_name'] = data['storm']['name']
