@@ -15,23 +15,19 @@ for dir in dirs:
             if 'postevent' in file:
                 if not(file.endswith('.json')):
                     try:
-                        storm_id = f'SH{file.split("_SH")[1].split("_")[0].split(".")[0]}'
-                        if storm_id not in [s['id'] for s in dict_storms[dir]]:
-                            rec = {'id': storm_id}
-                            dict_storms[dir].append(rec)
-                        i = [i for i, s in enumerate(dict_storms[dir]) if s['id'] == storm_id][0]
-                        #dict_storms[dir].setdefault(storm_id, {})
                         if 'taos_swio30s_ofcl_windwater_nc' in file:
+                            storm_id = f'SH{file.split("_SH")[1].split("_")[0].split(".")[0]}'
+                            if storm_id not in [s['id'] for s in dict_storms[dir]]:
+                                rec = {'id': storm_id}
+                                dict_storms[dir].append(rec)
+                            i = [i for i, s in enumerate(dict_storms[dir]) if s['id'] == storm_id][0]
                             dict_storms[dir][i]['nc'] = file
                             loss_file = f'mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/{storm_id}_losses_adm.json'
+                            shp_file = f'mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_{storm_id}.geojson'
                             if loss_file in dict_files[dir]:
                                 dict_storms[dir][i]['losses'] = loss_file
-                        elif 'taos_swio30s_ofcl_windwater_shp' in file:
-                            dict_storms[dir][i]['shp'] = file
-                            with open(file, 'r') as f:
-                                data = json.load(f)
-                            dict_storms[dir][i]['storm_name'] = data['features'][0]['properties']['NAME']
-                            dict_storms[dir][i]['validtime'] = data['features'][0]['properties']['VALIDTIME']
+                            if shp_file in dict_files[dir]:
+                                dict_storms[dir][i]['shp'] = loss_file
                     except:
                         continue
             elif file.endswith('.geojson'):
