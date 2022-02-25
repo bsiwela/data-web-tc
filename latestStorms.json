@@ -1,16 +1,16 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ],
         "storms_shp": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ],
         "windwater_shp": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ]
     },
     "mpres_data": [
@@ -27,6 +27,13 @@
             "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
             "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
             "storm_name": "ANA"
+        },
+        {
+            "id": "SH132022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132022_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132022.geojson",
+            "storm_name": "EMNATI"
         },
         {
             "id": "SH082022",
