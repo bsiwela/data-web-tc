@@ -11,6 +11,7 @@
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH122022_losses_adm.json",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH082022_losses_adm.json",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
+        "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132022.geojson",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH112022.geojson",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH052022.geojson",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH062022.geojson",
@@ -25,9 +26,6 @@
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH122022.geojson"
     ],
     "tc_realtime": [
-        "tc_realtime/taostc_SH132022_FMEE_SLOSH.geojson",
-        "tc_realtime/SH132022_losses_adm.json",
-        "tc_realtime/taostc_SH132022_JTWC_SLOSH.geojson",
         "tc_realtime/README.md"
     ]
 }

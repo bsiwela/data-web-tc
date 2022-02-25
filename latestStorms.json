@@ -1,15 +1,12 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH142022",
-            "SH132022"
+            "SH142022"
         ],
         "storms_shp": [
-            "SH142022",
-            "SH132022"
+            "SH142022"
         ],
         "windwater_shp": [
-            "SH132022",
             "SH142022"
         ]
     },
@@ -36,13 +33,5 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": [
-        {
-            "fmee": "tc_realtime/taostc_SH132022_FMEE_SLOSH.geojson",
-            "id": "SH132022",
-            "jtwc": "tc_realtime/taostc_SH132022_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH132022_losses_adm.json",
-            "storm_name": "EMNATI"
-        }
-    ]
+    "tc_realtime": []
 }
