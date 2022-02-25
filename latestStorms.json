@@ -1,16 +1,16 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ],
         "storms_shp": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ],
         "windwater_shp": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ]
     },
     "mpres_data": [
@@ -36,13 +36,5 @@
             "storm_name": "BATSIRAI"
         }
     ],
-        "tc_realtime": [
-        {
-            "fmee": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
-            "id": "SH072022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
-            "jtwc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
-            "storm_name": "ANA"
-        }
-    ]
+    "tc_realtime": []
 }
