@@ -44,8 +44,15 @@ jobs:
           KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
           KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
         run: python scripts/fetchPostevent.py
+        
+      # execute python script createIndex.py
+      - name: execute python script createIndex.py
+        run: python scripts/createIndex.py
+        
+      # execute python script latestStorms.py
+      - name: execute python script latestStorms.py
+        run: python scripts/latestStorms.py
     
-      
       # commit files
       - name: commit files
         run: |
