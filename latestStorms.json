@@ -37,11 +37,13 @@
         }
     ],
     "tc_realtime": [
+        {
             "id": "SH082022",
             "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH082022_losses_adm.json",
             "jtwc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
             "fmee": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
             "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH082022.geojson",
             "storm_name": "BATSIRAI"
+        }
     ]
 }
