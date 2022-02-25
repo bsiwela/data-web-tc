@@ -36,5 +36,13 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": []
+        "tc_realtime": [
+        {
+            "fmee": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
+            "id": "SH072022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
+            "jtwc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
+            "storm_name": "ANA"
+        }
+    ]
 }
