@@ -28,6 +28,9 @@ for dir in dirs:
                                 dict_storms[dir][i]['losses'] = loss_file
                             if shp_file in dict_files[dir]:
                                 dict_storms[dir][i]['shp'] = loss_file
+                                with open(file, 'r') as f:
+                                    data = json.load(f)
+                                dict_storms[dir][i]['storm_name'] = data['storm']['name']
                     except:
                         continue
             elif file.endswith('.geojson'):
