@@ -31,6 +31,7 @@ for dir in dirs:
                                 with open(file, 'r') as f:
                                     data = json.load(f)
                                 dict_storms[dir][i]['storm_name'] = data['storm']['name']
+                                dict_storms[dir][i]['bbox'] = data['bbox']
                     except:
                         continue
             elif file.endswith('.geojson'):
