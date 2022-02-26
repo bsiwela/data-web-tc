@@ -107,7 +107,7 @@ def loss_calculation(expclass, vms, surge, numexp, stval, coval, dmin=0.01):
     return loss
 
 
-def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson, prefix='swath', csv_file='../losses.csv'):
+def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson, prefix='swath', csv_file='losses.csv'):
 
     # reading files: storm (nc), exposure (dbf), adm (json), mapping (json)
     storm_df = xr.open_dataset(storm_file, engine='netcdf4', decode_times=False)
@@ -225,6 +225,10 @@ def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson
 
     # reading csv into GeoDataFrame and adding geometry
     df = pd.read_csv(csv_file, index_col=False)
+    if df.empty:
+        # removing csv_file
+        os.remove(csv_file)
+        return
     gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.lon, df.lat), crs=adm_df.crs)
 
     # removing csv_file
