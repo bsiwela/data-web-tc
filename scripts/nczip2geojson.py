@@ -29,7 +29,7 @@ from zipfile import ZipFile
 from compactGeoJSON import densify
 
 
-def processFilesPath(path, recursive, fields, N):
+def processFilesPath(path, recursive, fields, N, decimals=2):
 
     if path is None:
         path = os.getcwd()
@@ -37,13 +37,13 @@ def processFilesPath(path, recursive, fields, N):
     os.chdir(path)
 
     for zipfile in glob.glob(f'**/*.zip', recursive=recursive):
-        zip2geojson(zipfile, fields, N)
+        zip2geojson(zipfile, fields, N, decimals)
 
     for ncfile in glob.glob(f'**/*.nc', recursive=recursive):
-        nc2geojson(ncfile, fields, N)
+        nc2geojson(ncfile, fields, N, decimals)
 
 
-def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50):
+def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50, decimals=2):
 
     def zip2nc(zipfile):
         with ZipFile(zipfile, 'r') as zipObject:
@@ -60,13 +60,20 @@ def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak
 
     try: # if it is a shapefile .zip
         gdf = gpd.read_file(zipfile)
-        gdf.to_file(f'{os.path.splitext(zipfile)[0]}.geojson', driver='GeoJSON')
+        geojsonFilePath = f'{os.path.splitext(zipfile)[0]}.geojson'
+        gdf.to_file(geojsonFilePath, driver='GeoJSON')
+        densify(geojsonFilePath, decimals=decimals)
     except: # if it is another .zip file
         zip2nc(zipfile)
         return # if the zip file is not an actual shapefile
 
 
-def nc2geojson(ncfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50):
+def nc2geojson(ncfile, fields=['storm_position', 'past_peak_wind', 'past_peak_water'], fcst_peak_wind=False, past_rain_total=False, N=50, decimals=2):
+
+    if past_rain_total:
+        fields.append('past_rain_total')
+    if fcst_peak_wind:
+        fields.append('fcst_peak_wind')
 
     ds = xr.open_dataset(ncfile, engine='netcdf4', decode_times=False)
 
@@ -102,8 +109,8 @@ def nc2geojson(ncfile, fields=['storm_position', 'past_rain_total', 'past_peak_w
                 # points
                 points = [geom.Point([(lon, lat)]) for lon, lat in zip(data_array[0],data_array[1])]
                 [geometries.append(point) for point in points]
-                [val1_series.append(val1) for val1 in data_array[2]]
-                [val2_series.append(val2) for val2 in data_array[3]]
+                [val1_series.append(np.round(val1,decimals=2)) for val1 in data_array[2]]
+                [val2_series.append(np.round(val2,decimals=1)) for val2 in data_array[3]]
                 [text_series.append(str(text)) for text in ds['storm_posdtg'].data]
                 [field_series.append(field) for point in points]
                 continue
@@ -169,7 +176,7 @@ def nc2geojson(ncfile, fields=['storm_position', 'past_rain_total', 'past_peak_w
     gdf = gpd.GeoDataFrame(df,geometry=geometries)
     geojsonFilePath = f'{os.path.splitext(ncfile)[0]}.geojson'
     gdf.to_file(geojsonFilePath, driver='GeoJSON')
-    densify(geojsonFilePath)
+    densify(geojsonFilePath, decimals=decimals)
 
     # compacting geojson even further, by removing blank spaces
     with open(geojsonFilePath, 'r') as f:
@@ -190,6 +197,7 @@ if __name__ == '__main__':
     parser.add_argument('-nr', '--non_recursive', action='store_true', help='Recursive process', default=False, dest='non_recursive')
     parser.add_argument('-f', '--fields', help='List of fields to extract from NetCDF', nargs='+', default=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], dest='fields')
     parser.add_argument('-n', help='Number of Polygons to discretize the raw data', default=50, dest='N')
+    parser.add_argument('-d', help='Decimals for GeoJSON', default=2, dest='decimals')
     args = parser.parse_args()
 
-    processFilesPath(path=args.path, recursive=not(args.non_recursive), fields=args.fields, N=args.N)
+    processFilesPath(path=args.path, recursive=not(args.non_recursive), fields=args.fields, N=args.N, decimals=args.decimals)
