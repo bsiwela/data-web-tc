@@ -23,6 +23,18 @@ files_tc_realtime = [os.path.splitext(os.path.split(p)[1])[0] for p in index['tc
 files_tc_realtime_url = [os.path.splitext(os.path.split(url)[1])[0] for url in data[data.columns[-1]].values if isinstance(data[data.columns[-1]].values, str)]
 files_to_remove = [file for file in files_tc_realtime if file not in files_tc_realtime_url]
 
+print(f'Files currently in: ')
+print(f'* tc_realtime: ')
+for file in files_tc_realtime:
+    print(f'\t - {file}')
+print(f'* tc_realtime (remote): ')
+for file in files_tc_realtime_url:
+    print(f'\t - {file}')
+print('----------------------------')
+print(f'Files to remove: ')
+for file in files_to_remove:
+    print(f'-{file}')
+
 # switching to the appropriate directory
 os.chdir('tc_realtime')
 dir_root = os.path.abspath(os.getcwd())
@@ -58,6 +70,6 @@ else:
         try:
             file_path = f'{file}.geojson'
             os.remove(file_path)
-            print(f'\t\t\033[91mRemoved {file_path} which was not anymore in KAC repo tc_realtime ...\033[0m')
+            print(f'\t\t\033[91mRemoved {file_path} which was not anymore on KAC repo tc_realtime ...\033[0m')
         except:
             continue
