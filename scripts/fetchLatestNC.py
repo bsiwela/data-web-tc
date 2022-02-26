@@ -20,7 +20,7 @@ data = pd.read_csv(StringIO(csv.text), header=None)
 with open('index.json', 'r') as f:
     index = json.load(f)
 files_tc_realtime = [os.path.splitext(os.path.split(p)[1])[0] for p in index['tc_realtime']]
-files_tc_realtime_url = [os.path.splitext(os.path.split(url)[1])[0] for url in data[data.columns[-1]].values if isinstance(data[data.columns[-1]].values, str)]
+files_tc_realtime_url = [os.path.splitext(os.path.split(url)[1])[0] for url in data[data.columns[-1]].values if isinstance(data[data.columns[-1]].values[0], str)]
 files_to_remove = [file for file in files_tc_realtime if file not in files_tc_realtime_url]
 
 print(f'Files currently in: ')
