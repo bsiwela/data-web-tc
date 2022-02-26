@@ -9,8 +9,8 @@
             "SH142022"
         ],
         "windwater_shp": [
-            "SH142022",
-            "SH152022"
+            "SH152022",
+            "SH142022"
         ]
     },
     "mpres_data": [
@@ -43,11 +43,5 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": [
-        {
-            "fmee": "tc_realtime/taostc_SH142022_FMEE_SLOSH.geojson",
-            "id": "SH142022",
-            "storm_name": "VERNON"
-        }
-    ]
+    "tc_realtime": []
 }
