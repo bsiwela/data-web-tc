@@ -60,6 +60,7 @@ for dir in dirs:
                     with open(file, 'r') as f:
                         data = json.load(f)
                     dict_storms[dir][i]['storm_name'] = data['storm']['name']
+                    dict_storms[dir][i]['bbox'] = data['bbox']
                     loss_file = f'tc_realtime/{storm_id}_losses_adm.json'
                     if loss_file in dict_files[dir]:
                         dict_storms[dir][i]['losses'] = loss_file
@@ -69,3 +70,5 @@ dict_storms['current_storms']['current_storms'] = [storm for storm in dict_storm
 
 with open('latestStorms.json', 'w') as f:
     json.dump(dict_storms, f, sort_keys=True, indent=4)
+
+
