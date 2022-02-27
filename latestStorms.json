@@ -1,16 +1,16 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ],
         "storms_shp": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ],
         "windwater_shp": [
-            "SH152022",
-            "SH142022"
+            "SH142022",
+            "SH152022"
         ]
     },
     "mpres_data": [
@@ -70,10 +70,10 @@
     "tc_realtime": [
         {
             "bbox": [
-                76.3917,
-                -28.9083,
+                77.0083,
+                -29.025,
                 97.3417,
-                -10.5083
+                -9.2917
             ],
             "fmee": "tc_realtime/taostc_SH142022_FMEE_SLOSH.geojson",
             "id": "SH142022",
