@@ -68,6 +68,17 @@
     "tc_realtime": [
         {
             "bbox": [
+                85.3083,
+                -18.425,
+                96.1083,
+                -8.1917
+            ],
+            "fmee": "tc_realtime/taostc_SH932022_FMEE_SLOSH.geojson",
+            "id": "SH932022",
+            "storm_name": "INVEST"
+        },
+        {
+            "bbox": [
                 77.0083,
                 -29.025,
                 97.3417,
