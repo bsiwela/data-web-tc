@@ -12,6 +12,7 @@ from io import StringIO
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from compactGeoJSON import densify
+import glob
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/arc_proj21/jtwc_history/'
 username = os.environ['KAC_USERNAME']
@@ -32,7 +33,28 @@ def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
 
     dir_root = os.path.abspath(os.getcwd())
 
+    ##################################
+
+    dict_geojson = glob.glob(f'jtwc_history/**/**.geojson', recursive=True)
+    list_years = list(set([item.split('/')[1] for item in dict_geojson]))
+
+    for year in range(2021, 1980, -1):
+        if not (year in list_years):
+            print(f'Checking for year {year}')
+            year_to_process = year
+            break
+
+    ###################################
+
+
     for url_dir in dir_list:
+
+        ####################################
+        if not(str(year_to_process) in url_dir):
+            continue
+
+        print(f'Processing {url_dir}')
+        ###################################
         file_list_zip = listFilesUrl(url_dir, username, password, ext='.zip')
         file_list_nc = listFilesUrl(url_dir, username, password, ext='.nc')
 
@@ -110,6 +132,34 @@ def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
 
             # converting it to geojson
             nc.nc2geojson(filename, N=50)
+
+            # adding lineString for storm shapefile
+            if 'storm' in filename:
+                gdf = gpd.read_file(filename)
+
+                # looping through storms
+                for storm_id in gdf.ATCFID.unique():
+                    last_lon = None
+                    last_lat = None
+                    for tech in gdf.TECH.unique():
+                        gdf_storm = gdf[(gdf.ATCFID == storm_id) & (gdf.TECH == tech)].sort_values(by=['DTG'])
+                        lons = gdf_storm['LON'].values
+                        lats = gdf_storm['LAT'].values
+                        if tech == 'FCST' and last_lon and last_lat:
+                            lons = np.insert(lons, 0, last_lon)
+                            lats = np.insert(lats, 0, last_lat)
+                        if len(lons) > 1 and len(lats) > 1:
+                            lineString = geom.LineString([(lon, lat) for lon, lat in zip(lons, lats)])
+                            row = gdf_storm.iloc[-1]
+                            if tech == 'TRAK':
+                                last_lon = row.LON
+                                last_lat = row.LAT
+                            row.geometry = lineString
+                            gdf = gdf.append(row)
+
+
+                geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
+                gdf.to_file(geojsonFilePath, driver='GeoJSON')
 
             # removing nc file
             os.remove(filename)
