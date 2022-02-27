@@ -1,173 +1,184 @@
 {
-    "jtwc_history": {
-        "1980": [
-            {
-                "bbox": [
-                    44.6958,
-                    -30.1208,
-                    63.3292,
-                    -11.8375
-                ],
-                "id": "SH081980",
-                "nc": "jtwc_history/1980/taostc_SH081980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    47.2125,
-                    -37.0,
-                    79.7292,
-                    -14.4792
-                ],
-                "id": "SH031980",
-                "nc": "jtwc_history/1980/taostc_SH031980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    53.0375,
-                    -33.6792,
-                    70.6875,
-                    -9.4792
-                ],
-                "id": "SH191980",
-                "nc": "jtwc_history/1980/taostc_SH191980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    62.6792,
-                    -29.7292,
-                    87.6625,
-                    -5.9458
-                ],
-                "id": "SH011980",
-                "nc": "jtwc_history/1980/taostc_SH011980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    71.9875,
-                    -21.2875,
-                    97.5458,
-                    -8.9792
-                ],
-                "id": "SH041980",
-                "nc": "jtwc_history/1980/taostc_SH041980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    54.4208,
-                    -37.1458,
-                    93.6542,
-                    -6.3292
-                ],
-                "id": "SH021980",
-                "nc": "jtwc_history/1980/taostc_SH021980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    35.5208,
-                    -35.5292,
-                    66.9625,
-                    -8.3292
-                ],
-                "id": "SH181980",
-                "nc": "jtwc_history/1980/taostc_SH181980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    54.5125,
-                    -32.8792,
-                    71.7292,
-                    -12.1625
-                ],
-                "id": "SH121980",
-                "nc": "jtwc_history/1980/taostc_SH121980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    46.8542,
-                    -18.1792,
-                    73.6958,
-                    -7.8958
-                ],
-                "id": "SH221980",
-                "nc": "jtwc_history/1980/taostc_SH221980_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            }
-        ],
-        "1981": [
-            {
-                "bbox": [
-                    46.1875,
-                    -31.8708,
-                    74.3375,
-                    -15.5542
-                ],
-                "id": "SH221981",
-                "nc": "jtwc_history/1981/taostc_SH221981_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    40.0375,
-                    -29.1542,
-                    72.4208,
-                    -9.5125
-                ],
-                "id": "SH131981",
-                "nc": "jtwc_history/1981/taostc_SH131981_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    51.8125,
-                    -22.6042,
-                    64.6208,
-                    -12.1042
-                ],
-                "id": "SH281981",
-                "nc": "jtwc_history/1981/taostc_SH281981_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    45.2542,
-                    -30.9375,
-                    59.0958,
-                    -4.4125
-                ],
-                "id": "SH261981",
-                "nc": "jtwc_history/1981/taostc_SH261981_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    52.8875,
-                    -33.5708,
-                    63.6292,
-                    -9.8125
-                ],
-                "id": "SH081981",
-                "nc": "jtwc_history/1981/taostc_SH081981_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            },
-            {
-                "bbox": [
-                    39.5625,
-                    -30.4458,
-                    59.5458,
-                    -10.0542
-                ],
-                "id": "SH171981",
-                "nc": "jtwc_history/1981/taostc_SH171981_BEST_SLOSH.geojson",
-                "storm_name": "NONAME"
-            }
-        ]
-    }
+    "jtwc_history": [
+        {
+            "bbox": [
+                44.6958,
+                -30.1208,
+                63.3292,
+                -11.8375
+            ],
+            "id": "SH081980",
+            "nc": "jtwc_history/1980/taostc_SH081980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                47.2125,
+                -37.0,
+                79.7292,
+                -14.4792
+            ],
+            "id": "SH031980",
+            "nc": "jtwc_history/1980/taostc_SH031980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                53.0375,
+                -33.6792,
+                70.6875,
+                -9.4792
+            ],
+            "id": "SH191980",
+            "nc": "jtwc_history/1980/taostc_SH191980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                62.6792,
+                -29.7292,
+                87.6625,
+                -5.9458
+            ],
+            "id": "SH011980",
+            "nc": "jtwc_history/1980/taostc_SH011980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                71.9875,
+                -21.2875,
+                97.5458,
+                -8.9792
+            ],
+            "id": "SH041980",
+            "nc": "jtwc_history/1980/taostc_SH041980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                54.4208,
+                -37.1458,
+                93.6542,
+                -6.3292
+            ],
+            "id": "SH021980",
+            "nc": "jtwc_history/1980/taostc_SH021980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                35.5208,
+                -35.5292,
+                66.9625,
+                -8.3292
+            ],
+            "id": "SH181980",
+            "nc": "jtwc_history/1980/taostc_SH181980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                54.5125,
+                -32.8792,
+                71.7292,
+                -12.1625
+            ],
+            "id": "SH121980",
+            "nc": "jtwc_history/1980/taostc_SH121980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                46.8542,
+                -18.1792,
+                73.6958,
+                -7.8958
+            ],
+            "id": "SH221980",
+            "nc": "jtwc_history/1980/taostc_SH221980_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1980"
+        },
+        {
+            "bbox": [
+                46.1875,
+                -31.8708,
+                74.3375,
+                -15.5542
+            ],
+            "id": "SH221981",
+            "nc": "jtwc_history/1981/taostc_SH221981_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1981"
+        },
+        {
+            "bbox": [
+                40.0375,
+                -29.1542,
+                72.4208,
+                -9.5125
+            ],
+            "id": "SH131981",
+            "nc": "jtwc_history/1981/taostc_SH131981_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1981"
+        },
+        {
+            "bbox": [
+                51.8125,
+                -22.6042,
+                64.6208,
+                -12.1042
+            ],
+            "id": "SH281981",
+            "nc": "jtwc_history/1981/taostc_SH281981_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1981"
+        },
+        {
+            "bbox": [
+                45.2542,
+                -30.9375,
+                59.0958,
+                -4.4125
+            ],
+            "id": "SH261981",
+            "nc": "jtwc_history/1981/taostc_SH261981_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1981"
+        },
+        {
+            "bbox": [
+                52.8875,
+                -33.5708,
+                63.6292,
+                -9.8125
+            ],
+            "id": "SH081981",
+            "nc": "jtwc_history/1981/taostc_SH081981_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1981"
+        },
+        {
+            "bbox": [
+                39.5625,
+                -30.4458,
+                59.5458,
+                -10.0542
+            ],
+            "id": "SH171981",
+            "nc": "jtwc_history/1981/taostc_SH171981_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1981"
+        }
+    ]
 }
