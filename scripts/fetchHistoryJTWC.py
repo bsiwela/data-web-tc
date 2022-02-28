@@ -39,7 +39,7 @@ def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
     list_years = list(set([item.split('/')[1] for item in dict_geojson]))
 
     for year in range(2021, 1980, -1):
-        if not (year in list_years):
+        if not (str(year) in list_years):
             print(f'Checking for year {year}')
             year_to_process = year
             break
