@@ -2,6 +2,102 @@
     "jtwc_history": [
         {
             "bbox": [
+                71.0625,
+                -21.5375,
+                97.2708,
+                -15.1708
+            ],
+            "id": "SH132021",
+            "nc": "jtwc_history/2021/taostc_SH132021_BEST_SLOSH.geojson",
+            "storm_name": "THIRTEEN",
+            "year": "2021"
+        },
+        {
+            "bbox": [
+                67.5625,
+                -25.5958,
+                83.2292,
+                -13.0208
+            ],
+            "id": "SH022021",
+            "nc": "jtwc_history/2021/taostc_SH022021_BEST_SLOSH.geojson",
+            "storm_name": "BONGOYO",
+            "year": "2021"
+        },
+        {
+            "bbox": [
+                32.1958,
+                -22.3708,
+                59.1708,
+                -13.0125
+            ],
+            "id": "SH072021",
+            "nc": "jtwc_history/2021/taostc_SH072021_BEST_SLOSH.geojson",
+            "storm_name": "CHALANE",
+            "year": "2021"
+        },
+        {
+            "bbox": [
+                60.8208,
+                -21.8458,
+                80.5875,
+                -8.2625
+            ],
+            "id": "SH082021",
+            "nc": "jtwc_history/2021/taostc_SH082021_BEST_SLOSH.geojson",
+            "storm_name": "DANILO",
+            "year": "2021"
+        },
+        {
+            "bbox": [
+                42.9958,
+                -19.2542,
+                64.4625,
+                -10.5292
+            ],
+            "id": "SH122021",
+            "nc": "jtwc_history/2021/taostc_SH122021_BEST_SLOSH.geojson",
+            "storm_name": "ELOISE",
+            "year": "2021"
+        },
+        {
+            "bbox": [
+                31.3208,
+                -42.8458,
+                53.6375,
+                -17.4875
+            ],
+            "id": "SH212021",
+            "nc": "jtwc_history/2021/taostc_SH212021_BEST_SLOSH.geojson",
+            "storm_name": "GUAMBE",
+            "year": "2021"
+        },
+        {
+            "bbox": [
+                66.0875,
+                -23.2292,
+                83.6125,
+                -4.6292
+            ],
+            "id": "SH012021",
+            "nc": "jtwc_history/2021/taostc_SH012021_BEST_SLOSH.geojson",
+            "storm_name": "ALICIA",
+            "year": "2021"
+        },
+        {
+            "bbox": [
+                66.4292,
+                -24.6042,
+                89.3375,
+                -10.1625
+            ],
+            "id": "SH192021",
+            "nc": "jtwc_history/2021/taostc_SH192021_BEST_SLOSH.geojson",
+            "storm_name": "FARAJI",
+            "year": "2021"
+        },
+        {
+            "bbox": [
                 44.6958,
                 -30.1208,
                 63.3292,
@@ -215,6 +311,78 @@
             "nc": "jtwc_history/2018/taostc_SH062018_BEST_SLOSH.geojson",
             "storm_name": "BERGUITTA",
             "year": "2018"
+        },
+        {
+            "bbox": [
+                46.4458,
+                -22.1292,
+                51.9958,
+                -16.4042
+            ],
+            "id": "SH132020",
+            "nc": "jtwc_history/2020/taostc_SH132020_BEST_SLOSH.geojson",
+            "storm_name": "FRANCISCO",
+            "year": "2020"
+        },
+        {
+            "bbox": [
+                55.9958,
+                -30.1292,
+                75.6375,
+                -17.2958
+            ],
+            "id": "SH102020",
+            "nc": "jtwc_history/2020/taostc_SH102020_BEST_SLOSH.geojson",
+            "storm_name": "DIANE",
+            "year": "2020"
+        },
+        {
+            "bbox": [
+                48.2042,
+                -27.9875,
+                75.4375,
+                -12.5625
+            ],
+            "id": "SH222020",
+            "nc": "jtwc_history/2020/taostc_SH222020_BEST_SLOSH.geojson",
+            "storm_name": "HEROLD",
+            "year": "2020"
+        },
+        {
+            "bbox": [
+                43.7208,
+                -21.8125,
+                53.5542,
+                -4.7125
+            ],
+            "id": "SH022020",
+            "nc": "jtwc_history/2020/taostc_SH022020_BEST_SLOSH.geojson",
+            "storm_name": "BELNA",
+            "year": "2020"
+        },
+        {
+            "bbox": [
+                56.6708,
+                -34.7208,
+                65.9375,
+                -20.9542
+            ],
+            "id": "SH052020",
+            "nc": "jtwc_history/2020/taostc_SH052020_BEST_SLOSH.geojson",
+            "storm_name": "CALVINIA",
+            "year": "2020"
+        },
+        {
+            "bbox": [
+                60.4625,
+                -15.2875,
+                64.5042,
+                -7.2375
+            ],
+            "id": "SH032020",
+            "nc": "jtwc_history/2020/taostc_SH032020_BEST_SLOSH.geojson",
+            "storm_name": "AMBALI",
+            "year": "2020"
         }
     ]
 }
