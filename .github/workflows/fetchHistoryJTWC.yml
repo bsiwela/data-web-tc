@@ -45,7 +45,10 @@ jobs:
           KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
           KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
         run: python scripts/fetchHistoryJTWC.py
-    
+        
+      # execute python script pastStorms.py
+      - name: execute python script pastStorms.py
+        run: python scripts/pastStorms.py
       
       # commit files
       - name: commit files
