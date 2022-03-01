@@ -98,6 +98,114 @@
         },
         {
             "bbox": [
+                34.7375,
+                -29.2458,
+                47.0625,
+                -13.3125
+            ],
+            "id": "SH092014",
+            "nc": "jtwc_history/2014/taostc_SH092014_BEST_SLOSH.geojson",
+            "storm_name": "DELIWE",
+            "year": "2014"
+        },
+        {
+            "bbox": [
+                39.8292,
+                -19.4542,
+                49.2208,
+                -10.9875
+            ],
+            "id": "SH212014",
+            "nc": "jtwc_history/2014/taostc_SH212014_BEST_SLOSH.geojson",
+            "storm_name": "HELLEN",
+            "year": "2014"
+        },
+        {
+            "bbox": [
+                60.0,
+                -25.3875,
+                83.4042,
+                -9.7
+            ],
+            "id": "SH032014",
+            "nc": "jtwc_history/2014/taostc_SH032014_BEST_SLOSH.geojson",
+            "storm_name": "AMARA",
+            "year": "2014"
+        },
+        {
+            "bbox": [
+                55.9708,
+                -35.1625,
+                78.8958,
+                -9.9208
+            ],
+            "id": "SH142014",
+            "nc": "jtwc_history/2014/taostc_SH142014_BEST_SLOSH.geojson",
+            "storm_name": "FOBANE",
+            "year": "2014"
+        },
+        {
+            "bbox": [
+                42.7,
+                -38.1458,
+                59.3708,
+                -8.2625
+            ],
+            "id": "SH062014",
+            "nc": "jtwc_history/2014/taostc_SH062014_BEST_SLOSH.geojson",
+            "storm_name": "BEJISA",
+            "year": "2014"
+        },
+        {
+            "bbox": [
+                88.5,
+                -23.5708,
+                142.4292,
+                -8.4292
+            ],
+            "id": "SH172014",
+            "nc": "jtwc_history/2014/taostc_SH172014_BEST_SLOSH.geojson",
+            "storm_name": "GILLIAN",
+            "year": "2014"
+        },
+        {
+            "bbox": [
+                34.6708,
+                -36.1958,
+                47.1458,
+                -15.9958
+            ],
+            "id": "SH152014",
+            "nc": "jtwc_history/2014/taostc_SH152014_BEST_SLOSH.geojson",
+            "storm_name": "GUITO",
+            "year": "2014"
+        },
+        {
+            "bbox": [
+                49.5375,
+                -40.6125,
+                62.5292,
+                -13.7875
+            ],
+            "id": "SH132014",
+            "nc": "jtwc_history/2014/taostc_SH132014_BEST_SLOSH.geojson",
+            "storm_name": "EDILSON",
+            "year": "2014"
+        },
+        {
+            "bbox": [
+                53.0208,
+                -17.3375,
+                79.2875,
+                -7.1458
+            ],
+            "id": "SH012014",
+            "nc": "jtwc_history/2014/taostc_SH012014_BEST_SLOSH.geojson",
+            "storm_name": "ONE",
+            "year": "2014"
+        },
+        {
+            "bbox": [
                 85.1542,
                 -25.6375,
                 128.7875,
