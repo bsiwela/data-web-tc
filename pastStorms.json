@@ -98,6 +98,78 @@
         },
         {
             "bbox": [
+                85.1542,
+                -25.6375,
+                128.7875,
+                -14.9292
+            ],
+            "id": "SH032017",
+            "nc": "jtwc_history/2017/taostc_SH032017_BEST_SLOSH.geojson",
+            "storm_name": "THREE",
+            "year": "2017"
+        },
+        {
+            "bbox": [
+                48.9208,
+                -18.7292,
+                72.6958,
+                -6.1125
+            ],
+            "id": "SH012017",
+            "nc": "jtwc_history/2017/taostc_SH012017_BEST_SLOSH.geojson",
+            "storm_name": "ABELA",
+            "year": "2017"
+        },
+        {
+            "bbox": [
+                49.4542,
+                -34.5792,
+                71.4708,
+                -12.1875
+            ],
+            "id": "SH042017",
+            "nc": "jtwc_history/2017/taostc_SH042017_BEST_SLOSH.geojson",
+            "storm_name": "CARLOS",
+            "year": "2017"
+        },
+        {
+            "bbox": [
+                46.9542,
+                -40.4042,
+                79.9958,
+                -11.8292
+            ],
+            "id": "SH112017",
+            "nc": "jtwc_history/2017/taostc_SH112017_BEST_SLOSH.geojson",
+            "storm_name": "ELEVEN",
+            "year": "2017"
+        },
+        {
+            "bbox": [
+                28.8625,
+                -27.6125,
+                42.5625,
+                -18.6292
+            ],
+            "id": "SH052017",
+            "nc": "jtwc_history/2017/taostc_SH052017_BEST_SLOSH.geojson",
+            "storm_name": "DINEO",
+            "year": "2017"
+        },
+        {
+            "bbox": [
+                43.9292,
+                -30.7625,
+                60.6,
+                -10.4375
+            ],
+            "id": "SH092017",
+            "nc": "jtwc_history/2017/taostc_SH092017_BEST_SLOSH.geojson",
+            "storm_name": "ENAWO",
+            "year": "2017"
+        },
+        {
+            "bbox": [
                 44.6958,
                 -30.1208,
                 63.3292,
