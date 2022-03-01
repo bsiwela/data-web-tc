@@ -554,6 +554,126 @@
         },
         {
             "bbox": [
+                52.3708,
+                -30.0292,
+                85.1958,
+                -12.9292
+            ],
+            "id": "SH052015",
+            "nc": "jtwc_history/2015/taostc_SH052015_BEST_SLOSH.geojson",
+            "storm_name": "BANSI",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                39.0125,
+                -37.6125,
+                62.8625,
+                -16.5792
+            ],
+            "id": "SH062015",
+            "nc": "jtwc_history/2015/taostc_SH062015_BEST_SLOSH.geojson",
+            "storm_name": "CHEDZA",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                38.5125,
+                -21.4125,
+                47.3125,
+                -11.9208
+            ],
+            "id": "SH152015",
+            "nc": "jtwc_history/2015/taostc_SH152015_BEST_SLOSH.geojson",
+            "storm_name": "FIFTEEN",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                59.3542,
+                -39.1208,
+                76.5375,
+                -10.5875
+            ],
+            "id": "SH222015",
+            "nc": "jtwc_history/2015/taostc_SH222015_BEST_SLOSH.geojson",
+            "storm_name": "JOALANE",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                37.2708,
+                -39.9375,
+                47.0208,
+                -19.1042
+            ],
+            "id": "SH112015",
+            "nc": "jtwc_history/2015/taostc_SH112015_BEST_SLOSH.geojson",
+            "storm_name": "FUNDI",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                77.6292,
+                -29.2792,
+                101.9875,
+                -9.4792
+            ],
+            "id": "SH042015",
+            "nc": "jtwc_history/2015/taostc_SH042015_BEST_SLOSH.geojson",
+            "storm_name": "KATE",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                48.9875,
+                -16.6875,
+                73.5792,
+                -4.5958
+            ],
+            "id": "SH012015",
+            "nc": "jtwc_history/2015/taostc_SH012015_BEST_SLOSH.geojson",
+            "storm_name": "ADJALI",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                47.1625,
+                -28.0625,
+                58.6625,
+                -15.1125
+            ],
+            "id": "SH162015",
+            "nc": "jtwc_history/2015/taostc_SH162015_BEST_SLOSH.geojson",
+            "storm_name": "HALIBA",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                56.0875,
+                -22.5208,
+                72.1708,
+                -8.0125
+            ],
+            "id": "SH022015",
+            "nc": "jtwc_history/2015/taostc_SH022015_BEST_SLOSH.geojson",
+            "storm_name": "TWO",
+            "year": "2015"
+        },
+        {
+            "bbox": [
+                61.6958,
+                -41.4125,
+                80.4958,
+                -11.3208
+            ],
+            "id": "SH142015",
+            "nc": "jtwc_history/2015/taostc_SH142015_BEST_SLOSH.geojson",
+            "storm_name": "GLENDA",
+            "year": "2015"
+        },
+        {
+            "bbox": [
                 46.4458,
                 -22.1292,
                 51.9958,
