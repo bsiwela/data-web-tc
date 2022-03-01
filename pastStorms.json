@@ -650,6 +650,126 @@
         },
         {
             "bbox": [
+                60.8208,
+                -32.7,
+                111.6958,
+                -9.5375
+            ],
+            "id": "SH132012",
+            "nc": "jtwc_history/2012/taostc_SH132012_BEST_SLOSH.geojson",
+            "storm_name": "HILWA",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                33.0625,
+                -34.9458,
+                52.5375,
+                -13.8958
+            ],
+            "id": "SH082012",
+            "nc": "jtwc_history/2012/taostc_SH082012_BEST_SLOSH.geojson",
+            "storm_name": "FUNSO",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                68.6042,
+                -27.2125,
+                96.2625,
+                -8.8875
+            ],
+            "id": "SH042012",
+            "nc": "jtwc_history/2012/taostc_SH042012_BEST_SLOSH.geojson",
+            "storm_name": "BENILDE",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                60.4292,
+                -36.0458,
+                77.3458,
+                -11.7958
+            ],
+            "id": "SH072012",
+            "nc": "jtwc_history/2012/taostc_SH072012_BEST_SLOSH.geojson",
+            "storm_name": "ETHEL",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                51.6625,
+                -13.6125,
+                67.7125,
+                -5.4125
+            ],
+            "id": "SH202012",
+            "nc": "jtwc_history/2012/taostc_SH202012_BEST_SLOSH.geojson",
+            "storm_name": "KUENA",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                56.6375,
+                -19.8542,
+                73.1542,
+                -9.9208
+            ],
+            "id": "SH022012",
+            "nc": "jtwc_history/2012/taostc_SH022012_BEST_SLOSH.geojson",
+            "storm_name": "TWO",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                39.1958,
+                -29.0042,
+                69.7,
+                -13.0375
+            ],
+            "id": "SH122012",
+            "nc": "jtwc_history/2012/taostc_SH122012_BEST_SLOSH.geojson",
+            "storm_name": "GIOVANNA",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                39.1958,
+                -25.0125,
+                47.2375,
+                -15.4125
+            ],
+            "id": "SH052012",
+            "nc": "jtwc_history/2012/taostc_SH052012_BEST_SLOSH.geojson",
+            "storm_name": "CHANDA",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                28.7708,
+                -36.0875,
+                53.5958,
+                -11.5375
+            ],
+            "id": "SH142012",
+            "nc": "jtwc_history/2012/taostc_SH142012_BEST_SLOSH.geojson",
+            "storm_name": "IRINA",
+            "year": "2012"
+        },
+        {
+            "bbox": [
+                60.9292,
+                -18.8542,
+                71.8625,
+                -9.5125
+            ],
+            "id": "SH152012",
+            "nc": "jtwc_history/2012/taostc_SH152012_BEST_SLOSH.geojson",
+            "storm_name": "FIFTEEN",
+            "year": "2012"
+        },
+        {
+            "bbox": [
                 59.7875,
                 -14.4208,
                 74.4625,
