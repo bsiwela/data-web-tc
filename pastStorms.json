@@ -278,6 +278,102 @@
         },
         {
             "bbox": [
+                63.0042,
+                -18.5708,
+                83.4042,
+                -8.9375
+            ],
+            "id": "SH092013",
+            "nc": "jtwc_history/2013/taostc_SH092013_BEST_SLOSH.geojson",
+            "storm_name": "EMANG",
+            "year": "2013"
+        },
+        {
+            "bbox": [
+                67.1875,
+                -33.2292,
+                85.8,
+                -7.4
+            ],
+            "id": "SH032013",
+            "nc": "jtwc_history/2013/taostc_SH032013_BEST_SLOSH.geojson",
+            "storm_name": "CLAUDIA",
+            "year": "2013"
+        },
+        {
+            "bbox": [
+                49.3125,
+                -20.1958,
+                73.5292,
+                -5.8
+            ],
+            "id": "SH012013",
+            "nc": "jtwc_history/2013/taostc_SH012013_BEST_SLOSH.geojson",
+            "storm_name": "ANAIS",
+            "year": "2013"
+        },
+        {
+            "bbox": [
+                46.2958,
+                -37.8042,
+                67.6708,
+                -11.9042
+            ],
+            "id": "SH132013",
+            "nc": "jtwc_history/2013/taostc_SH132013_BEST_SLOSH.geojson",
+            "storm_name": "FELLENG",
+            "year": "2013"
+        },
+        {
+            "bbox": [
+                51.4958,
+                -36.6708,
+                67.7792,
+                -8.2125
+            ],
+            "id": "SH072013",
+            "nc": "jtwc_history/2013/taostc_SH072013_BEST_SLOSH.geojson",
+            "storm_name": "DUMILE",
+            "year": "2013"
+        },
+        {
+            "bbox": [
+                36.6125,
+                -31.3375,
+                66.3542,
+                -14.8542
+            ],
+            "id": "SH162013",
+            "nc": "jtwc_history/2013/taostc_SH162013_BEST_SLOSH.geojson",
+            "storm_name": "HARUNA",
+            "year": "2013"
+        },
+        {
+            "bbox": [
+                70.7292,
+                -17.5625,
+                84.0292,
+                -8.4042
+            ],
+            "id": "SH022013",
+            "nc": "jtwc_history/2013/taostc_SH022013_BEST_SLOSH.geojson",
+            "storm_name": "BOLDWIN",
+            "year": "2013"
+        },
+        {
+            "bbox": [
+                50.4,
+                -24.7,
+                79.3125,
+                -7.1292
+            ],
+            "id": "SH212013",
+            "nc": "jtwc_history/2013/taostc_SH212013_BEST_SLOSH.geojson",
+            "storm_name": "IMELDA",
+            "year": "2013"
+        },
+        {
+            "bbox": [
                 71.9625,
                 -31.2625,
                 100.1875,
