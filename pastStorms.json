@@ -314,6 +314,114 @@
         },
         {
             "bbox": [
+                59.7875,
+                -14.4208,
+                74.4625,
+                -7.5375
+            ],
+            "id": "SH012019",
+            "nc": "jtwc_history/2019/taostc_SH012019_BEST_SLOSH.geojson",
+            "storm_name": "ONE",
+            "year": "2019"
+        },
+        {
+            "bbox": [
+                31.8875,
+                -27.5875,
+                43.7958,
+                -13.9125
+            ],
+            "id": "SH102019",
+            "nc": "jtwc_history/2019/taostc_SH102019_BEST_SLOSH.geojson",
+            "storm_name": "DESMOND",
+            "year": "2019"
+        },
+        {
+            "bbox": [
+                57.0708,
+                -44.8958,
+                77.7375,
+                -9.9125
+            ],
+            "id": "SH172019",
+            "nc": "jtwc_history/2019/taostc_SH172019_BEST_SLOSH.geojson",
+            "storm_name": "HALEH",
+            "year": "2019"
+        },
+        {
+            "bbox": [
+                55.2042,
+                -30.3292,
+                73.1458,
+                -13.3208
+            ],
+            "id": "SH072019",
+            "nc": "jtwc_history/2019/taostc_SH072019_BEST_SLOSH.geojson",
+            "storm_name": "CILIDA",
+            "year": "2019"
+        },
+        {
+            "bbox": [
+                49.8875,
+                -29.8125,
+                90.2375,
+                -9.0542
+            ],
+            "id": "SH132019",
+            "nc": "jtwc_history/2019/taostc_SH132019_BEST_SLOSH.geojson",
+            "storm_name": "GELENA",
+            "year": "2019"
+        },
+        {
+            "bbox": [
+                56.9542,
+                -34.1542,
+                77.4375,
+                -12.4958
+            ],
+            "id": "SH222019",
+            "nc": "jtwc_history/2019/taostc_SH222019_BEST_SLOSH.geojson",
+            "storm_name": "JOANINHA",
+            "year": "2019"
+        },
+        {
+            "bbox": [
+                46.0,
+                -17.2125,
+                60.6542,
+                -7.3625
+            ],
+            "id": "SH032019",
+            "nc": "jtwc_history/2019/taostc_SH032019_BEST_SLOSH.geojson",
+            "storm_name": "ALCIDE",
+            "year": "2019"
+        },
+        {
+            "bbox": [
+                37.4625,
+                -14.7958,
+                51.2375,
+                -8.6708
+            ],
+            "id": "SH242019",
+            "nc": "jtwc_history/2019/taostc_SH242019_BEST_SLOSH.geojson",
+            "storm_name": "KENNETH",
+            "year": "2019"
+        },
+        {
+            "bbox": [
+                31.6958,
+                -23.6625,
+                46.7208,
+                -14.1458
+            ],
+            "id": "SH182019",
+            "nc": "jtwc_history/2019/taostc_SH182019_BEST_SLOSH.geojson",
+            "storm_name": "IDAI",
+            "year": "2019"
+        },
+        {
+            "bbox": [
                 46.4458,
                 -22.1292,
                 51.9958,
