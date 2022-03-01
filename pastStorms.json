@@ -170,6 +170,66 @@
         },
         {
             "bbox": [
+                71.9625,
+                -31.2625,
+                100.1875,
+                -8.3042
+            ],
+            "id": "SH132016",
+            "nc": "jtwc_history/2016/taostc_SH132016_BEST_SLOSH.geojson",
+            "storm_name": "URIAH",
+            "year": "2016"
+        },
+        {
+            "bbox": [
+                62.4542,
+                -33.0958,
+                75.6958,
+                -8.4125
+            ],
+            "id": "SH052016",
+            "nc": "jtwc_history/2016/taostc_SH052016_BEST_SLOSH.geojson",
+            "storm_name": "BOHALE",
+            "year": "2016"
+        },
+        {
+            "bbox": [
+                67.8292,
+                -28.9292,
+                86.0625,
+                -4.5125
+            ],
+            "id": "SH032016",
+            "nc": "jtwc_history/2016/taostc_SH032016_BEST_SLOSH.geojson",
+            "storm_name": "ANNABELLE",
+            "year": "2016"
+        },
+        {
+            "bbox": [
+                48.7625,
+                -35.6792,
+                61.7125,
+                -14.9542
+            ],
+            "id": "SH102016",
+            "nc": "jtwc_history/2016/taostc_SH102016_BEST_SLOSH.geojson",
+            "storm_name": "DAYA",
+            "year": "2016"
+        },
+        {
+            "bbox": [
+                47.5208,
+                -16.5375,
+                73.5,
+                -6.9958
+            ],
+            "id": "SH192016",
+            "nc": "jtwc_history/2016/taostc_SH192016_BEST_SLOSH.geojson",
+            "storm_name": "FANTALA",
+            "year": "2016"
+        },
+        {
+            "bbox": [
                 44.6958,
                 -30.1208,
                 63.3292,
