@@ -1583,6 +1583,54 @@
             "nc": "jtwc_history/2020/taostc_SH032020_BEST_SLOSH.geojson",
             "storm_name": "AMBALI",
             "year": "2020"
+        },
+        {
+            "bbox": [
+                49.3542,
+                -36.5375,
+                64.0542,
+                -11.5708
+            ],
+            "id": "SH162006",
+            "nc": "jtwc_history/2006/taostc_SH162006_BEST_SLOSH.geojson",
+            "storm_name": "DIWA",
+            "year": "2006"
+        },
+        {
+            "bbox": [
+                35.8458,
+                -36.3125,
+                57.0958,
+                -14.6
+            ],
+            "id": "SH092006",
+            "nc": "jtwc_history/2006/taostc_SH092006_BEST_SLOSH.geojson",
+            "storm_name": "BOLOETSE",
+            "year": "2006"
+        },
+        {
+            "bbox": [
+                48.3708,
+                -22.4458,
+                61.2208,
+                -13.4292
+            ],
+            "id": "SH122006",
+            "nc": "jtwc_history/2006/taostc_SH122006_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2006"
+        },
+        {
+            "bbox": [
+                57.7292,
+                -25.8875,
+                93.7625,
+                -5.8542
+            ],
+            "id": "SH042006",
+            "nc": "jtwc_history/2006/taostc_SH042006_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2006"
         }
     ]
 }
