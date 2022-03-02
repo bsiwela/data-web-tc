@@ -98,6 +98,126 @@
         },
         {
             "bbox": [
+                47.9625,
+                -26.5958,
+                67.6292,
+                -12.6958
+            ],
+            "id": "SH132007",
+            "nc": "jtwc_history/2007/taostc_SH132007_BEST_SLOSH.geojson",
+            "storm_name": "ENOK",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                73.0875,
+                -34.0958,
+                92.9542,
+                -9.0792
+            ],
+            "id": "SH162007",
+            "nc": "jtwc_history/2007/taostc_SH162007_BEST_SLOSH.geojson",
+            "storm_name": "HUMBA",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                42.8,
+                -20.6,
+                69.1,
+                -7.3
+            ],
+            "id": "SH052007",
+            "nc": "jtwc_history/2007/taostc_SH052007_BEST_SLOSH.geojson",
+            "storm_name": "BONDO",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                57.5875,
+                -30.8708,
+                73.6292,
+                -7.2292
+            ],
+            "id": "SH102007",
+            "nc": "jtwc_history/2007/taostc_SH102007_BEST_SLOSH.geojson",
+            "storm_name": "DORA",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                44.4625,
+                -35.0125,
+                79.4,
+                -12.5708
+            ],
+            "id": "SH152007",
+            "nc": "jtwc_history/2007/taostc_SH152007_BEST_SLOSH.geojson",
+            "storm_name": "GAMEDE",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                46.2042,
+                -19.8375,
+                66.4,
+                -10.6042
+            ],
+            "id": "SH192007",
+            "nc": "jtwc_history/2007/taostc_SH192007_BEST_SLOSH.geojson",
+            "storm_name": "INDLALA",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                38.5625,
+                -19.5708,
+                76.0,
+                -11.8542
+            ],
+            "id": "SH222007",
+            "nc": "jtwc_history/2007/taostc_SH222007_BEST_SLOSH.geojson",
+            "storm_name": "JAYA",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                30.7208,
+                -28.9958,
+                71.7625,
+                -10.2
+            ],
+            "id": "SH142007",
+            "nc": "jtwc_history/2007/taostc_SH142007_BEST_SLOSH.geojson",
+            "storm_name": "FAVIO",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                44.4625,
+                -25.0292,
+                59.9625,
+                -10.9625
+            ],
+            "id": "SH062007",
+            "nc": "jtwc_history/2007/taostc_SH062007_BEST_SLOSH.geojson",
+            "storm_name": "CLOVIS",
+            "year": "2007"
+        },
+        {
+            "bbox": [
+                39.2708,
+                -22.9958,
+                49.3958,
+                -5.4292
+            ],
+            "id": "SH032007",
+            "nc": "jtwc_history/2007/taostc_SH032007_BEST_SLOSH.geojson",
+            "storm_name": "ANITA",
+            "year": "2007"
+        },
+        {
+            "bbox": [
                 68.6625,
                 -17.4208,
                 89.2708,
