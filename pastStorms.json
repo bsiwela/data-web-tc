@@ -758,6 +758,150 @@
         },
         {
             "bbox": [
+                61.0625,
+                -31.7458,
+                81.6708,
+                -9.4542
+            ],
+            "id": "SH162009",
+            "nc": "jtwc_history/2009/taostc_SH162009_BEST_SLOSH.geojson",
+            "storm_name": "HINA",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                32.7042,
+                -26.7375,
+                44.9708,
+                -16.8958
+            ],
+            "id": "SH242009",
+            "nc": "jtwc_history/2009/taostc_SH242009_BEST_SLOSH.geojson",
+            "storm_name": "IZILDA",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                72.3,
+                -24.5292,
+                121.8292,
+                -13.2208
+            ],
+            "id": "SH142009",
+            "nc": "jtwc_history/2009/taostc_SH142009_BEST_SLOSH.geojson",
+            "storm_name": "FREDDY",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                89.0,
+                -20.8625,
+                130.3292,
+                -12.4
+            ],
+            "id": "SH052009",
+            "nc": "jtwc_history/2009/taostc_SH052009_BEST_SLOSH.geojson",
+            "storm_name": "BILLY",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                64.6958,
+                -35.0792,
+                78.3542,
+                -12.0375
+            ],
+            "id": "SH062009",
+            "nc": "jtwc_history/2009/taostc_SH062009_BEST_SLOSH.geojson",
+            "storm_name": "DONGO",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                41.7458,
+                -15.2292,
+                72.6042,
+                -3.5458
+            ],
+            "id": "SH012009",
+            "nc": "jtwc_history/2009/taostc_SH012009_BEST_SLOSH.geojson",
+            "storm_name": "ASMA",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                47.7042,
+                -39.3208,
+                70.6,
+                -14.7
+            ],
+            "id": "SH132009",
+            "nc": "jtwc_history/2009/taostc_SH132009_BEST_SLOSH.geojson",
+            "storm_name": "GAEL",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                76.0875,
+                -26.9958,
+                121.7375,
+                -10.9542
+            ],
+            "id": "SH222009",
+            "nc": "jtwc_history/2009/taostc_SH222009_BEST_SLOSH.geojson",
+            "storm_name": "ILSA",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                45.6875,
+                -38.7875,
+                63.9708,
+                -9.7042
+            ],
+            "id": "SH262009",
+            "nc": "jtwc_history/2009/taostc_SH262009_BEST_SLOSH.geojson",
+            "storm_name": "JADE",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                45.4708,
+                -36.7958,
+                62.7208,
+                -13.7458
+            ],
+            "id": "SH082009",
+            "nc": "jtwc_history/2009/taostc_SH082009_BEST_SLOSH.geojson",
+            "storm_name": "ERIC",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                38.3042,
+                -31.5375,
+                54.8625,
+                -17.1375
+            ],
+            "id": "SH092009",
+            "nc": "jtwc_history/2009/taostc_SH092009_BEST_SLOSH.geojson",
+            "storm_name": "FANELE",
+            "year": "2009"
+        },
+        {
+            "bbox": [
+                59.3375,
+                -17.6708,
+                77.6458,
+                -7.7958
+            ],
+            "id": "SH042009",
+            "nc": "jtwc_history/2009/taostc_SH042009_BEST_SLOSH.geojson",
+            "storm_name": "CINDA",
+            "year": "2009"
+        },
+        {
+            "bbox": [
                 63.0458,
                 -43.1375,
                 96.8625,
