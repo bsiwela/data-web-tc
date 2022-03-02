@@ -758,6 +758,114 @@
         },
         {
             "bbox": [
+                36.9208,
+                -29.3708,
+                45.8375,
+                -15.6625
+            ],
+            "id": "SH092008",
+            "nc": "jtwc_history/2008/taostc_SH092008_BEST_SLOSH.geojson",
+            "storm_name": "ELNUS",
+            "year": "2008"
+        },
+        {
+            "bbox": [
+                52.3208,
+                -32.5292,
+                65.3542,
+                -8.8208
+            ],
+            "id": "SH142008",
+            "nc": "jtwc_history/2008/taostc_SH142008_BEST_SLOSH.geojson",
+            "storm_name": "GULA",
+            "year": "2008"
+        },
+        {
+            "bbox": [
+                53.0208,
+                -26.0458,
+                65.7875,
+                -11.8042
+            ],
+            "id": "SH252008",
+            "nc": "jtwc_history/2008/taostc_SH252008_BEST_SLOSH.geojson",
+            "storm_name": "LOLA",
+            "year": "2008"
+        },
+        {
+            "bbox": [
+                37.1625,
+                -28.4792,
+                64.4,
+                -10.0
+            ],
+            "id": "SH222008",
+            "nc": "jtwc_history/2008/taostc_SH222008_BEST_SLOSH.geojson",
+            "storm_name": "JOKWE",
+            "year": "2008"
+        },
+        {
+            "bbox": [
+                51.7,
+                -29.9,
+                91.9208,
+                -10.5625
+            ],
+            "id": "SH162008",
+            "nc": "jtwc_history/2008/taostc_SH162008_BEST_SLOSH.geojson",
+            "storm_name": "HONDO",
+            "year": "2008"
+        },
+        {
+            "bbox": [
+                53.1,
+                -18.5125,
+                79.4875,
+                -4.0125
+            ],
+            "id": "SH042008",
+            "nc": "jtwc_history/2008/taostc_SH042008_BEST_SLOSH.geojson",
+            "storm_name": "BONGWE",
+            "year": "2008"
+        },
+        {
+            "bbox": [
+                42.7,
+                -22.8,
+                67.6875,
+                -10.2
+            ],
+            "id": "SH182008",
+            "nc": "jtwc_history/2008/taostc_SH182008_BEST_SLOSH.geojson",
+            "storm_name": "IVAN",
+            "year": "2008"
+        },
+        {
+            "bbox": [
+                42.2542,
+                -28.9125,
+                59.8125,
+                -11.5042
+            ],
+            "id": "SH132008",
+            "nc": "jtwc_history/2008/taostc_SH132008_BEST_SLOSH.geojson",
+            "storm_name": "FAME",
+            "year": "2008"
+        },
+        {
+            "bbox": [
+                47.6125,
+                -25.4292,
+                72.6125,
+                -11.0958
+            ],
+            "id": "SH062008",
+            "nc": "jtwc_history/2008/taostc_SH062008_BEST_SLOSH.geojson",
+            "storm_name": "CELINA",
+            "year": "2008"
+        },
+        {
+            "bbox": [
                 61.0625,
                 -31.7458,
                 81.6708,
