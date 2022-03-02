@@ -1,0 +1,2242 @@
+{
+    "adm0": [
+        {
+            "adm0_name": "Comoros",
+            "adm1": [
+                {
+                    "adm1_name": "Anjouan",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Moheli",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ngazidja",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "adm0_name": "Madagascar",
+            "adm1": [
+                {
+                    "adm1_name": "Vakinakaratra",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambatolampy"
+                        },
+                        {
+                            "adm2_name": "Antanifotsy"
+                        },
+                        {
+                            "adm2_name": "Antsirabe I"
+                        },
+                        {
+                            "adm2_name": "Antsirabe II"
+                        },
+                        {
+                            "adm2_name": "Betafo"
+                        },
+                        {
+                            "adm2_name": "Faratsiho"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Analamanga",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambohidratrimo"
+                        },
+                        {
+                            "adm2_name": "Andramasina"
+                        },
+                        {
+                            "adm2_name": "Anjozorobe"
+                        },
+                        {
+                            "adm2_name": "Ankazobe"
+                        },
+                        {
+                            "adm2_name": "Antananarivo-Atsimondrano"
+                        },
+                        {
+                            "adm2_name": "Antananarivo-Avaradrano"
+                        },
+                        {
+                            "adm2_name": "Antananarivo-Renivohitra"
+                        },
+                        {
+                            "adm2_name": "Manjakandriana"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Itasy",
+                    "adm2": [
+                        {
+                            "adm2_name": "Arivonimamo"
+                        },
+                        {
+                            "adm2_name": "Miarinarivo"
+                        },
+                        {
+                            "adm2_name": "Soavinandriana"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Bongolava",
+                    "adm2": [
+                        {
+                            "adm2_name": "Fenoarivobe"
+                        },
+                        {
+                            "adm2_name": "Tsiroanomandidy"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Diana",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambanja"
+                        },
+                        {
+                            "adm2_name": "Ambilobe"
+                        },
+                        {
+                            "adm2_name": "Antsiranana I"
+                        },
+                        {
+                            "adm2_name": "Antsiranana II"
+                        },
+                        {
+                            "adm2_name": "Nosy Be"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Sava",
+                    "adm2": [
+                        {
+                            "adm2_name": "Andapa"
+                        },
+                        {
+                            "adm2_name": "Antalaha"
+                        },
+                        {
+                            "adm2_name": "Vohimarina"
+                        },
+                        {
+                            "adm2_name": "Sambava"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Haute Matsiatra",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambalavao"
+                        },
+                        {
+                            "adm2_name": "Ambohimahasoa"
+                        },
+                        {
+                            "adm2_name": "Fianarantsoa I"
+                        },
+                        {
+                            "adm2_name": "Fianarantsoa II"
+                        },
+                        {
+                            "adm2_name": "Ikalamavony"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Amoron'i Mania",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambatofinandrahana"
+                        },
+                        {
+                            "adm2_name": "Ambositra"
+                        },
+                        {
+                            "adm2_name": "Fandriana"
+                        },
+                        {
+                            "adm2_name": "Manandriana"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Atsimo Atsinanana",
+                    "adm2": [
+                        {
+                            "adm2_name": "Befotaka"
+                        },
+                        {
+                            "adm2_name": "Farafangana"
+                        },
+                        {
+                            "adm2_name": "Midongy"
+                        },
+                        {
+                            "adm2_name": "Vangaindrano"
+                        },
+                        {
+                            "adm2_name": "Vondrozo"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ihorombe",
+                    "adm2": [
+                        {
+                            "adm2_name": "Iakora"
+                        },
+                        {
+                            "adm2_name": "Ihosy"
+                        },
+                        {
+                            "adm2_name": "Ivohibe"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Vatovavy Fitovinany",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ifanadiana"
+                        },
+                        {
+                            "adm2_name": "Ikongo"
+                        },
+                        {
+                            "adm2_name": "Manakara"
+                        },
+                        {
+                            "adm2_name": "Mananjary"
+                        },
+                        {
+                            "adm2_name": "Nosy-Varika"
+                        },
+                        {
+                            "adm2_name": "Vohipeno"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Boeny",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambatoboeny"
+                        },
+                        {
+                            "adm2_name": "Mahajanga I"
+                        },
+                        {
+                            "adm2_name": "Mahajanga II"
+                        },
+                        {
+                            "adm2_name": "Marovoay"
+                        },
+                        {
+                            "adm2_name": "Mitsinjo"
+                        },
+                        {
+                            "adm2_name": "Soalala"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Melaky",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambatomainty"
+                        },
+                        {
+                            "adm2_name": "Antsalova"
+                        },
+                        {
+                            "adm2_name": "Besalampy"
+                        },
+                        {
+                            "adm2_name": "Maintirano"
+                        },
+                        {
+                            "adm2_name": "Morafenobe"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Sofia",
+                    "adm2": [
+                        {
+                            "adm2_name": "Analalava"
+                        },
+                        {
+                            "adm2_name": "Antsohihy"
+                        },
+                        {
+                            "adm2_name": "Bealanana"
+                        },
+                        {
+                            "adm2_name": "Befandriana Avaratra"
+                        },
+                        {
+                            "adm2_name": "Boriziny"
+                        },
+                        {
+                            "adm2_name": "Mampikony"
+                        },
+                        {
+                            "adm2_name": "Mandritsara"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Betsiboka",
+                    "adm2": [
+                        {
+                            "adm2_name": "Kandreho"
+                        },
+                        {
+                            "adm2_name": "Maevatanana"
+                        },
+                        {
+                            "adm2_name": "Tsaratanana"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Alaotra Mangoro",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambatondrazaka"
+                        },
+                        {
+                            "adm2_name": "Amparafaravola"
+                        },
+                        {
+                            "adm2_name": "Andilamena"
+                        },
+                        {
+                            "adm2_name": "Anosibe An'Ala"
+                        },
+                        {
+                            "adm2_name": "Moramanga"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Atsinanana",
+                    "adm2": [
+                        {
+                            "adm2_name": "Antanambao-Manampotsy"
+                        },
+                        {
+                            "adm2_name": "Mahanoro"
+                        },
+                        {
+                            "adm2_name": "Marolambo"
+                        },
+                        {
+                            "adm2_name": "Toamasina I"
+                        },
+                        {
+                            "adm2_name": "Vatomandry"
+                        },
+                        {
+                            "adm2_name": "Vohibinany"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Analanjirofo",
+                    "adm2": [
+                        {
+                            "adm2_name": "Fenoarivo-Atsinanana"
+                        },
+                        {
+                            "adm2_name": "Mananara"
+                        },
+                        {
+                            "adm2_name": "Maroantsetra"
+                        },
+                        {
+                            "adm2_name": "Nosy Boraha"
+                        },
+                        {
+                            "adm2_name": "Soanierana-Ivongo"
+                        },
+                        {
+                            "adm2_name": "Toamasina II"
+                        },
+                        {
+                            "adm2_name": "Vavatenina"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Anosy",
+                    "adm2": [
+                        {
+                            "adm2_name": "Amboasary"
+                        },
+                        {
+                            "adm2_name": "Betroka"
+                        },
+                        {
+                            "adm2_name": "Taolanaro"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Androy",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ambovombe-Androy"
+                        },
+                        {
+                            "adm2_name": "Bekily"
+                        },
+                        {
+                            "adm2_name": "Beloha"
+                        },
+                        {
+                            "adm2_name": "Tsiombe"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Atsimo Andrefana",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ampanihy"
+                        },
+                        {
+                            "adm2_name": "Ankazoabo"
+                        },
+                        {
+                            "adm2_name": "Benenitra"
+                        },
+                        {
+                            "adm2_name": "Beroroha"
+                        },
+                        {
+                            "adm2_name": "Betioky"
+                        },
+                        {
+                            "adm2_name": "Morombe"
+                        },
+                        {
+                            "adm2_name": "Sakaraha"
+                        },
+                        {
+                            "adm2_name": "Toliary I"
+                        },
+                        {
+                            "adm2_name": "Toliary II"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Menabe",
+                    "adm2": [
+                        {
+                            "adm2_name": "Belon'i Tsiribihina"
+                        },
+                        {
+                            "adm2_name": "Mahabo"
+                        },
+                        {
+                            "adm2_name": "Manja"
+                        },
+                        {
+                            "adm2_name": "Miandrivazo"
+                        },
+                        {
+                            "adm2_name": "Morondava"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "adm0_name": "Mauritius",
+            "adm1": [
+                {
+                    "adm1_name": "Administrative unit not available",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Black River",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Flacq",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Grand Port",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Moka",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Pamplemousses",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Plaines Wilhems",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Port Louis",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Riviere Du Rempart",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Savanne",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "adm0_name": "Mayotte",
+            "adm1": [
+                {
+                    "adm1_name": "Administrative unit not available",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "adm0_name": "Mozambique",
+            "adm1": [
+                {
+                    "adm1_name": "Cabo Delgado",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ancuabe"
+                        },
+                        {
+                            "adm2_name": "Balama"
+                        },
+                        {
+                            "adm2_name": "Chiure"
+                        },
+                        {
+                            "adm2_name": "Ibo"
+                        },
+                        {
+                            "adm2_name": "Macomia"
+                        },
+                        {
+                            "adm2_name": "Mecufi"
+                        },
+                        {
+                            "adm2_name": "Meluco"
+                        },
+                        {
+                            "adm2_name": "Mocimboa da Praia"
+                        },
+                        {
+                            "adm2_name": "Montepuez"
+                        },
+                        {
+                            "adm2_name": "Mueda"
+                        },
+                        {
+                            "adm2_name": "Muidumbe"
+                        },
+                        {
+                            "adm2_name": "Namuno"
+                        },
+                        {
+                            "adm2_name": "Nangade"
+                        },
+                        {
+                            "adm2_name": "Palma"
+                        },
+                        {
+                            "adm2_name": "Pemba"
+                        },
+                        {
+                            "adm2_name": "Quissanga"
+                        },
+                        {
+                            "adm2_name": "Cidade de Pemba"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Gaza",
+                    "adm2": [
+                        {
+                            "adm2_name": "Bilene"
+                        },
+                        {
+                            "adm2_name": "Chibuto"
+                        },
+                        {
+                            "adm2_name": "Chicualacuala"
+                        },
+                        {
+                            "adm2_name": "Chigubo"
+                        },
+                        {
+                            "adm2_name": "Chokwe"
+                        },
+                        {
+                            "adm2_name": "Guija"
+                        },
+                        {
+                            "adm2_name": "Mabalane"
+                        },
+                        {
+                            "adm2_name": "Mandlakazi"
+                        },
+                        {
+                            "adm2_name": "Massangena"
+                        },
+                        {
+                            "adm2_name": "Massingir"
+                        },
+                        {
+                            "adm2_name": "Xai-Xai"
+                        },
+                        {
+                            "adm2_name": "Cidade de Xai-Xai"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Inhambane",
+                    "adm2": [
+                        {
+                            "adm2_name": "Funhalouro"
+                        },
+                        {
+                            "adm2_name": "Govuro"
+                        },
+                        {
+                            "adm2_name": "Homoine"
+                        },
+                        {
+                            "adm2_name": "Inharrime"
+                        },
+                        {
+                            "adm2_name": "Inhassoro"
+                        },
+                        {
+                            "adm2_name": "Jangamo"
+                        },
+                        {
+                            "adm2_name": "Mabote"
+                        },
+                        {
+                            "adm2_name": "Massinga"
+                        },
+                        {
+                            "adm2_name": "Morrumbene"
+                        },
+                        {
+                            "adm2_name": "Panda"
+                        },
+                        {
+                            "adm2_name": "Vilankulo"
+                        },
+                        {
+                            "adm2_name": "Zavala"
+                        },
+                        {
+                            "adm2_name": "Cidade de Inhambane"
+                        },
+                        {
+                            "adm2_name": "Maxixe"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Manica",
+                    "adm2": [
+                        {
+                            "adm2_name": "Barue"
+                        },
+                        {
+                            "adm2_name": "Gondola"
+                        },
+                        {
+                            "adm2_name": "Guro"
+                        },
+                        {
+                            "adm2_name": "Machaze"
+                        },
+                        {
+                            "adm2_name": "Macossa"
+                        },
+                        {
+                            "adm2_name": "Manica"
+                        },
+                        {
+                            "adm2_name": "Mossurize"
+                        },
+                        {
+                            "adm2_name": "Sussundenga"
+                        },
+                        {
+                            "adm2_name": "Tambara"
+                        },
+                        {
+                            "adm2_name": "Cidade de Chimoio"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Maputo",
+                    "adm2": [
+                        {
+                            "adm2_name": "Boane"
+                        },
+                        {
+                            "adm2_name": "Magude"
+                        },
+                        {
+                            "adm2_name": "Manhica"
+                        },
+                        {
+                            "adm2_name": "Marracuene"
+                        },
+                        {
+                            "adm2_name": "Matutuine"
+                        },
+                        {
+                            "adm2_name": "Moamba"
+                        },
+                        {
+                            "adm2_name": "Namaacha"
+                        },
+                        {
+                            "adm2_name": "Cidade de Matola"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Nampula",
+                    "adm2": [
+                        {
+                            "adm2_name": "Angoche"
+                        },
+                        {
+                            "adm2_name": "Erati"
+                        },
+                        {
+                            "adm2_name": "Lalaua"
+                        },
+                        {
+                            "adm2_name": "Malema"
+                        },
+                        {
+                            "adm2_name": "Meconta"
+                        },
+                        {
+                            "adm2_name": "Mecuburi"
+                        },
+                        {
+                            "adm2_name": "Memba"
+                        },
+                        {
+                            "adm2_name": "Mogincual"
+                        },
+                        {
+                            "adm2_name": "Mogovolas"
+                        },
+                        {
+                            "adm2_name": "Moma"
+                        },
+                        {
+                            "adm2_name": "Monapo"
+                        },
+                        {
+                            "adm2_name": "Mossuril"
+                        },
+                        {
+                            "adm2_name": "Muecate"
+                        },
+                        {
+                            "adm2_name": "Murrupula"
+                        },
+                        {
+                            "adm2_name": "Nacala-A-Velha"
+                        },
+                        {
+                            "adm2_name": "Nacaroa"
+                        },
+                        {
+                            "adm2_name": "Nampula"
+                        },
+                        {
+                            "adm2_name": "Ribaue"
+                        },
+                        {
+                            "adm2_name": "Cidade de Nampula"
+                        },
+                        {
+                            "adm2_name": "Ilha de Mocambique"
+                        },
+                        {
+                            "adm2_name": "Nacala"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Niassa",
+                    "adm2": [
+                        {
+                            "adm2_name": "Cuamba"
+                        },
+                        {
+                            "adm2_name": "Lago"
+                        },
+                        {
+                            "adm2_name": "Lichinga"
+                        },
+                        {
+                            "adm2_name": "Majune"
+                        },
+                        {
+                            "adm2_name": "Mandimba"
+                        },
+                        {
+                            "adm2_name": "Marrupa"
+                        },
+                        {
+                            "adm2_name": "Maua"
+                        },
+                        {
+                            "adm2_name": "Mavago"
+                        },
+                        {
+                            "adm2_name": "Mecanhelas"
+                        },
+                        {
+                            "adm2_name": "Mecula"
+                        },
+                        {
+                            "adm2_name": "Metarica"
+                        },
+                        {
+                            "adm2_name": "Muembe"
+                        },
+                        {
+                            "adm2_name": "N'gauma"
+                        },
+                        {
+                            "adm2_name": "Nipepe"
+                        },
+                        {
+                            "adm2_name": "Sanga"
+                        },
+                        {
+                            "adm2_name": "Cidade de Lichinga"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Sofala",
+                    "adm2": [
+                        {
+                            "adm2_name": "Buzi"
+                        },
+                        {
+                            "adm2_name": "Caia"
+                        },
+                        {
+                            "adm2_name": "Chemba"
+                        },
+                        {
+                            "adm2_name": "Cheringoma"
+                        },
+                        {
+                            "adm2_name": "Chibabava"
+                        },
+                        {
+                            "adm2_name": "Dondo"
+                        },
+                        {
+                            "adm2_name": "Gorongoza"
+                        },
+                        {
+                            "adm2_name": "Machanga"
+                        },
+                        {
+                            "adm2_name": "Maringue"
+                        },
+                        {
+                            "adm2_name": "Marromeu"
+                        },
+                        {
+                            "adm2_name": "Muanza"
+                        },
+                        {
+                            "adm2_name": "Nhamatanda"
+                        },
+                        {
+                            "adm2_name": "Cidade da Beira"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Tete",
+                    "adm2": [
+                        {
+                            "adm2_name": "Angonia"
+                        },
+                        {
+                            "adm2_name": "Cahora Bassa"
+                        },
+                        {
+                            "adm2_name": "Changara"
+                        },
+                        {
+                            "adm2_name": "Chifunde"
+                        },
+                        {
+                            "adm2_name": "Chiuta"
+                        },
+                        {
+                            "adm2_name": "Macanga"
+                        },
+                        {
+                            "adm2_name": "Magoe"
+                        },
+                        {
+                            "adm2_name": "Maravia"
+                        },
+                        {
+                            "adm2_name": "Moatize"
+                        },
+                        {
+                            "adm2_name": "Mutarara"
+                        },
+                        {
+                            "adm2_name": "Tsangano"
+                        },
+                        {
+                            "adm2_name": "Zumbu"
+                        },
+                        {
+                            "adm2_name": "Cidade de Tete"
+                        },
+                        {
+                            "adm2_name": "Luenha"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Zambezia",
+                    "adm2": [
+                        {
+                            "adm2_name": "Chinde"
+                        },
+                        {
+                            "adm2_name": "Gile"
+                        },
+                        {
+                            "adm2_name": "Gurue"
+                        },
+                        {
+                            "adm2_name": "Ile"
+                        },
+                        {
+                            "adm2_name": "Inhassunge"
+                        },
+                        {
+                            "adm2_name": "Lugela"
+                        },
+                        {
+                            "adm2_name": "Maganja da Costa"
+                        },
+                        {
+                            "adm2_name": "Milange"
+                        },
+                        {
+                            "adm2_name": "Mocuba"
+                        },
+                        {
+                            "adm2_name": "Alto Molocue"
+                        },
+                        {
+                            "adm2_name": "Mopeia"
+                        },
+                        {
+                            "adm2_name": "Morrumbala"
+                        },
+                        {
+                            "adm2_name": "Namacurra"
+                        },
+                        {
+                            "adm2_name": "Namaroi"
+                        },
+                        {
+                            "adm2_name": "Nicoadala"
+                        },
+                        {
+                            "adm2_name": "Pebane"
+                        },
+                        {
+                            "adm2_name": "Cidade de Quelimane"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Maputo (city)",
+                    "adm2": [
+                        {
+                            "adm2_name": "Aeroporto"
+                        },
+                        {
+                            "adm2_name": "Distrito Municipal 1"
+                        },
+                        {
+                            "adm2_name": "Distrito Municipal 2"
+                        },
+                        {
+                            "adm2_name": "Distrito Municipal 3"
+                        },
+                        {
+                            "adm2_name": "Distrito Municipal 4"
+                        },
+                        {
+                            "adm2_name": "Distrito Municipal 5"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Area under National Administration",
+                    "adm2": [
+                        {
+                            "adm2_name": "Area under National Administration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "adm0_name": "R\u00e9union",
+            "adm1": [
+                {
+                    "adm1_name": "Arrondissement_du_vent",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Arrondissement_souse_le_vent",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "adm0_name": "United Republic of Tanzania",
+            "adm1": [
+                {
+                    "adm1_name": "Arusha",
+                    "adm2": [
+                        {
+                            "adm2_name": "Arumeru"
+                        },
+                        {
+                            "adm2_name": "Arusha"
+                        },
+                        {
+                            "adm2_name": "Karatu"
+                        },
+                        {
+                            "adm2_name": "Monduli"
+                        },
+                        {
+                            "adm2_name": "Ngorongoro"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Dar es Salaam",
+                    "adm2": [
+                        {
+                            "adm2_name": "Ilala"
+                        },
+                        {
+                            "adm2_name": "Kinondoni"
+                        },
+                        {
+                            "adm2_name": "Temeke"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Dodoma",
+                    "adm2": [
+                        {
+                            "adm2_name": "Dodoma Rural"
+                        },
+                        {
+                            "adm2_name": "Dodoma Urban"
+                        },
+                        {
+                            "adm2_name": "Kondoa"
+                        },
+                        {
+                            "adm2_name": "Kongwa"
+                        },
+                        {
+                            "adm2_name": "Mpwapwa"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Iringa",
+                    "adm2": [
+                        {
+                            "adm2_name": "Iringa Rural"
+                        },
+                        {
+                            "adm2_name": "Iringa Urban"
+                        },
+                        {
+                            "adm2_name": "Kilolo"
+                        },
+                        {
+                            "adm2_name": "Ludewa"
+                        },
+                        {
+                            "adm2_name": "Makete"
+                        },
+                        {
+                            "adm2_name": "Mufindi"
+                        },
+                        {
+                            "adm2_name": "Njombe"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Kagera",
+                    "adm2": [
+                        {
+                            "adm2_name": "Biharamulo"
+                        },
+                        {
+                            "adm2_name": "Bukoba Rural"
+                        },
+                        {
+                            "adm2_name": "Bukoba Urban"
+                        },
+                        {
+                            "adm2_name": "Karagwe"
+                        },
+                        {
+                            "adm2_name": "Muleba"
+                        },
+                        {
+                            "adm2_name": "Ngara"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Kigoma",
+                    "adm2": [
+                        {
+                            "adm2_name": "Kasulu"
+                        },
+                        {
+                            "adm2_name": "Kibondo"
+                        },
+                        {
+                            "adm2_name": "Kigoma Rural"
+                        },
+                        {
+                            "adm2_name": "Kigoma Urban"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Kilimanjaro",
+                    "adm2": [
+                        {
+                            "adm2_name": "Hai"
+                        },
+                        {
+                            "adm2_name": "Moshi Rural"
+                        },
+                        {
+                            "adm2_name": "Moshi Urban"
+                        },
+                        {
+                            "adm2_name": "Mwanga"
+                        },
+                        {
+                            "adm2_name": "Rombo"
+                        },
+                        {
+                            "adm2_name": "Same"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Lindi",
+                    "adm2": [
+                        {
+                            "adm2_name": "Kilwa"
+                        },
+                        {
+                            "adm2_name": "Lindi Rural"
+                        },
+                        {
+                            "adm2_name": "Lindi Urban"
+                        },
+                        {
+                            "adm2_name": "Liwale"
+                        },
+                        {
+                            "adm2_name": "Nachingwea"
+                        },
+                        {
+                            "adm2_name": "Ruangwa"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Manyara",
+                    "adm2": [
+                        {
+                            "adm2_name": "Babati"
+                        },
+                        {
+                            "adm2_name": "Hanang"
+                        },
+                        {
+                            "adm2_name": "Kiteto"
+                        },
+                        {
+                            "adm2_name": "Mbulu"
+                        },
+                        {
+                            "adm2_name": "Simanjiro"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Mara",
+                    "adm2": [
+                        {
+                            "adm2_name": "Bunda"
+                        },
+                        {
+                            "adm2_name": "Musoma Rural"
+                        },
+                        {
+                            "adm2_name": "Musoma Urban"
+                        },
+                        {
+                            "adm2_name": "Serengeti"
+                        },
+                        {
+                            "adm2_name": "Tarime"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Mbeya",
+                    "adm2": [
+                        {
+                            "adm2_name": "Chunya"
+                        },
+                        {
+                            "adm2_name": "Ileje"
+                        },
+                        {
+                            "adm2_name": "Kyela"
+                        },
+                        {
+                            "adm2_name": "Mbarali"
+                        },
+                        {
+                            "adm2_name": "Mbeya Rural"
+                        },
+                        {
+                            "adm2_name": "Mbeya Urban"
+                        },
+                        {
+                            "adm2_name": "Mbozi"
+                        },
+                        {
+                            "adm2_name": "Rungwe"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Morogoro",
+                    "adm2": [
+                        {
+                            "adm2_name": "Kilombero"
+                        },
+                        {
+                            "adm2_name": "Kilosa"
+                        },
+                        {
+                            "adm2_name": "Morogoro Rural"
+                        },
+                        {
+                            "adm2_name": "Morogoro Urban"
+                        },
+                        {
+                            "adm2_name": "Mvomero"
+                        },
+                        {
+                            "adm2_name": "Ulanga"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Mtwara",
+                    "adm2": [
+                        {
+                            "adm2_name": "Masasi"
+                        },
+                        {
+                            "adm2_name": "Mtwara Rural"
+                        },
+                        {
+                            "adm2_name": "Mtwara urban"
+                        },
+                        {
+                            "adm2_name": "Newala"
+                        },
+                        {
+                            "adm2_name": "Tandahimba"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Mwanza",
+                    "adm2": [
+                        {
+                            "adm2_name": "Geita"
+                        },
+                        {
+                            "adm2_name": "Ilemela"
+                        },
+                        {
+                            "adm2_name": "Kwimba"
+                        },
+                        {
+                            "adm2_name": "Magu"
+                        },
+                        {
+                            "adm2_name": "Missungwi"
+                        },
+                        {
+                            "adm2_name": "Nyamagana"
+                        },
+                        {
+                            "adm2_name": "Sengerema"
+                        },
+                        {
+                            "adm2_name": "Ukerewe"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Pemba North",
+                    "adm2": [
+                        {
+                            "adm2_name": "Micheweni"
+                        },
+                        {
+                            "adm2_name": "Wete"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Pemba South",
+                    "adm2": [
+                        {
+                            "adm2_name": "Chake chake"
+                        },
+                        {
+                            "adm2_name": "Mkoani"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Pwani",
+                    "adm2": [
+                        {
+                            "adm2_name": "Bagamoyo"
+                        },
+                        {
+                            "adm2_name": "Kibaha"
+                        },
+                        {
+                            "adm2_name": "Kisarawe"
+                        },
+                        {
+                            "adm2_name": "Mafia"
+                        },
+                        {
+                            "adm2_name": "Mkuranga"
+                        },
+                        {
+                            "adm2_name": "Rufiji"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Rukwa",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        },
+                        {
+                            "adm2_name": "Mpanda"
+                        },
+                        {
+                            "adm2_name": "Nkasi"
+                        },
+                        {
+                            "adm2_name": "Sumbawanga Rural"
+                        },
+                        {
+                            "adm2_name": "Sumbawanga Urban"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ruvuma",
+                    "adm2": [
+                        {
+                            "adm2_name": "Mbinga"
+                        },
+                        {
+                            "adm2_name": "Namtumbo"
+                        },
+                        {
+                            "adm2_name": "Songea Rural"
+                        },
+                        {
+                            "adm2_name": "Songea Urban"
+                        },
+                        {
+                            "adm2_name": "Tunduru"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Shinyanga",
+                    "adm2": [
+                        {
+                            "adm2_name": "Bariadi"
+                        },
+                        {
+                            "adm2_name": "Bukombe"
+                        },
+                        {
+                            "adm2_name": "Kahama"
+                        },
+                        {
+                            "adm2_name": "Kishapu"
+                        },
+                        {
+                            "adm2_name": "Maswa"
+                        },
+                        {
+                            "adm2_name": "Meatu"
+                        },
+                        {
+                            "adm2_name": "Shinyanga Rural"
+                        },
+                        {
+                            "adm2_name": "Shinyanga Urban"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Singida",
+                    "adm2": [
+                        {
+                            "adm2_name": "Iramba"
+                        },
+                        {
+                            "adm2_name": "Manyoni"
+                        },
+                        {
+                            "adm2_name": "Singida Rural"
+                        },
+                        {
+                            "adm2_name": "Singida Urban"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Tabora",
+                    "adm2": [
+                        {
+                            "adm2_name": "Igunga"
+                        },
+                        {
+                            "adm2_name": "Nzega"
+                        },
+                        {
+                            "adm2_name": "Sikonge"
+                        },
+                        {
+                            "adm2_name": "Tabora Urban"
+                        },
+                        {
+                            "adm2_name": "Urambo"
+                        },
+                        {
+                            "adm2_name": "Uyui"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Tanga",
+                    "adm2": [
+                        {
+                            "adm2_name": "Handeni"
+                        },
+                        {
+                            "adm2_name": "Kilindi"
+                        },
+                        {
+                            "adm2_name": "Korogwe"
+                        },
+                        {
+                            "adm2_name": "Lushoto"
+                        },
+                        {
+                            "adm2_name": "Muheza"
+                        },
+                        {
+                            "adm2_name": "Pangani"
+                        },
+                        {
+                            "adm2_name": "Tanga"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Unguja North",
+                    "adm2": [
+                        {
+                            "adm2_name": "North A"
+                        },
+                        {
+                            "adm2_name": "North B"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Unguja South",
+                    "adm2": [
+                        {
+                            "adm2_name": "Central"
+                        },
+                        {
+                            "adm2_name": "South"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Unguja Urban West",
+                    "adm2": [
+                        {
+                            "adm2_name": "Urban"
+                        },
+                        {
+                            "adm2_name": "West"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "adm0_name": "Seychelles",
+            "adm1": [
+                {
+                    "adm1_name": "Administrative unit not available",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "African Banks",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Aldabra",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Alphonse",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Anse Aux Pins",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Anse Boileau",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Anse Etoile",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Anse Royale",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Aride",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Assumption",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Astove",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Au Cap",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Baie Lazare",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Beau Vallon",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Bel Air",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Belombre",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Bijoutier",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Bird",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Boudeuse",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Cachee",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Cascade",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Cerf Island",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Conception",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Cosmoledo",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Cousin",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Cousine",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Curieuse",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Darros",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Denis",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Desnoeufs",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Desroches",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "English River",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Farquhar",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Felicite",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Fregate",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Glacis",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Grand Anse Mahe",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Grande Soeur",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ile Aux Rat",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ile Aux Vaches",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ile Cocos",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ile du Sud",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ile la Fouche",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ilot Platte",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Islette",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "La Digue",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Les Mamelles",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Long Island",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Marianne",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Marie-Louise",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Mont Buxton",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Mont Fleuri",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Moyenne",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "North Island",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Petite Soeur",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Plaisance",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Platte",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Pointe Larue",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Poivre",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Port Glaud",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Praslin",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Providence",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Remire",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Roche Caiman",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Round Island",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Seche",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Silhouette",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "St Louis",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "St. Francois",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "St. Joseph Atoll",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "St. Pierre",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Ste Anne",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Takamaka",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Therese",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                },
+                {
+                    "adm1_name": "Coetivy",
+                    "adm2": [
+                        {
+                            "adm2_name": "Administrative unit not available"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
