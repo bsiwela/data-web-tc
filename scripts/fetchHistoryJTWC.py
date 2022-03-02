@@ -12,6 +12,7 @@ from io import StringIO
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from compactGeoJSON import densify
+from ncgzip2losses import calculateLosses
 import glob
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/arc_proj21/jtwc_history/'
@@ -27,6 +28,8 @@ def listFilesUrl(url, username, password, ext=''):
 
 def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
 
+    root_root = os.path.abspath(os.getcwd())
+
     dir_list = listFilesUrl(url, username, password, ext='/')[1:]
     adm_df = gpd.read_file(adm_file)
     mapping = pd.read_parquet(mapping_file)
@@ -36,7 +39,8 @@ def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
     ##################################
 
     dict_geojson = glob.glob(f'jtwc_history/**/**.geojson', recursive=True)
-    list_years = list(set([item.split('/')[1] for item in dict_geojson]))
+    dict_losses = glob.glob(f'jtwc_history/**/**_losses_adm.json', recursive=True)
+    list_years = list(set([item.split('/')[1] for item in dict_losses]))
 
     for year in range(2021, 1980, -1):
         if not (str(year) in list_years):
@@ -160,6 +164,12 @@ def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
 
                 geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
                 gdf.to_file(geojsonFilePath, driver='GeoJSON')
+
+            # running loss generation
+            calculateLosses(storm_file=filename, exp_file=os.path.join(root_root, 'arc_exposure.gzip'),
+                            adm_file=os.path.join(root_root, 'adm2_full_precision.json'),
+                            mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
+                            geojson=False)
 
             # removing nc file
             os.remove(filename)
