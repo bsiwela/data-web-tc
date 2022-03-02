@@ -98,6 +98,42 @@
         },
         {
             "bbox": [
+                68.6625,
+                -17.4208,
+                89.2708,
+                -7.0125
+            ],
+            "id": "SH012011",
+            "nc": "jtwc_history/2011/taostc_SH012011_BEST_SLOSH.geojson",
+            "storm_name": "ONE",
+            "year": "2011"
+        },
+        {
+            "bbox": [
+                54.1875,
+                -30.5125,
+                89.8875,
+                -9.7625
+            ],
+            "id": "SH182011",
+            "nc": "jtwc_history/2011/taostc_SH182011_BEST_SLOSH.geojson",
+            "storm_name": "CHERONO",
+            "year": "2011"
+        },
+        {
+            "bbox": [
+                42.3708,
+                -22.4292,
+                58.0,
+                -11.8208
+            ],
+            "id": "SH132011",
+            "nc": "jtwc_history/2011/taostc_SH132011_BEST_SLOSH.geojson",
+            "storm_name": "BINGIZA",
+            "year": "2011"
+        },
+        {
+            "bbox": [
                 34.7375,
                 -29.2458,
                 47.0625,
