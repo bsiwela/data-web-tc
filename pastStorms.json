@@ -410,6 +410,114 @@
         },
         {
             "bbox": [
+                46.1208,
+                -14.1625,
+                61.3208,
+                -6.8958
+            ],
+            "id": "SH022010",
+            "nc": "jtwc_history/2010/taostc_SH022010_BEST_SLOSH.geojson",
+            "storm_name": "BONGANI",
+            "year": "2010"
+        },
+        {
+            "bbox": [
+                62.2542,
+                -26.7542,
+                73.1958,
+                -9.4375
+            ],
+            "id": "SH012010",
+            "nc": "jtwc_history/2010/taostc_SH012010_BEST_SLOSH.geojson",
+            "storm_name": "ANJA",
+            "year": "2010"
+        },
+        {
+            "bbox": [
+                45.0542,
+                -23.3458,
+                53.1625,
+                -17.0208
+            ],
+            "id": "SH182010",
+            "nc": "jtwc_history/2010/taostc_SH182010_BEST_SLOSH.geojson",
+            "storm_name": "HUBERT",
+            "year": "2010"
+        },
+        {
+            "bbox": [
+                55.6542,
+                -35.9542,
+                69.6042,
+                -14.6125
+            ],
+            "id": "SH112010",
+            "nc": "jtwc_history/2010/taostc_SH112010_BEST_SLOSH.geojson",
+            "storm_name": "ELEVEN",
+            "year": "2010"
+        },
+        {
+            "bbox": [
+                40.1042,
+                -23.4958,
+                51.1458,
+                -17.2875
+            ],
+            "id": "SH132010",
+            "nc": "jtwc_history/2010/taostc_SH132010_BEST_SLOSH.geojson",
+            "storm_name": "FAMI",
+            "year": "2010"
+        },
+        {
+            "bbox": [
+                57.4625,
+                -24.2042,
+                65.4458,
+                -8.8875
+            ],
+            "id": "SH162010",
+            "nc": "jtwc_history/2010/taostc_SH162010_BEST_SLOSH.geojson",
+            "storm_name": "GELANE",
+            "year": "2010"
+        },
+        {
+            "bbox": [
+                59.0292,
+                -17.6792,
+                87.5792,
+                -5.3542
+            ],
+            "id": "SH052010",
+            "nc": "jtwc_history/2010/taostc_SH052010_BEST_SLOSH.geojson",
+            "storm_name": "DAVID",
+            "year": "2010"
+        },
+        {
+            "bbox": [
+                57.7042,
+                -21.9125,
+                91.1,
+                -8.1542
+            ],
+            "id": "SH032010",
+            "nc": "jtwc_history/2010/taostc_SH032010_BEST_SLOSH.geojson",
+            "storm_name": "CLEO",
+            "year": "2010"
+        },
+        {
+            "bbox": [
+                66.4958,
+                -38.0,
+                95.7,
+                -9.2
+            ],
+            "id": "SH072010",
+            "nc": "jtwc_history/2010/taostc_SH072010_BEST_SLOSH.geojson",
+            "storm_name": "EDZANI",
+            "year": "2010"
+        },
+        {
+            "bbox": [
                 71.9625,
                 -31.2625,
                 100.1875,
