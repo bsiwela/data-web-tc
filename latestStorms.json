@@ -11,18 +11,18 @@
             "SH152022"
         ],
         "windwater_shp": [
-            "SH142022",
             "SH172022",
+            "SH142022",
             "SH152022"
         ]
     },
     "mpres_data": [
         {
             "bbox": [
-                42.7375,
-                -20.6375,
-                67.1042,
-                -8.1542
+                43.9,
+                -19.5458,
+                64.7208,
+                -9.7958
             ],
             "id": "SH122022",
             "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH122022_losses_adm.json",
@@ -45,10 +45,10 @@
         },
         {
             "bbox": [
-                34.9875,
-                -37.9458,
+                36.3875,
+                -34.5542,
                 79.3,
-                -11.0625
+                -12.4208
             ],
             "id": "SH132022",
             "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132022_losses_adm.json",
@@ -58,9 +58,9 @@
         },
         {
             "bbox": [
-                36.2792,
-                -38.3125,
-                91.4292,
+                37.2208,
+                -31.4,
+                90.9,
                 -8.3
             ],
             "id": "SH082022",
