@@ -1,3 +1,4 @@
+import os
 import glob
 import json
 
@@ -29,6 +30,11 @@ for dir in dirs:
                     data = json.load(f)
                 dict_storms[dir][i]['storm_name'] = data['storm']['name']
                 dict_storms[dir][i]['bbox'] = data['bbox']
+                loss_file = f'{os.path.dirname(file)}/{storm_id}_losses_adm.json'
+                if os.path.exists(loss_file):
+                    dict_storms[dir][i]['losses'] = loss_file
+                else:
+                    dict_storms[dir][i]['losses'] = ''
             else:
                 dict_storms[dir][i]['shp'] = file
 
