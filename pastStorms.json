@@ -8,6 +8,7 @@
                 -15.1708
             ],
             "id": "SH132021",
+            "losses": "jtwc_history/2021/SH132021_losses_adm.json",
             "nc": "jtwc_history/2021/taostc_SH132021_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2021/SH132021_shp.geojson",
             "storm_name": "THIRTEEN",
@@ -21,6 +22,7 @@
                 -13.0208
             ],
             "id": "SH022021",
+            "losses": "jtwc_history/2021/SH022021_losses_adm.json",
             "nc": "jtwc_history/2021/taostc_SH022021_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2021/SH022021_shp.geojson",
             "storm_name": "BONGOYO",
@@ -34,6 +36,7 @@
                 -4.6292
             ],
             "id": "SH012021",
+            "losses": "jtwc_history/2021/SH012021_losses_adm.json",
             "nc": "jtwc_history/2021/taostc_SH012021_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2021/SH012021_shp.geojson",
             "storm_name": "ALICIA",
@@ -47,6 +50,7 @@
                 -17.4875
             ],
             "id": "SH212021",
+            "losses": "jtwc_history/2021/SH212021_losses_adm.json",
             "nc": "jtwc_history/2021/taostc_SH212021_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2021/SH212021_shp.geojson",
             "storm_name": "GUAMBE",
@@ -60,6 +64,7 @@
                 -13.0125
             ],
             "id": "SH072021",
+            "losses": "jtwc_history/2021/SH072021_losses_adm.json",
             "nc": "jtwc_history/2021/taostc_SH072021_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2021/SH072021_shp.geojson",
             "storm_name": "CHALANE",
@@ -73,6 +78,7 @@
                 -10.1625
             ],
             "id": "SH192021",
+            "losses": "jtwc_history/2021/SH192021_losses_adm.json",
             "nc": "jtwc_history/2021/taostc_SH192021_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2021/SH192021_shp.geojson",
             "storm_name": "FARAJI",
@@ -86,6 +92,7 @@
                 -8.2625
             ],
             "id": "SH082021",
+            "losses": "jtwc_history/2021/SH082021_losses_adm.json",
             "nc": "jtwc_history/2021/taostc_SH082021_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2021/SH082021_shp.geojson",
             "storm_name": "DANILO",
@@ -99,6 +106,7 @@
                 -10.5292
             ],
             "id": "SH122021",
+            "losses": "jtwc_history/2021/SH122021_losses_adm.json",
             "nc": "jtwc_history/2021/taostc_SH122021_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2021/SH122021_shp.geojson",
             "storm_name": "ELOISE",
@@ -112,6 +120,7 @@
                 -5.4292
             ],
             "id": "SH032007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH032007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH032007_shp.geojson",
             "storm_name": "ANITA",
@@ -125,6 +134,7 @@
                 -12.6958
             ],
             "id": "SH132007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH132007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH132007_shp.geojson",
             "storm_name": "ENOK",
@@ -138,6 +148,7 @@
                 -9.0792
             ],
             "id": "SH162007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH162007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH162007_shp.geojson",
             "storm_name": "HUMBA",
@@ -151,6 +162,7 @@
                 -7.3
             ],
             "id": "SH052007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH052007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH052007_shp.geojson",
             "storm_name": "BONDO",
@@ -164,6 +176,7 @@
                 -11.8542
             ],
             "id": "SH222007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH222007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH222007_shp.geojson",
             "storm_name": "JAYA",
@@ -177,6 +190,7 @@
                 -7.2292
             ],
             "id": "SH102007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH102007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH102007_shp.geojson",
             "storm_name": "DORA",
@@ -190,6 +204,7 @@
                 -12.5708
             ],
             "id": "SH152007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH152007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH152007_shp.geojson",
             "storm_name": "GAMEDE",
@@ -203,6 +218,7 @@
                 -10.6042
             ],
             "id": "SH192007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH192007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH192007_shp.geojson",
             "storm_name": "INDLALA",
@@ -216,6 +232,7 @@
                 -10.2
             ],
             "id": "SH142007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH142007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH142007_shp.geojson",
             "storm_name": "FAVIO",
@@ -229,6 +246,7 @@
                 -10.9625
             ],
             "id": "SH062007",
+            "losses": "",
             "nc": "jtwc_history/2007/taostc_SH062007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH062007_shp.geojson",
             "storm_name": "CLOVIS",
@@ -242,6 +260,7 @@
                 -7.0125
             ],
             "id": "SH012011",
+            "losses": "",
             "nc": "jtwc_history/2011/taostc_SH012011_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2011/SH012011_shp.geojson",
             "storm_name": "ONE",
@@ -255,6 +274,7 @@
                 -9.7625
             ],
             "id": "SH182011",
+            "losses": "",
             "nc": "jtwc_history/2011/taostc_SH182011_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2011/SH182011_shp.geojson",
             "storm_name": "CHERONO",
@@ -268,6 +288,7 @@
                 -11.8208
             ],
             "id": "SH132011",
+            "losses": "",
             "nc": "jtwc_history/2011/taostc_SH132011_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2011/SH132011_shp.geojson",
             "storm_name": "BINGIZA",
@@ -281,6 +302,7 @@
                 -9.7
             ],
             "id": "SH032014",
+            "losses": "jtwc_history/2014/SH032014_losses_adm.json",
             "nc": "jtwc_history/2014/taostc_SH032014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH032014_shp.geojson",
             "storm_name": "AMARA",
@@ -294,6 +316,7 @@
                 -13.3125
             ],
             "id": "SH092014",
+            "losses": "jtwc_history/2014/SH092014_losses_adm.json",
             "nc": "jtwc_history/2014/taostc_SH092014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH092014_shp.geojson",
             "storm_name": "DELIWE",
@@ -307,6 +330,7 @@
                 -10.9875
             ],
             "id": "SH212014",
+            "losses": "jtwc_history/2014/SH212014_losses_adm.json",
             "nc": "jtwc_history/2014/taostc_SH212014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH212014_shp.geojson",
             "storm_name": "HELLEN",
@@ -320,6 +344,7 @@
                 -9.9208
             ],
             "id": "SH142014",
+            "losses": "jtwc_history/2014/SH142014_losses_adm.json",
             "nc": "jtwc_history/2014/taostc_SH142014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH142014_shp.geojson",
             "storm_name": "FOBANE",
@@ -333,6 +358,7 @@
                 -15.9958
             ],
             "id": "SH152014",
+            "losses": "jtwc_history/2014/SH152014_losses_adm.json",
             "nc": "jtwc_history/2014/taostc_SH152014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH152014_shp.geojson",
             "storm_name": "GUITO",
@@ -346,6 +372,7 @@
                 -8.2625
             ],
             "id": "SH062014",
+            "losses": "jtwc_history/2014/SH062014_losses_adm.json",
             "nc": "jtwc_history/2014/taostc_SH062014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH062014_shp.geojson",
             "storm_name": "BEJISA",
@@ -359,6 +386,7 @@
                 -8.4292
             ],
             "id": "SH172014",
+            "losses": "",
             "nc": "jtwc_history/2014/taostc_SH172014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH172014_shp.geojson",
             "storm_name": "GILLIAN",
@@ -372,6 +400,7 @@
                 -13.7875
             ],
             "id": "SH132014",
+            "losses": "jtwc_history/2014/SH132014_losses_adm.json",
             "nc": "jtwc_history/2014/taostc_SH132014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH132014_shp.geojson",
             "storm_name": "EDILSON",
@@ -385,6 +414,7 @@
                 -7.1458
             ],
             "id": "SH012014",
+            "losses": "jtwc_history/2014/SH012014_losses_adm.json",
             "nc": "jtwc_history/2014/taostc_SH012014_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2014/SH012014_shp.geojson",
             "storm_name": "ONE",
@@ -398,6 +428,7 @@
                 -6.1125
             ],
             "id": "SH012017",
+            "losses": "jtwc_history/2017/SH012017_losses_adm.json",
             "nc": "jtwc_history/2017/taostc_SH012017_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2017/SH012017_shp.geojson",
             "storm_name": "ABELA",
@@ -411,6 +442,7 @@
                 -14.9292
             ],
             "id": "SH032017",
+            "losses": "",
             "nc": "jtwc_history/2017/taostc_SH032017_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2017/SH032017_shp.geojson",
             "storm_name": "THREE",
@@ -424,6 +456,7 @@
                 -11.8292
             ],
             "id": "SH112017",
+            "losses": "jtwc_history/2017/SH112017_losses_adm.json",
             "nc": "jtwc_history/2017/taostc_SH112017_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2017/SH112017_shp.geojson",
             "storm_name": "ELEVEN",
@@ -437,6 +470,7 @@
                 -18.6292
             ],
             "id": "SH052017",
+            "losses": "jtwc_history/2017/SH052017_losses_adm.json",
             "nc": "jtwc_history/2017/taostc_SH052017_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2017/SH052017_shp.geojson",
             "storm_name": "DINEO",
@@ -450,6 +484,7 @@
                 -10.4375
             ],
             "id": "SH092017",
+            "losses": "jtwc_history/2017/SH092017_losses_adm.json",
             "nc": "jtwc_history/2017/taostc_SH092017_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2017/SH092017_shp.geojson",
             "storm_name": "ENAWO",
@@ -463,6 +498,7 @@
                 -12.1875
             ],
             "id": "SH042017",
+            "losses": "jtwc_history/2017/SH042017_losses_adm.json",
             "nc": "jtwc_history/2017/taostc_SH042017_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2017/SH042017_shp.geojson",
             "storm_name": "CARLOS",
@@ -476,6 +512,7 @@
                 -8.9375
             ],
             "id": "SH092013",
+            "losses": "jtwc_history/2013/SH092013_losses_adm.json",
             "nc": "jtwc_history/2013/taostc_SH092013_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2013/SH092013_shp.geojson",
             "storm_name": "EMANG",
@@ -489,6 +526,7 @@
                 -7.4
             ],
             "id": "SH032013",
+            "losses": "jtwc_history/2013/SH032013_losses_adm.json",
             "nc": "jtwc_history/2013/taostc_SH032013_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2013/SH032013_shp.geojson",
             "storm_name": "CLAUDIA",
@@ -502,6 +540,7 @@
                 -5.8
             ],
             "id": "SH012013",
+            "losses": "jtwc_history/2013/SH012013_losses_adm.json",
             "nc": "jtwc_history/2013/taostc_SH012013_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2013/SH012013_shp.geojson",
             "storm_name": "ANAIS",
@@ -515,6 +554,7 @@
                 -14.8542
             ],
             "id": "SH162013",
+            "losses": "jtwc_history/2013/SH162013_losses_adm.json",
             "nc": "jtwc_history/2013/taostc_SH162013_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2013/SH162013_shp.geojson",
             "storm_name": "HARUNA",
@@ -528,6 +568,7 @@
                 -11.9042
             ],
             "id": "SH132013",
+            "losses": "jtwc_history/2013/SH132013_losses_adm.json",
             "nc": "jtwc_history/2013/taostc_SH132013_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2013/SH132013_shp.geojson",
             "storm_name": "FELLENG",
@@ -541,6 +582,7 @@
                 -8.4042
             ],
             "id": "SH022013",
+            "losses": "jtwc_history/2013/SH022013_losses_adm.json",
             "nc": "jtwc_history/2013/taostc_SH022013_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2013/SH022013_shp.geojson",
             "storm_name": "BOLDWIN",
@@ -554,6 +596,7 @@
                 -8.2125
             ],
             "id": "SH072013",
+            "losses": "jtwc_history/2013/SH072013_losses_adm.json",
             "nc": "jtwc_history/2013/taostc_SH072013_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2013/SH072013_shp.geojson",
             "storm_name": "DUMILE",
@@ -567,6 +610,7 @@
                 -7.1292
             ],
             "id": "SH212013",
+            "losses": "jtwc_history/2013/SH212013_losses_adm.json",
             "nc": "jtwc_history/2013/taostc_SH212013_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2013/SH212013_shp.geojson",
             "storm_name": "IMELDA",
@@ -580,6 +624,7 @@
                 -6.8958
             ],
             "id": "SH022010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH022010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH022010_shp.geojson",
             "storm_name": "BONGANI",
@@ -593,6 +638,7 @@
                 -9.4375
             ],
             "id": "SH012010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH012010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH012010_shp.geojson",
             "storm_name": "ANJA",
@@ -606,6 +652,7 @@
                 -17.0208
             ],
             "id": "SH182010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH182010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH182010_shp.geojson",
             "storm_name": "HUBERT",
@@ -619,6 +666,7 @@
                 -17.2875
             ],
             "id": "SH132010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH132010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH132010_shp.geojson",
             "storm_name": "FAMI",
@@ -632,6 +680,7 @@
                 -14.6125
             ],
             "id": "SH112010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH112010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH112010_shp.geojson",
             "storm_name": "ELEVEN",
@@ -645,6 +694,7 @@
                 -5.3542
             ],
             "id": "SH052010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH052010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH052010_shp.geojson",
             "storm_name": "DAVID",
@@ -658,6 +708,7 @@
                 -8.8875
             ],
             "id": "SH162010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH162010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH162010_shp.geojson",
             "storm_name": "GELANE",
@@ -671,6 +722,7 @@
                 -9.2
             ],
             "id": "SH072010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH072010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH072010_shp.geojson",
             "storm_name": "EDZANI",
@@ -684,6 +736,7 @@
                 -8.1542
             ],
             "id": "SH032010",
+            "losses": "",
             "nc": "jtwc_history/2010/taostc_SH032010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH032010_shp.geojson",
             "storm_name": "CLEO",
@@ -697,6 +750,7 @@
                 -8.4125
             ],
             "id": "SH052016",
+            "losses": "jtwc_history/2016/SH052016_losses_adm.json",
             "nc": "jtwc_history/2016/taostc_SH052016_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2016/SH052016_shp.geojson",
             "storm_name": "BOHALE",
@@ -710,6 +764,7 @@
                 -8.3042
             ],
             "id": "SH132016",
+            "losses": "jtwc_history/2016/SH132016_losses_adm.json",
             "nc": "jtwc_history/2016/taostc_SH132016_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2016/SH132016_shp.geojson",
             "storm_name": "URIAH",
@@ -723,6 +778,7 @@
                 -4.5125
             ],
             "id": "SH032016",
+            "losses": "jtwc_history/2016/SH032016_losses_adm.json",
             "nc": "jtwc_history/2016/taostc_SH032016_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2016/SH032016_shp.geojson",
             "storm_name": "ANNABELLE",
@@ -736,6 +792,7 @@
                 -6.9958
             ],
             "id": "SH192016",
+            "losses": "jtwc_history/2016/SH192016_losses_adm.json",
             "nc": "jtwc_history/2016/taostc_SH192016_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2016/SH192016_shp.geojson",
             "storm_name": "FANTALA",
@@ -749,6 +806,7 @@
                 -14.9542
             ],
             "id": "SH102016",
+            "losses": "jtwc_history/2016/SH102016_losses_adm.json",
             "nc": "jtwc_history/2016/taostc_SH102016_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2016/SH102016_shp.geojson",
             "storm_name": "DAYA",
@@ -762,6 +820,7 @@
                 -7.8958
             ],
             "id": "SH221980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH221980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH221980_shp.geojson",
             "storm_name": "NONAME",
@@ -775,6 +834,7 @@
                 -11.8375
             ],
             "id": "SH081980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH081980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH081980_shp.geojson",
             "storm_name": "NONAME",
@@ -788,6 +848,7 @@
                 -14.4792
             ],
             "id": "SH031980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH031980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH031980_shp.geojson",
             "storm_name": "NONAME",
@@ -801,6 +862,7 @@
                 -5.9458
             ],
             "id": "SH011980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH011980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH011980_shp.geojson",
             "storm_name": "NONAME",
@@ -814,6 +876,7 @@
                 -8.9792
             ],
             "id": "SH041980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH041980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH041980_shp.geojson",
             "storm_name": "NONAME",
@@ -827,6 +890,7 @@
                 -9.4792
             ],
             "id": "SH191980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH191980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH191980_shp.geojson",
             "storm_name": "NONAME",
@@ -840,6 +904,7 @@
                 -6.3292
             ],
             "id": "SH021980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH021980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH021980_shp.geojson",
             "storm_name": "NONAME",
@@ -853,6 +918,7 @@
                 -8.3292
             ],
             "id": "SH181980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH181980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH181980_shp.geojson",
             "storm_name": "NONAME",
@@ -866,6 +932,7 @@
                 -12.1625
             ],
             "id": "SH121980",
+            "losses": "",
             "nc": "jtwc_history/1980/taostc_SH121980_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1980/SH121980_shp.geojson",
             "storm_name": "NONAME",
@@ -879,6 +946,7 @@
                 -15.5542
             ],
             "id": "SH221981",
+            "losses": "",
             "nc": "jtwc_history/1981/taostc_SH221981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH221981_shp.geojson",
             "storm_name": "NONAME",
@@ -892,6 +960,7 @@
                 -9.8125
             ],
             "id": "SH081981",
+            "losses": "",
             "nc": "jtwc_history/1981/taostc_SH081981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH081981_shp.geojson",
             "storm_name": "NONAME",
@@ -905,6 +974,7 @@
                 -9.5125
             ],
             "id": "SH131981",
+            "losses": "",
             "nc": "jtwc_history/1981/taostc_SH131981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH131981_shp.geojson",
             "storm_name": "NONAME",
@@ -918,6 +988,7 @@
                 -4.4125
             ],
             "id": "SH261981",
+            "losses": "",
             "nc": "jtwc_history/1981/taostc_SH261981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH261981_shp.geojson",
             "storm_name": "NONAME",
@@ -931,6 +1002,7 @@
                 -12.1042
             ],
             "id": "SH281981",
+            "losses": "",
             "nc": "jtwc_history/1981/taostc_SH281981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH281981_shp.geojson",
             "storm_name": "NONAME",
@@ -944,6 +1016,7 @@
                 -10.0542
             ],
             "id": "SH171981",
+            "losses": "",
             "nc": "jtwc_history/1981/taostc_SH171981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH171981_shp.geojson",
             "storm_name": "NONAME",
@@ -957,6 +1030,7 @@
                 -11.8042
             ],
             "id": "SH252008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH252008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH252008_shp.geojson",
             "storm_name": "LOLA",
@@ -970,6 +1044,7 @@
                 -15.6625
             ],
             "id": "SH092008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH092008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH092008_shp.geojson",
             "storm_name": "ELNUS",
@@ -983,6 +1058,7 @@
                 -8.8208
             ],
             "id": "SH142008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH142008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH142008_shp.geojson",
             "storm_name": "GULA",
@@ -996,6 +1072,7 @@
                 -10.2
             ],
             "id": "SH182008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH182008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH182008_shp.geojson",
             "storm_name": "IVAN",
@@ -1009,6 +1086,7 @@
                 -4.0125
             ],
             "id": "SH042008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH042008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH042008_shp.geojson",
             "storm_name": "BONGWE",
@@ -1022,6 +1100,7 @@
                 -10.0
             ],
             "id": "SH222008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH222008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH222008_shp.geojson",
             "storm_name": "JOKWE",
@@ -1035,6 +1114,7 @@
                 -10.5625
             ],
             "id": "SH162008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH162008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH162008_shp.geojson",
             "storm_name": "HONDO",
@@ -1048,6 +1128,7 @@
                 -11.0958
             ],
             "id": "SH062008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH062008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH062008_shp.geojson",
             "storm_name": "CELINA",
@@ -1061,6 +1142,7 @@
                 -11.5042
             ],
             "id": "SH132008",
+            "losses": "",
             "nc": "jtwc_history/2008/taostc_SH132008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH132008_shp.geojson",
             "storm_name": "FAME",
@@ -1074,6 +1156,7 @@
                 -9.4542
             ],
             "id": "SH162009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH162009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH162009_shp.geojson",
             "storm_name": "HINA",
@@ -1087,6 +1170,7 @@
                 -12.0375
             ],
             "id": "SH062009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH062009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH062009_shp.geojson",
             "storm_name": "DONGO",
@@ -1100,6 +1184,7 @@
                 -16.8958
             ],
             "id": "SH242009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH242009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH242009_shp.geojson",
             "storm_name": "IZILDA",
@@ -1113,6 +1198,7 @@
                 -7.7958
             ],
             "id": "SH042009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH042009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH042009_shp.geojson",
             "storm_name": "CINDA",
@@ -1126,6 +1212,7 @@
                 -10.9542
             ],
             "id": "SH222009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH222009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH222009_shp.geojson",
             "storm_name": "ILSA",
@@ -1139,6 +1226,7 @@
                 -13.2208
             ],
             "id": "SH142009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH142009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH142009_shp.geojson",
             "storm_name": "FREDDY",
@@ -1152,6 +1240,7 @@
                 -12.4
             ],
             "id": "SH052009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH052009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH052009_shp.geojson",
             "storm_name": "BILLY",
@@ -1165,6 +1254,7 @@
                 -3.5458
             ],
             "id": "SH012009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH012009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH012009_shp.geojson",
             "storm_name": "ASMA",
@@ -1178,6 +1268,7 @@
                 -14.7
             ],
             "id": "SH132009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH132009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH132009_shp.geojson",
             "storm_name": "GAEL",
@@ -1191,6 +1282,7 @@
                 -9.7042
             ],
             "id": "SH262009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH262009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH262009_shp.geojson",
             "storm_name": "JADE",
@@ -1204,6 +1296,7 @@
                 -17.1375
             ],
             "id": "SH092009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH092009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH092009_shp.geojson",
             "storm_name": "FANELE",
@@ -1217,6 +1310,7 @@
                 -13.7458
             ],
             "id": "SH082009",
+            "losses": "",
             "nc": "jtwc_history/2009/taostc_SH082009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH082009_shp.geojson",
             "storm_name": "ERIC",
@@ -1230,6 +1324,7 @@
                 -10.7542
             ],
             "id": "SH112018",
+            "losses": "jtwc_history/2018/SH112018_losses_adm.json",
             "nc": "jtwc_history/2018/taostc_SH112018_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2018/SH112018_shp.geojson",
             "storm_name": "DUMAZILE",
@@ -1243,6 +1338,7 @@
                 -10.1875
             ],
             "id": "SH142018",
+            "losses": "jtwc_history/2018/SH142018_losses_adm.json",
             "nc": "jtwc_history/2018/taostc_SH142018_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2018/SH142018_shp.geojson",
             "storm_name": "ELIAKIM",
@@ -1256,6 +1352,7 @@
                 -7.2875
             ],
             "id": "SH202018",
+            "losses": "jtwc_history/2018/SH202018_losses_adm.json",
             "nc": "jtwc_history/2018/taostc_SH202018_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2018/SH202018_shp.geojson",
             "storm_name": "FAKIR",
@@ -1269,6 +1366,7 @@
                 -8.8375
             ],
             "id": "SH042018",
+            "losses": "jtwc_history/2018/SH042018_losses_adm.json",
             "nc": "jtwc_history/2018/taostc_SH042018_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2018/SH042018_shp.geojson",
             "storm_name": "IRVING",
@@ -1282,6 +1380,7 @@
                 -10.7875
             ],
             "id": "SH032018",
+            "losses": "jtwc_history/2018/SH032018_losses_adm.json",
             "nc": "jtwc_history/2018/taostc_SH032018_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2018/SH032018_shp.geojson",
             "storm_name": "AVA",
@@ -1295,6 +1394,7 @@
                 -13.0042
             ],
             "id": "SH062018",
+            "losses": "jtwc_history/2018/SH062018_losses_adm.json",
             "nc": "jtwc_history/2018/taostc_SH062018_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2018/SH062018_shp.geojson",
             "storm_name": "BERGUITTA",
@@ -1308,6 +1408,7 @@
                 -7.6542
             ],
             "id": "SH072018",
+            "losses": "jtwc_history/2018/SH072018_losses_adm.json",
             "nc": "jtwc_history/2018/taostc_SH072018_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2018/SH072018_shp.geojson",
             "storm_name": "CEBILE",
@@ -1321,6 +1422,7 @@
                 -8.8875
             ],
             "id": "SH042012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH042012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH042012_shp.geojson",
             "storm_name": "BENILDE",
@@ -1334,6 +1436,7 @@
                 -9.5125
             ],
             "id": "SH152012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH152012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH152012_shp.geojson",
             "storm_name": "FIFTEEN",
@@ -1347,6 +1450,7 @@
                 -9.9208
             ],
             "id": "SH022012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH022012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH022012_shp.geojson",
             "storm_name": "TWO",
@@ -1360,6 +1464,7 @@
                 -9.5375
             ],
             "id": "SH132012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH132012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH132012_shp.geojson",
             "storm_name": "HILWA",
@@ -1373,6 +1478,7 @@
                 -13.8958
             ],
             "id": "SH082012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH082012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH082012_shp.geojson",
             "storm_name": "FUNSO",
@@ -1386,6 +1492,7 @@
                 -11.7958
             ],
             "id": "SH072012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH072012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH072012_shp.geojson",
             "storm_name": "ETHEL",
@@ -1399,6 +1506,7 @@
                 -5.4125
             ],
             "id": "SH202012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH202012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH202012_shp.geojson",
             "storm_name": "KUENA",
@@ -1412,6 +1520,7 @@
                 -13.0375
             ],
             "id": "SH122012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH122012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH122012_shp.geojson",
             "storm_name": "GIOVANNA",
@@ -1425,6 +1534,7 @@
                 -15.4125
             ],
             "id": "SH052012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH052012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH052012_shp.geojson",
             "storm_name": "CHANDA",
@@ -1438,6 +1548,7 @@
                 -11.5375
             ],
             "id": "SH142012",
+            "losses": "",
             "nc": "jtwc_history/2012/taostc_SH142012_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2012/SH142012_shp.geojson",
             "storm_name": "IRINA",
@@ -1451,6 +1562,7 @@
                 -7.5375
             ],
             "id": "SH012019",
+            "losses": "jtwc_history/2019/SH012019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH012019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH012019_shp.geojson",
             "storm_name": "ONE",
@@ -1464,6 +1576,7 @@
                 -13.9125
             ],
             "id": "SH102019",
+            "losses": "jtwc_history/2019/SH102019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH102019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH102019_shp.geojson",
             "storm_name": "DESMOND",
@@ -1477,6 +1590,7 @@
                 -9.9125
             ],
             "id": "SH172019",
+            "losses": "jtwc_history/2019/SH172019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH172019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH172019_shp.geojson",
             "storm_name": "HALEH",
@@ -1490,6 +1604,7 @@
                 -13.3208
             ],
             "id": "SH072019",
+            "losses": "jtwc_history/2019/SH072019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH072019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH072019_shp.geojson",
             "storm_name": "CILIDA",
@@ -1503,6 +1618,7 @@
                 -8.6708
             ],
             "id": "SH242019",
+            "losses": "jtwc_history/2019/SH242019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH242019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH242019_shp.geojson",
             "storm_name": "KENNETH",
@@ -1516,6 +1632,7 @@
                 -9.0542
             ],
             "id": "SH132019",
+            "losses": "jtwc_history/2019/SH132019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH132019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH132019_shp.geojson",
             "storm_name": "GELENA",
@@ -1529,6 +1646,7 @@
                 -12.4958
             ],
             "id": "SH222019",
+            "losses": "jtwc_history/2019/SH222019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH222019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH222019_shp.geojson",
             "storm_name": "JOANINHA",
@@ -1542,6 +1660,7 @@
                 -7.3625
             ],
             "id": "SH032019",
+            "losses": "jtwc_history/2019/SH032019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH032019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH032019_shp.geojson",
             "storm_name": "ALCIDE",
@@ -1555,6 +1674,7 @@
                 -14.1458
             ],
             "id": "SH182019",
+            "losses": "jtwc_history/2019/SH182019_losses_adm.json",
             "nc": "jtwc_history/2019/taostc_SH182019_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2019/SH182019_shp.geojson",
             "storm_name": "IDAI",
@@ -1568,6 +1688,7 @@
                 -12.9292
             ],
             "id": "SH052015",
+            "losses": "jtwc_history/2015/SH052015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH052015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH052015_shp.geojson",
             "storm_name": "BANSI",
@@ -1581,6 +1702,7 @@
                 -8.0125
             ],
             "id": "SH022015",
+            "losses": "jtwc_history/2015/SH022015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH022015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH022015_shp.geojson",
             "storm_name": "TWO",
@@ -1594,6 +1716,7 @@
                 -16.5792
             ],
             "id": "SH062015",
+            "losses": "jtwc_history/2015/SH062015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH062015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH062015_shp.geojson",
             "storm_name": "CHEDZA",
@@ -1607,6 +1730,7 @@
                 -19.1042
             ],
             "id": "SH112015",
+            "losses": "jtwc_history/2015/SH112015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH112015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH112015_shp.geojson",
             "storm_name": "FUNDI",
@@ -1620,6 +1744,7 @@
                 -11.9208
             ],
             "id": "SH152015",
+            "losses": "jtwc_history/2015/SH152015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH152015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH152015_shp.geojson",
             "storm_name": "FIFTEEN",
@@ -1633,6 +1758,7 @@
                 -4.5958
             ],
             "id": "SH012015",
+            "losses": "jtwc_history/2015/SH012015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH012015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH012015_shp.geojson",
             "storm_name": "ADJALI",
@@ -1646,6 +1772,7 @@
                 -11.3208
             ],
             "id": "SH142015",
+            "losses": "jtwc_history/2015/SH142015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH142015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH142015_shp.geojson",
             "storm_name": "GLENDA",
@@ -1659,6 +1786,7 @@
                 -10.5875
             ],
             "id": "SH222015",
+            "losses": "jtwc_history/2015/SH222015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH222015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH222015_shp.geojson",
             "storm_name": "JOALANE",
@@ -1672,6 +1800,7 @@
                 -9.4792
             ],
             "id": "SH042015",
+            "losses": "",
             "nc": "jtwc_history/2015/taostc_SH042015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH042015_shp.geojson",
             "storm_name": "KATE",
@@ -1685,6 +1814,7 @@
                 -15.1125
             ],
             "id": "SH162015",
+            "losses": "jtwc_history/2015/SH162015_losses_adm.json",
             "nc": "jtwc_history/2015/taostc_SH162015_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2015/SH162015_shp.geojson",
             "storm_name": "HALIBA",
@@ -1698,6 +1828,7 @@
                 -20.9542
             ],
             "id": "SH052020",
+            "losses": "jtwc_history/2020/SH052020_losses_adm.json",
             "nc": "jtwc_history/2020/taostc_SH052020_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2020/SH052020_shp.geojson",
             "storm_name": "CALVINIA",
@@ -1711,6 +1842,7 @@
                 -16.4042
             ],
             "id": "SH132020",
+            "losses": "jtwc_history/2020/SH132020_losses_adm.json",
             "nc": "jtwc_history/2020/taostc_SH132020_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2020/SH132020_shp.geojson",
             "storm_name": "FRANCISCO",
@@ -1724,6 +1856,7 @@
                 -17.2958
             ],
             "id": "SH102020",
+            "losses": "jtwc_history/2020/SH102020_losses_adm.json",
             "nc": "jtwc_history/2020/taostc_SH102020_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2020/SH102020_shp.geojson",
             "storm_name": "DIANE",
@@ -1737,6 +1870,7 @@
                 -12.5625
             ],
             "id": "SH222020",
+            "losses": "jtwc_history/2020/SH222020_losses_adm.json",
             "nc": "jtwc_history/2020/taostc_SH222020_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2020/SH222020_shp.geojson",
             "storm_name": "HEROLD",
@@ -1750,6 +1884,7 @@
                 -4.7125
             ],
             "id": "SH022020",
+            "losses": "jtwc_history/2020/SH022020_losses_adm.json",
             "nc": "jtwc_history/2020/taostc_SH022020_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2020/SH022020_shp.geojson",
             "storm_name": "BELNA",
@@ -1763,6 +1898,7 @@
                 -7.2375
             ],
             "id": "SH032020",
+            "losses": "jtwc_history/2020/SH032020_losses_adm.json",
             "nc": "jtwc_history/2020/taostc_SH032020_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2020/SH032020_shp.geojson",
             "storm_name": "AMBALI",
@@ -1776,6 +1912,7 @@
                 -14.6
             ],
             "id": "SH092006",
+            "losses": "",
             "nc": "jtwc_history/2006/taostc_SH092006_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2006/SH092006_shp.geojson",
             "storm_name": "BOLOETSE",
@@ -1789,6 +1926,7 @@
                 -11.5708
             ],
             "id": "SH162006",
+            "losses": "",
             "nc": "jtwc_history/2006/taostc_SH162006_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2006/SH162006_shp.geojson",
             "storm_name": "DIWA",
@@ -1802,6 +1940,7 @@
                 -5.8542
             ],
             "id": "SH042006",
+            "losses": "",
             "nc": "jtwc_history/2006/taostc_SH042006_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2006/SH042006_shp.geojson",
             "storm_name": "NONAME",
@@ -1815,6 +1954,7 @@
                 -13.4292
             ],
             "id": "SH122006",
+            "losses": "",
             "nc": "jtwc_history/2006/taostc_SH122006_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2006/SH122006_shp.geojson",
             "storm_name": "NONAME",
