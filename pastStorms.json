@@ -1130,6 +1130,30 @@
         },
         {
             "bbox": [
+                46.0958,
+                -38.7208,
+                69.9375,
+                -10.7542
+            ],
+            "id": "SH112018",
+            "nc": "jtwc_history/2018/taostc_SH112018_BEST_SLOSH.geojson",
+            "storm_name": "DUMAZILE",
+            "year": "2018"
+        },
+        {
+            "bbox": [
+                49.7792,
+                -29.6292,
+                64.9125,
+                -7.2875
+            ],
+            "id": "SH202018",
+            "nc": "jtwc_history/2018/taostc_SH202018_BEST_SLOSH.geojson",
+            "storm_name": "FAKIR",
+            "year": "2018"
+        },
+        {
+            "bbox": [
                 63.0458,
                 -43.1375,
                 96.8625,
@@ -1162,6 +1186,30 @@
             "id": "SH062018",
             "nc": "jtwc_history/2018/taostc_SH062018_BEST_SLOSH.geojson",
             "storm_name": "BERGUITTA",
+            "year": "2018"
+        },
+        {
+            "bbox": [
+                43.6292,
+                -38.7208,
+                64.6625,
+                -10.1875
+            ],
+            "id": "SH142018",
+            "nc": "jtwc_history/2018/taostc_SH142018_BEST_SLOSH.geojson",
+            "storm_name": "ELIAKIM",
+            "year": "2018"
+        },
+        {
+            "bbox": [
+                71.0,
+                -32.3958,
+                88.6792,
+                -7.6542
+            ],
+            "id": "SH072018",
+            "nc": "jtwc_history/2018/taostc_SH072018_BEST_SLOSH.geojson",
+            "storm_name": "CEBILE",
             "year": "2018"
         },
         {
