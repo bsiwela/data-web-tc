@@ -26,6 +26,18 @@
         },
         {
             "bbox": [
+                48.3708,
+                -22.4458,
+                61.2208,
+                -13.4292
+            ],
+            "id": "shp.geojson",
+            "nc": "jtwc_history/2006/SH122006_shp.geojson",
+            "storm_name": "NONAME",
+            "year": "2021"
+        },
+        {
+            "bbox": [
                 32.1958,
                 -22.3708,
                 59.1708,

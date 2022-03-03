@@ -5,110 +5,6 @@
             "adm0_name": "Mozambique",
             "adm1": [
                 {
-                    "adm1_code": 2113,
-                    "adm1_name": "Gaza",
-                    "adm2": [
-                        {
-                            "adm2_code": 21849,
-                            "adm2_name": "Bilene",
-                            "loss": {
-                                "2017": 7924,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 21850,
-                            "adm2_name": "Chibuto",
-                            "loss": {
-                                "2017": 667922,
-                                "2021": 18
-                            }
-                        },
-                        {
-                            "adm2_code": 21851,
-                            "adm2_name": "Chicualacuala",
-                            "loss": {
-                                "2017": 3787
-                            }
-                        },
-                        {
-                            "adm2_code": 21852,
-                            "adm2_name": "Chigubo",
-                            "loss": {
-                                "2017": 285664,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 21853,
-                            "adm2_name": "Chokwe",
-                            "loss": {
-                                "2017": 24519,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 65248,
-                            "adm2_name": "Cidade de Xai-Xai",
-                            "loss": {
-                                "2017": 2582,
-                                "2021": 2
-                            }
-                        },
-                        {
-                            "adm2_code": 21854,
-                            "adm2_name": "Guija",
-                            "loss": {
-                                "2017": 80372,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 21855,
-                            "adm2_name": "Mabalane",
-                            "loss": {
-                                "2017": 67192
-                            }
-                        },
-                        {
-                            "adm2_code": 21856,
-                            "adm2_name": "Mandlakazi",
-                            "loss": {
-                                "2017": 578018,
-                                "2021": 919
-                            }
-                        },
-                        {
-                            "adm2_code": 21857,
-                            "adm2_name": "Massangena",
-                            "loss": {
-                                "2017": 15,
-                                "2019": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 21858,
-                            "adm2_name": "Massingir",
-                            "loss": {
-                                "2017": 2239
-                            }
-                        },
-                        {
-                            "adm2_code": 21859,
-                            "adm2_name": "Xai-Xai",
-                            "loss": {
-                                "2017": 22570,
-                                "2021": 30
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2017": 1742804,
-                        "2019": 0,
-                        "2021": 969
-                    }
-                },
-                {
                     "adm1_code": 2114,
                     "adm1_name": "Inhambane",
                     "adm2": [
@@ -176,15 +72,6 @@
                             }
                         },
                         {
-                            "adm2_code": 21866,
-                            "adm2_name": "Mabote",
-                            "loss": {
-                                "2017": 12789,
-                                "2019": 215,
-                                "2021": 0
-                            }
-                        },
-                        {
                             "adm2_code": 21867,
                             "adm2_name": "Massinga",
                             "loss": {
@@ -237,170 +124,21 @@
                                 "2019": 0,
                                 "2021": 17779
                             }
+                        },
+                        {
+                            "adm2_code": 21866,
+                            "adm2_name": "Mabote",
+                            "loss": {
+                                "2017": 12789,
+                                "2019": 215,
+                                "2021": 0
+                            }
                         }
                     ],
                     "loss": {
                         "2017": 56461564,
                         "2019": 46964,
                         "2021": 275454
-                    }
-                },
-                {
-                    "adm1_code": 2115,
-                    "adm1_name": "Manica",
-                    "adm2": [
-                        {
-                            "adm2_code": 21875,
-                            "adm2_name": "Machaze",
-                            "loss": {
-                                "2017": 0,
-                                "2019": 2495
-                            }
-                        },
-                        {
-                            "adm2_code": 21873,
-                            "adm2_name": "Gondola",
-                            "loss": {
-                                "2019": 306251,
-                                "2021": 95
-                            }
-                        },
-                        {
-                            "adm2_code": 21879,
-                            "adm2_name": "Sussundenga",
-                            "loss": {
-                                "2019": 58967,
-                                "2021": 2
-                            }
-                        },
-                        {
-                            "adm2_code": 21872,
-                            "adm2_name": "Barue",
-                            "loss": {
-                                "2019": 25
-                            }
-                        },
-                        {
-                            "adm2_code": 65251,
-                            "adm2_name": "Cidade de Chimoio",
-                            "loss": {
-                                "2019": 9483
-                            }
-                        },
-                        {
-                            "adm2_code": 21876,
-                            "adm2_name": "Macossa",
-                            "loss": {
-                                "2019": 123
-                            }
-                        },
-                        {
-                            "adm2_code": 21877,
-                            "adm2_name": "Manica",
-                            "loss": {
-                                "2019": 2678
-                            }
-                        },
-                        {
-                            "adm2_code": 21878,
-                            "adm2_name": "Mossurize",
-                            "loss": {
-                                "2019": 1913
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2017": 0,
-                        "2019": 381935,
-                        "2021": 97
-                    }
-                },
-                {
-                    "adm1_code": 2116,
-                    "adm1_name": "Maputo",
-                    "adm2": [
-                        {
-                            "adm2_code": 21883,
-                            "adm2_name": "Magude",
-                            "loss": {
-                                "2017": 919
-                            }
-                        },
-                        {
-                            "adm2_code": 21884,
-                            "adm2_name": "Manhica",
-                            "loss": {
-                                "2017": 422
-                            }
-                        },
-                        {
-                            "adm2_code": 21885,
-                            "adm2_name": "Marracuene",
-                            "loss": {
-                                "2017": 16
-                            }
-                        },
-                        {
-                            "adm2_code": 21886,
-                            "adm2_name": "Matutuine",
-                            "loss": {
-                                "2017": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 21887,
-                            "adm2_name": "Moamba",
-                            "loss": {
-                                "2017": 1
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2017": 1358
-                    }
-                },
-                {
-                    "adm1_code": 2117,
-                    "adm1_name": "Maputo (city)",
-                    "adm2": [
-                        {
-                            "adm2_code": 65254,
-                            "adm2_name": "Distrito Municipal 1",
-                            "loss": {
-                                "2017": 626
-                            }
-                        },
-                        {
-                            "adm2_code": 65255,
-                            "adm2_name": "Distrito Municipal 2",
-                            "loss": {
-                                "2017": 171
-                            }
-                        },
-                        {
-                            "adm2_code": 65256,
-                            "adm2_name": "Distrito Municipal 3",
-                            "loss": {
-                                "2017": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 65257,
-                            "adm2_name": "Distrito Municipal 4",
-                            "loss": {
-                                "2017": 52
-                            }
-                        },
-                        {
-                            "adm2_code": 65258,
-                            "adm2_name": "Distrito Municipal 5",
-                            "loss": {
-                                "2017": 7
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2017": 856
                     }
                 },
                 {
@@ -411,6 +149,7 @@
                             "adm2_code": 21889,
                             "adm2_name": "Angoche",
                             "loss": {
+                                "2013": 0,
                                 "2014": 0,
                                 "2019": 96
                             }
@@ -529,148 +268,9 @@
                         }
                     ],
                     "loss": {
+                        "2013": 0,
                         "2014": 0,
                         "2019": 170038
-                    }
-                },
-                {
-                    "adm1_code": 2112,
-                    "adm1_name": "Cabo Delgado",
-                    "adm2": [
-                        {
-                            "adm2_code": 21833,
-                            "adm2_name": "Ancuabe",
-                            "loss": {
-                                "2014": 0,
-                                "2019": 4115774
-                            }
-                        },
-                        {
-                            "adm2_code": 65247,
-                            "adm2_name": "Cidade de Pemba",
-                            "loss": {
-                                "2014": 3,
-                                "2019": 2590818
-                            }
-                        },
-                        {
-                            "adm2_code": 21836,
-                            "adm2_name": "Ibo",
-                            "loss": {
-                                "2014": 4,
-                                "2019": 13995267
-                            }
-                        },
-                        {
-                            "adm2_code": 21837,
-                            "adm2_name": "Macomia",
-                            "loss": {
-                                "2014": 4,
-                                "2019": 32673206
-                            }
-                        },
-                        {
-                            "adm2_code": 21838,
-                            "adm2_name": "Mecufi",
-                            "loss": {
-                                "2014": 2,
-                                "2019": 1080671
-                            }
-                        },
-                        {
-                            "adm2_code": 21839,
-                            "adm2_name": "Meluco",
-                            "loss": {
-                                "2014": 0,
-                                "2019": 5173754
-                            }
-                        },
-                        {
-                            "adm2_code": 21840,
-                            "adm2_name": "Mocimboa da Praia",
-                            "loss": {
-                                "2014": 0,
-                                "2019": 1604823
-                            }
-                        },
-                        {
-                            "adm2_code": 21842,
-                            "adm2_name": "Mueda",
-                            "loss": {
-                                "2014": 0,
-                                "2019": 416555
-                            }
-                        },
-                        {
-                            "adm2_code": 21843,
-                            "adm2_name": "Muidumbe",
-                            "loss": {
-                                "2014": 0,
-                                "2019": 2769229
-                            }
-                        },
-                        {
-                            "adm2_code": 21847,
-                            "adm2_name": "Pemba",
-                            "loss": {
-                                "2014": 3,
-                                "2019": 5872181
-                            }
-                        },
-                        {
-                            "adm2_code": 21848,
-                            "adm2_name": "Quissanga",
-                            "loss": {
-                                "2014": 2,
-                                "2019": 20519283
-                            }
-                        },
-                        {
-                            "adm2_code": 21834,
-                            "adm2_name": "Balama",
-                            "loss": {
-                                "2019": 67800
-                            }
-                        },
-                        {
-                            "adm2_code": 21835,
-                            "adm2_name": "Chiure",
-                            "loss": {
-                                "2019": 1019571
-                            }
-                        },
-                        {
-                            "adm2_code": 21841,
-                            "adm2_name": "Montepuez",
-                            "loss": {
-                                "2019": 1475169
-                            }
-                        },
-                        {
-                            "adm2_code": 21844,
-                            "adm2_name": "Namuno",
-                            "loss": {
-                                "2019": 157445
-                            }
-                        },
-                        {
-                            "adm2_code": 21845,
-                            "adm2_name": "Nangade",
-                            "loss": {
-                                "2019": 33846
-                            }
-                        },
-                        {
-                            "adm2_code": 21846,
-                            "adm2_name": "Palma",
-                            "loss": {
-                                "2019": 12153
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 19,
-                        "2019": 93577544
                     }
                 },
                 {
@@ -686,19 +286,18 @@
                             }
                         },
                         {
+                            "adm2_code": 21923,
+                            "adm2_name": "Caia",
+                            "loss": {
+                                "2019": 334
+                            }
+                        },
+                        {
                             "adm2_code": 21925,
                             "adm2_name": "Cheringoma",
                             "loss": {
                                 "2019": 246298,
                                 "2021": 2733
-                            }
-                        },
-                        {
-                            "adm2_code": 21926,
-                            "adm2_name": "Chibabava",
-                            "loss": {
-                                "2019": 357260,
-                                "2021": 19
                             }
                         },
                         {
@@ -718,22 +317,6 @@
                             }
                         },
                         {
-                            "adm2_code": 21928,
-                            "adm2_name": "Gorongoza",
-                            "loss": {
-                                "2019": 282718,
-                                "2021": 52
-                            }
-                        },
-                        {
-                            "adm2_code": 21929,
-                            "adm2_name": "Machanga",
-                            "loss": {
-                                "2019": 300445,
-                                "2021": 130
-                            }
-                        },
-                        {
                             "adm2_code": 21931,
                             "adm2_name": "Marromeu",
                             "loss": {
@@ -750,21 +333,6 @@
                             }
                         },
                         {
-                            "adm2_code": 21933,
-                            "adm2_name": "Nhamatanda",
-                            "loss": {
-                                "2019": 18030148,
-                                "2021": 25876
-                            }
-                        },
-                        {
-                            "adm2_code": 21923,
-                            "adm2_name": "Caia",
-                            "loss": {
-                                "2019": 334
-                            }
-                        },
-                        {
                             "adm2_code": 21924,
                             "adm2_name": "Chemba",
                             "loss": {
@@ -772,10 +340,42 @@
                             }
                         },
                         {
+                            "adm2_code": 21926,
+                            "adm2_name": "Chibabava",
+                            "loss": {
+                                "2019": 357260,
+                                "2021": 19
+                            }
+                        },
+                        {
+                            "adm2_code": 21928,
+                            "adm2_name": "Gorongoza",
+                            "loss": {
+                                "2019": 282718,
+                                "2021": 52
+                            }
+                        },
+                        {
+                            "adm2_code": 21929,
+                            "adm2_name": "Machanga",
+                            "loss": {
+                                "2019": 300445,
+                                "2021": 130
+                            }
+                        },
+                        {
                             "adm2_code": 21930,
                             "adm2_name": "Maringue",
                             "loss": {
                                 "2019": 816
+                            }
+                        },
+                        {
+                            "adm2_code": 21933,
+                            "adm2_name": "Nhamatanda",
+                            "loss": {
+                                "2019": 18030148,
+                                "2021": 25876
                             }
                         }
                     ],
@@ -859,6 +459,180 @@
                     }
                 },
                 {
+                    "adm1_code": 2113,
+                    "adm1_name": "Gaza",
+                    "adm2": [
+                        {
+                            "adm2_code": 21857,
+                            "adm2_name": "Massangena",
+                            "loss": {
+                                "2017": 15,
+                                "2019": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 21849,
+                            "adm2_name": "Bilene",
+                            "loss": {
+                                "2017": 7924,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 21850,
+                            "adm2_name": "Chibuto",
+                            "loss": {
+                                "2017": 667922,
+                                "2021": 18
+                            }
+                        },
+                        {
+                            "adm2_code": 21851,
+                            "adm2_name": "Chicualacuala",
+                            "loss": {
+                                "2017": 3787
+                            }
+                        },
+                        {
+                            "adm2_code": 21852,
+                            "adm2_name": "Chigubo",
+                            "loss": {
+                                "2017": 285664,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 21853,
+                            "adm2_name": "Chokwe",
+                            "loss": {
+                                "2017": 24519,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 65248,
+                            "adm2_name": "Cidade de Xai-Xai",
+                            "loss": {
+                                "2017": 2582,
+                                "2021": 2
+                            }
+                        },
+                        {
+                            "adm2_code": 21854,
+                            "adm2_name": "Guija",
+                            "loss": {
+                                "2017": 80372,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 21855,
+                            "adm2_name": "Mabalane",
+                            "loss": {
+                                "2017": 67192
+                            }
+                        },
+                        {
+                            "adm2_code": 21856,
+                            "adm2_name": "Mandlakazi",
+                            "loss": {
+                                "2017": 578018,
+                                "2021": 919
+                            }
+                        },
+                        {
+                            "adm2_code": 21858,
+                            "adm2_name": "Massingir",
+                            "loss": {
+                                "2017": 2239
+                            }
+                        },
+                        {
+                            "adm2_code": 21859,
+                            "adm2_name": "Xai-Xai",
+                            "loss": {
+                                "2017": 22570,
+                                "2021": 30
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2017": 1742804,
+                        "2019": 0,
+                        "2021": 969
+                    }
+                },
+                {
+                    "adm1_code": 2115,
+                    "adm1_name": "Manica",
+                    "adm2": [
+                        {
+                            "adm2_code": 21872,
+                            "adm2_name": "Barue",
+                            "loss": {
+                                "2019": 25
+                            }
+                        },
+                        {
+                            "adm2_code": 65251,
+                            "adm2_name": "Cidade de Chimoio",
+                            "loss": {
+                                "2019": 9483
+                            }
+                        },
+                        {
+                            "adm2_code": 21873,
+                            "adm2_name": "Gondola",
+                            "loss": {
+                                "2019": 306251,
+                                "2021": 95
+                            }
+                        },
+                        {
+                            "adm2_code": 21875,
+                            "adm2_name": "Machaze",
+                            "loss": {
+                                "2017": 0,
+                                "2019": 2495
+                            }
+                        },
+                        {
+                            "adm2_code": 21876,
+                            "adm2_name": "Macossa",
+                            "loss": {
+                                "2019": 123
+                            }
+                        },
+                        {
+                            "adm2_code": 21877,
+                            "adm2_name": "Manica",
+                            "loss": {
+                                "2019": 2678
+                            }
+                        },
+                        {
+                            "adm2_code": 21878,
+                            "adm2_name": "Mossurize",
+                            "loss": {
+                                "2019": 1913
+                            }
+                        },
+                        {
+                            "adm2_code": 21879,
+                            "adm2_name": "Sussundenga",
+                            "loss": {
+                                "2019": 58967,
+                                "2021": 2
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2017": 0,
+                        "2019": 381935,
+                        "2021": 97
+                    }
+                },
+                {
                     "adm1_code": 2121,
                     "adm1_name": "Tete",
                     "adm2": [
@@ -872,6 +646,146 @@
                     ],
                     "loss": {
                         "2019": 0
+                    }
+                },
+                {
+                    "adm1_code": 2112,
+                    "adm1_name": "Cabo Delgado",
+                    "adm2": [
+                        {
+                            "adm2_code": 21833,
+                            "adm2_name": "Ancuabe",
+                            "loss": {
+                                "2014": 0,
+                                "2019": 4115774
+                            }
+                        },
+                        {
+                            "adm2_code": 21834,
+                            "adm2_name": "Balama",
+                            "loss": {
+                                "2019": 67800
+                            }
+                        },
+                        {
+                            "adm2_code": 21835,
+                            "adm2_name": "Chiure",
+                            "loss": {
+                                "2019": 1019571
+                            }
+                        },
+                        {
+                            "adm2_code": 65247,
+                            "adm2_name": "Cidade de Pemba",
+                            "loss": {
+                                "2014": 3,
+                                "2019": 2590818
+                            }
+                        },
+                        {
+                            "adm2_code": 21836,
+                            "adm2_name": "Ibo",
+                            "loss": {
+                                "2014": 4,
+                                "2019": 13995267
+                            }
+                        },
+                        {
+                            "adm2_code": 21837,
+                            "adm2_name": "Macomia",
+                            "loss": {
+                                "2014": 4,
+                                "2019": 32673206
+                            }
+                        },
+                        {
+                            "adm2_code": 21838,
+                            "adm2_name": "Mecufi",
+                            "loss": {
+                                "2014": 2,
+                                "2019": 1080671
+                            }
+                        },
+                        {
+                            "adm2_code": 21839,
+                            "adm2_name": "Meluco",
+                            "loss": {
+                                "2014": 0,
+                                "2019": 5173754
+                            }
+                        },
+                        {
+                            "adm2_code": 21840,
+                            "adm2_name": "Mocimboa da Praia",
+                            "loss": {
+                                "2014": 0,
+                                "2019": 1604823
+                            }
+                        },
+                        {
+                            "adm2_code": 21841,
+                            "adm2_name": "Montepuez",
+                            "loss": {
+                                "2019": 1475169
+                            }
+                        },
+                        {
+                            "adm2_code": 21842,
+                            "adm2_name": "Mueda",
+                            "loss": {
+                                "2014": 0,
+                                "2019": 416555
+                            }
+                        },
+                        {
+                            "adm2_code": 21843,
+                            "adm2_name": "Muidumbe",
+                            "loss": {
+                                "2014": 0,
+                                "2019": 2769229
+                            }
+                        },
+                        {
+                            "adm2_code": 21844,
+                            "adm2_name": "Namuno",
+                            "loss": {
+                                "2019": 157445
+                            }
+                        },
+                        {
+                            "adm2_code": 21845,
+                            "adm2_name": "Nangade",
+                            "loss": {
+                                "2019": 33846
+                            }
+                        },
+                        {
+                            "adm2_code": 21846,
+                            "adm2_name": "Palma",
+                            "loss": {
+                                "2019": 12153
+                            }
+                        },
+                        {
+                            "adm2_code": 21847,
+                            "adm2_name": "Pemba",
+                            "loss": {
+                                "2014": 3,
+                                "2019": 5872181
+                            }
+                        },
+                        {
+                            "adm2_code": 21848,
+                            "adm2_name": "Quissanga",
+                            "loss": {
+                                "2014": 2,
+                                "2019": 20519283
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2014": 19,
+                        "2019": 93577544
                     }
                 },
                 {
@@ -910,9 +824,98 @@
                     "loss": {
                         "2019": 683
                     }
+                },
+                {
+                    "adm1_code": 2116,
+                    "adm1_name": "Maputo",
+                    "adm2": [
+                        {
+                            "adm2_code": 21883,
+                            "adm2_name": "Magude",
+                            "loss": {
+                                "2017": 919
+                            }
+                        },
+                        {
+                            "adm2_code": 21884,
+                            "adm2_name": "Manhica",
+                            "loss": {
+                                "2017": 422
+                            }
+                        },
+                        {
+                            "adm2_code": 21885,
+                            "adm2_name": "Marracuene",
+                            "loss": {
+                                "2017": 16
+                            }
+                        },
+                        {
+                            "adm2_code": 21886,
+                            "adm2_name": "Matutuine",
+                            "loss": {
+                                "2017": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 21887,
+                            "adm2_name": "Moamba",
+                            "loss": {
+                                "2017": 1
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2017": 1358
+                    }
+                },
+                {
+                    "adm1_code": 2117,
+                    "adm1_name": "Maputo (city)",
+                    "adm2": [
+                        {
+                            "adm2_code": 65254,
+                            "adm2_name": "Distrito Municipal 1",
+                            "loss": {
+                                "2017": 626
+                            }
+                        },
+                        {
+                            "adm2_code": 65255,
+                            "adm2_name": "Distrito Municipal 2",
+                            "loss": {
+                                "2017": 171
+                            }
+                        },
+                        {
+                            "adm2_code": 65256,
+                            "adm2_name": "Distrito Municipal 3",
+                            "loss": {
+                                "2017": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 65257,
+                            "adm2_name": "Distrito Municipal 4",
+                            "loss": {
+                                "2017": 52
+                            }
+                        },
+                        {
+                            "adm2_code": 65258,
+                            "adm2_name": "Distrito Municipal 5",
+                            "loss": {
+                                "2017": 7
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2017": 856
+                    }
                 }
             ],
             "loss": {
+                "2013": 0,
                 "2014": 19,
                 "2017": 58206582,
                 "2019": 421382876,
@@ -931,6 +934,7 @@
                             "adm2_code": 19535,
                             "adm2_name": "Administrative unit not available",
                             "loss": {
+                                "2013": 1028236,
                                 "2014": 72623452,
                                 "2015": 11693015,
                                 "2017": 2,
@@ -941,12 +945,39 @@
                         }
                     ],
                     "loss": {
+                        "2013": 1028236,
                         "2014": 72623452,
                         "2015": 11693015,
                         "2017": 2,
                         "2018": 8845732,
                         "2019": 758622630,
                         "2020": 44404048
+                    }
+                },
+                {
+                    "adm1_code": 2025,
+                    "adm1_name": "Riviere Du Rempart",
+                    "adm2": [
+                        {
+                            "adm2_code": 19543,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": {
+                                "2014": 47,
+                                "2015": 11157,
+                                "2017": 909,
+                                "2018": 2701759,
+                                "2019": 1,
+                                "2020": 0
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2014": 47,
+                        "2015": 11157,
+                        "2017": 909,
+                        "2018": 2701759,
+                        "2019": 1,
+                        "2020": 0
                     }
                 },
                 {
@@ -1104,32 +1135,6 @@
                     }
                 },
                 {
-                    "adm1_code": 2025,
-                    "adm1_name": "Riviere Du Rempart",
-                    "adm2": [
-                        {
-                            "adm2_code": 19543,
-                            "adm2_name": "Administrative unit not available",
-                            "loss": {
-                                "2014": 47,
-                                "2015": 11157,
-                                "2017": 909,
-                                "2018": 2701759,
-                                "2019": 1,
-                                "2020": 0
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 47,
-                        "2015": 11157,
-                        "2017": 909,
-                        "2018": 2701759,
-                        "2019": 1,
-                        "2020": 0
-                    }
-                },
-                {
                     "adm1_code": 2026,
                     "adm1_name": "Savanne",
                     "adm2": [
@@ -1153,6 +1158,7 @@
                 }
             ],
             "loss": {
+                "2013": 1028236,
                 "2014": 72624767,
                 "2015": 11715656,
                 "2017": 722650,
@@ -1162,179 +1168,24 @@
             }
         },
         {
-            "adm0_code": 206,
-            "adm0_name": "R\u00e9union",
-            "adm1": [
-                {
-                    "adm1_code": 2590,
-                    "adm1_name": "Arrondissement_du_vent",
-                    "adm2": [
-                        {
-                            "adm2_code": 25273,
-                            "adm2_name": "Administrative unit not available",
-                            "loss": {
-                                "2014": 239492148,
-                                "2015": 1513,
-                                "2017": 47848,
-                                "2018": 10938584
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 239492148,
-                        "2015": 1513,
-                        "2017": 47848,
-                        "2018": 10938584
-                    }
-                },
-                {
-                    "adm1_code": 2591,
-                    "adm1_name": "Arrondissement_souse_le_vent",
-                    "adm2": [
-                        {
-                            "adm2_code": 25274,
-                            "adm2_name": "Administrative unit not available",
-                            "loss": {
-                                "2014": 1757270192,
-                                "2015": 107783,
-                                "2017": 55735,
-                                "2018": 31137144
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 1757270192,
-                        "2015": 107783,
-                        "2017": 55735,
-                        "2018": 31137144
-                    }
-                }
-            ],
-            "loss": {
-                "2014": 1996762339,
-                "2015": 109296,
-                "2017": 103583,
-                "2018": 42075727
-            }
-        },
-        {
             "adm0_code": 150,
             "adm0_name": "Madagascar",
             "adm1": [
                 {
-                    "adm1_code": 41750,
-                    "adm1_name": "Alaotra Mangoro",
-                    "adm2": [
-                        {
-                            "adm2_code": 19257,
-                            "adm2_name": "Ambatondrazaka",
-                            "loss": {
-                                "2014": 3,
-                                "2017": 5396704,
-                                "2018": 5799556,
-                                "2021": 298
-                            }
-                        },
-                        {
-                            "adm2_code": 19258,
-                            "adm2_name": "Amparafaravola",
-                            "loss": {
-                                "2014": 77,
-                                "2017": 9057339,
-                                "2018": 3571470,
-                                "2021": 2
-                            }
-                        },
-                        {
-                            "adm2_code": 19259,
-                            "adm2_name": "Andilamena",
-                            "loss": {
-                                "2014": 265,
-                                "2017": 2787774,
-                                "2018": 1209806,
-                                "2021": 232
-                            }
-                        },
-                        {
-                            "adm2_code": 19260,
-                            "adm2_name": "Anosibe An'Ala",
-                            "loss": {
-                                "2017": 16028,
-                                "2018": 1534259
-                            }
-                        },
-                        {
-                            "adm2_code": 19267,
-                            "adm2_name": "Moramanga",
-                            "loss": {
-                                "2017": 976379,
-                                "2018": 4361032,
-                                "2021": 191
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 346,
-                        "2017": 18234225,
-                        "2018": 16476123,
-                        "2021": 723
-                    }
-                },
-                {
-                    "adm1_code": 41751,
-                    "adm1_name": "Amoron'i Mania",
-                    "adm2": [
-                        {
-                            "adm2_code": 19214,
-                            "adm2_name": "Ambatofinandrahana",
-                            "loss": {
-                                "2015": 84055,
-                                "2017": 60221,
-                                "2018": 124764,
-                                "2020": 1282,
-                                "2021": 1
-                            }
-                        },
-                        {
-                            "adm2_code": 19216,
-                            "adm2_name": "Ambositra",
-                            "loss": {
-                                "2015": 35659,
-                                "2017": 34580,
-                                "2018": 1530941
-                            }
-                        },
-                        {
-                            "adm2_code": 19218,
-                            "adm2_name": "Fandriana",
-                            "loss": {
-                                "2015": 2077,
-                                "2017": 57063,
-                                "2018": 4638329
-                            }
-                        },
-                        {
-                            "adm2_code": 19229,
-                            "adm2_name": "Manandriana",
-                            "loss": {
-                                "2015": 30163,
-                                "2017": 41765,
-                                "2018": 343811
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2015": 151954,
-                        "2017": 193630,
-                        "2018": 6637845,
-                        "2020": 1282,
-                        "2021": 1
-                    }
-                },
-                {
                     "adm1_code": 41752,
                     "adm1_name": "Analamanga",
                     "adm2": [
+                        {
+                            "adm2_code": 19189,
+                            "adm2_name": "Ankazobe",
+                            "loss": {
+                                "2014": 1465,
+                                "2017": 2077731,
+                                "2018": 693885,
+                                "2019": 0,
+                                "2021": 29
+                            }
+                        },
                         {
                             "adm2_code": 19186,
                             "adm2_name": "Ambohidratrimo",
@@ -1349,6 +1200,7 @@
                             "adm2_code": 19187,
                             "adm2_name": "Andramasina",
                             "loss": {
+                                "2013": 7,
                                 "2014": 0,
                                 "2017": 969977,
                                 "2018": 8590906,
@@ -1359,6 +1211,7 @@
                             "adm2_code": 19188,
                             "adm2_name": "Anjozorobe",
                             "loss": {
+                                "2013": 0,
                                 "2014": 84,
                                 "2017": 3552659,
                                 "2018": 2921439,
@@ -1366,20 +1219,10 @@
                             }
                         },
                         {
-                            "adm2_code": 19189,
-                            "adm2_name": "Ankazobe",
-                            "loss": {
-                                "2014": 1465,
-                                "2017": 2077731,
-                                "2018": 693885,
-                                "2019": 0,
-                                "2021": 29
-                            }
-                        },
-                        {
                             "adm2_code": 19190,
                             "adm2_name": "Antananarivo-Atsimondrano",
                             "loss": {
+                                "2013": 0,
                                 "2014": 0,
                                 "2017": 3374683,
                                 "2018": 10675647,
@@ -1409,6 +1252,7 @@
                             "adm2_code": 19200,
                             "adm2_name": "Manjakandriana",
                             "loss": {
+                                "2013": 1,
                                 "2014": 1,
                                 "2017": 2090165,
                                 "2018": 8608245,
@@ -1417,396 +1261,12 @@
                         }
                     ],
                     "loss": {
+                        "2013": 8,
                         "2014": 1576,
                         "2017": 16904146,
                         "2018": 42971717,
                         "2019": 0,
                         "2021": 542
-                    }
-                },
-                {
-                    "adm1_code": 41753,
-                    "adm1_name": "Analanjirofo",
-                    "adm2": [
-                        {
-                            "adm2_code": 19262,
-                            "adm2_name": "Fenoarivo-Atsinanana",
-                            "loss": {
-                                "2017": 3714568,
-                                "2018": 13017344,
-                                "2021": 4
-                            }
-                        },
-                        {
-                            "adm2_code": 19264,
-                            "adm2_name": "Mananara",
-                            "loss": {
-                                "2017": 13436058,
-                                "2018": 2152559,
-                                "2020": 8,
-                                "2021": 18864
-                            }
-                        },
-                        {
-                            "adm2_code": 19265,
-                            "adm2_name": "Maroantsetra",
-                            "loss": {
-                                "2014": 0,
-                                "2017": 78874993,
-                                "2018": 4227532,
-                                "2020": 18840,
-                                "2021": 137240
-                            }
-                        },
-                        {
-                            "adm2_code": 19268,
-                            "adm2_name": "Nosy Boraha",
-                            "loss": {
-                                "2017": 2827012,
-                                "2018": 5454307,
-                                "2020": 0,
-                                "2021": 208
-                            }
-                        },
-                        {
-                            "adm2_code": 19269,
-                            "adm2_name": "Soanierana-Ivongo",
-                            "loss": {
-                                "2017": 3594806,
-                                "2018": 3207490,
-                                "2021": 339
-                            }
-                        },
-                        {
-                            "adm2_code": 19271,
-                            "adm2_name": "Toamasina II",
-                            "loss": {
-                                "2015": 0,
-                                "2017": 365532,
-                                "2018": 21082873,
-                                "2020": 0,
-                                "2021": 249
-                            }
-                        },
-                        {
-                            "adm2_code": 19273,
-                            "adm2_name": "Vavatenina",
-                            "loss": {
-                                "2017": 1238439,
-                                "2018": 5241877,
-                                "2021": 1
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 0,
-                        "2015": 0,
-                        "2017": 104051408,
-                        "2018": 54383980,
-                        "2020": 18847,
-                        "2021": 156904
-                    }
-                },
-                {
-                    "adm1_code": 41754,
-                    "adm1_name": "Androy",
-                    "adm2": [
-                        {
-                            "adm2_code": 19276,
-                            "adm2_name": "Ambovombe-Androy",
-                            "loss": {
-                                "2015": 0,
-                                "2017": 56615,
-                                "2018": 5152,
-                                "2021": 76
-                            }
-                        },
-                        {
-                            "adm2_code": 19279,
-                            "adm2_name": "Bekily",
-                            "loss": {
-                                "2017": 27183,
-                                "2018": 443,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19280,
-                            "adm2_name": "Beloha",
-                            "loss": {
-                                "2015": 0,
-                                "2017": 3872,
-                                "2018": 1249,
-                                "2021": 6
-                            }
-                        },
-                        {
-                            "adm2_code": 19295,
-                            "adm2_name": "Tsiombe",
-                            "loss": {
-                                "2017": 6811,
-                                "2018": 2538,
-                                "2021": 1
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2015": 0,
-                        "2017": 94481,
-                        "2018": 9382,
-                        "2021": 84
-                    }
-                },
-                {
-                    "adm1_code": 41755,
-                    "adm1_name": "Anosy",
-                    "adm2": [
-                        {
-                            "adm2_code": 19275,
-                            "adm2_name": "Amboasary",
-                            "loss": {
-                                "2017": 82396,
-                                "2018": 1590,
-                                "2021": 3255
-                            }
-                        },
-                        {
-                            "adm2_code": 19285,
-                            "adm2_name": "Betroka",
-                            "loss": {
-                                "2017": 47659,
-                                "2018": 208,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19292,
-                            "adm2_name": "Taolanaro",
-                            "loss": {
-                                "2017": 60683,
-                                "2018": 2094,
-                                "2021": 6028
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2017": 190738,
-                        "2018": 3893,
-                        "2021": 9284
-                    }
-                },
-                {
-                    "adm1_code": 41756,
-                    "adm1_name": "Atsimo Andrefana",
-                    "adm2": [
-                        {
-                            "adm2_code": 19277,
-                            "adm2_name": "Ampanihy",
-                            "loss": {
-                                "2015": 858,
-                                "2017": 2660,
-                                "2018": 157,
-                                "2021": 398
-                            }
-                        },
-                        {
-                            "adm2_code": 19278,
-                            "adm2_name": "Ankazoabo",
-                            "loss": {
-                                "2015": 0,
-                                "2017": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19282,
-                            "adm2_name": "Benenitra",
-                            "loss": {
-                                "2017": 728,
-                                "2018": 1
-                            }
-                        },
-                        {
-                            "adm2_code": 19283,
-                            "adm2_name": "Beroroha",
-                            "loss": {
-                                "2014": 0,
-                                "2015": 30,
-                                "2017": 0,
-                                "2020": 64
-                            }
-                        },
-                        {
-                            "adm2_code": 19284,
-                            "adm2_name": "Betioky",
-                            "loss": {
-                                "2015": 923,
-                                "2017": 319,
-                                "2018": 1,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19291,
-                            "adm2_name": "Sakaraha",
-                            "loss": {
-                                "2014": 0,
-                                "2015": 2,
-                                "2017": 8
-                            }
-                        },
-                        {
-                            "adm2_code": 19294,
-                            "adm2_name": "Toliary II",
-                            "loss": {
-                                "2014": 2,
-                                "2015": 1294,
-                                "2017": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19289,
-                            "adm2_name": "Morombe",
-                            "loss": {
-                                "2014": 22881,
-                                "2015": 82
-                            }
-                        },
-                        {
-                            "adm2_code": 19293,
-                            "adm2_name": "Toliary I",
-                            "loss": {
-                                "2015": 467
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 22883,
-                        "2015": 3656,
-                        "2017": 3715,
-                        "2018": 160,
-                        "2020": 64,
-                        "2021": 398
-                    }
-                },
-                {
-                    "adm1_code": 41757,
-                    "adm1_name": "Atsimo Atsinanana",
-                    "adm2": [
-                        {
-                            "adm2_code": 19217,
-                            "adm2_name": "Befotaka",
-                            "loss": {
-                                "2017": 59781,
-                                "2018": 860,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19219,
-                            "adm2_name": "Farafangana",
-                            "loss": {
-                                "2017": 1409,
-                                "2018": 5892
-                            }
-                        },
-                        {
-                            "adm2_code": 19231,
-                            "adm2_name": "Midongy",
-                            "loss": {
-                                "2017": 14201,
-                                "2018": 109
-                            }
-                        },
-                        {
-                            "adm2_code": 19233,
-                            "adm2_name": "Vangaindrano",
-                            "loss": {
-                                "2017": 24362,
-                                "2018": 1626,
-                                "2021": 29
-                            }
-                        },
-                        {
-                            "adm2_code": 19235,
-                            "adm2_name": "Vondrozo",
-                            "loss": {
-                                "2017": 1478,
-                                "2018": 873
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2017": 101231,
-                        "2018": 9359,
-                        "2021": 29
-                    }
-                },
-                {
-                    "adm1_code": 41758,
-                    "adm1_name": "Atsinanana",
-                    "adm2": [
-                        {
-                            "adm2_code": 19261,
-                            "adm2_name": "Antanambao-Manampotsy",
-                            "loss": {
-                                "2017": 1949,
-                                "2018": 798369
-                            }
-                        },
-                        {
-                            "adm2_code": 19263,
-                            "adm2_name": "Mahanoro",
-                            "loss": {
-                                "2017": 1042,
-                                "2018": 2054244,
-                                "2020": 21
-                            }
-                        },
-                        {
-                            "adm2_code": 19266,
-                            "adm2_name": "Marolambo",
-                            "loss": {
-                                "2015": 8,
-                                "2017": 5659,
-                                "2018": 1799912
-                            }
-                        },
-                        {
-                            "adm2_code": 19270,
-                            "adm2_name": "Toamasina I",
-                            "loss": {
-                                "2017": 57543,
-                                "2018": 31551542,
-                                "2021": 236
-                            }
-                        },
-                        {
-                            "adm2_code": 19272,
-                            "adm2_name": "Vatomandry",
-                            "loss": {
-                                "2017": 7102,
-                                "2018": 2763259,
-                                "2020": 18
-                            }
-                        },
-                        {
-                            "adm2_code": 19274,
-                            "adm2_name": "Vohibinany",
-                            "loss": {
-                                "2015": 0,
-                                "2017": 82642,
-                                "2018": 8610925,
-                                "2020": 25,
-                                "2021": 37
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2015": 8,
-                        "2017": 155937,
-                        "2018": 47578250,
-                        "2020": 63,
-                        "2021": 273
                     }
                 },
                 {
@@ -1873,6 +1333,18 @@
                             }
                         },
                         {
+                            "adm2_code": 19255,
+                            "adm2_name": "Soalala",
+                            "loss": {
+                                "2014": 1469737,
+                                "2017": 949,
+                                "2018": 1,
+                                "2019": 34,
+                                "2020": 2813316,
+                                "2021": 1
+                            }
+                        },
+                        {
                             "adm2_code": 19247,
                             "adm2_name": "Mahajanga I",
                             "loss": {
@@ -1914,18 +1386,6 @@
                                 "2018": 25,
                                 "2020": 203327,
                                 "2021": 334
-                            }
-                        },
-                        {
-                            "adm2_code": 19255,
-                            "adm2_name": "Soalala",
-                            "loss": {
-                                "2014": 1469737,
-                                "2017": 949,
-                                "2018": 1,
-                                "2019": 34,
-                                "2020": 2813316,
-                                "2021": 1
                             }
                         }
                     ],
@@ -1980,180 +1440,9 @@
                     }
                 },
                 {
-                    "adm1_code": 41762,
-                    "adm1_name": "Diana",
-                    "adm2": [
-                        {
-                            "adm2_code": 19204,
-                            "adm2_name": "Ambanja",
-                            "loss": {
-                                "2014": 182,
-                                "2017": 888238,
-                                "2018": 9439,
-                                "2019": 0,
-                                "2020": 0,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19205,
-                            "adm2_name": "Ambilobe",
-                            "loss": {
-                                "2014": 0,
-                                "2017": 1790904,
-                                "2018": 7882,
-                                "2019": 0,
-                                "2020": 0,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19208,
-                            "adm2_name": "Antsiranana I",
-                            "loss": {
-                                "2017": 2346,
-                                "2018": 0,
-                                "2019": 73
-                            }
-                        },
-                        {
-                            "adm2_code": 19209,
-                            "adm2_name": "Antsiranana II",
-                            "loss": {
-                                "2017": 47817,
-                                "2018": 22,
-                                "2019": 682
-                            }
-                        },
-                        {
-                            "adm2_code": 19211,
-                            "adm2_name": "Nosy Be",
-                            "loss": {
-                                "2017": 34319,
-                                "2018": 202,
-                                "2019": 1
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 182,
-                        "2017": 2763624,
-                        "2018": 17545,
-                        "2019": 757,
-                        "2020": 0,
-                        "2021": 0
-                    }
-                },
-                {
-                    "adm1_code": 41763,
-                    "adm1_name": "Haute Matsiatra",
-                    "adm2": [
-                        {
-                            "adm2_code": 19213,
-                            "adm2_name": "Ambalavao",
-                            "loss": {
-                                "2015": 0,
-                                "2017": 74463,
-                                "2018": 4082
-                            }
-                        },
-                        {
-                            "adm2_code": 19215,
-                            "adm2_name": "Ambohimahasoa",
-                            "loss": {
-                                "2015": 36734,
-                                "2017": 27108,
-                                "2018": 292933
-                            }
-                        },
-                        {
-                            "adm2_code": 19220,
-                            "adm2_name": "Fianarantsoa I",
-                            "loss": {
-                                "2015": 19,
-                                "2017": 4330,
-                                "2018": 2834
-                            }
-                        },
-                        {
-                            "adm2_code": 19221,
-                            "adm2_name": "Fianarantsoa II",
-                            "loss": {
-                                "2015": 5942,
-                                "2017": 123561,
-                                "2018": 104320
-                            }
-                        },
-                        {
-                            "adm2_code": 19225,
-                            "adm2_name": "Ikalamavony",
-                            "loss": {
-                                "2015": 3791,
-                                "2017": 11944,
-                                "2018": 2370,
-                                "2020": 0
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2015": 46486,
-                        "2017": 241407,
-                        "2018": 406541,
-                        "2020": 0
-                    }
-                },
-                {
-                    "adm1_code": 41764,
-                    "adm1_name": "Ihorombe",
-                    "adm2": [
-                        {
-                            "adm2_code": 19222,
-                            "adm2_name": "Iakora",
-                            "loss": {
-                                "2017": 16146,
-                                "2018": 178,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19224,
-                            "adm2_name": "Ihosy",
-                            "loss": {
-                                "2017": 10014,
-                                "2018": 79,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19227,
-                            "adm2_name": "Ivohibe",
-                            "loss": {
-                                "2017": 11053,
-                                "2018": 502
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2017": 37212,
-                        "2018": 759,
-                        "2021": 0
-                    }
-                },
-                {
                     "adm1_code": 41765,
                     "adm1_name": "Itasy",
                     "adm2": [
-                        {
-                            "adm2_code": 19196,
-                            "adm2_name": "Arivonimamo",
-                            "loss": {
-                                "2014": 9,
-                                "2015": 23,
-                                "2017": 2102569,
-                                "2018": 4682213,
-                                "2021": 99
-                            }
-                        },
                         {
                             "adm2_code": 19201,
                             "adm2_name": "Miarinarivo",
@@ -2177,6 +1466,17 @@
                                 "2019": 0,
                                 "2020": 0,
                                 "2021": 609
+                            }
+                        },
+                        {
+                            "adm2_code": 19196,
+                            "adm2_name": "Arivonimamo",
+                            "loss": {
+                                "2014": 9,
+                                "2015": 23,
+                                "2017": 2102569,
+                                "2018": 4682213,
+                                "2021": 99
                             }
                         }
                     ],
@@ -2272,6 +1572,7 @@
                             "adm2_code": 19281,
                             "adm2_name": "Belon'i Tsiribihina",
                             "loss": {
+                                "2013": 0,
                                 "2014": 35,
                                 "2015": 143845,
                                 "2017": 4,
@@ -2279,18 +1580,6 @@
                                 "2019": 10,
                                 "2020": 117381,
                                 "2021": 19
-                            }
-                        },
-                        {
-                            "adm2_code": 19286,
-                            "adm2_name": "Mahabo",
-                            "loss": {
-                                "2014": 21,
-                                "2015": 41426,
-                                "2017": 0,
-                                "2018": 0,
-                                "2020": 9124,
-                                "2021": 12
                             }
                         },
                         {
@@ -2307,9 +1596,23 @@
                             }
                         },
                         {
+                            "adm2_code": 19286,
+                            "adm2_name": "Mahabo",
+                            "loss": {
+                                "2013": 375,
+                                "2014": 21,
+                                "2015": 41426,
+                                "2017": 0,
+                                "2018": 0,
+                                "2020": 9124,
+                                "2021": 12
+                            }
+                        },
+                        {
                             "adm2_code": 19287,
                             "adm2_name": "Manja",
                             "loss": {
+                                "2013": 414630,
                                 "2014": 2759,
                                 "2015": 4
                             }
@@ -2318,6 +1621,7 @@
                             "adm2_code": 19290,
                             "adm2_name": "Morondava",
                             "loss": {
+                                "2013": 167,
                                 "2014": 1438,
                                 "2015": 23197,
                                 "2020": 16,
@@ -2326,6 +1630,7 @@
                         }
                     ],
                     "loss": {
+                        "2013": 415172,
                         "2014": 4448,
                         "2015": 226691,
                         "2017": 2507,
@@ -2336,9 +1641,168 @@
                     }
                 },
                 {
+                    "adm1_code": 41770,
+                    "adm1_name": "Vakinakaratra",
+                    "adm2": [
+                        {
+                            "adm2_code": 19197,
+                            "adm2_name": "Betafo",
+                            "loss": {
+                                "2014": 0,
+                                "2015": 13617,
+                                "2017": 190892,
+                                "2018": 906804,
+                                "2019": 0,
+                                "2020": 286,
+                                "2021": 690
+                            }
+                        },
+                        {
+                            "adm2_code": 19185,
+                            "adm2_name": "Ambatolampy",
+                            "loss": {
+                                "2013": 2,
+                                "2014": 0,
+                                "2015": 1,
+                                "2017": 1015121,
+                                "2018": 12364936,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19193,
+                            "adm2_name": "Antanifotsy",
+                            "loss": {
+                                "2013": 0,
+                                "2014": 0,
+                                "2015": 232,
+                                "2017": 787261,
+                                "2018": 13289483,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19194,
+                            "adm2_name": "Antsirabe I",
+                            "loss": {
+                                "2015": 41,
+                                "2017": 27325,
+                                "2018": 606795
+                            }
+                        },
+                        {
+                            "adm2_code": 19195,
+                            "adm2_name": "Antsirabe II",
+                            "loss": {
+                                "2014": 0,
+                                "2015": 3373,
+                                "2017": 494675,
+                                "2018": 7948797,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19198,
+                            "adm2_name": "Faratsiho",
+                            "loss": {
+                                "2014": 1,
+                                "2015": 763,
+                                "2017": 432854,
+                                "2018": 1854473,
+                                "2021": 86
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 3,
+                        "2014": 1,
+                        "2015": 18027,
+                        "2017": 2948128,
+                        "2018": 36971287,
+                        "2019": 0,
+                        "2020": 286,
+                        "2021": 776
+                    }
+                },
+                {
+                    "adm1_code": 41762,
+                    "adm1_name": "Diana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19204,
+                            "adm2_name": "Ambanja",
+                            "loss": {
+                                "2014": 182,
+                                "2017": 888238,
+                                "2018": 9439,
+                                "2019": 0,
+                                "2020": 0,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19205,
+                            "adm2_name": "Ambilobe",
+                            "loss": {
+                                "2014": 0,
+                                "2017": 1790904,
+                                "2018": 7882,
+                                "2019": 0,
+                                "2020": 0,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19208,
+                            "adm2_name": "Antsiranana I",
+                            "loss": {
+                                "2017": 2346,
+                                "2018": 0,
+                                "2019": 73
+                            }
+                        },
+                        {
+                            "adm2_code": 19209,
+                            "adm2_name": "Antsiranana II",
+                            "loss": {
+                                "2017": 47817,
+                                "2018": 22,
+                                "2019": 682
+                            }
+                        },
+                        {
+                            "adm2_code": 19211,
+                            "adm2_name": "Nosy Be",
+                            "loss": {
+                                "2017": 34319,
+                                "2018": 202,
+                                "2019": 1
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2014": 182,
+                        "2017": 2763624,
+                        "2018": 17545,
+                        "2019": 757,
+                        "2020": 0,
+                        "2021": 0
+                    }
+                },
+                {
                     "adm1_code": 41768,
                     "adm1_name": "Sava",
                     "adm2": [
+                        {
+                            "adm2_code": 19210,
+                            "adm2_name": "Vohimarina",
+                            "loss": {
+                                "2017": 14088186,
+                                "2018": 11687,
+                                "2019": 0,
+                                "2020": 0
+                            }
+                        },
                         {
                             "adm2_code": 19206,
                             "adm2_name": "Andapa",
@@ -2354,6 +1818,7 @@
                             "adm2_code": 19207,
                             "adm2_name": "Antalaha",
                             "loss": {
+                                "2013": 0,
                                 "2017": 307500636,
                                 "2018": 854174,
                                 "2020": 258371,
@@ -2369,25 +1834,662 @@
                                 "2020": 1305,
                                 "2021": 13
                             }
-                        },
-                        {
-                            "adm2_code": 19210,
-                            "adm2_name": "Vohimarina",
-                            "loss": {
-                                "2017": 14088186,
-                                "2018": 11687,
-                                "2019": 0,
-                                "2020": 0
-                            }
                         }
                     ],
                     "loss": {
+                        "2013": 0,
                         "2014": 0,
                         "2017": 533146776,
                         "2018": 1155500,
                         "2019": 0,
                         "2020": 260211,
                         "2021": 53723
+                    }
+                },
+                {
+                    "adm1_code": 41750,
+                    "adm1_name": "Alaotra Mangoro",
+                    "adm2": [
+                        {
+                            "adm2_code": 19257,
+                            "adm2_name": "Ambatondrazaka",
+                            "loss": {
+                                "2013": 10,
+                                "2014": 3,
+                                "2017": 5396704,
+                                "2018": 5799556,
+                                "2021": 298
+                            }
+                        },
+                        {
+                            "adm2_code": 19258,
+                            "adm2_name": "Amparafaravola",
+                            "loss": {
+                                "2014": 77,
+                                "2017": 9057339,
+                                "2018": 3571470,
+                                "2021": 2
+                            }
+                        },
+                        {
+                            "adm2_code": 19259,
+                            "adm2_name": "Andilamena",
+                            "loss": {
+                                "2014": 265,
+                                "2017": 2787774,
+                                "2018": 1209806,
+                                "2021": 232
+                            }
+                        },
+                        {
+                            "adm2_code": 19260,
+                            "adm2_name": "Anosibe An'Ala",
+                            "loss": {
+                                "2013": 0,
+                                "2017": 16028,
+                                "2018": 1534259
+                            }
+                        },
+                        {
+                            "adm2_code": 19267,
+                            "adm2_name": "Moramanga",
+                            "loss": {
+                                "2013": 7,
+                                "2017": 976379,
+                                "2018": 4361032,
+                                "2021": 191
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 17,
+                        "2014": 346,
+                        "2017": 18234225,
+                        "2018": 16476123,
+                        "2021": 723
+                    }
+                },
+                {
+                    "adm1_code": 41751,
+                    "adm1_name": "Amoron'i Mania",
+                    "adm2": [
+                        {
+                            "adm2_code": 19214,
+                            "adm2_name": "Ambatofinandrahana",
+                            "loss": {
+                                "2013": 0,
+                                "2015": 84055,
+                                "2017": 60221,
+                                "2018": 124764,
+                                "2020": 1282,
+                                "2021": 1
+                            }
+                        },
+                        {
+                            "adm2_code": 19216,
+                            "adm2_name": "Ambositra",
+                            "loss": {
+                                "2015": 35659,
+                                "2017": 34580,
+                                "2018": 1530941
+                            }
+                        },
+                        {
+                            "adm2_code": 19218,
+                            "adm2_name": "Fandriana",
+                            "loss": {
+                                "2013": 0,
+                                "2015": 2077,
+                                "2017": 57063,
+                                "2018": 4638329
+                            }
+                        },
+                        {
+                            "adm2_code": 19229,
+                            "adm2_name": "Manandriana",
+                            "loss": {
+                                "2015": 30163,
+                                "2017": 41765,
+                                "2018": 343811
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 0,
+                        "2015": 151954,
+                        "2017": 193630,
+                        "2018": 6637845,
+                        "2020": 1282,
+                        "2021": 1
+                    }
+                },
+                {
+                    "adm1_code": 41753,
+                    "adm1_name": "Analanjirofo",
+                    "adm2": [
+                        {
+                            "adm2_code": 19262,
+                            "adm2_name": "Fenoarivo-Atsinanana",
+                            "loss": {
+                                "2013": 0,
+                                "2017": 3714568,
+                                "2018": 13017344,
+                                "2021": 4
+                            }
+                        },
+                        {
+                            "adm2_code": 19264,
+                            "adm2_name": "Mananara",
+                            "loss": {
+                                "2017": 13436058,
+                                "2018": 2152559,
+                                "2020": 8,
+                                "2021": 18864
+                            }
+                        },
+                        {
+                            "adm2_code": 19265,
+                            "adm2_name": "Maroantsetra",
+                            "loss": {
+                                "2013": 0,
+                                "2014": 0,
+                                "2017": 78874993,
+                                "2018": 4227532,
+                                "2020": 18840,
+                                "2021": 137240
+                            }
+                        },
+                        {
+                            "adm2_code": 19268,
+                            "adm2_name": "Nosy Boraha",
+                            "loss": {
+                                "2013": 678,
+                                "2017": 2827012,
+                                "2018": 5454307,
+                                "2020": 0,
+                                "2021": 208
+                            }
+                        },
+                        {
+                            "adm2_code": 19269,
+                            "adm2_name": "Soanierana-Ivongo",
+                            "loss": {
+                                "2013": 1,
+                                "2017": 3594806,
+                                "2018": 3207490,
+                                "2021": 339
+                            }
+                        },
+                        {
+                            "adm2_code": 19271,
+                            "adm2_name": "Toamasina II",
+                            "loss": {
+                                "2013": 28,
+                                "2015": 0,
+                                "2017": 365532,
+                                "2018": 21082873,
+                                "2020": 0,
+                                "2021": 249
+                            }
+                        },
+                        {
+                            "adm2_code": 19273,
+                            "adm2_name": "Vavatenina",
+                            "loss": {
+                                "2013": 0,
+                                "2017": 1238439,
+                                "2018": 5241877,
+                                "2021": 1
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 708,
+                        "2014": 0,
+                        "2015": 0,
+                        "2017": 104051408,
+                        "2018": 54383980,
+                        "2020": 18847,
+                        "2021": 156904
+                    }
+                },
+                {
+                    "adm1_code": 41754,
+                    "adm1_name": "Androy",
+                    "adm2": [
+                        {
+                            "adm2_code": 19276,
+                            "adm2_name": "Ambovombe-Androy",
+                            "loss": {
+                                "2013": 269042,
+                                "2015": 0,
+                                "2017": 56615,
+                                "2018": 5152,
+                                "2021": 76
+                            }
+                        },
+                        {
+                            "adm2_code": 19279,
+                            "adm2_name": "Bekily",
+                            "loss": {
+                                "2013": 4301923,
+                                "2017": 27183,
+                                "2018": 443,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19280,
+                            "adm2_name": "Beloha",
+                            "loss": {
+                                "2013": 5557,
+                                "2015": 0,
+                                "2017": 3872,
+                                "2018": 1249,
+                                "2021": 6
+                            }
+                        },
+                        {
+                            "adm2_code": 19295,
+                            "adm2_name": "Tsiombe",
+                            "loss": {
+                                "2013": 0,
+                                "2017": 6811,
+                                "2018": 2538,
+                                "2021": 1
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 4576523,
+                        "2015": 0,
+                        "2017": 94481,
+                        "2018": 9382,
+                        "2021": 84
+                    }
+                },
+                {
+                    "adm1_code": 41755,
+                    "adm1_name": "Anosy",
+                    "adm2": [
+                        {
+                            "adm2_code": 19275,
+                            "adm2_name": "Amboasary",
+                            "loss": {
+                                "2013": 2419781,
+                                "2017": 82396,
+                                "2018": 1590,
+                                "2021": 3255
+                            }
+                        },
+                        {
+                            "adm2_code": 19285,
+                            "adm2_name": "Betroka",
+                            "loss": {
+                                "2013": 11754824,
+                                "2017": 47659,
+                                "2018": 208,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19292,
+                            "adm2_name": "Taolanaro",
+                            "loss": {
+                                "2013": 378596,
+                                "2017": 60683,
+                                "2018": 2094,
+                                "2021": 6028
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 14553201,
+                        "2017": 190738,
+                        "2018": 3893,
+                        "2021": 9284
+                    }
+                },
+                {
+                    "adm1_code": 41756,
+                    "adm1_name": "Atsimo Andrefana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19277,
+                            "adm2_name": "Ampanihy",
+                            "loss": {
+                                "2013": 1539422,
+                                "2015": 858,
+                                "2017": 2660,
+                                "2018": 157,
+                                "2021": 398
+                            }
+                        },
+                        {
+                            "adm2_code": 19278,
+                            "adm2_name": "Ankazoabo",
+                            "loss": {
+                                "2013": 2456984,
+                                "2015": 0,
+                                "2017": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19282,
+                            "adm2_name": "Benenitra",
+                            "loss": {
+                                "2013": 4916224,
+                                "2017": 728,
+                                "2018": 1
+                            }
+                        },
+                        {
+                            "adm2_code": 19283,
+                            "adm2_name": "Beroroha",
+                            "loss": {
+                                "2013": 6689,
+                                "2014": 0,
+                                "2015": 30,
+                                "2017": 0,
+                                "2020": 64
+                            }
+                        },
+                        {
+                            "adm2_code": 19284,
+                            "adm2_name": "Betioky",
+                            "loss": {
+                                "2013": 9446193,
+                                "2015": 923,
+                                "2017": 319,
+                                "2018": 1,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19291,
+                            "adm2_name": "Sakaraha",
+                            "loss": {
+                                "2013": 24671785,
+                                "2014": 0,
+                                "2015": 2,
+                                "2017": 8
+                            }
+                        },
+                        {
+                            "adm2_code": 19294,
+                            "adm2_name": "Toliary II",
+                            "loss": {
+                                "2013": 30103547,
+                                "2014": 2,
+                                "2015": 1294,
+                                "2017": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19289,
+                            "adm2_name": "Morombe",
+                            "loss": {
+                                "2013": 23349928,
+                                "2014": 22881,
+                                "2015": 82
+                            }
+                        },
+                        {
+                            "adm2_code": 19293,
+                            "adm2_name": "Toliary I",
+                            "loss": {
+                                "2013": 1703666,
+                                "2015": 467
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 98194439,
+                        "2014": 22883,
+                        "2015": 3656,
+                        "2017": 3715,
+                        "2018": 160,
+                        "2020": 64,
+                        "2021": 398
+                    }
+                },
+                {
+                    "adm1_code": 41757,
+                    "adm1_name": "Atsimo Atsinanana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19217,
+                            "adm2_name": "Befotaka",
+                            "loss": {
+                                "2013": 1683976,
+                                "2017": 59781,
+                                "2018": 860,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19219,
+                            "adm2_name": "Farafangana",
+                            "loss": {
+                                "2013": 54,
+                                "2017": 1409,
+                                "2018": 5892
+                            }
+                        },
+                        {
+                            "adm2_code": 19231,
+                            "adm2_name": "Midongy",
+                            "loss": {
+                                "2013": 18772,
+                                "2017": 14201,
+                                "2018": 109
+                            }
+                        },
+                        {
+                            "adm2_code": 19233,
+                            "adm2_name": "Vangaindrano",
+                            "loss": {
+                                "2013": 154511,
+                                "2017": 24362,
+                                "2018": 1626,
+                                "2021": 29
+                            }
+                        },
+                        {
+                            "adm2_code": 19235,
+                            "adm2_name": "Vondrozo",
+                            "loss": {
+                                "2013": 52,
+                                "2017": 1478,
+                                "2018": 873
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 1857366,
+                        "2017": 101231,
+                        "2018": 9359,
+                        "2021": 29
+                    }
+                },
+                {
+                    "adm1_code": 41758,
+                    "adm1_name": "Atsinanana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19261,
+                            "adm2_name": "Antanambao-Manampotsy",
+                            "loss": {
+                                "2013": 4,
+                                "2017": 1949,
+                                "2018": 798369
+                            }
+                        },
+                        {
+                            "adm2_code": 19263,
+                            "adm2_name": "Mahanoro",
+                            "loss": {
+                                "2013": 196,
+                                "2017": 1042,
+                                "2018": 2054244,
+                                "2020": 21
+                            }
+                        },
+                        {
+                            "adm2_code": 19266,
+                            "adm2_name": "Marolambo",
+                            "loss": {
+                                "2013": 0,
+                                "2015": 8,
+                                "2017": 5659,
+                                "2018": 1799912
+                            }
+                        },
+                        {
+                            "adm2_code": 19270,
+                            "adm2_name": "Toamasina I",
+                            "loss": {
+                                "2013": 522,
+                                "2017": 57543,
+                                "2018": 31551542,
+                                "2021": 236
+                            }
+                        },
+                        {
+                            "adm2_code": 19272,
+                            "adm2_name": "Vatomandry",
+                            "loss": {
+                                "2013": 691,
+                                "2017": 7102,
+                                "2018": 2763259,
+                                "2020": 18
+                            }
+                        },
+                        {
+                            "adm2_code": 19274,
+                            "adm2_name": "Vohibinany",
+                            "loss": {
+                                "2013": 1134,
+                                "2015": 0,
+                                "2017": 82642,
+                                "2018": 8610925,
+                                "2020": 25,
+                                "2021": 37
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 2547,
+                        "2015": 8,
+                        "2017": 155937,
+                        "2018": 47578250,
+                        "2020": 63,
+                        "2021": 273
+                    }
+                },
+                {
+                    "adm1_code": 41763,
+                    "adm1_name": "Haute Matsiatra",
+                    "adm2": [
+                        {
+                            "adm2_code": 19213,
+                            "adm2_name": "Ambalavao",
+                            "loss": {
+                                "2013": 586,
+                                "2015": 0,
+                                "2017": 74463,
+                                "2018": 4082
+                            }
+                        },
+                        {
+                            "adm2_code": 19215,
+                            "adm2_name": "Ambohimahasoa",
+                            "loss": {
+                                "2013": 0,
+                                "2015": 36734,
+                                "2017": 27108,
+                                "2018": 292933
+                            }
+                        },
+                        {
+                            "adm2_code": 19220,
+                            "adm2_name": "Fianarantsoa I",
+                            "loss": {
+                                "2013": 0,
+                                "2015": 19,
+                                "2017": 4330,
+                                "2018": 2834
+                            }
+                        },
+                        {
+                            "adm2_code": 19221,
+                            "adm2_name": "Fianarantsoa II",
+                            "loss": {
+                                "2013": 15,
+                                "2015": 5942,
+                                "2017": 123561,
+                                "2018": 104320
+                            }
+                        },
+                        {
+                            "adm2_code": 19225,
+                            "adm2_name": "Ikalamavony",
+                            "loss": {
+                                "2013": 14,
+                                "2015": 3791,
+                                "2017": 11944,
+                                "2018": 2370,
+                                "2020": 0
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 615,
+                        "2015": 46486,
+                        "2017": 241407,
+                        "2018": 406541,
+                        "2020": 0
+                    }
+                },
+                {
+                    "adm1_code": 41764,
+                    "adm1_name": "Ihorombe",
+                    "adm2": [
+                        {
+                            "adm2_code": 19222,
+                            "adm2_name": "Iakora",
+                            "loss": {
+                                "2013": 93794,
+                                "2017": 16146,
+                                "2018": 178,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19224,
+                            "adm2_name": "Ihosy",
+                            "loss": {
+                                "2013": 691093,
+                                "2017": 10014,
+                                "2018": 79,
+                                "2021": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19227,
+                            "adm2_name": "Ivohibe",
+                            "loss": {
+                                "2013": 834,
+                                "2017": 11053,
+                                "2018": 502
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 785721,
+                        "2017": 37212,
+                        "2018": 759,
+                        "2021": 0
                     }
                 },
                 {
@@ -2477,87 +2579,6 @@
                     }
                 },
                 {
-                    "adm1_code": 41770,
-                    "adm1_name": "Vakinakaratra",
-                    "adm2": [
-                        {
-                            "adm2_code": 19185,
-                            "adm2_name": "Ambatolampy",
-                            "loss": {
-                                "2014": 0,
-                                "2015": 1,
-                                "2017": 1015121,
-                                "2018": 12364936,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19193,
-                            "adm2_name": "Antanifotsy",
-                            "loss": {
-                                "2014": 0,
-                                "2015": 232,
-                                "2017": 787261,
-                                "2018": 13289483,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19194,
-                            "adm2_name": "Antsirabe I",
-                            "loss": {
-                                "2015": 41,
-                                "2017": 27325,
-                                "2018": 606795
-                            }
-                        },
-                        {
-                            "adm2_code": 19195,
-                            "adm2_name": "Antsirabe II",
-                            "loss": {
-                                "2014": 0,
-                                "2015": 3373,
-                                "2017": 494675,
-                                "2018": 7948797,
-                                "2021": 0
-                            }
-                        },
-                        {
-                            "adm2_code": 19197,
-                            "adm2_name": "Betafo",
-                            "loss": {
-                                "2014": 0,
-                                "2015": 13617,
-                                "2017": 190892,
-                                "2018": 906804,
-                                "2019": 0,
-                                "2020": 286,
-                                "2021": 690
-                            }
-                        },
-                        {
-                            "adm2_code": 19198,
-                            "adm2_name": "Faratsiho",
-                            "loss": {
-                                "2014": 1,
-                                "2015": 763,
-                                "2017": 432854,
-                                "2018": 1854473,
-                                "2021": 86
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 1,
-                        "2015": 18027,
-                        "2017": 2948128,
-                        "2018": 36971287,
-                        "2019": 0,
-                        "2020": 286,
-                        "2021": 776
-                    }
-                },
-                {
                     "adm1_code": 41771,
                     "adm1_name": "Vatovavy Fitovinany",
                     "adm2": [
@@ -2574,6 +2595,7 @@
                             "adm2_code": 19226,
                             "adm2_name": "Ikongo",
                             "loss": {
+                                "2013": 0,
                                 "2015": 0,
                                 "2017": 374,
                                 "2018": 1899
@@ -2601,6 +2623,7 @@
                             "adm2_code": 19232,
                             "adm2_name": "Nosy-Varika",
                             "loss": {
+                                "2013": 2,
                                 "2015": 0,
                                 "2017": 70,
                                 "2018": 811911,
@@ -2617,6 +2640,7 @@
                         }
                     ],
                     "loss": {
+                        "2013": 2,
                         "2015": 78,
                         "2017": 494,
                         "2018": 1185959,
@@ -2625,6 +2649,7 @@
                 }
             ],
             "loss": {
+                "2013": 120386322,
                 "2014": 26817388,
                 "2015": 462228,
                 "2017": 800909069,
@@ -2650,9 +2675,17 @@
                                 "2017": 0,
                                 "2019": 585107
                             }
+                        },
+                        {
+                            "adm2_code": 48386,
+                            "adm2_name": "Monduli",
+                            "loss": {
+                                "2013": 12
+                            }
                         }
                     ],
                     "loss": {
+                        "2013": 12,
                         "2016": 26,
                         "2017": 0,
                         "2019": 585107
@@ -2720,9 +2753,102 @@
                 }
             ],
             "loss": {
+                "2013": 12,
                 "2016": 26,
                 "2017": 0,
                 "2019": 589545
+            }
+        },
+        {
+            "adm0_code": 58,
+            "adm0_name": "Comoros",
+            "adm1": [
+                {
+                    "adm1_code": 967,
+                    "adm1_name": "Anjouan",
+                    "adm2": [
+                        {
+                            "adm2_code": 14420,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": {
+                                "2014": 28989,
+                                "2019": 2839870
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2014": 28989,
+                        "2019": 2839870
+                    }
+                },
+                {
+                    "adm1_code": 968,
+                    "adm1_name": "Moheli",
+                    "adm2": [
+                        {
+                            "adm2_code": 14421,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": {
+                                "2014": 12216,
+                                "2019": 196495
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2014": 12216,
+                        "2019": 196495
+                    }
+                },
+                {
+                    "adm1_code": 969,
+                    "adm1_name": "Ngazidja",
+                    "adm2": [
+                        {
+                            "adm2_code": 14422,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": {
+                                "2014": 312,
+                                "2019": 165918478
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2014": 312,
+                        "2019": 165918478
+                    }
+                }
+            ],
+            "loss": {
+                "2014": 41517,
+                "2019": 168954843
+            }
+        },
+        {
+            "adm0_code": 161,
+            "adm0_name": "Mayotte",
+            "adm1": [
+                {
+                    "adm1_code": 2027,
+                    "adm1_name": "Administrative unit not available",
+                    "adm2": [
+                        {
+                            "adm2_code": 19545,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": {
+                                "2014": 1152405,
+                                "2019": 475614
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2014": 1152405,
+                        "2019": 475614
+                    }
+                }
+            ],
+            "loss": {
+                "2014": 1152405,
+                "2019": 475614
             }
         },
         {
@@ -2848,6 +2974,22 @@
                     }
                 },
                 {
+                    "adm1_code": 61146,
+                    "adm1_name": "Beau Vallon",
+                    "adm2": [
+                        {
+                            "adm2_code": 61222,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": {
+                                "2013": 0
+                            }
+                        }
+                    ],
+                    "loss": {
+                        "2013": 0
+                    }
+                },
+                {
                     "adm1_code": 61194,
                     "adm1_name": "Providence",
                     "adm2": [
@@ -2865,101 +3007,71 @@
                 }
             ],
             "loss": {
+                "2013": 0,
                 "2016": 11282662,
                 "2019": 33018,
                 "2020": 1697155
             }
         },
         {
-            "adm0_code": 58,
-            "adm0_name": "Comoros",
+            "adm0_code": 206,
+            "adm0_name": "R\u00e9union",
             "adm1": [
                 {
-                    "adm1_code": 967,
-                    "adm1_name": "Anjouan",
+                    "adm1_code": 2590,
+                    "adm1_name": "Arrondissement_du_vent",
                     "adm2": [
                         {
-                            "adm2_code": 14420,
+                            "adm2_code": 25273,
                             "adm2_name": "Administrative unit not available",
                             "loss": {
-                                "2014": 28989,
-                                "2019": 2839870
+                                "2013": 3163892,
+                                "2014": 239492148,
+                                "2015": 1513,
+                                "2017": 47848,
+                                "2018": 10938584
                             }
                         }
                     ],
                     "loss": {
-                        "2014": 28989,
-                        "2019": 2839870
+                        "2013": 3163892,
+                        "2014": 239492148,
+                        "2015": 1513,
+                        "2017": 47848,
+                        "2018": 10938584
                     }
                 },
                 {
-                    "adm1_code": 968,
-                    "adm1_name": "Moheli",
+                    "adm1_code": 2591,
+                    "adm1_name": "Arrondissement_souse_le_vent",
                     "adm2": [
                         {
-                            "adm2_code": 14421,
+                            "adm2_code": 25274,
                             "adm2_name": "Administrative unit not available",
                             "loss": {
-                                "2014": 12216,
-                                "2019": 196495
+                                "2013": 12021309,
+                                "2014": 1757270192,
+                                "2015": 107783,
+                                "2017": 55735,
+                                "2018": 31137144
                             }
                         }
                     ],
                     "loss": {
-                        "2014": 12216,
-                        "2019": 196495
-                    }
-                },
-                {
-                    "adm1_code": 969,
-                    "adm1_name": "Ngazidja",
-                    "adm2": [
-                        {
-                            "adm2_code": 14422,
-                            "adm2_name": "Administrative unit not available",
-                            "loss": {
-                                "2014": 312,
-                                "2019": 165918478
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 312,
-                        "2019": 165918478
+                        "2013": 12021309,
+                        "2014": 1757270192,
+                        "2015": 107783,
+                        "2017": 55735,
+                        "2018": 31137144
                     }
                 }
             ],
             "loss": {
-                "2014": 41517,
-                "2019": 168954843
-            }
-        },
-        {
-            "adm0_code": 161,
-            "adm0_name": "Mayotte",
-            "adm1": [
-                {
-                    "adm1_code": 2027,
-                    "adm1_name": "Administrative unit not available",
-                    "adm2": [
-                        {
-                            "adm2_code": 19545,
-                            "adm2_name": "Administrative unit not available",
-                            "loss": {
-                                "2014": 1152405,
-                                "2019": 475614
-                            }
-                        }
-                    ],
-                    "loss": {
-                        "2014": 1152405,
-                        "2019": 475614
-                    }
-                }
-            ],
-            "loss": {
-                "2014": 1152405,
-                "2019": 475614
+                "2013": 15185201,
+                "2014": 1996762339,
+                "2015": 109296,
+                "2017": 103583,
+                "2018": 42075727
             }
         }
     ]
