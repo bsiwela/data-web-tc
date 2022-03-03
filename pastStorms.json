@@ -624,7 +624,7 @@
                 -6.8958
             ],
             "id": "SH022010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH022010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH022010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH022010_shp.geojson",
             "storm_name": "BONGANI",
@@ -638,7 +638,7 @@
                 -9.4375
             ],
             "id": "SH012010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH012010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH012010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH012010_shp.geojson",
             "storm_name": "ANJA",
@@ -652,7 +652,7 @@
                 -17.0208
             ],
             "id": "SH182010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH182010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH182010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH182010_shp.geojson",
             "storm_name": "HUBERT",
@@ -666,7 +666,7 @@
                 -17.2875
             ],
             "id": "SH132010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH132010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH132010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH132010_shp.geojson",
             "storm_name": "FAMI",
@@ -680,7 +680,7 @@
                 -14.6125
             ],
             "id": "SH112010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH112010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH112010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH112010_shp.geojson",
             "storm_name": "ELEVEN",
@@ -694,7 +694,7 @@
                 -5.3542
             ],
             "id": "SH052010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH052010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH052010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH052010_shp.geojson",
             "storm_name": "DAVID",
@@ -708,7 +708,7 @@
                 -8.8875
             ],
             "id": "SH162010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH162010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH162010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH162010_shp.geojson",
             "storm_name": "GELANE",
@@ -722,7 +722,7 @@
                 -9.2
             ],
             "id": "SH072010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH072010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH072010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH072010_shp.geojson",
             "storm_name": "EDZANI",
@@ -736,7 +736,7 @@
                 -8.1542
             ],
             "id": "SH032010",
-            "losses": "",
+            "losses": "jtwc_history/2010/SH032010_losses_adm.json",
             "nc": "jtwc_history/2010/taostc_SH032010_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2010/SH032010_shp.geojson",
             "storm_name": "CLEO",
