@@ -49,6 +49,10 @@ jobs:
       # execute python script pastStorms.py
       - name: execute python script pastStorms.py
         run: python scripts/pastStorms.py
+        
+      # execute python script getHistory.py
+      - name: execute python script getHistory.py
+        run: python scripts/getHistory.py
       
       # commit files
       - name: commit files
