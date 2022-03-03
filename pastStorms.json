@@ -260,7 +260,7 @@
                 -7.0125
             ],
             "id": "SH012011",
-            "losses": "",
+            "losses": "jtwc_history/2011/SH012011_losses_adm.json",
             "nc": "jtwc_history/2011/taostc_SH012011_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2011/SH012011_shp.geojson",
             "storm_name": "ONE",
@@ -274,7 +274,7 @@
                 -9.7625
             ],
             "id": "SH182011",
-            "losses": "",
+            "losses": "jtwc_history/2011/SH182011_losses_adm.json",
             "nc": "jtwc_history/2011/taostc_SH182011_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2011/SH182011_shp.geojson",
             "storm_name": "CHERONO",
@@ -288,7 +288,7 @@
                 -11.8208
             ],
             "id": "SH132011",
-            "losses": "",
+            "losses": "jtwc_history/2011/SH132011_losses_adm.json",
             "nc": "jtwc_history/2011/taostc_SH132011_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2011/SH132011_shp.geojson",
             "storm_name": "BINGIZA",
