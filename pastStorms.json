@@ -1156,7 +1156,7 @@
                 -9.4542
             ],
             "id": "SH162009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH162009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH162009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH162009_shp.geojson",
             "storm_name": "HINA",
@@ -1170,7 +1170,7 @@
                 -12.0375
             ],
             "id": "SH062009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH062009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH062009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH062009_shp.geojson",
             "storm_name": "DONGO",
@@ -1184,7 +1184,7 @@
                 -16.8958
             ],
             "id": "SH242009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH242009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH242009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH242009_shp.geojson",
             "storm_name": "IZILDA",
@@ -1198,7 +1198,7 @@
                 -7.7958
             ],
             "id": "SH042009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH042009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH042009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH042009_shp.geojson",
             "storm_name": "CINDA",
@@ -1226,7 +1226,7 @@
                 -13.2208
             ],
             "id": "SH142009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH142009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH142009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH142009_shp.geojson",
             "storm_name": "FREDDY",
@@ -1254,7 +1254,7 @@
                 -3.5458
             ],
             "id": "SH012009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH012009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH012009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH012009_shp.geojson",
             "storm_name": "ASMA",
@@ -1268,7 +1268,7 @@
                 -14.7
             ],
             "id": "SH132009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH132009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH132009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH132009_shp.geojson",
             "storm_name": "GAEL",
@@ -1282,7 +1282,7 @@
                 -9.7042
             ],
             "id": "SH262009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH262009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH262009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH262009_shp.geojson",
             "storm_name": "JADE",
@@ -1296,7 +1296,7 @@
                 -17.1375
             ],
             "id": "SH092009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH092009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH092009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH092009_shp.geojson",
             "storm_name": "FANELE",
@@ -1310,7 +1310,7 @@
                 -13.7458
             ],
             "id": "SH082009",
-            "losses": "",
+            "losses": "jtwc_history/2009/SH082009_losses_adm.json",
             "nc": "jtwc_history/2009/taostc_SH082009_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2009/SH082009_shp.geojson",
             "storm_name": "ERIC",
