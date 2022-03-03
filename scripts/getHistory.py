@@ -28,7 +28,7 @@ def checkIfKeyAddValue(d, year, value, field='loss'):
 
 def getHistory(json_years, json_adm):
 
-    dir = 'jtwc_history_'
+    dir = 'jtwc_history'
     list_losses = glob.glob(f'{dir}/**/**_losses_adm.json', recursive=True)
     list_years = list(set([item.split('/')[1] for item in list_losses]))
     dict_years = {}
