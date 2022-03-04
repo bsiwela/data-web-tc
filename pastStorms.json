@@ -1030,7 +1030,7 @@
                 -11.8042
             ],
             "id": "SH252008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH252008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH252008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH252008_shp.geojson",
             "storm_name": "LOLA",
@@ -1044,7 +1044,7 @@
                 -15.6625
             ],
             "id": "SH092008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH092008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH092008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH092008_shp.geojson",
             "storm_name": "ELNUS",
@@ -1058,7 +1058,7 @@
                 -8.8208
             ],
             "id": "SH142008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH142008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH142008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH142008_shp.geojson",
             "storm_name": "GULA",
@@ -1072,7 +1072,7 @@
                 -10.2
             ],
             "id": "SH182008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH182008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH182008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH182008_shp.geojson",
             "storm_name": "IVAN",
@@ -1086,7 +1086,7 @@
                 -4.0125
             ],
             "id": "SH042008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH042008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH042008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH042008_shp.geojson",
             "storm_name": "BONGWE",
@@ -1100,7 +1100,7 @@
                 -10.0
             ],
             "id": "SH222008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH222008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH222008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH222008_shp.geojson",
             "storm_name": "JOKWE",
@@ -1114,7 +1114,7 @@
                 -10.5625
             ],
             "id": "SH162008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH162008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH162008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH162008_shp.geojson",
             "storm_name": "HONDO",
@@ -1128,7 +1128,7 @@
                 -11.0958
             ],
             "id": "SH062008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH062008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH062008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH062008_shp.geojson",
             "storm_name": "CELINA",
@@ -1142,7 +1142,7 @@
                 -11.5042
             ],
             "id": "SH132008",
-            "losses": "",
+            "losses": "jtwc_history/2008/SH132008_losses_adm.json",
             "nc": "jtwc_history/2008/taostc_SH132008_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2008/SH132008_shp.geojson",
             "storm_name": "FAME",
