@@ -120,7 +120,7 @@
                 -5.4292
             ],
             "id": "SH032007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH032007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH032007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH032007_shp.geojson",
             "storm_name": "ANITA",
@@ -134,7 +134,7 @@
                 -12.6958
             ],
             "id": "SH132007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH132007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH132007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH132007_shp.geojson",
             "storm_name": "ENOK",
@@ -148,7 +148,7 @@
                 -9.0792
             ],
             "id": "SH162007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH162007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH162007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH162007_shp.geojson",
             "storm_name": "HUMBA",
@@ -162,7 +162,7 @@
                 -7.3
             ],
             "id": "SH052007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH052007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH052007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH052007_shp.geojson",
             "storm_name": "BONDO",
@@ -176,7 +176,7 @@
                 -11.8542
             ],
             "id": "SH222007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH222007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH222007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH222007_shp.geojson",
             "storm_name": "JAYA",
@@ -190,7 +190,7 @@
                 -7.2292
             ],
             "id": "SH102007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH102007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH102007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH102007_shp.geojson",
             "storm_name": "DORA",
@@ -204,7 +204,7 @@
                 -12.5708
             ],
             "id": "SH152007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH152007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH152007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH152007_shp.geojson",
             "storm_name": "GAMEDE",
@@ -218,7 +218,7 @@
                 -10.6042
             ],
             "id": "SH192007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH192007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH192007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH192007_shp.geojson",
             "storm_name": "INDLALA",
@@ -232,7 +232,7 @@
                 -10.2
             ],
             "id": "SH142007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH142007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH142007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH142007_shp.geojson",
             "storm_name": "FAVIO",
@@ -246,7 +246,7 @@
                 -10.9625
             ],
             "id": "SH062007",
-            "losses": "",
+            "losses": "jtwc_history/2007/SH062007_losses_adm.json",
             "nc": "jtwc_history/2007/taostc_SH062007_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2007/SH062007_shp.geojson",
             "storm_name": "CLOVIS",
