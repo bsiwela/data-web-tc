@@ -1912,7 +1912,7 @@
                 -14.6
             ],
             "id": "SH092006",
-            "losses": "",
+            "losses": "jtwc_history/2006/SH092006_losses_adm.json",
             "nc": "jtwc_history/2006/taostc_SH092006_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2006/SH092006_shp.geojson",
             "storm_name": "BOLOETSE",
@@ -1926,7 +1926,7 @@
                 -11.5708
             ],
             "id": "SH162006",
-            "losses": "",
+            "losses": "jtwc_history/2006/SH162006_losses_adm.json",
             "nc": "jtwc_history/2006/taostc_SH162006_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2006/SH162006_shp.geojson",
             "storm_name": "DIWA",
@@ -1940,7 +1940,7 @@
                 -5.8542
             ],
             "id": "SH042006",
-            "losses": "",
+            "losses": "jtwc_history/2006/SH042006_losses_adm.json",
             "nc": "jtwc_history/2006/taostc_SH042006_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2006/SH042006_shp.geojson",
             "storm_name": "NONAME",
@@ -1954,7 +1954,7 @@
                 -13.4292
             ],
             "id": "SH122006",
-            "losses": "",
+            "losses": "jtwc_history/2006/SH122006_losses_adm.json",
             "nc": "jtwc_history/2006/taostc_SH122006_BEST_SLOSH.geojson",
             "shp": "jtwc_history/2006/SH122006_shp.geojson",
             "storm_name": "NONAME",
