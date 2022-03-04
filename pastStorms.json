@@ -940,6 +940,136 @@
         },
         {
             "bbox": [
+                49.9708,
+                -20.7125,
+                81.3792,
+                -5.2125
+            ],
+            "id": "SH042005",
+            "losses": "jtwc_history/2005/SH042005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH042005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                54.7958,
+                -36.4875,
+                65.6708,
+                -18.5625
+            ],
+            "id": "SH142005",
+            "losses": "jtwc_history/2005/SH142005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH142005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                54.6125,
+                -29.0792,
+                66.4542,
+                -11.7792
+            ],
+            "id": "SH242005",
+            "losses": "jtwc_history/2005/SH242005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH242005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                38.4375,
+                -12.2458,
+                65.4875,
+                -5.7958
+            ],
+            "id": "SH022005",
+            "losses": "jtwc_history/2005/SH022005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH022005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                60.8958,
+                -19.4542,
+                91.2875,
+                -5.5708
+            ],
+            "id": "SH112005",
+            "losses": "jtwc_history/2005/SH112005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH112005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                59.7375,
+                -31.3958,
+                102.8,
+                -10.1
+            ],
+            "id": "SH262005",
+            "losses": "jtwc_history/2005/SH262005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH262005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                38.3208,
+                -30.7375,
+                60.8,
+                -8.8
+            ],
+            "id": "SH122005",
+            "losses": "jtwc_history/2005/SH122005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH122005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                65.3958,
+                -31.9292,
+                94.6,
+                -5.9
+            ],
+            "id": "SH062005",
+            "losses": "jtwc_history/2005/SH062005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH062005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                62.5958,
+                -36.3208,
+                87.1042,
+                -7.8958
+            ],
+            "id": "SH252005",
+            "losses": "jtwc_history/2005/SH252005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH252005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
+                63.1542,
+                -15.9458,
+                84.8875,
+                -5.5708
+            ],
+            "id": "SH032005",
+            "losses": "jtwc_history/2005/SH032005_losses_adm.json",
+            "nc": "jtwc_history/2005/taostc_SH032005_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2005"
+        },
+        {
+            "bbox": [
                 46.1875,
                 -31.8708,
                 74.3375,
