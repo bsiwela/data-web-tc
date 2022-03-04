@@ -814,6 +814,123 @@
         },
         {
             "bbox": [
+                63.8542,
+                -19.8208,
+                104.2708,
+                -4.2375
+            ],
+            "id": "SH042004",
+            "losses": "jtwc_history/2004/SH042004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH042004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
+                49.2792,
+                -12.5458,
+                58.4125,
+                -6.1625
+            ],
+            "id": "SH212004",
+            "losses": "jtwc_history/2004/SH212004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH212004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
+                39.9292,
+                -24.7292,
+                72.2,
+                -10.1875
+            ],
+            "id": "SH162004",
+            "losses": "jtwc_history/2004/SH162004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH162004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
+                61.2125,
+                -10.1708,
+                70.5458,
+                -1.5208
+            ],
+            "id": "SH012004",
+            "losses": "jtwc_history/2004/SH012004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH012004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
+                54.0375,
+                -32.9708,
+                71.2708,
+                -4.7375
+            ],
+            "id": "SH062004",
+            "losses": "jtwc_history/2004/SH062004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH062004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
+                34.8792,
+                -40.9875,
+                65.9625,
+                -8.6042
+            ],
+            "id": "SH032004",
+            "losses": "jtwc_history/2004/SH032004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH032004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
+                39.1292,
+                -29.3208,
+                54.2708,
+                -11.2792
+            ],
+            "id": "SH092004",
+            "losses": "jtwc_history/2004/SH092004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH092004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
+                62.4542,
+                -18.3708,
+                85.6375,
+                -4.5792
+            ],
+            "id": "SH232004",
+            "losses": "jtwc_history/2004/SH232004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH232004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
+                56.3375,
+                -17.8792,
+                83.3792,
+                -4.1875
+            ],
+            "id": "SH022004",
+            "losses": "jtwc_history/2004/SH022004_losses_adm.json",
+            "nc": "jtwc_history/2004/taostc_SH022004_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2004"
+        },
+        {
+            "bbox": [
                 46.8542,
                 -18.1792,
                 73.6958,
