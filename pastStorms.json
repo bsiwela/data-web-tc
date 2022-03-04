@@ -1565,6 +1565,84 @@
         },
         {
             "bbox": [
+                47.1042,
+                -31.0458,
+                77.9,
+                -6.8
+            ],
+            "id": "SH102002",
+            "losses": "jtwc_history/2002/SH102002_losses_adm.json",
+            "nc": "jtwc_history/2002/taostc_SH102002_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2002"
+        },
+        {
+            "bbox": [
+                33.6042,
+                -26.8875,
+                47.6792,
+                -17.1042
+            ],
+            "id": "SH082002",
+            "losses": "jtwc_history/2002/SH082002_losses_adm.json",
+            "nc": "jtwc_history/2002/taostc_SH082002_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2002"
+        },
+        {
+            "bbox": [
+                75.8375,
+                -15.0792,
+                99.6958,
+                -4.6042
+            ],
+            "id": "SH022002",
+            "losses": "",
+            "nc": "jtwc_history/2002/taostc_SH022002_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2002"
+        },
+        {
+            "bbox": [
+                47.3125,
+                -30.8792,
+                66.6,
+                -8.4208
+            ],
+            "id": "SH182002",
+            "losses": "jtwc_history/2002/SH182002_losses_adm.json",
+            "nc": "jtwc_history/2002/taostc_SH182002_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2002"
+        },
+        {
+            "bbox": [
+                49.9708,
+                -26.8375,
+                64.8208,
+                -12.2292
+            ],
+            "id": "SH152002",
+            "losses": "jtwc_history/2002/SH152002_losses_adm.json",
+            "nc": "jtwc_history/2002/taostc_SH152002_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2002"
+        },
+        {
+            "bbox": [
+                45.2208,
+                -18.4625,
+                69.9292,
+                -5.1208
+            ],
+            "id": "SH232002",
+            "losses": "jtwc_history/2002/SH232002_losses_adm.json",
+            "nc": "jtwc_history/2002/taostc_SH232002_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "2002"
+        },
+        {
+            "bbox": [
                 39.3958,
                 -36.1125,
                 83.1625,
