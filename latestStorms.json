@@ -1,16 +1,13 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH182022",
-            "SH142022"
+            "IO012022"
         ],
         "storms_shp": [
-            "SH182022",
-            "SH142022"
+            "IO012022"
         ],
         "windwater_shp": [
-            "SH182022",
-            "SH142022"
+            "IO012022"
         ]
     },
     "mpres_data": [
@@ -67,19 +64,5 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                73.5583,
-                -41.2583,
-                97.2417,
-                -9.2917
-            ],
-            "fmee": "tc_realtime/taostc_SH142022_FMEE_SLOSH.geojson",
-            "id": "SH142022",
-            "jtwc": "tc_realtime/taostc_SH142022_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH142022_losses_adm.json",
-            "storm_name": "VERNON"
-        }
-    ]
+    "tc_realtime": []
 }
