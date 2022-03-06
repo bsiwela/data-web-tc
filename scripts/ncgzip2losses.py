@@ -196,11 +196,14 @@ def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson
                 #print(f'\033[91mCould not find any existing mapping for {expid} {ctry_id, admin_id}, lon {lon}, lat {lat}\033[0m')
                 unid_count += 1
                 population = 0
-                if adm0_code not in ctry_id_dict.keys():
-                    ctry_id_dict[adm0_code] = [1,loss]
-                else:
-                    ctry_id_dict[adm0_code][0] += 1
-                    ctry_id_dict[adm0_code][1] += loss
+                try:
+                    if adm0_code not in ctry_id_dict.keys():
+                        ctry_id_dict[adm0_code] = [1,loss]
+                    else:
+                        ctry_id_dict[adm0_code][0] += 1
+                        ctry_id_dict[adm0_code][1] += loss
+                except:
+                    continue
                 # !!!!!!!!!!!! Population needs to be handled here !!!!!!!!!!!!!!
 
             wind_cat = np.digitize(vms, wind_bins)
