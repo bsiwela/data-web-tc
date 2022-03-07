@@ -604,6 +604,84 @@
         },
         {
             "bbox": [
+                63.2042,
+                -14.8708,
+                81.8458,
+                -7.4458
+            ],
+            "id": "SH221991",
+            "losses": "jtwc_history/1991/SH221991_losses_adm.json",
+            "nc": "jtwc_history/1991/taostc_SH221991_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1991"
+        },
+        {
+            "bbox": [
+                57.1292,
+                -36.1,
+                95.5,
+                -4.4
+            ],
+            "id": "SH081991",
+            "losses": "jtwc_history/1991/SH081991_losses_adm.json",
+            "nc": "jtwc_history/1991/taostc_SH081991_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1991"
+        },
+        {
+            "bbox": [
+                55.2292,
+                -11.1292,
+                75.9792,
+                -4.0042
+            ],
+            "id": "SH011991",
+            "losses": "jtwc_history/1991/SH011991_losses_adm.json",
+            "nc": "jtwc_history/1991/taostc_SH011991_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1991"
+        },
+        {
+            "bbox": [
+                32.0042,
+                -45.1208,
+                53.0708,
+                -18.9625
+            ],
+            "id": "SH121991",
+            "losses": "jtwc_history/1991/SH121991_losses_adm.json",
+            "nc": "jtwc_history/1991/taostc_SH121991_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1991"
+        },
+        {
+            "bbox": [
+                65.8792,
+                -11.1708,
+                75.8875,
+                -3.9375
+            ],
+            "id": "SH021991",
+            "losses": "jtwc_history/1991/SH021991_losses_adm.json",
+            "nc": "jtwc_history/1991/taostc_SH021991_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1991"
+        },
+        {
+            "bbox": [
+                38.2375,
+                -25.0042,
+                48.8875,
+                -13.8125
+            ],
+            "id": "SH101991",
+            "losses": "jtwc_history/1991/SH101991_losses_adm.json",
+            "nc": "jtwc_history/1991/taostc_SH101991_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1991"
+        },
+        {
+            "bbox": [
                 48.9208,
                 -18.7292,
                 72.6958,
