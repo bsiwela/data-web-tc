@@ -1134,6 +1134,71 @@
         },
         {
             "bbox": [
+                38.1125,
+                -36.1042,
+                59.7625,
+                -23.3958
+            ],
+            "id": "SH241987",
+            "losses": "jtwc_history/1987/SH241987_losses_adm.json",
+            "nc": "jtwc_history/1987/taostc_SH241987_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1987"
+        },
+        {
+            "bbox": [
+                59.5125,
+                -40.9958,
+                81.7375,
+                -10.8792
+            ],
+            "id": "SH091987",
+            "losses": "jtwc_history/1987/SH091987_losses_adm.json",
+            "nc": "jtwc_history/1987/taostc_SH091987_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1987"
+        },
+        {
+            "bbox": [
+                49.6708,
+                -27.4625,
+                60.3958,
+                -16.9542
+            ],
+            "id": "SH171987",
+            "losses": "jtwc_history/1987/SH171987_losses_adm.json",
+            "nc": "jtwc_history/1987/taostc_SH171987_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1987"
+        },
+        {
+            "bbox": [
+                68.2208,
+                -31.9208,
+                80.2542,
+                -8.6792
+            ],
+            "id": "SH211987",
+            "losses": "jtwc_history/1987/SH211987_losses_adm.json",
+            "nc": "jtwc_history/1987/taostc_SH211987_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1987"
+        },
+        {
+            "bbox": [
+                70.5292,
+                -10.6458,
+                86.9958,
+                -4.0708
+            ],
+            "id": "SH011987",
+            "losses": "jtwc_history/1987/SH011987_losses_adm.json",
+            "nc": "jtwc_history/1987/taostc_SH011987_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1987"
+        },
+        {
+            "bbox": [
                 62.4542,
                 -33.0958,
                 75.6958,
