@@ -4724,6 +4724,71 @@
             "shp": "jtwc_history/2006/SH122006_shp.geojson",
             "storm_name": "NONAME",
             "year": "2006"
+        },
+        {
+            "bbox": [
+                34.0458,
+                -24.5292,
+                49.3958,
+                -7.7125
+            ],
+            "id": "SH081983",
+            "losses": "jtwc_history/1983/SH081983_losses_adm.json",
+            "nc": "jtwc_history/1983/taostc_SH081983_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1983"
+        },
+        {
+            "bbox": [
+                59.2708,
+                -20.8958,
+                66.0708,
+                -13.6958
+            ],
+            "id": "SH111983",
+            "losses": "jtwc_history/1983/SH111983_losses_adm.json",
+            "nc": "jtwc_history/1983/taostc_SH111983_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1983"
+        },
+        {
+            "bbox": [
+                58.9458,
+                -30.2625,
+                77.9875,
+                -6.7125
+            ],
+            "id": "SH061983",
+            "losses": "jtwc_history/1983/SH061983_losses_adm.json",
+            "nc": "jtwc_history/1983/taostc_SH061983_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1983"
+        },
+        {
+            "bbox": [
+                51.7792,
+                -29.5292,
+                68.7875,
+                -6.9708
+            ],
+            "id": "SH041983",
+            "losses": "jtwc_history/1983/SH041983_losses_adm.json",
+            "nc": "jtwc_history/1983/taostc_SH041983_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1983"
+        },
+        {
+            "bbox": [
+                49.1958,
+                -10.1542,
+                58.4875,
+                -3.8125
+            ],
+            "id": "SH011983",
+            "losses": "jtwc_history/1983/SH011983_losses_adm.json",
+            "nc": "jtwc_history/1983/taostc_SH011983_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1983"
         }
     ]
 }
