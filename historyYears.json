@@ -1,4 +1,430 @@
 {
+    "1993": [
+        {
+            "adm0_code": 160,
+            "adm0_name": "Mauritius",
+            "adm1": [
+                {
+                    "adm1_code": 2017,
+                    "adm1_name": "Administrative unit not available",
+                    "adm2": [
+                        {
+                            "adm2_code": 19535,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 12896.6258589997,
+                            "population": 307,
+                            "wind_cat": {
+                                "1": 307
+                            }
+                        }
+                    ],
+                    "loss": 12896.6258589997,
+                    "population": 307,
+                    "wind_cat": {
+                        "1": 307
+                    }
+                },
+                {
+                    "adm1_code": 2018,
+                    "adm1_name": "Black River",
+                    "adm2": [
+                        {
+                            "adm2_code": 19536,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 519532.5443504148,
+                            "population": 72490,
+                            "wind_cat": {
+                                "1": 72490
+                            }
+                        }
+                    ],
+                    "loss": 519532.5443504148,
+                    "population": 72490,
+                    "wind_cat": {
+                        "1": 72490
+                    }
+                },
+                {
+                    "adm1_code": 2019,
+                    "adm1_name": "Flacq",
+                    "adm2": [
+                        {
+                            "adm2_code": 19537,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 137294.7059512152,
+                            "population": 148203,
+                            "wind_cat": {
+                                "0": 2926,
+                                "1": 145277
+                            }
+                        }
+                    ],
+                    "loss": 137294.7059512152,
+                    "population": 148203,
+                    "wind_cat": {
+                        "0": 2926,
+                        "1": 145277
+                    }
+                },
+                {
+                    "adm1_code": 2020,
+                    "adm1_name": "Grand Port",
+                    "adm2": [
+                        {
+                            "adm2_code": 19538,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 103895.0434577017,
+                            "population": 117962,
+                            "wind_cat": {
+                                "0": 14343,
+                                "1": 103619
+                            }
+                        }
+                    ],
+                    "loss": 103895.0434577017,
+                    "population": 117962,
+                    "wind_cat": {
+                        "0": 14343,
+                        "1": 103619
+                    }
+                },
+                {
+                    "adm1_code": 2021,
+                    "adm1_name": "Moka",
+                    "adm2": [
+                        {
+                            "adm2_code": 19539,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 167337.5731226134,
+                            "population": 144916,
+                            "wind_cat": {
+                                "0": 75,
+                                "1": 144841
+                            }
+                        }
+                    ],
+                    "loss": 167337.5731226134,
+                    "population": 144916,
+                    "wind_cat": {
+                        "0": 75,
+                        "1": 144841
+                    }
+                },
+                {
+                    "adm1_code": 2022,
+                    "adm1_name": "Pamplemousses",
+                    "adm2": [
+                        {
+                            "adm2_code": 19540,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 403774.5874291509,
+                            "population": 165109,
+                            "wind_cat": {
+                                "1": 165109
+                            }
+                        }
+                    ],
+                    "loss": 403774.5874291509,
+                    "population": 165109,
+                    "wind_cat": {
+                        "1": 165109
+                    }
+                },
+                {
+                    "adm1_code": 2023,
+                    "adm1_name": "Plaines Wilhems",
+                    "adm2": [
+                        {
+                            "adm2_code": 19541,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 200891.1932988452,
+                            "population": 294342,
+                            "wind_cat": {
+                                "1": 294342
+                            }
+                        }
+                    ],
+                    "loss": 200891.1932988452,
+                    "population": 294342,
+                    "wind_cat": {
+                        "1": 294342
+                    }
+                },
+                {
+                    "adm1_code": 2024,
+                    "adm1_name": "Port Louis",
+                    "adm2": [
+                        {
+                            "adm2_code": 19542,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 62154.7153589426,
+                            "population": 100326,
+                            "wind_cat": {
+                                "1": 100326
+                            }
+                        }
+                    ],
+                    "loss": 62154.7153589426,
+                    "population": 100326,
+                    "wind_cat": {
+                        "1": 100326
+                    }
+                },
+                {
+                    "adm1_code": 2025,
+                    "adm1_name": "Riviere Du Rempart",
+                    "adm2": [
+                        {
+                            "adm2_code": 19543,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 268995.4792050432,
+                            "population": 123738,
+                            "wind_cat": {
+                                "1": 123738
+                            }
+                        }
+                    ],
+                    "loss": 268995.4792050432,
+                    "population": 123738,
+                    "wind_cat": {
+                        "1": 123738
+                    }
+                },
+                {
+                    "adm1_code": 2026,
+                    "adm1_name": "Savanne",
+                    "adm2": [
+                        {
+                            "adm2_code": 19544,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 73821.2228319629,
+                            "population": 60507,
+                            "wind_cat": {
+                                "0": 5805,
+                                "1": 54702
+                            }
+                        }
+                    ],
+                    "loss": 73821.2228319629,
+                    "population": 60507,
+                    "wind_cat": {
+                        "0": 5805,
+                        "1": 54702
+                    }
+                }
+            ],
+            "loss": 1950593.6908648899,
+            "population": 1227900,
+            "wind_cat": {
+                "0": 23149,
+                "1": 1204751
+            }
+        },
+        {
+            "adm0_code": 206,
+            "adm0_name": "R\u00e9union",
+            "adm1": [
+                {
+                    "adm1_code": 2590,
+                    "adm1_name": "Arrondissement_du_vent",
+                    "adm2": [
+                        {
+                            "adm2_code": 25273,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 1240948670.2719948,
+                            "population": 256754,
+                            "wind_cat": {
+                                "3": 80459,
+                                "4": 176295
+                            }
+                        }
+                    ],
+                    "loss": 1240948670.2719948,
+                    "population": 256754,
+                    "wind_cat": {
+                        "3": 80459,
+                        "4": 176295
+                    }
+                },
+                {
+                    "adm1_code": 2591,
+                    "adm1_name": "Arrondissement_souse_le_vent",
+                    "adm2": [
+                        {
+                            "adm2_code": 25274,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 2428794828.46142,
+                            "population": 447764,
+                            "wind_cat": {
+                                "3": 263609,
+                                "4": 183765,
+                                "5": 390
+                            }
+                        }
+                    ],
+                    "loss": 2428794828.46142,
+                    "population": 447764,
+                    "wind_cat": {
+                        "3": 263609,
+                        "4": 183765,
+                        "5": 390
+                    }
+                }
+            ],
+            "loss": 3669743498.733415,
+            "population": 704518,
+            "wind_cat": {
+                "3": 344068,
+                "4": 360060,
+                "5": 390
+            }
+        },
+        {
+            "adm0_code": 150,
+            "adm0_name": "Madagascar",
+            "adm1": [
+                {
+                    "adm1_code": 41751,
+                    "adm1_name": "Amoron'i Mania",
+                    "adm2": [
+                        {
+                            "adm2_code": 19214,
+                            "adm2_name": "Ambatofinandrahana",
+                            "loss": 0.9952106988,
+                            "population": 15560,
+                            "wind_cat": {
+                                "0": 15560
+                            }
+                        }
+                    ],
+                    "loss": 0.9952106988,
+                    "population": 15560,
+                    "wind_cat": {
+                        "0": 15560
+                    }
+                },
+                {
+                    "adm1_code": 41756,
+                    "adm1_name": "Atsimo Andrefana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19283,
+                            "adm2_name": "Beroroha",
+                            "loss": 0.4824040697,
+                            "population": 2867,
+                            "wind_cat": {
+                                "0": 2867
+                            }
+                        }
+                    ],
+                    "loss": 0.4824040697,
+                    "population": 2867,
+                    "wind_cat": {
+                        "0": 2867
+                    }
+                },
+                {
+                    "adm1_code": 41763,
+                    "adm1_name": "Haute Matsiatra",
+                    "adm2": [
+                        {
+                            "adm2_code": 19213,
+                            "adm2_name": "Ambalavao",
+                            "loss": 0.0001281237,
+                            "population": 35,
+                            "wind_cat": {
+                                "0": 35
+                            }
+                        },
+                        {
+                            "adm2_code": 19221,
+                            "adm2_name": "Fianarantsoa II",
+                            "loss": 0.0186242377,
+                            "population": 3130,
+                            "wind_cat": {
+                                "0": 3130
+                            }
+                        },
+                        {
+                            "adm2_code": 19225,
+                            "adm2_name": "Ikalamavony",
+                            "loss": 0.5495484355,
+                            "population": 12331,
+                            "wind_cat": {
+                                "0": 12331
+                            }
+                        }
+                    ],
+                    "loss": 0.568300797,
+                    "population": 15496,
+                    "wind_cat": {
+                        "0": 15496
+                    }
+                },
+                {
+                    "adm1_code": 41767,
+                    "adm1_name": "Menabe",
+                    "adm2": [
+                        {
+                            "adm2_code": 19281,
+                            "adm2_name": "Belon'i Tsiribihina",
+                            "loss": 248.5739614037,
+                            "population": 11249,
+                            "wind_cat": {
+                                "0": 11249
+                            }
+                        },
+                        {
+                            "adm2_code": 19286,
+                            "adm2_name": "Mahabo",
+                            "loss": 39.4089120975,
+                            "population": 95325,
+                            "wind_cat": {
+                                "0": 95325
+                            }
+                        },
+                        {
+                            "adm2_code": 19287,
+                            "adm2_name": "Manja",
+                            "loss": 1.2319769579,
+                            "population": 10247,
+                            "wind_cat": {
+                                "0": 10247
+                            }
+                        },
+                        {
+                            "adm2_code": 19288,
+                            "adm2_name": "Miandrivazo",
+                            "loss": 104.3724817634,
+                            "population": 0,
+                            "wind_cat": {
+                                "0": 0
+                            }
+                        },
+                        {
+                            "adm2_code": 19290,
+                            "adm2_name": "Morondava",
+                            "loss": 474.0713182046,
+                            "population": 163022,
+                            "wind_cat": {
+                                "0": 163022
+                            }
+                        }
+                    ],
+                    "loss": 867.6586504271,
+                    "population": 279843,
+                    "wind_cat": {
+                        "0": 279843
+                    }
+                }
+            ],
+            "loss": 869.7045659926,
+            "population": 313766,
+            "wind_cat": {
+                "0": 313766
+            }
+        }
+    ],
     "1994": [
         {
             "adm0_code": 150,

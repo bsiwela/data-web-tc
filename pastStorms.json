@@ -1113,6 +1113,97 @@
         },
         {
             "bbox": [
+                69.9208,
+                -24.7042,
+                91.7,
+                -13.1
+            ],
+            "id": "SH241993",
+            "losses": "jtwc_history/1993/SH241993_losses_adm.json",
+            "nc": "jtwc_history/1993/taostc_SH241993_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1993"
+        },
+        {
+            "bbox": [
+                48.3375,
+                -36.6958,
+                65.6042,
+                -16.0
+            ],
+            "id": "SH191993",
+            "losses": "jtwc_history/1993/SH191993_losses_adm.json",
+            "nc": "jtwc_history/1993/taostc_SH191993_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1993"
+        },
+        {
+            "bbox": [
+                38.4292,
+                -24.2792,
+                48.2625,
+                -14.0625
+            ],
+            "id": "SH111993",
+            "losses": "jtwc_history/1993/SH111993_losses_adm.json",
+            "nc": "jtwc_history/1993/taostc_SH111993_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1993"
+        },
+        {
+            "bbox": [
+                42.5208,
+                -12.6958,
+                84.5958,
+                -6.2375
+            ],
+            "id": "SH041993",
+            "losses": "jtwc_history/1993/SH041993_losses_adm.json",
+            "nc": "jtwc_history/1993/taostc_SH041993_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1993"
+        },
+        {
+            "bbox": [
+                55.2875,
+                -39.2542,
+                90.5,
+                -6.3
+            ],
+            "id": "SH121993",
+            "losses": "jtwc_history/1993/SH121993_losses_adm.json",
+            "nc": "jtwc_history/1993/taostc_SH121993_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1993"
+        },
+        {
+            "bbox": [
+                52.1625,
+                -33.8708,
+                73.9,
+                -8.6458
+            ],
+            "id": "SH101993",
+            "losses": "jtwc_history/1993/SH101993_losses_adm.json",
+            "nc": "jtwc_history/1993/taostc_SH101993_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1993"
+        },
+        {
+            "bbox": [
+                63.2792,
+                -16.5375,
+                74.5,
+                -4.5042
+            ],
+            "id": "SH261993",
+            "losses": "jtwc_history/1993/SH261993_losses_adm.json",
+            "nc": "jtwc_history/1993/taostc_SH261993_BEST_SLOSH.geojson",
+            "storm_name": "NONAME",
+            "year": "1993"
+        },
+        {
+            "bbox": [
                 46.8542,
                 -18.1792,
                 73.6958,
