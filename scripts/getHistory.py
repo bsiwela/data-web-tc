@@ -26,13 +26,18 @@ def checkIfKeyAddValue(d, year, value, field='loss'):
 
     return
 
-def getHistory(json_years, json_adm):
+def getHistory(json_years, json_adm, json_past='pastStorms.json'):
 
     dir = 'jtwc_history'
     list_losses = glob.glob(f'{dir}/**/**_losses_adm.json', recursive=True)
     list_years = list(set([item.split('/')[1] for item in list_losses]))
     dict_years = {}
     dict_adm = {'records': []}
+
+    # reading past storms information
+    with open(json_past, 'r') as f:
+        past_storms = json.load(f)
+    past_storm_dict = {s['id']: s['shp'] for s in past_storms['jtwc_history'] if 'shp' in s}
 
     counter_total = 0
     for year in list_years:
@@ -45,9 +50,13 @@ def getHistory(json_years, json_adm):
             counter_total += 1
             with open(losses, 'r') as f:
                 data = json.load(f)
+            storm_id = losses.split('/')[2].split('_')[0]
+
+            print(f'Dealing with {storm_id} ...')
 
             for adm0 in data['records']:
                 if adm0['adm0_name'] not in [s['adm0_name'] for s in dict_adm['records']]:
+                    adm0['storms'] = []
                     dict_adm['records'].append(adm0)
                 i0 = [i for i, s in enumerate(dict_adm['records']) if s['adm0_name'] == adm0['adm0_name']][0]
 
@@ -57,17 +66,30 @@ def getHistory(json_years, json_adm):
                 checkIfKeyAddValue(dict_adm['records'][i0], year, 1, field='counter_adm0')
                 checkIfKeyAddValue(dict_adm['records'][i0], year, adm0['loss'], field='loss')
 
+                if storm_id in past_storm_dict:
+                    if 'storms' not in dict_adm['records'][i0]:
+                        dict_adm['records'][i0]['storms'] = []
+                    if past_storm_dict[storm_id] not in dict_adm['records'][i0]['storms']:
+                        dict_adm['records'][i0]['storms'].append(past_storm_dict[storm_id])
+
 
                 for adm1 in adm0['adm1']:
                     if adm1['adm1_name'] not in [s['adm1_name'] for s in dict_adm['records'][i0]['adm1']]:
                         dict_adm['records'][i0]['adm1'].append(adm1)
+
                     i1 = [i for i, s in enumerate(dict_adm['records'][i0]['adm1']) if s['adm1_name'] == adm1['adm1_name']][0]
 
                     dict_adm['records'][i0]['adm1'][i1].setdefault('counter_year', {year: counter_year})
                     dict_adm['records'][i0]['adm1'][i1]['counter_year'][year] = counter_year
 
-                    checkIfKeyAddValue(dict_adm['records'][i0]['adm1'][i1], year, 1, field='counter_adm0')
+                    checkIfKeyAddValue(dict_adm['records'][i0]['adm1'][i1], year, 1, field='counter_adm1')
                     checkIfKeyAddValue(dict_adm['records'][i0]['adm1'][i1], year, adm1['loss'], field='loss')
+
+                    if storm_id in past_storm_dict:
+                        if not ('storms' in dict_adm['records'][i0]['adm1'][i1]):
+                            dict_adm['records'][i0]['adm1'][i1]['storms'] = []
+                        if past_storm_dict[storm_id] not in dict_adm['records'][i0]['adm1'][i1]['storms']:
+                            dict_adm['records'][i0]['adm1'][i1]['storms'].append(past_storm_dict[storm_id])
 
                     for adm2 in adm1['adm2']:
                         if adm2['adm2_name'] not in [s['adm2_name'] for s in dict_adm['records'][i0]['adm1'][i1]['adm2']]:
@@ -77,8 +99,14 @@ def getHistory(json_years, json_adm):
                         dict_adm['records'][i0]['adm1'][i1]['adm2'][i2].setdefault('counter_year', {year: counter_year})
                         dict_adm['records'][i0]['adm1'][i1]['adm2'][i2]['counter_year'][year] = counter_year
 
-                        checkIfKeyAddValue(dict_adm['records'][i0]['adm1'][i1]['adm2'][i2], year, 1, field='counter_adm0')
+                        checkIfKeyAddValue(dict_adm['records'][i0]['adm1'][i1]['adm2'][i2], year, 1, field='counter_adm2')
                         checkIfKeyAddValue(dict_adm['records'][i0]['adm1'][i1]['adm2'][i2], year, adm2['loss'], field='loss')
+
+                        if storm_id in past_storm_dict:
+                            if not ('storms' in dict_adm['records'][i0]['adm1'][i1]['adm2'][i2]):
+                                dict_adm['records'][i0]['adm1'][i1]['adm2'][i2]['storms'] = []
+                            if past_storm_dict[storm_id] not in dict_adm['records'][i0]['adm1'][i1]['adm2'][i2]['storms']:
+                                dict_adm['records'][i0]['adm1'][i1]['adm2'][i2]['storms'].append(past_storm_dict[storm_id])
 
 
     dict_adm['counter_total'] = counter_total
