@@ -2375,7 +2375,7 @@
                 -15.5542
             ],
             "id": "SH221981",
-            "losses": "",
+            "losses": "jtwc_history/1981/SH221981_losses_adm.json",
             "nc": "jtwc_history/1981/taostc_SH221981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH221981_shp.geojson",
             "storm_name": "NONAME",
@@ -2389,7 +2389,7 @@
                 -9.8125
             ],
             "id": "SH081981",
-            "losses": "",
+            "losses": "jtwc_history/1981/SH081981_losses_adm.json",
             "nc": "jtwc_history/1981/taostc_SH081981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH081981_shp.geojson",
             "storm_name": "NONAME",
@@ -2403,7 +2403,7 @@
                 -9.5125
             ],
             "id": "SH131981",
-            "losses": "",
+            "losses": "jtwc_history/1981/SH131981_losses_adm.json",
             "nc": "jtwc_history/1981/taostc_SH131981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH131981_shp.geojson",
             "storm_name": "NONAME",
@@ -2417,7 +2417,7 @@
                 -4.4125
             ],
             "id": "SH261981",
-            "losses": "",
+            "losses": "jtwc_history/1981/SH261981_losses_adm.json",
             "nc": "jtwc_history/1981/taostc_SH261981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH261981_shp.geojson",
             "storm_name": "NONAME",
@@ -2431,7 +2431,7 @@
                 -12.1042
             ],
             "id": "SH281981",
-            "losses": "",
+            "losses": "jtwc_history/1981/SH281981_losses_adm.json",
             "nc": "jtwc_history/1981/taostc_SH281981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH281981_shp.geojson",
             "storm_name": "NONAME",
@@ -2445,7 +2445,7 @@
                 -10.0542
             ],
             "id": "SH171981",
-            "losses": "",
+            "losses": "jtwc_history/1981/SH171981_losses_adm.json",
             "nc": "jtwc_history/1981/taostc_SH171981_BEST_SLOSH.geojson",
             "shp": "jtwc_history/1981/SH171981_shp.geojson",
             "storm_name": "NONAME",

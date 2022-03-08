@@ -1,4 +1,1369 @@
 {
+    "1981": [
+        {
+            "adm0_code": 160,
+            "adm0_name": "Mauritius",
+            "adm1": [
+                {
+                    "adm1_code": 2017,
+                    "adm1_name": "Administrative unit not available",
+                    "adm2": [
+                        {
+                            "adm2_code": 19535,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 38288.8132747324,
+                            "population": 307,
+                            "wind_cat": {
+                                "0": 307
+                            }
+                        }
+                    ],
+                    "loss": 38288.8132747324,
+                    "population": 307,
+                    "wind_cat": {
+                        "0": 307
+                    }
+                },
+                {
+                    "adm1_code": 2018,
+                    "adm1_name": "Black River",
+                    "adm2": [
+                        {
+                            "adm2_code": 19536,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 30458253.135208827,
+                            "population": 34778,
+                            "wind_cat": {
+                                "0": 34778
+                            }
+                        }
+                    ],
+                    "loss": 30458253.135208827,
+                    "population": 34778,
+                    "wind_cat": {
+                        "0": 34778
+                    }
+                },
+                {
+                    "adm1_code": 2019,
+                    "adm1_name": "Flacq",
+                    "adm2": [
+                        {
+                            "adm2_code": 19537,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 17604270.20897791,
+                            "population": 51660,
+                            "wind_cat": {
+                                "0": 51660
+                            }
+                        }
+                    ],
+                    "loss": 17604270.20897791,
+                    "population": 51660,
+                    "wind_cat": {
+                        "0": 51660
+                    }
+                },
+                {
+                    "adm1_code": 2020,
+                    "adm1_name": "Grand Port",
+                    "adm2": [
+                        {
+                            "adm2_code": 19538,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 11384131.025015831,
+                            "population": 32028,
+                            "wind_cat": {
+                                "0": 32028
+                            }
+                        }
+                    ],
+                    "loss": 11384131.025015831,
+                    "population": 32028,
+                    "wind_cat": {
+                        "0": 32028
+                    }
+                },
+                {
+                    "adm1_code": 2021,
+                    "adm1_name": "Moka",
+                    "adm2": [
+                        {
+                            "adm2_code": 19539,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 13427816.033503762,
+                            "population": 54001,
+                            "wind_cat": {
+                                "0": 54001
+                            }
+                        }
+                    ],
+                    "loss": 13427816.033503762,
+                    "population": 54001,
+                    "wind_cat": {
+                        "0": 54001
+                    }
+                },
+                {
+                    "adm1_code": 2022,
+                    "adm1_name": "Pamplemousses",
+                    "adm2": [
+                        {
+                            "adm2_code": 19540,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 30974316.627593927,
+                            "population": 63345,
+                            "wind_cat": {
+                                "0": 63345
+                            }
+                        }
+                    ],
+                    "loss": 30974316.627593927,
+                    "population": 63345,
+                    "wind_cat": {
+                        "0": 63345
+                    }
+                },
+                {
+                    "adm1_code": 2023,
+                    "adm1_name": "Plaines Wilhems",
+                    "adm2": [
+                        {
+                            "adm2_code": 19541,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 21861307.323208712,
+                            "population": 42785,
+                            "wind_cat": {
+                                "0": 42785
+                            }
+                        }
+                    ],
+                    "loss": 21861307.323208712,
+                    "population": 42785,
+                    "wind_cat": {
+                        "0": 42785
+                    }
+                },
+                {
+                    "adm1_code": 2024,
+                    "adm1_name": "Port Louis",
+                    "adm2": [
+                        {
+                            "adm2_code": 19542,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 6683881.596345887,
+                            "population": 7833,
+                            "wind_cat": {
+                                "0": 7833
+                            }
+                        }
+                    ],
+                    "loss": 6683881.596345887,
+                    "population": 7833,
+                    "wind_cat": {
+                        "0": 7833
+                    }
+                },
+                {
+                    "adm1_code": 2025,
+                    "adm1_name": "Riviere Du Rempart",
+                    "adm2": [
+                        {
+                            "adm2_code": 19543,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 26095416.610808678,
+                            "population": 85242,
+                            "wind_cat": {
+                                "0": 85242
+                            }
+                        }
+                    ],
+                    "loss": 26095416.610808678,
+                    "population": 85242,
+                    "wind_cat": {
+                        "0": 85242
+                    }
+                },
+                {
+                    "adm1_code": 2026,
+                    "adm1_name": "Savanne",
+                    "adm2": [
+                        {
+                            "adm2_code": 19544,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 7713891.486561468,
+                            "population": 6271,
+                            "wind_cat": {
+                                "0": 6271
+                            }
+                        }
+                    ],
+                    "loss": 7713891.486561468,
+                    "population": 6271,
+                    "wind_cat": {
+                        "0": 6271
+                    }
+                }
+            ],
+            "loss": 166241572.86049974,
+            "population": 378250,
+            "wind_cat": {
+                "0": 378250
+            }
+        },
+        {
+            "adm0_code": 206,
+            "adm0_name": "R\u00e9union",
+            "adm1": [
+                {
+                    "adm1_code": 2590,
+                    "adm1_name": "Arrondissement_du_vent",
+                    "adm2": [
+                        {
+                            "adm2_code": 25273,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 492060533.89132,
+                            "population": 5604,
+                            "wind_cat": {
+                                "0": 5604
+                            }
+                        }
+                    ],
+                    "loss": 492060533.89132,
+                    "population": 5604,
+                    "wind_cat": {
+                        "0": 5604
+                    }
+                },
+                {
+                    "adm1_code": 2591,
+                    "adm1_name": "Arrondissement_souse_le_vent",
+                    "adm2": [
+                        {
+                            "adm2_code": 25274,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 2164842119.470748,
+                            "population": 5119,
+                            "wind_cat": {
+                                "0": 5119
+                            }
+                        }
+                    ],
+                    "loss": 2164842119.470748,
+                    "population": 5119,
+                    "wind_cat": {
+                        "0": 5119
+                    }
+                }
+            ],
+            "loss": 2656902653.362068,
+            "population": 10723,
+            "wind_cat": {
+                "0": 10723
+            }
+        },
+        {
+            "adm0_code": 150,
+            "adm0_name": "Madagascar",
+            "adm1": [
+                {
+                    "adm1_code": 41751,
+                    "adm1_name": "Amoron'i Mania",
+                    "adm2": [
+                        {
+                            "adm2_code": 19214,
+                            "adm2_name": "Ambatofinandrahana",
+                            "loss": 185.6044312146,
+                            "population": 130393,
+                            "wind_cat": {
+                                "0": 130373,
+                                "1": 20
+                            }
+                        },
+                        {
+                            "adm2_code": 19216,
+                            "adm2_name": "Ambositra",
+                            "loss": 281.3674669301,
+                            "population": 156047,
+                            "wind_cat": {
+                                "0": 156047
+                            }
+                        },
+                        {
+                            "adm2_code": 19218,
+                            "adm2_name": "Fandriana",
+                            "loss": 149.8526396617,
+                            "population": 89162,
+                            "wind_cat": {
+                                "0": 89162
+                            }
+                        },
+                        {
+                            "adm2_code": 19229,
+                            "adm2_name": "Manandriana",
+                            "loss": 148.5941705878,
+                            "population": 45713,
+                            "wind_cat": {
+                                "0": 45713
+                            }
+                        }
+                    ],
+                    "loss": 765.4187083941,
+                    "population": 421315,
+                    "wind_cat": {
+                        "0": 421295,
+                        "1": 20
+                    }
+                },
+                {
+                    "adm1_code": 41752,
+                    "adm1_name": "Analamanga",
+                    "adm2": [
+                        {
+                            "adm2_code": 19186,
+                            "adm2_name": "Ambohidratrimo",
+                            "loss": 7.4436643467,
+                            "population": 334473,
+                            "wind_cat": {
+                                "0": 334473
+                            }
+                        },
+                        {
+                            "adm2_code": 19187,
+                            "adm2_name": "Andramasina",
+                            "loss": 0.3100449966,
+                            "population": 26326,
+                            "wind_cat": {
+                                "0": 26326
+                            }
+                        },
+                        {
+                            "adm2_code": 19188,
+                            "adm2_name": "Anjozorobe",
+                            "loss": 0.0007895073,
+                            "population": 1169,
+                            "wind_cat": {
+                                "0": 1169
+                            }
+                        },
+                        {
+                            "adm2_code": 19189,
+                            "adm2_name": "Ankazobe",
+                            "loss": 352.6105425345,
+                            "population": 141822,
+                            "wind_cat": {
+                                "0": 141822
+                            }
+                        },
+                        {
+                            "adm2_code": 19190,
+                            "adm2_name": "Antananarivo-Atsimondrano",
+                            "loss": 9.55032e-05,
+                            "population": 3403,
+                            "wind_cat": {
+                                "0": 3403
+                            }
+                        },
+                        {
+                            "adm2_code": 19191,
+                            "adm2_name": "Antananarivo-Avaradrano",
+                            "loss": 0.3026652574,
+                            "population": 72998,
+                            "wind_cat": {
+                                "0": 72998
+                            }
+                        },
+                        {
+                            "adm2_code": 19200,
+                            "adm2_name": "Manjakandriana",
+                            "loss": 7.232e-07,
+                            "population": 145,
+                            "wind_cat": {
+                                "0": 145
+                            }
+                        }
+                    ],
+                    "loss": 360.6678028689,
+                    "population": 580336,
+                    "wind_cat": {
+                        "0": 580336
+                    }
+                },
+                {
+                    "adm1_code": 41758,
+                    "adm1_name": "Atsinanana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19266,
+                            "adm2_name": "Marolambo",
+                            "loss": 0.0654906269,
+                            "population": 2541,
+                            "wind_cat": {
+                                "0": 2541
+                            }
+                        },
+                        {
+                            "adm2_code": 19263,
+                            "adm2_name": "Mahanoro",
+                            "loss": 0.328332368,
+                            "population": 8471,
+                            "wind_cat": {
+                                "0": 8471
+                            }
+                        },
+                        {
+                            "adm2_code": 19270,
+                            "adm2_name": "Toamasina I",
+                            "loss": 31.1520613087,
+                            "population": 132658,
+                            "wind_cat": {
+                                "0": 132658
+                            }
+                        },
+                        {
+                            "adm2_code": 19272,
+                            "adm2_name": "Vatomandry",
+                            "loss": 0.5785239563,
+                            "population": 11020,
+                            "wind_cat": {
+                                "0": 11020
+                            }
+                        },
+                        {
+                            "adm2_code": 19274,
+                            "adm2_name": "Vohibinany",
+                            "loss": 18.2331707652,
+                            "population": 18056,
+                            "wind_cat": {
+                                "0": 18056
+                            }
+                        }
+                    ],
+                    "loss": 50.3575790252,
+                    "population": 2541,
+                    "wind_cat": {
+                        "0": 2541
+                    }
+                },
+                {
+                    "adm1_code": 41759,
+                    "adm1_name": "Betsiboka",
+                    "adm2": [
+                        {
+                            "adm2_code": 19245,
+                            "adm2_name": "Kandreho",
+                            "loss": 4263.9255467691,
+                            "population": 16288,
+                            "wind_cat": {
+                                "0": 5710,
+                                "1": 10578
+                            }
+                        },
+                        {
+                            "adm2_code": 19246,
+                            "adm2_name": "Maevatanana",
+                            "loss": 163.8766478443,
+                            "population": 40016,
+                            "wind_cat": {
+                                "0": 39530,
+                                "1": 486
+                            }
+                        },
+                        {
+                            "adm2_code": 19256,
+                            "adm2_name": "Tsaratanana",
+                            "loss": 5.44157e-05,
+                            "population": 63,
+                            "wind_cat": {
+                                "0": 63
+                            }
+                        }
+                    ],
+                    "loss": 4427.8022490292,
+                    "population": 56367,
+                    "wind_cat": {
+                        "0": 45303,
+                        "1": 11064
+                    }
+                },
+                {
+                    "adm1_code": 41760,
+                    "adm1_name": "Boeny",
+                    "adm2": [
+                        {
+                            "adm2_code": 19236,
+                            "adm2_name": "Ambatoboeny",
+                            "loss": 904.4733655687,
+                            "population": 127484,
+                            "wind_cat": {
+                                "0": 115716,
+                                "1": 11768
+                            }
+                        },
+                        {
+                            "adm2_code": 19247,
+                            "adm2_name": "Mahajanga I",
+                            "loss": 10.7566516545,
+                            "population": 9848,
+                            "wind_cat": {
+                                "0": 9848
+                            }
+                        },
+                        {
+                            "adm2_code": 19248,
+                            "adm2_name": "Mahajanga II",
+                            "loss": 391.5236056616,
+                            "population": 242757,
+                            "wind_cat": {
+                                "0": 242757
+                            }
+                        },
+                        {
+                            "adm2_code": 19252,
+                            "adm2_name": "Marovoay",
+                            "loss": 4.5601395202,
+                            "population": 47441,
+                            "wind_cat": {
+                                "0": 47441
+                            }
+                        },
+                        {
+                            "adm2_code": 19253,
+                            "adm2_name": "Mitsinjo",
+                            "loss": 2058.3963853421,
+                            "population": 45268,
+                            "wind_cat": {
+                                "0": 41515,
+                                "1": 3753
+                            }
+                        },
+                        {
+                            "adm2_code": 19255,
+                            "adm2_name": "Soalala",
+                            "loss": 45141.7509646075,
+                            "population": 51295,
+                            "wind_cat": {
+                                "0": 2129,
+                                "1": 49020,
+                                "2": 146
+                            }
+                        }
+                    ],
+                    "loss": 48511.4611123547,
+                    "population": 524093,
+                    "wind_cat": {
+                        "0": 459406,
+                        "1": 64541,
+                        "2": 146
+                    }
+                },
+                {
+                    "adm1_code": 41761,
+                    "adm1_name": "Bongolava",
+                    "adm2": [
+                        {
+                            "adm2_code": 19199,
+                            "adm2_name": "Fenoarivobe",
+                            "loss": 14993.5770682316,
+                            "population": 166202,
+                            "wind_cat": {
+                                "0": 105806,
+                                "1": 60396
+                            }
+                        },
+                        {
+                            "adm2_code": 19203,
+                            "adm2_name": "Tsiroanomandidy",
+                            "loss": 51745.9038136315,
+                            "population": 421491,
+                            "wind_cat": {
+                                "0": 83067,
+                                "1": 338424
+                            }
+                        }
+                    ],
+                    "loss": 66739.4808818631,
+                    "population": 587693,
+                    "wind_cat": {
+                        "0": 188873,
+                        "1": 398820
+                    }
+                },
+                {
+                    "adm1_code": 41762,
+                    "adm1_name": "Diana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19204,
+                            "adm2_name": "Ambanja",
+                            "loss": 34127.0541906286,
+                            "population": 204314,
+                            "wind_cat": {
+                                "0": 79290,
+                                "1": 125024
+                            }
+                        },
+                        {
+                            "adm2_code": 19205,
+                            "adm2_name": "Ambilobe",
+                            "loss": 15867.5413001441,
+                            "population": 240949,
+                            "wind_cat": {
+                                "0": 74304,
+                                "1": 166645
+                            }
+                        },
+                        {
+                            "adm2_code": 19208,
+                            "adm2_name": "Antsiranana I",
+                            "loss": 47.2606437648,
+                            "population": 75115,
+                            "wind_cat": {
+                                "0": 75115
+                            }
+                        },
+                        {
+                            "adm2_code": 19209,
+                            "adm2_name": "Antsiranana II",
+                            "loss": 1273.795265321,
+                            "population": 196220,
+                            "wind_cat": {
+                                "0": 189689,
+                                "1": 6531
+                            }
+                        },
+                        {
+                            "adm2_code": 19211,
+                            "adm2_name": "Nosy Be",
+                            "loss": 16521.3296760883,
+                            "population": 136330,
+                            "wind_cat": {
+                                "1": 136330
+                            }
+                        }
+                    ],
+                    "loss": 67836.9810759469,
+                    "population": 852928,
+                    "wind_cat": {
+                        "0": 418398,
+                        "1": 434530
+                    }
+                },
+                {
+                    "adm1_code": 41763,
+                    "adm1_name": "Haute Matsiatra",
+                    "adm2": [
+                        {
+                            "adm2_code": 19215,
+                            "adm2_name": "Ambohimahasoa",
+                            "loss": 2.9815095877,
+                            "population": 26052,
+                            "wind_cat": {
+                                "0": 26052
+                            }
+                        },
+                        {
+                            "adm2_code": 19221,
+                            "adm2_name": "Fianarantsoa II",
+                            "loss": 0.2301106127,
+                            "population": 9555,
+                            "wind_cat": {
+                                "0": 9555
+                            }
+                        },
+                        {
+                            "adm2_code": 19225,
+                            "adm2_name": "Ikalamavony",
+                            "loss": 0.4682838638,
+                            "population": 1701,
+                            "wind_cat": {
+                                "0": 1701
+                            }
+                        }
+                    ],
+                    "loss": 3.6799040643,
+                    "population": 37308,
+                    "wind_cat": {
+                        "0": 37308
+                    }
+                },
+                {
+                    "adm1_code": 41765,
+                    "adm1_name": "Itasy",
+                    "adm2": [
+                        {
+                            "adm2_code": 19196,
+                            "adm2_name": "Arivonimamo",
+                            "loss": 643.486866081,
+                            "population": 269864,
+                            "wind_cat": {
+                                "0": 269864
+                            }
+                        },
+                        {
+                            "adm2_code": 19201,
+                            "adm2_name": "Miarinarivo",
+                            "loss": 2421.8626169861,
+                            "population": 247281,
+                            "wind_cat": {
+                                "0": 247229,
+                                "1": 52
+                            }
+                        },
+                        {
+                            "adm2_code": 19202,
+                            "adm2_name": "Soavinandriana",
+                            "loss": 5919.3467320047,
+                            "population": 165123,
+                            "wind_cat": {
+                                "0": 140235,
+                                "1": 24888
+                            }
+                        }
+                    ],
+                    "loss": 8984.6962150718,
+                    "population": 682268,
+                    "wind_cat": {
+                        "0": 657328,
+                        "1": 24940
+                    }
+                },
+                {
+                    "adm1_code": 41766,
+                    "adm1_name": "Melaky",
+                    "adm2": [
+                        {
+                            "adm2_code": 19237,
+                            "adm2_name": "Ambatomainty",
+                            "loss": 31024.2866938445,
+                            "population": 21673,
+                            "wind_cat": {
+                                "0": 132,
+                                "1": 21541
+                            }
+                        },
+                        {
+                            "adm2_code": 19239,
+                            "adm2_name": "Antsalova",
+                            "loss": 955.6648215997,
+                            "population": 33978,
+                            "wind_cat": {
+                                "0": 32031,
+                                "1": 1947
+                            }
+                        },
+                        {
+                            "adm2_code": 19243,
+                            "adm2_name": "Besalampy",
+                            "loss": 379050.5766319054,
+                            "population": 50849,
+                            "wind_cat": {
+                                "1": 30918,
+                                "2": 19931
+                            }
+                        },
+                        {
+                            "adm2_code": 19249,
+                            "adm2_name": "Maintirano",
+                            "loss": 142184.1566542598,
+                            "population": 150182,
+                            "wind_cat": {
+                                "0": 54916,
+                                "1": 93205,
+                                "2": 2061
+                            }
+                        },
+                        {
+                            "adm2_code": 19254,
+                            "adm2_name": "Morafenobe",
+                            "loss": 41704.2190549683,
+                            "population": 8189,
+                            "wind_cat": {
+                                "1": 8189
+                            }
+                        }
+                    ],
+                    "loss": 594918.9038565778,
+                    "population": 264871,
+                    "wind_cat": {
+                        "0": 87079,
+                        "1": 155800,
+                        "2": 21992
+                    }
+                },
+                {
+                    "adm1_code": 41767,
+                    "adm1_name": "Menabe",
+                    "adm2": [
+                        {
+                            "adm2_code": 19281,
+                            "adm2_name": "Belon'i Tsiribihina",
+                            "loss": 6.2588878395,
+                            "population": 21127,
+                            "wind_cat": {
+                                "0": 21127
+                            }
+                        },
+                        {
+                            "adm2_code": 19286,
+                            "adm2_name": "Mahabo",
+                            "loss": 0.0002735255,
+                            "population": 12,
+                            "wind_cat": {
+                                "0": 12
+                            }
+                        },
+                        {
+                            "adm2_code": 19288,
+                            "adm2_name": "Miandrivazo",
+                            "loss": 8754.1843031337,
+                            "population": 106002,
+                            "wind_cat": {
+                                "0": 87160,
+                                "1": 18842
+                            }
+                        }
+                    ],
+                    "loss": 8760.4434644987,
+                    "population": 127141,
+                    "wind_cat": {
+                        "0": 108299,
+                        "1": 18842
+                    }
+                },
+                {
+                    "adm1_code": 41768,
+                    "adm1_name": "Sava",
+                    "adm2": [
+                        {
+                            "adm2_code": 19206,
+                            "adm2_name": "Andapa",
+                            "loss": 74.1991660866,
+                            "population": 36279,
+                            "wind_cat": {
+                                "0": 35685,
+                                "1": 594
+                            }
+                        },
+                        {
+                            "adm2_code": 19212,
+                            "adm2_name": "Sambava",
+                            "loss": 163.20587487,
+                            "population": 51293,
+                            "wind_cat": {
+                                "0": 51137,
+                                "1": 156
+                            }
+                        },
+                        {
+                            "adm2_code": 19210,
+                            "adm2_name": "Vohimarina",
+                            "loss": 8288.0898190488,
+                            "population": 270844,
+                            "wind_cat": {
+                                "0": 233756,
+                                "1": 37088
+                            }
+                        }
+                    ],
+                    "loss": 8525.4948600054,
+                    "population": 358416,
+                    "wind_cat": {
+                        "0": 320578,
+                        "1": 37838
+                    }
+                },
+                {
+                    "adm1_code": 41769,
+                    "adm1_name": "Sofia",
+                    "adm2": [
+                        {
+                            "adm2_code": 19238,
+                            "adm2_name": "Analalava",
+                            "loss": 3190.4761669589,
+                            "population": 132744,
+                            "wind_cat": {
+                                "0": 117414,
+                                "1": 15330
+                            }
+                        },
+                        {
+                            "adm2_code": 19240,
+                            "adm2_name": "Antsohihy",
+                            "loss": 66.1794777969,
+                            "population": 93026,
+                            "wind_cat": {
+                                "0": 93026
+                            }
+                        },
+                        {
+                            "adm2_code": 19241,
+                            "adm2_name": "Bealanana",
+                            "loss": 2379.7728562086,
+                            "population": 106905,
+                            "wind_cat": {
+                                "0": 94044,
+                                "1": 12861
+                            }
+                        },
+                        {
+                            "adm2_code": 19242,
+                            "adm2_name": "Befandriana Avaratra",
+                            "loss": 13.913231018,
+                            "population": 47606,
+                            "wind_cat": {
+                                "0": 47606
+                            }
+                        }
+                    ],
+                    "loss": 5650.3417319824,
+                    "population": 380281,
+                    "wind_cat": {
+                        "0": 352090,
+                        "1": 28191
+                    }
+                },
+                {
+                    "adm1_code": 41770,
+                    "adm1_name": "Vakinakaratra",
+                    "adm2": [
+                        {
+                            "adm2_code": 19185,
+                            "adm2_name": "Ambatolampy",
+                            "loss": 27.9936204434,
+                            "population": 170665,
+                            "wind_cat": {
+                                "0": 170665
+                            }
+                        },
+                        {
+                            "adm2_code": 19193,
+                            "adm2_name": "Antanifotsy",
+                            "loss": 243.3043605332,
+                            "population": 265473,
+                            "wind_cat": {
+                                "0": 265473
+                            }
+                        },
+                        {
+                            "adm2_code": 19194,
+                            "adm2_name": "Antsirabe I",
+                            "loss": 73.303886453,
+                            "population": 33910,
+                            "wind_cat": {
+                                "0": 33910
+                            }
+                        },
+                        {
+                            "adm2_code": 19195,
+                            "adm2_name": "Antsirabe II",
+                            "loss": 2499.6745807833,
+                            "population": 274799,
+                            "wind_cat": {
+                                "0": 273621,
+                                "1": 1178
+                            }
+                        },
+                        {
+                            "adm2_code": 19197,
+                            "adm2_name": "Betafo",
+                            "loss": 10126.574459899,
+                            "population": 387107,
+                            "wind_cat": {
+                                "0": 318841,
+                                "1": 68266
+                            }
+                        },
+                        {
+                            "adm2_code": 19198,
+                            "adm2_name": "Faratsiho",
+                            "loss": 5586.7271661066,
+                            "population": 176543,
+                            "wind_cat": {
+                                "0": 149089,
+                                "1": 27454
+                            }
+                        }
+                    ],
+                    "loss": 18557.5780742185,
+                    "population": 1308497,
+                    "wind_cat": {
+                        "0": 1211599,
+                        "1": 96898
+                    }
+                },
+                {
+                    "adm1_code": 41750,
+                    "adm1_name": "Alaotra Mangoro",
+                    "adm2": [
+                        {
+                            "adm2_code": 19257,
+                            "adm2_name": "Ambatondrazaka",
+                            "loss": 0.0005467423,
+                            "population": 2442,
+                            "wind_cat": {
+                                "0": 2442
+                            }
+                        }
+                    ],
+                    "loss": 0.0005467423,
+                    "population": 2442,
+                    "wind_cat": {
+                        "0": 2442
+                    }
+                },
+                {
+                    "adm1_code": 41753,
+                    "adm1_name": "Analanjirofo",
+                    "adm2": [
+                        {
+                            "adm2_code": 19262,
+                            "adm2_name": "Fenoarivo-Atsinanana",
+                            "loss": 2.55553e-05,
+                            "population": 594,
+                            "wind_cat": {
+                                "0": 594
+                            }
+                        },
+                        {
+                            "adm2_code": 19268,
+                            "adm2_name": "Nosy Boraha",
+                            "loss": 39.6768574266,
+                            "population": 33851,
+                            "wind_cat": {
+                                "0": 33851
+                            }
+                        },
+                        {
+                            "adm2_code": 19269,
+                            "adm2_name": "Soanierana-Ivongo",
+                            "loss": 0.0517354321,
+                            "population": 933,
+                            "wind_cat": {
+                                "0": 933
+                            }
+                        },
+                        {
+                            "adm2_code": 19271,
+                            "adm2_name": "Toamasina II",
+                            "loss": 22.3810328292,
+                            "population": 37905,
+                            "wind_cat": {
+                                "0": 37905
+                            }
+                        }
+                    ],
+                    "loss": 62.1096512432,
+                    "population": 73283,
+                    "wind_cat": {
+                        "0": 73283
+                    }
+                },
+                {
+                    "adm1_code": 41771,
+                    "adm1_name": "Vatovavy Fitovinany",
+                    "adm2": [
+                        {
+                            "adm2_code": 19232,
+                            "adm2_name": "Nosy-Varika",
+                            "loss": 0.0064633487,
+                            "population": 1639,
+                            "wind_cat": {
+                                "0": 1639
+                            }
+                        }
+                    ],
+                    "loss": 0.0064633487,
+                    "population": 1639,
+                    "wind_cat": {
+                        "0": 1639
+                    }
+                },
+                {
+                    "adm1_code": 41754,
+                    "adm1_name": "Androy",
+                    "adm2": [
+                        {
+                            "adm2_code": 19276,
+                            "adm2_name": "Ambovombe-Androy",
+                            "loss": 49633.1516948212,
+                            "population": 616063,
+                            "wind_cat": {
+                                "0": 369227,
+                                "1": 246836
+                            }
+                        },
+                        {
+                            "adm2_code": 19279,
+                            "adm2_name": "Bekily",
+                            "loss": 41180.3319952447,
+                            "population": 182492,
+                            "wind_cat": {
+                                "0": 19744,
+                                "1": 162748
+                            }
+                        },
+                        {
+                            "adm2_code": 19280,
+                            "adm2_name": "Beloha",
+                            "loss": 10985.7686388283,
+                            "population": 140310,
+                            "wind_cat": {
+                                "0": 85630,
+                                "1": 54680
+                            }
+                        },
+                        {
+                            "adm2_code": 19295,
+                            "adm2_name": "Tsiombe",
+                            "loss": 315.9359389423,
+                            "population": 187601,
+                            "wind_cat": {
+                                "0": 187601
+                            }
+                        }
+                    ],
+                    "loss": 102115.1882678364,
+                    "population": 1126466,
+                    "wind_cat": {
+                        "0": 662202,
+                        "1": 464264
+                    }
+                },
+                {
+                    "adm1_code": 41755,
+                    "adm1_name": "Anosy",
+                    "adm2": [
+                        {
+                            "adm2_code": 19275,
+                            "adm2_name": "Amboasary",
+                            "loss": 35660.1155298724,
+                            "population": 228339,
+                            "wind_cat": {
+                                "0": 107787,
+                                "1": 120552
+                            }
+                        },
+                        {
+                            "adm2_code": 19285,
+                            "adm2_name": "Betroka",
+                            "loss": 26337.8835962427,
+                            "population": 194860,
+                            "wind_cat": {
+                                "0": 94965,
+                                "1": 99895
+                            }
+                        },
+                        {
+                            "adm2_code": 19292,
+                            "adm2_name": "Taolanaro",
+                            "loss": 23645.6099480264,
+                            "population": 216925,
+                            "wind_cat": {
+                                "0": 104941,
+                                "1": 111984
+                            }
+                        }
+                    ],
+                    "loss": 85643.6090741414,
+                    "population": 640124,
+                    "wind_cat": {
+                        "0": 307693,
+                        "1": 332431
+                    }
+                },
+                {
+                    "adm1_code": 41756,
+                    "adm1_name": "Atsimo Andrefana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19277,
+                            "adm2_name": "Ampanihy",
+                            "loss": 26543.5525895075,
+                            "population": 389291,
+                            "wind_cat": {
+                                "0": 216858,
+                                "1": 172433
+                            }
+                        },
+                        {
+                            "adm2_code": 19282,
+                            "adm2_name": "Benenitra",
+                            "loss": 672.9159637595,
+                            "population": 35837,
+                            "wind_cat": {
+                                "0": 34316,
+                                "1": 1521
+                            }
+                        },
+                        {
+                            "adm2_code": 19284,
+                            "adm2_name": "Betioky",
+                            "loss": 1341.2133133169,
+                            "population": 171608,
+                            "wind_cat": {
+                                "0": 171490,
+                                "1": 118
+                            }
+                        },
+                        {
+                            "adm2_code": 19291,
+                            "adm2_name": "Sakaraha",
+                            "loss": 14.8541585865,
+                            "population": 33460,
+                            "wind_cat": {
+                                "0": 33460
+                            }
+                        },
+                        {
+                            "adm2_code": 19294,
+                            "adm2_name": "Toliary II",
+                            "loss": 0.465647414,
+                            "population": 34036,
+                            "wind_cat": {
+                                "0": 34036
+                            }
+                        }
+                    ],
+                    "loss": 28573.0016725845,
+                    "population": 664232,
+                    "wind_cat": {
+                        "0": 490160,
+                        "1": 174072
+                    }
+                },
+                {
+                    "adm1_code": 41757,
+                    "adm1_name": "Atsimo Atsinanana",
+                    "adm2": [
+                        {
+                            "adm2_code": 19217,
+                            "adm2_name": "Befotaka",
+                            "loss": 16270.8082064213,
+                            "population": 86147,
+                            "wind_cat": {
+                                "0": 29976,
+                                "1": 56171
+                            }
+                        },
+                        {
+                            "adm2_code": 19231,
+                            "adm2_name": "Midongy",
+                            "loss": 96.0717791779,
+                            "population": 33021,
+                            "wind_cat": {
+                                "0": 32701,
+                                "1": 320
+                            }
+                        },
+                        {
+                            "adm2_code": 19233,
+                            "adm2_name": "Vangaindrano",
+                            "loss": 899.6082367097,
+                            "population": 278491,
+                            "wind_cat": {
+                                "0": 276719,
+                                "1": 1772
+                            }
+                        },
+                        {
+                            "adm2_code": 19235,
+                            "adm2_name": "Vondrozo",
+                            "loss": 7.9841e-06,
+                            "population": 53,
+                            "wind_cat": {
+                                "0": 53
+                            }
+                        }
+                    ],
+                    "loss": 17266.488230293,
+                    "population": 397712,
+                    "wind_cat": {
+                        "0": 339449,
+                        "1": 58263
+                    }
+                },
+                {
+                    "adm1_code": 41764,
+                    "adm1_name": "Ihorombe",
+                    "adm2": [
+                        {
+                            "adm2_code": 19222,
+                            "adm2_name": "Iakora",
+                            "loss": 863.3929469388,
+                            "population": 45052,
+                            "wind_cat": {
+                                "0": 39901,
+                                "1": 5151
+                            }
+                        },
+                        {
+                            "adm2_code": 19224,
+                            "adm2_name": "Ihosy",
+                            "loss": 29.9907601932,
+                            "population": 66246,
+                            "wind_cat": {
+                                "0": 66246
+                            }
+                        },
+                        {
+                            "adm2_code": 19227,
+                            "adm2_name": "Ivohibe",
+                            "loss": 0.0039221737,
+                            "population": 822,
+                            "wind_cat": {
+                                "0": 822
+                            }
+                        }
+                    ],
+                    "loss": 893.3876293058,
+                    "population": 112120,
+                    "wind_cat": {
+                        "0": 106969,
+                        "1": 5151
+                    }
+                }
+            ],
+            "loss": 1068647.099051396,
+            "population": 6184055,
+            "wind_cat": {
+                "0": 4890433,
+                "1": 1271484,
+                "2": 22138
+            }
+        },
+        {
+            "adm0_code": 161,
+            "adm0_name": "Mayotte",
+            "adm1": [
+                {
+                    "adm1_code": 2027,
+                    "adm1_name": "Administrative unit not available",
+                    "adm2": [
+                        {
+                            "adm2_code": 19545,
+                            "adm2_name": "Administrative unit not available",
+                            "loss": 7459.2435125832,
+                            "population": 201802,
+                            "wind_cat": {
+                                "0": 201802
+                            }
+                        }
+                    ],
+                    "loss": 7459.2435125832,
+                    "population": 201802,
+                    "wind_cat": {
+                        "0": 201802
+                    }
+                }
+            ],
+            "loss": 7459.2435125832,
+            "population": 201802,
+            "wind_cat": {
+                "0": 201802
+            }
+        }
+    ],
     "1982": [
         {
             "adm0_code": 160,
