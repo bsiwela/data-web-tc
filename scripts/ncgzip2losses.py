@@ -127,7 +127,7 @@ def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson
 
     # reading variables of interest
     if prefix == 'fcst':
-        swath_peak_wind = np.maximum(storm_df.variables['fcst_peak_wind'][:].values,storm_df.variables['swath_peak_wind'][:].values)
+        swath_peak_wind = storm_df.variables['fcst_peak_wind'][:].values
     else:
         swath_peak_wind = storm_df.variables['swath_peak_wind'][:].values
     swath_peak_water = storm_df.variables[f'{prefix}_peak_water'][:].values
