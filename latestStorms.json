@@ -13,16 +13,16 @@
     "mpres_data": [
         {
             "bbox": [
-                43.9,
-                -19.5458,
-                64.7208,
-                -9.7958
+                37.2208,
+                -31.4,
+                90.9,
+                -8.3
             ],
-            "id": "SH122022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH122022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH122022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH122022.geojson",
-            "storm_name": "DUMAKO"
+            "id": "SH082022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH082022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH082022.geojson",
+            "storm_name": "BATSIRAI"
         },
         {
             "bbox": [
@@ -52,25 +52,25 @@
         },
         {
             "bbox": [
-                37.2208,
-                -31.4,
-                90.9,
-                -8.3
+                43.9,
+                -19.5458,
+                64.7208,
+                -9.7958
             ],
-            "id": "SH082022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH082022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH082022.geojson",
-            "storm_name": "BATSIRAI"
+            "id": "SH122022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH122022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH122022_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH122022.geojson",
+            "storm_name": "DUMAKO"
         }
     ],
     "tc_realtime": [
         {
             "bbox": [
-                36.6417,
-                -19.575,
-                56.8917,
-                -12.3583
+                36.1583,
+                -18.4083,
+                57.6583,
+                -13.025
             ],
             "fmee": "tc_realtime/taostc_SH192022_FMEE_SLOSH.geojson",
             "id": "SH192022",
