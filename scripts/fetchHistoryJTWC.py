@@ -42,7 +42,7 @@ def fetchHistoryJTWC(url, adm_file, mapping_file, geojson=False):
     dict_losses = glob.glob(f'jtwc_history/**/**_losses_adm.json', recursive=True)
     list_years = list(set([item.split('/')[1] for item in dict_losses]))
 
-    for year in range(2021, 1980, -1):
+    for year in range(2021, 1979, -1):
         if not (str(year) in list_years):
             print(f'Checking for year {year}')
             year_to_process = year
