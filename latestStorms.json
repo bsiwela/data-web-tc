@@ -68,8 +68,8 @@
         {
             "bbox": [
                 36.7583,
-                -18.025,
-                56.9417,
+                -18.4417,
+                56.925,
                 -13.0417
             ],
             "fmee": "tc_realtime/taostc_SH192022_FMEE_SLOSH.geojson",
