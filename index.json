@@ -31,7 +31,6 @@
     "tc_realtime": [
         "tc_realtime/taostc_SH192022_JTWC_SLOSH.geojson",
         "tc_realtime/SH192022_losses_adm.json",
-        "tc_realtime/taostc_SH192022_FMEE_SLOSH.geojson",
         "tc_realtime/README.md"
     ]
 }

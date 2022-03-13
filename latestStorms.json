@@ -67,12 +67,11 @@
     "tc_realtime": [
         {
             "bbox": [
-                34.2083,
-                -19.325,
+                32.8083,
+                -18.5917,
                 56.3,
-                -12.975
+                -13.0583
             ],
-            "fmee": "tc_realtime/taostc_SH192022_FMEE_SLOSH.geojson",
             "id": "SH192022",
             "jtwc": "tc_realtime/taostc_SH192022_JTWC_SLOSH.geojson",
             "losses": "tc_realtime/SH192022_losses_adm.json",
