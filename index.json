@@ -29,8 +29,6 @@
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH122022.geojson"
     ],
     "tc_realtime": [
-        "tc_realtime/taostc_SH192022_JTWC_SLOSH.geojson",
-        "tc_realtime/SH192022_losses_adm.json",
         "tc_realtime/README.md"
     ]
 }

@@ -1,14 +1,11 @@
 {
     "current_storms": {
-        "current_storms": [
-            "SH192022"
-        ],
+        "current_storms": [],
         "storms_shp": [
-            "SH902022",
-            "SH192022"
+            "SH902022"
         ],
         "windwater_shp": [
-            "SH192022"
+            null
         ]
     },
     "mpres_data": [
@@ -65,18 +62,5 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                32.8083,
-                -18.5917,
-                56.3,
-                -13.0583
-            ],
-            "id": "SH192022",
-            "jtwc": "tc_realtime/taostc_SH192022_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH192022_losses_adm.json",
-            "storm_name": "GOMBE"
-        }
-    ]
+    "tc_realtime": []
 }
