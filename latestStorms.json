@@ -81,10 +81,10 @@
     "tc_realtime": [
         {
             "bbox": [
-                71.175,
-                -26.1583,
+                73.9583,
+                -25.7583,
                 87.9917,
-                -8.275
+                -8.1417
             ],
             "fmee": "tc_realtime/taostc_SH942022_FMEE_SLOSH.geojson",
             "id": "SH942022",
