@@ -77,17 +77,5 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                69.5583,
-                -24.3583,
-                87.9917,
-                -8.275
-            ],
-            "fmee": "tc_realtime/taostc_SH942022_FMEE_SLOSH.geojson",
-            "id": "SH942022",
-            "storm_name": "INVEST"
-        }
-    ]
+    "tc_realtime": []
 }
