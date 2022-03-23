@@ -49,6 +49,7 @@ if data.iloc[0][0] == 'NONE':
     for file in glob.glob('*.*'):
         print(f'\tRemoving {file}')
         if file.endswith('.zip') or file.endswith('.nc') or file.endswith('.json') or file.endswith('.geojson'):
+            print(f'\t\t\033[91mRemoving {file} ...\033[0m')
             os.remove(file)
 else:
     print('Data currently on KAC ...')
@@ -68,6 +69,7 @@ else:
                                 mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
                                 geojson=False, prefix='fcst')
 
+            print(f'\t\t\033[91mRemoving {filename} ...\033[0m')
             os.remove(filename) # removing nc file
 
     os.chdir(dir_root)
