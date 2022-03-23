@@ -23,6 +23,11 @@ files_tc_realtime = [os.path.splitext(os.path.split(p)[1])[0] for p in index['tc
 files_tc_realtime_url = [os.path.splitext(os.path.split(url)[1])[0] for url in data[data.columns[-1]].values if isinstance(data[data.columns[-1]].values[0], str)]
 files_to_remove = [file for file in files_tc_realtime if file not in files_tc_realtime_url]
 
+for file in files_to_remove:
+    if 'losses' in file and len(files_tc_realtime_url) > 0:
+        files_to_remove.remove(file)
+    
+
 print(f'Files currently in: ')
 print(f'* tc_realtime: ')
 for file in files_tc_realtime:
