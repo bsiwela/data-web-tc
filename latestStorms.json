@@ -80,5 +80,19 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                72.775,
+                -27.6083,
+                92.4917,
+                -7.7583
+            ],
+            "fmee": "tc_realtime/taostc_SH222022_FMEE_SLOSH.geojson",
+            "id": "SH222022",
+            "jtwc": "tc_realtime/taostc_SH222022_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH222022_losses_adm.json",
+            "storm_name": "HALIMA"
+        }
+    ]
 }
