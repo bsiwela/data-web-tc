@@ -1,12 +1,15 @@
 {
     "current_storms": {
         "current_storms": [
+            "SH942022",
             "SH212022"
         ],
         "storms_shp": [
+            "SH942022",
             "SH212022"
         ],
         "windwater_shp": [
+            "SH942022",
             "SH212022"
         ]
     },
@@ -77,5 +80,19 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                73.525,
+                -25.625,
+                90.3,
+                -8.1417
+            ],
+            "fmee": "tc_realtime/taostc_SH942022_FMEE_SLOSH.geojson",
+            "id": "SH942022",
+            "jtwc": "tc_realtime/taostc_SH942022_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH942022_losses_adm.json",
+            "storm_name": "INVEST"
+        }
+    ]
 }
