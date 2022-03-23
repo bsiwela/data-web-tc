@@ -74,7 +74,7 @@ else:
     for file in files_to_remove:
         try:
             file_path = f'{file}.geojson'
+            print(f'\t\t\033[91mRemoving {file_path} which is not anymore on KAC repo tc_realtime ...\033[0m')
             os.remove(file_path)
-            print(f'\t\t\033[91mRemoved {file_path} which was not anymore on KAC repo tc_realtime ...\033[0m')
         except:
             continue
