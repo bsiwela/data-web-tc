@@ -32,13 +32,11 @@
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH012022.geojson",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH122022.geojson",
+        "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH202022.geojson",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH182022.geojson",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH142022.geojson"
     ],
     "tc_realtime": [
-        "tc_realtime/SH942022_losses_adm.json",
-        "tc_realtime/taostc_SH942022_JTWC_SLOSH.geojson",
-        "tc_realtime/taostc_SH942022_FMEE_SLOSH.geojson",
         "tc_realtime/README.md"
     ]
 }
