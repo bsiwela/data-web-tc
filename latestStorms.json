@@ -1,16 +1,16 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH212022",
-            "SH222022"
+            "SH222022",
+            "SH212022"
         ],
         "storms_shp": [
-            "SH212022",
-            "SH222022"
+            "SH222022",
+            "SH212022"
         ],
         "windwater_shp": [
-            "SH212022",
-            "SH222022"
+            "SH222022",
+            "SH212022"
         ]
     },
     "mpres_data": [
@@ -80,19 +80,5 @@
             "storm_name": "BATSIRAI"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                71.925,
-                -25.525,
-                91.4917,
-                -8.3917
-            ],
-            "fmee": "tc_realtime/taostc_SH222022_FMEE_SLOSH.geojson",
-            "id": "SH222022",
-            "jtwc": "tc_realtime/taostc_SH222022_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH222022_losses_adm.json",
-            "storm_name": "HALIMA"
-        }
-    ]
+    "tc_realtime": []
 }
