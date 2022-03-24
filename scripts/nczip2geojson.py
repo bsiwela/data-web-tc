@@ -175,6 +175,7 @@ def nc2geojson(ncfile, fields=['storm_position', 'past_peak_wind', 'past_peak_wa
     })
     gdf = gpd.GeoDataFrame(df,geometry=geometries)
     geojsonFilePath = f'{os.path.splitext(ncfile)[0]}.geojson'
+    print(f'Writing file {geojsonFilePath}')
     gdf.to_file(geojsonFilePath, driver='GeoJSON')
     densify(geojsonFilePath, decimals=decimals)
 
