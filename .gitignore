@@ -1,8 +1,1 @@
 __pycache__/
-data/
-jtwc_history/
-mpres_data/
-public/
-tc_realtime/
-*.json
-*.gzip
