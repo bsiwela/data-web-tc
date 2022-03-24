@@ -54,13 +54,17 @@ if data.iloc[0][0] == 'NONE':
 else:
     print('Data currently on KAC ...')
     for url_file in data[data.columns[-1]].unique():
+        print(f'dir : {os.getcwd()}')
         os.chdir(dir_root)
+        print(f'dir : {os.getcwd()}')
         filename = os.path.basename(urlparse(url_file).path)
 
         downloaded = fetchUrl(url_file, username, password)
 
         if downloaded:
+            print(f'dir : {os.getcwd()}')
             nc.nc2geojson(filename, N=50, fcst_peak_wind=True)  # converting it to geojson
+            print(f'dir : {os.getcwd()}')
 
             if 'JTWC' in filename:
                 # running loss generation
@@ -72,7 +76,9 @@ else:
             print(f'\t\t\033[91mRemoving {filename} ...\033[0m')
             os.remove(filename) # removing nc file
 
+    print(f'dir : {os.getcwd()}')
     os.chdir(dir_root)
+    print(f'dir : {os.getcwd()}')
     for file in files_to_remove:
         try:
             file_path = f'{file}.geojson'
