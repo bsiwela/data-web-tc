@@ -13,16 +13,16 @@
     "mpres_data": [
         {
             "bbox": [
-                43.9,
-                -19.5458,
-                64.7208,
-                -9.7958
+                33.6,
+                -19.9625,
+                60.8292,
+                -10.2125
             ],
-            "id": "SH122022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH122022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH122022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH122022.geojson",
-            "storm_name": "DUMAKO"
+            "id": "SH072022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
+            "storm_name": "ANA"
         },
         {
             "bbox": [
@@ -39,19 +39,6 @@
         },
         {
             "bbox": [
-                33.6,
-                -19.9625,
-                60.8292,
-                -10.2125
-            ],
-            "id": "SH072022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
-            "storm_name": "ANA"
-        },
-        {
-            "bbox": [
                 36.3875,
                 -34.5542,
                 79.3,
@@ -62,6 +49,19 @@
             "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132022_JTWC_SLOSH.geojson",
             "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132022.geojson",
             "storm_name": "EMNATI"
+        },
+        {
+            "bbox": [
+                43.9,
+                -19.5458,
+                64.7208,
+                -9.7958
+            ],
+            "id": "SH122022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH122022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH122022_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH122022.geojson",
+            "storm_name": "DUMAKO"
         },
         {
             "bbox": [
@@ -81,7 +81,7 @@
         {
             "bbox": [
                 70.125,
-                -24.8917,
+                -24.925,
                 90.3,
                 -9.0
             ],
