@@ -77,5 +77,17 @@
             "storm_name": "ANA"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                35.525,
+                -24.275,
+                45.9583,
+                -11.0583
+            ],
+            "fmee": "tc_realtime/taostc_SH972022_FMEE_SLOSH.geojson",
+            "id": "SH972022",
+            "storm_name": "INVEST"
+        }
+    ]
 }
