@@ -1,13 +1,13 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH972022"
+            null
         ],
         "storms_shp": [
-            "SH972022"
+            null
         ],
         "windwater_shp": [
-            "SH972022"
+            null
         ]
     },
     "mpres_data": [
@@ -77,19 +77,5 @@
             "storm_name": "ANA"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                39.9583,
-                -16.4583,
-                53.275,
-                -9.4583
-            ],
-            "fmee": "tc_realtime/taostc_SH972022_FMEE_SLOSH.geojson",
-            "id": "SH972022",
-            "jtwc": "tc_realtime/taostc_SH972022_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH972022_losses_adm.json",
-            "storm_name": "INVEST"
-        }
-    ]
+    "tc_realtime": []
 }
