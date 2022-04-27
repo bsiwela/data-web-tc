@@ -4,8 +4,8 @@
             "SH242022"
         ],
         "storms_shp": [
-            "SH982022",
-            "SH242022"
+            "SH242022",
+            "SH982022"
         ],
         "windwater_shp": [
             "SH242022"
@@ -40,6 +40,19 @@
         },
         {
             "bbox": [
+                33.6,
+                -19.9625,
+                60.8292,
+                -10.2125
+            ],
+            "id": "SH072022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
+            "storm_name": "ANA"
+        },
+        {
+            "bbox": [
                 36.3875,
                 -34.5542,
                 79.3,
@@ -63,28 +76,15 @@
             "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH192022_JTWC_SLOSH.geojson",
             "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH192022.geojson",
             "storm_name": "GOMBE"
-        },
-        {
-            "bbox": [
-                33.6,
-                -19.9625,
-                60.8292,
-                -10.2125
-            ],
-            "id": "SH072022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
-            "storm_name": "ANA"
         }
     ],
     "tc_realtime": [
         {
             "bbox": [
-                36.7917,
-                -27.3583,
-                54.8417,
-                -11.0083
+                37.025,
+                -27.1583,
+                56.2917,
+                -10.925
             ],
             "fmee": "tc_realtime/taostc_SH242022_FMEE_SLOSH.geojson",
             "id": "SH242022",
