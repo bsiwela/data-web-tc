@@ -1,14 +1,11 @@
 {
     "current_storms": {
-        "current_storms": [
-            "SH242022"
-        ],
+        "current_storms": [],
         "storms_shp": [
-            "SH982022",
-            "SH242022"
+            "SH982022"
         ],
         "windwater_shp": [
-            "SH242022"
+            null
         ]
     },
     "mpres_data": [
@@ -78,19 +75,5 @@
             "storm_name": "GOMBE"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                37.025,
-                -27.1583,
-                56.2917,
-                -10.925
-            ],
-            "fmee": "tc_realtime/taostc_SH242022_FMEE_SLOSH.geojson",
-            "id": "SH242022",
-            "jtwc": "tc_realtime/taostc_SH242022_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH242022_losses_adm.json",
-            "storm_name": "JASMINE"
-        }
-    ]
+    "tc_realtime": []
 }
