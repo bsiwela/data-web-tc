@@ -2,7 +2,8 @@
     "current_storms": {
         "current_storms": [],
         "storms_shp": [
-            "WP922022"
+            "WP922022",
+            "SH902022"
         ],
         "windwater_shp": [
             null
@@ -88,5 +89,17 @@
             "storm_name": "GOMBE"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                85.5417,
+                -8.8583,
+                93.375,
+                -3.7917
+            ],
+            "id": "SH902022",
+            "jtwc": "tc_realtime/taostc_SH902022_JTWC_SLOSH.geojson",
+            "storm_name": "INVEST"
+        }
+    ]
 }
