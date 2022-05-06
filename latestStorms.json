@@ -1,12 +1,14 @@
 {
     "current_storms": {
-        "current_storms": [],
+        "current_storms": [
+            "SH902022"
+        ],
         "storms_shp": [
             "WP922022",
             "SH902022"
         ],
         "windwater_shp": [
-            null
+            "SH902022"
         ]
     },
     "mpres_data": [
@@ -92,11 +94,12 @@
     "tc_realtime": [
         {
             "bbox": [
-                85.5417,
-                -8.8583,
-                93.375,
-                -3.7917
+                84.8417,
+                -22.7083,
+                98.8417,
+                -3.5083
             ],
+            "fmee": "tc_realtime/taostc_SH902022_FMEE_SLOSH.geojson",
             "id": "SH902022",
             "jtwc": "tc_realtime/taostc_SH902022_JTWC_SLOSH.geojson",
             "storm_name": "INVEST"

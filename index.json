@@ -47,6 +47,7 @@
     ],
     "tc_realtime": [
         "tc_realtime/taostc_SH902022_JTWC_SLOSH.geojson",
+        "tc_realtime/taostc_SH902022_FMEE_SLOSH.geojson",
         "tc_realtime/README.md"
     ]
 }
