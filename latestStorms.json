@@ -1,12 +1,15 @@
 {
     "current_storms": {
         "current_storms": [
+            "SH252022",
             "IO022022"
         ],
         "storms_shp": [
+            "SH252022",
             "IO022022"
         ],
         "windwater_shp": [
+            "SH252022",
             "IO022022"
         ]
     },
@@ -90,5 +93,17 @@
             "storm_name": "GOMBE"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                85.8583,
+                -21.4917,
+                98.3417,
+                -3.6917
+            ],
+            "id": "SH252022",
+            "jtwc": "tc_realtime/taostc_SH252022_JTWC_SLOSH.geojson",
+            "storm_name": "KARIM"
+        }
+    ]
 }
