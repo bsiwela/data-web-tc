@@ -1,14 +1,13 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH902022"
+            null
         ],
         "storms_shp": [
-            "SH902022",
-            "WP922022"
+            null
         ],
         "windwater_shp": [
-            "SH902022"
+            null
         ]
     },
     "mpres_data": [
@@ -91,18 +90,5 @@
             "storm_name": "GOMBE"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                85.3917,
-                -23.4583,
-                99.5083,
-                -3.5083
-            ],
-            "fmee": "tc_realtime/taostc_SH902022_FMEE_SLOSH.geojson",
-            "id": "SH902022",
-            "jtwc": "tc_realtime/taostc_SH902022_JTWC_SLOSH.geojson",
-            "storm_name": "INVEST"
-        }
-    ]
+    "tc_realtime": []
 }
