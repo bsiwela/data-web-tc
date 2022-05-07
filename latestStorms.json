@@ -1,16 +1,16 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH252022",
-            "IO022022"
+            "IO022022",
+            "SH252022"
         ],
         "storms_shp": [
-            "SH252022",
-            "IO022022"
+            "IO022022",
+            "SH252022"
         ],
         "windwater_shp": [
-            "SH252022",
-            "IO022022"
+            "IO022022",
+            "SH252022"
         ]
     },
     "mpres_data": [
@@ -101,6 +101,7 @@
                 98.3417,
                 -3.6917
             ],
+            "fmee": "tc_realtime/taostc_SH252022_FMEE_SLOSH.geojson",
             "id": "SH252022",
             "jtwc": "tc_realtime/taostc_SH252022_JTWC_SLOSH.geojson",
             "storm_name": "KARIM"
