@@ -93,18 +93,5 @@
             "storm_name": "GOMBE"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                85.8583,
-                -21.4917,
-                98.3417,
-                -3.6917
-            ],
-            "fmee": "tc_realtime/taostc_SH252022_FMEE_SLOSH.geojson",
-            "id": "SH252022",
-            "jtwc": "tc_realtime/taostc_SH252022_JTWC_SLOSH.geojson",
-            "storm_name": "KARIM"
-        }
-    ]
+    "tc_realtime": []
 }
