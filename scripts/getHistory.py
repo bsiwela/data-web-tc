@@ -26,7 +26,7 @@ def checkIfKeyAddValue(d, year, value, field='loss'):
 
     return
 
-def getHistory(json_years, json_adm, json_past='pastStorms.json', json_latest='latestStorms.json'):
+def getHistory(json_years, json_adm, json_past='pastStorms.json'):
 
     dir = 'jtwc_history'
     list_losses = glob.glob(f'{dir}/**/**_losses_adm.json', recursive=True)
@@ -39,26 +39,11 @@ def getHistory(json_years, json_adm, json_past='pastStorms.json', json_latest='l
         past_storms = json.load(f)
     past_storm_dict = {s['id']: s['shp'] for s in past_storms['jtwc_history'] if 'shp' in s}
 
-    # reading latest storms information
-    with open(json_latest, 'r') as f:
-        latest_storms = json.load(f)
-    latest_storm_dict = {s['id']: s['shp'] for s in latest_storms['mpres_data'] if 'shp' in s}
-
-    # updating past storms with latest storms
-    past_storm_dict.update(latest_storm_dict)
-    list_years.insert(0, str(int(max(list_years)) + 1))
-    list_losses = glob.glob(f'mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/**_losses_adm.json',
-              recursive=True) + list_losses
-
     counter_total = 0
     for year in list_years:
 
         counter_year = 0
-        if year == list_years[0]:
-            list_losses_year = glob.glob(f'mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/**_losses_adm.json',
-                                         recursive=True)
-        else:
-            list_losses_year = glob.glob(f'{dir}/{year}/**_losses_adm.json', recursive=True)
+        list_losses_year = glob.glob(f'{dir}/{year}/**_losses_adm.json', recursive=True)
 
         for losses in list_losses_year:
             counter_year += 1
