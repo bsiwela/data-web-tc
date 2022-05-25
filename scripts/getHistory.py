@@ -65,7 +65,10 @@ def getHistory(json_years, json_adm, json_past='pastStorms.json', json_latest='l
             counter_total += 1
             with open(losses, 'r') as f:
                 data = json.load(f)
-            storm_id = losses.split('/')[2].split('_')[0]
+            if year == list_years[0]:
+                storm_id = losses.split('/')[-1].split('_')[0]
+            else:
+                storm_id = losses.split('/')[2].split('_')[0]
 
             print(f'Dealing with {storm_id} ...')
 
