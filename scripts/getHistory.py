@@ -29,7 +29,7 @@ def checkIfKeyAddValue(d, year, value, field='loss'):
 def getAllStorms(json_storms):
     list_past = glob.glob('jtwc_history/**/**_shp.geojson')
     list_latest = glob.glob('mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/**.geojson')
-    dict_storms = {'storms': list_past + list_latest}
+    dict_storms = {'records': list_past + list_latest}
     dict_storms['counter_total'] = len(set(list_past + list_latest))
 
     with open(json_storms, 'w') as f:
