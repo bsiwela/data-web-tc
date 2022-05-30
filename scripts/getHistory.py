@@ -26,6 +26,14 @@ def checkIfKeyAddValue(d, year, value, field='loss'):
 
     return
 
+def getAllStorms(json_storms):
+    list_past = glob.glob('jtwc_history/**/**_shp.geojson')
+    list_latest = glob.glob('mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/**.geojson')
+    dict_storms = {'storms': list_past + list_latest}
+
+    with open(json_storms, 'w') as f:
+        json.dump(dict_storms, f, sort_keys=True, indent=4)
+
 def getHistory(json_years, json_adm, json_past='pastStorms.json', json_latest='latestStorms.json'):
 
     dir = 'jtwc_history'
@@ -166,8 +174,10 @@ def getHistory(json_years, json_adm, json_past='pastStorms.json', json_latest='l
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Arguments to be passed to the script')
+    parser.add_argument('-s', '--storms', type=str, help='Path to json file', default='storms.json', dest='json_storms')
     parser.add_argument('-y', '--years', type=str, help='Path to json file', default='historyYears.json', dest='json_years')
     parser.add_argument('-a', '--adm', type=str, help='Path to json file', default='historyAdm.json', dest='json_adm')
     args = parser.parse_args()
 
+    getAllStorms(json_storms=args.json_storms)
     getHistory(json_years=args.json_years, json_adm=args.json_adm)
