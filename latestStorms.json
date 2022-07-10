@@ -1,15 +1,12 @@
 {
     "current_storms": {
         "current_storms": [
-            "EP042022",
             "EP052022"
         ],
         "storms_shp": [
-            "EP042022",
             "EP052022"
         ],
         "windwater_shp": [
-            "EP042022",
             "EP052022"
         ]
     },
