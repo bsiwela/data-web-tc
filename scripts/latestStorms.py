@@ -43,7 +43,7 @@ for dir in dirs:
                         try:
                             a = f['properties']['ATCFID']
                         except KeyError:
-                            print(f['properties'])
+                            print(f'{file} {f["properties"]}')
                             exit(-1)
                 if 'storms_shp' in file:
                     dict_storms['current_storms']['storms_shp'] = list_current_storms
