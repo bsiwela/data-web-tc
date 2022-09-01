@@ -42,6 +42,7 @@ for dir in dirs:
                         list_current_storms = list(set([f['properties']['ATCFID'] for f in data['features']]))
                     except KeyError:
                         print(data)
+                        exit(-1)
                 if 'storms_shp' in file:
                     dict_storms['current_storms']['storms_shp'] = list_current_storms
                 elif 'windwater_shp' in file:
