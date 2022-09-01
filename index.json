@@ -1,5 +1,7 @@
 {
     "mpres_data": [
+        "mpres_data/xsr_test_shp.zip.sha256",
+        "mpres_data/xsr_test_shp.geojson",
         "mpres_data/taos_swio_ofcl_storms_shp.geojson",
         "mpres_data/taos_swio_ofcl_storms_shp.zip.sha256",
         "mpres_data/taos_swio30s_ofcl_windwater_shp.zip.sha256",
