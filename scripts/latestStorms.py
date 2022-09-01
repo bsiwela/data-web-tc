@@ -38,7 +38,10 @@ for dir in dirs:
                 dict_storms.setdefault('current_storms', {})
                 with open(file, 'r') as f:
                     data = json.load(f)
-                    list_current_storms = list(set([f['properties']['ATCFID'] for f in data['features']]))
+                    try:
+                        list_current_storms = list(set([f['properties']['ATCFID'] for f in data['features']]))
+                    except KeyError:
+                        print(data)
                 if 'storms_shp' in file:
                     dict_storms['current_storms']['storms_shp'] = list_current_storms
                 elif 'windwater_shp' in file:
