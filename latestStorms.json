@@ -97,5 +97,19 @@
             "storm_name": "ANA"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+                {
+            "bbox": [
+                36.3875,
+                -34.5542,
+                79.3,
+                -12.4208
+            ],
+            "id": "SH222022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132022_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132022.geojson",
+            "storm_name": "TEST_CURRENT_STORM"
+        },
+    ]
 }
