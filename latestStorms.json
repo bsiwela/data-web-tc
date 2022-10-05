@@ -6,7 +6,8 @@
         ],
         "storms_shp": [
             "EP172022",
-            "AL122022"
+            "AL122022",
+            "SH922023"
         ],
         "windwater_shp": [
             "EP172022",
@@ -93,5 +94,17 @@
             "storm_name": "ANA"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                85.7083,
+                -11.6417,
+                92.0083,
+                -4.725
+            ],
+            "id": "SH922023",
+            "jtwc": "tc_realtime/taostc_SH922023_JTWC_SLOSH.geojson",
+            "storm_name": "INVEST"
+        }
+    ]
 }
