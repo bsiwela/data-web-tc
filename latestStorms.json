@@ -1,12 +1,12 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH032023",
-            "AL132022"
+            "AL132022",
+            "SH032023"
         ],
         "storms_shp": [
-            "SH032023",
-            "AL132022"
+            "AL132022",
+            "SH032023"
         ],
         "windwater_shp": [
             "SH032023",
@@ -96,14 +96,14 @@
     "tc_realtime": [
         {
             "bbox": [
-                79.675,
-                -19.275,
+                81.0583,
+                -19.8917,
                 91.5083,
                 -6.1583
             ],
             "id": "SH032023",
             "jtwc": "tc_realtime/taostc_SH032023_JTWC_SLOSH.geojson",
-            "storm_name": "THREE"
+            "storm_name": "BALITA"
         }
     ]
 }
