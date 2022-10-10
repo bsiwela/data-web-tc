@@ -1,19 +1,13 @@
 {
     "current_storms": {
         "current_storms": [
-            "EP182022",
-            "SH032023",
-            "AL132022"
+            "EP182022"
         ],
         "storms_shp": [
-            "EP182022",
-            "SH032023",
-            "AL132022"
+            "EP182022"
         ],
         "windwater_shp": [
-            "EP182022",
-            "SH032023",
-            "AL132022"
+            "EP182022"
         ]
     },
     "mpres_data": [
@@ -96,17 +90,5 @@
             "storm_name": "ANA"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                82.2583,
-                -20.075,
-                91.5083,
-                -6.375
-            ],
-            "id": "SH032023",
-            "jtwc": "tc_realtime/taostc_SH032023_JTWC_SLOSH.geojson",
-            "storm_name": "BALITA"
-        }
-    ]
+    "tc_realtime": []
 }
