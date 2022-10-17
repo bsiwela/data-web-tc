@@ -1,5 +1,5 @@
 {
-    "counter_total": 397,
+    "counter_total": 403,
     "records": [
         {
             "storms": [
@@ -322,6 +322,8 @@
                 "jtwc_history/2001/SH212001_shp.geojson",
                 "jtwc_history/2001/SH042001_shp.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_IO042022.geojson",
+                "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP212022.geojson",
+                "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH032023.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_EP102022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP012022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL122022.geojson",
@@ -338,6 +340,7 @@
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP042022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH172022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP072022.geojson",
+                "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP222022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP062022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_EP032022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH012022.geojson",
@@ -355,11 +358,13 @@
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP022022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL032022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL072022.geojson",
+                "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_EP182022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL092022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH042022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH212022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP192022.geojson",
+                "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL142022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH262022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP092022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH052022.geojson",
@@ -387,6 +392,7 @@
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL102022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_EP162022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL012022.geojson",
+                "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL132022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_AL042022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP132022.geojson",
                 "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH022023.geojson",
