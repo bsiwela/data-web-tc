@@ -91,32 +91,5 @@
             "storm_name": "DUMAKO"
         }
     ],
-    "tc_realtime": [
-                {
-            "bbox": [
-                34.6,
-                -18.4958,
-                56.3,
-                -13.0208
-            ],
-            "id": "WP192022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH192022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH192022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/taos_swio30s_ofcl_windwater_shp.geojson",
-            "storm_name": "GOMBE"
-        },
-        {
-            "bbox": [
-                36.3875,
-                -34.5542,
-                79.3,
-                -12.4208
-            ],
-            "id": "SH132022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132022.geojson",
-            "storm_name": "EMNATI"
-        }
-    ]
+    "tc_realtime": []
 }
