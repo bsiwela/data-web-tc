@@ -91,32 +91,5 @@
             "storm_name": "DUMAKO"
         }
     ],
-    "tc_realtime": [
-                {
-            "bbox": [
-                37.0625,
-                -27.0208,
-                53.2875,
-                -10.8375
-            ],
-            "id": "SH242022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH242022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH242022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH242022.geojson",
-            "storm_name": "JASMINE"
-        },
-        {
-            "bbox": [
-                33.6,
-                -19.9625,
-                60.8292,
-                -10.2125
-            ],
-            "id": "SH072022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH072022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH072022_JTWC_30_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH072022.geojson",
-            "storm_name": "ANA"
-        }
-    ]
+    "tc_realtime": []
 }
