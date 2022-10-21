@@ -102,7 +102,7 @@
             "id": "SH192022",
             "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH192022_losses_adm.json",
             "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH192022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH192022.geojson",
+            "shp": "mpres_data/taos_swio30s_ofcl_windwater_shp.geojson",
             "storm_name": "GOMBE"
         },
         {
