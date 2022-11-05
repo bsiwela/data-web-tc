@@ -93,5 +93,17 @@
             "storm_name": "DUMAKO"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                84.1583,
+                -14.2917,
+                97.225,
+                -2.025
+            ],
+            "id": "SH042023",
+            "jtwc": "tc_realtime/taostc_SH042023_JTWC_SLOSH.geojson",
+            "storm_name": "FOUR"
+        }
+    ]
 }
