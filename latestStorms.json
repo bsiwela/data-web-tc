@@ -1,16 +1,16 @@
 {
     "current_storms": {
         "current_storms": [
-            "AL152022",
-            "SH042023"
+            "SH042023",
+            "AL152022"
         ],
         "storms_shp": [
-            "AL152022",
-            "SH042023"
+            "SH042023",
+            "AL152022"
         ],
         "windwater_shp": [
-            "AL152022",
-            "SH042023"
+            "SH042023",
+            "AL152022"
         ]
     },
     "mpres_data": [
@@ -93,17 +93,5 @@
             "storm_name": "DUMAKO"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                84.1583,
-                -14.2917,
-                97.225,
-                -2.025
-            ],
-            "id": "SH042023",
-            "jtwc": "tc_realtime/taostc_SH042023_JTWC_SLOSH.geojson",
-            "storm_name": "FOUR"
-        }
-    ]
+    "tc_realtime": []
 }
