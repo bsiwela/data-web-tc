@@ -9,7 +9,7 @@ import geopandas as gpd
 import shapely.geometry as geom
 import rasterio.features
 from scipy import interpolate
-from scripts.compactGeoJSON import densify
+from compactGeoJSON import densify
 
 
 
