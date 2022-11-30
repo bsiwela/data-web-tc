@@ -36,8 +36,8 @@ jobs:
       # Set up python packages
       - name: install python packages
         run: |
-          python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
+          python -m pip3 install --upgrade pip
+          pip3 install -r scripts/requirements.txt
         
       # execute python script fetchRealTimeGFS.py
       - name: execute python script fetchRealTimeGFS.py
