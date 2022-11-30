@@ -6,7 +6,7 @@ name: fetchRealTimeGFS
 on:
   # Triggers the workflow every 30 minutes
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '5/30 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -40,7 +40,7 @@ jobs:
           pip install -r scripts/requirements.txt
         
       # execute python script fetchRealTimeGFS.py
-      - name: execute python script fetchLatestSHP.py
+      - name: execute python script fetchRealTimeGFS.py
         env:
           KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
           KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
