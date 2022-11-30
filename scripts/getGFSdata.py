@@ -27,12 +27,12 @@ def getGFSurl(date, hour, time, sp_res=0.25, t_sep=1.00, leftlon=-13.36, rightlo
 
     return url_gfs, file_tmp
 
-def grib2geojson(url_gfs_list, file_tmp_list, start, end, field='tp', factor=4, N=50, decimals=2, folder_tmp='gfs_data', leftlon=-13.36, rightlon=99.14, toplat=3.79, bottomlat=-41.3):
+def grib2geojson(url_gfs_list, file_tmp_list, start, end, field='tp', factor=4, N=50, decimals=2, folder='gfs_realtime', leftlon=-13.36, rightlon=99.14, toplat=3.79, bottomlat=-41.3):
     print(f'GFS data from +{int(start/24):02d}d to +{int(end/24):02d}d')
 
     for url_gfs, file_tmp in zip(url_gfs_list, file_tmp_list):
         response = requests.get(url_gfs)
-        file_tmp = f'{folder_tmp}/{file_tmp}'
+        file_tmp = f'{folder}/{file_tmp}'
         open(file_tmp, "wb").write(response.content)
         ds = xr.open_dataset(file_tmp, engine='cfgrib')
 
@@ -127,7 +127,7 @@ def grib2geojson(url_gfs_list, file_tmp_list, start, end, field='tp', factor=4, 
         'field': field_series
     })
     gdf = gpd.GeoDataFrame(df,geometry=geometries)
-    geojsonFilePath = f'{folder_tmp}/gfs_{int(start/24):02d}d_{int(end/24):02d}d.geojson' #TODO: replace with appropriate naming f'{os.path.splitext(ncfile)[0]}.geojson'
+    geojsonFilePath = f'{folder}/gfs_{int(start / 24):02d}d_{int(end / 24):02d}d.geojson' #TODO: replace with appropriate naming f'{os.path.splitext(ncfile)[0]}.geojson'
     gdf.to_file(geojsonFilePath, driver='GeoJSON')
     densify(geojsonFilePath, decimals=decimals)
 
@@ -140,7 +140,7 @@ def grib2geojson(url_gfs_list, file_tmp_list, start, end, field='tp', factor=4, 
         #data['bbox'] = [np.round(gdf.total_bounds[i], decimals=4) for i in range(4)]
         f.write(json.dumps(data, separators=(',', ':')))
 
-def getGFSdata(start, end, tmp_dir, date=None, N=50):
+def getGFSdata(start, end, folder, date=None, N=50):
 
     if date is None:
         today = dt.datetime.today()
@@ -157,15 +157,17 @@ def getGFSdata(start, end, tmp_dir, date=None, N=50):
         url_gfs_list.append(url_gfs)
         file_tmp_list.append(file_tmp)
 
-    if not os.path.isdir(tmp_dir):
-        os.makedirs(tmp_dir)
-    grib2geojson(url_gfs_list, file_tmp_list, start=start, end=end, folder_tmp=f'{tmp_dir}', N=N)
+    if not os.path.isdir(folder):
+        os.makedirs(folder)
+    grib2geojson(url_gfs_list, file_tmp_list, start=start, end=end, folder=folder, N=N)
 
-tmp_dir = '/Users/bertranddelvaux/Library/Application Support/JetBrains/PyCharm2021.3/scratches/gfs_data'
+os.chdir('rain')
+
+folder = 'gfs_realtime'
 
 # getting 1d accumulation for cast for the next 5 days
 for day in range(5):
-    getGFSdata(start = day * 24 + 1, end=(day + 1) * 24, tmp_dir = tmp_dir, N=25)
+    getGFSdata(start = day * 24 + 1, end=(day + 1) * 24, folder = folder, N=25)
 
 # getting 5d accumulation for cast for the next 5 days
-getGFSdata(start=1, end=5*24, tmp_dir=tmp_dir)
+getGFSdata(start=1, end=5*24, folder=folder)
