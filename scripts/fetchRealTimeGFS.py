@@ -167,7 +167,13 @@ folder = 'gfs_realtime'
 
 # getting 1d accumulation for cast for the next 5 days
 for day in range(5):
-    getGFSdata(start = day * 24 + 1, end=(day + 1) * 24, folder = folder, N=25)
+    try:
+        getGFSdata(start = day * 24 + 1, end=(day + 1) * 24, folder = folder, N=25)
+    except:
+        print(f'The GFS data was probably not ready')
 
 # getting 5d accumulation for cast for the next 5 days
-getGFSdata(start=1, end=5*24, folder=folder)
+try:
+    getGFSdata(start=1, end=5*24, folder=folder)
+except:
+    print(f'The GFS data was probably not ready')
