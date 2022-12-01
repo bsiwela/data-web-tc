@@ -144,7 +144,7 @@ def getGFSdata(start, end, folder, date=None, N=50):
 
     if date is None:
         today = dt.datetime.today()
-        date = f'{today.year}{today.month}{today.day}'
+        date = f'{today.year}{today.month:02d}{today.day:02d}'
         hour = int(dt.datetime.today().hour / 6) * 6
     else:
         hour = 18
