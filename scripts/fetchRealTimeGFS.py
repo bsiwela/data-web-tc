@@ -161,10 +161,58 @@ def getGFSdata(start, end, folder, date=None, N=50):
         os.makedirs(folder)
     grib2geojson(url_gfs_list, file_tmp_list, start=start, end=end, folder=folder, N=N)
 
+
+def getGPMdata(folder, date=None, decimals=2, days_archived=15):
+
+    if not os.path.isdir(folder):
+        os.makedirs(folder)
+
+    if date is None:
+        today = dt.datetime.today()
+        # getting last available hour: get UTC hours, subtract 6, takes the max of 02 + 3 * i:59:59 that fits
+        hour = int((today.hour - 6) / 3) * 3 - 1
+        if hour < 0:
+            print('Data of today still not available')
+            return
+    else:
+        today = dt.date(date[0],date[1],date[2])
+        hour = 23
+
+    day_of_year = today.timetuple().tm_yday
+    year = today.year
+    date = f'{today.year}{today.month:02d}{today.day:02d}'
+
+    bbox = '-13.36,-41.3,99.14,3.79'
+
+
+    url_gpm = f'https://pmmpublisher.pps.eosdis.nasa.gov/products/gpm_3hr_1d/subset/Global/{year}/{day_of_year}/gpm_3hr_1d.{date}.{hour:02d}5959?bbox={bbox}'
+
+    file_tmp = f'{folder}/gpm_{date}.geojson'
+
+    response = requests.get(url_gpm)
+    open(file_tmp, "wb").write(response.content)
+    densify(file_tmp, decimals=decimals)
+
+    # date of the last allowed file
+    last_allowed_day = dt.datetime.today() - dt.timedelta(days=days_archived)
+    date_allowed = f'{last_allowed_day.year}{last_allowed_day.month:02d}{last_allowed_day.day:02d}'
+
+    # remove temporary file (including the index .idx file created when downloading)
+    for filename in glob.glob(f'{folder}/*'):
+        if filename.endswith('.geojson') and filename < f'{folder}/gpm_{date_allowed}.geojson':
+            os.remove(filename)
+
+
+
 os.chdir('rain')
 
-folder = 'gfs_realtime'
+# GPM Real-Time
+folder = 'gpm_realtime'
+getGPMdata(folder=folder)
 
+
+# GFS Real-Time
+folder = 'gfs_realtime'
 # getting 1d accumulation for cast for the next 5 days
 for day in range(5):
     try:
