@@ -162,7 +162,7 @@ def getGFSdata(start, end, folder, date=None, N=50):
     grib2geojson(url_gfs_list, file_tmp_list, start=start, end=end, folder=folder, N=N)
 
 
-def getGPMdata(folder, date=None, decimals=2, days_archived=15):
+def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, threshold_precip=10):
 
     if not os.path.isdir(folder):
         os.makedirs(folder)
@@ -170,12 +170,14 @@ def getGPMdata(folder, date=None, decimals=2, days_archived=15):
     if date is None:
         today = dt.datetime.today()
         # getting last available hour: get UTC hours, subtract 6, takes the max of 02 + 3 * i:59:59 that fits
-        hour = int((today.hour - 6) / 3) * 3 - 1
-        if hour < 0:
-            print('Data of today still not available')
-            return
+        # hour = int((today.hour - 6) / 3) * 3 - 1
+        # if hour < 0:
+        #     print('Data of today still not available')
+        #     return
     else:
         today = dt.date(date[0],date[1],date[2])
+
+    if hour is None:
         hour = 23
 
     day_of_year = today.timetuple().tm_yday
@@ -187,10 +189,15 @@ def getGPMdata(folder, date=None, decimals=2, days_archived=15):
 
     url_gpm = f'https://pmmpublisher.pps.eosdis.nasa.gov/products/gpm_3hr_1d/subset/Global/{year}/{day_of_year}/gpm_3hr_1d.{date}.{hour:02d}5959?bbox={bbox}'
 
-    file_tmp = f'{folder}/gpm_{date}.geojson'
+    file_tmp = f'{folder}/gpm_{date}_{hour:02d}.geojson'
 
     response = requests.get(url_gpm)
     open(file_tmp, "wb").write(response.content)
+    with open(file_tmp, 'r') as f:
+        data = json.load(f)
+        data['features'] = [e for e in data['features'] if e['properties']['precip'] >= threshold_precip]
+    with open(file_tmp, 'w') as f:
+        f.write(json.dumps(data, separators=(',', ':')))
     densify(file_tmp, decimals=decimals)
 
     # date of the last allowed file
@@ -208,7 +215,26 @@ os.chdir('rain')
 
 # GPM Real-Time
 folder = 'gpm_realtime'
-getGPMdata(folder=folder)
+#getGPMdata(folder=folder)
+for hour in range(2, 23 + 3, 3):
+    try:
+        getGPMdata(hour=hour, folder=folder)
+    except:
+        print(f'Hour @{hour:02d} did not work')
+
+# for day in range(28,31):
+#     for hour in range(2,23+3,3):
+#         try:
+#             getGPMdata(date=[2022,11,day], hour=hour, folder=folder)
+#         except:
+#             print(f'{day:02d}-11-2022 @ {hour:02d} did not work')
+
+# for day in range(3,6):
+#     for hour in range(2, 23 + 3, 3):
+#         try:
+#             getGPMdata(date=[2022, 12, day], hour=hour, folder=folder)
+#         except:
+#             print(f'{day:02d}-12-2022 @ {hour:02d} did not work')
 
 
 # GFS Real-Time
