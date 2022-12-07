@@ -217,6 +217,9 @@ os.chdir('rain')
 
 # GPM Real-Time
 folder = 'gpm_realtime'
+print(f'****************************************')
+print(f'************* GPM Real TIME ************')
+print(f'****************************************')
 for hour in range(2, 23 + 3, 3):
     try:
         getGPMdata(hour=hour, folder=folder)
@@ -226,6 +229,9 @@ for hour in range(2, 23 + 3, 3):
 
 # GFS Real-Time
 folder = 'gfs_realtime'
+print(f'****************************************')
+print(f'************* GFS Real TIME ************')
+print(f'****************************************')
 # getting 1d accumulation for cast for the next 5 days, with 3h interval
 for day in range(5):
     for hour in range(0,24,3):
