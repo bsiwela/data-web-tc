@@ -236,6 +236,6 @@ for day in range(5):
 
 # getting 5d accumulation for cast for the next 5 days
 try:
-    getGFSdata(start=1, end=5*24, folder=folder)
+    getGFSdata(start=0, end=5*24, folder=folder)
 except:
     print(f'The GFS data was probably not ready')
