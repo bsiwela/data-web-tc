@@ -28,10 +28,13 @@ def getGFSurl(date, hour, time, sp_res=0.25, t_sep=1.00, leftlon=-13.36, rightlo
     return url_gfs, file_tmp
 
 def grib2geojson(url_gfs_list, file_tmp_list, start, end, field='tp', factor=4, N=50, decimals=2, folder='gfs_realtime', leftlon=-13.36, rightlon=99.14, toplat=3.79, bottomlat=-41.3):
-    print(f'GFS data from +{int(start/24):02d}d to +{int(end/24):02d}d')
+    print(f'GFS data from +{start:03d}h to +{end:03d}h')
 
     for url_gfs, file_tmp in zip(url_gfs_list, file_tmp_list):
         response = requests.get(url_gfs)
+        if response.status_code != 200 or len(response.content) == 0:
+            print(f'\tSomething went wrong in getting the data for {file_tmp}')
+            continue
         file_tmp = f'{folder}/{file_tmp}'
         open(file_tmp, "wb").write(response.content)
         ds = xr.open_dataset(file_tmp, engine='cfgrib')
@@ -127,7 +130,7 @@ def grib2geojson(url_gfs_list, file_tmp_list, start, end, field='tp', factor=4, 
         'field': field_series
     })
     gdf = gpd.GeoDataFrame(df,geometry=geometries)
-    geojsonFilePath = f'{folder}/gfs_{int(start / 24):02d}d_{int(end / 24):02d}d.geojson' #TODO: replace with appropriate naming f'{os.path.splitext(ncfile)[0]}.geojson'
+    geojsonFilePath = f'{folder}/gfs_{start:03d}h_{end:03d}h.geojson' #TODO: replace with appropriate naming f'{os.path.splitext(ncfile)[0]}.geojson'
     gdf.to_file(geojsonFilePath, driver='GeoJSON')
     densify(geojsonFilePath, decimals=decimals)
 
@@ -136,8 +139,6 @@ def grib2geojson(url_gfs_list, file_tmp_list, start, end, field='tp', factor=4, 
         data = json.load(f)
 
     with open(geojsonFilePath, 'w') as f:
-        #data['storm'] = storm_dict  # adding storm information
-        #data['bbox'] = [np.round(gdf.total_bounds[i], decimals=4) for i in range(4)]
         f.write(json.dumps(data, separators=(',', ':')))
 
 def getGFSdata(start, end, folder, date=None, N=50):
@@ -153,7 +154,7 @@ def getGFSdata(start, end, folder, date=None, N=50):
     file_tmp_list = []
 
     for time in range(start, end + 1):
-        url_gfs, file_tmp = getGFSurl(date=date, hour=hour, time=time) # TODO: parametrize hour and time
+        url_gfs, file_tmp = getGFSurl(date=date, hour=hour, time=time)
         url_gfs_list.append(url_gfs)
         file_tmp_list.append(file_tmp)
 
@@ -169,11 +170,6 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
 
     if date is None:
         today = dt.datetime.today()
-        # getting last available hour: get UTC hours, subtract 6, takes the max of 02 + 3 * i:59:59 that fits
-        # hour = int((today.hour - 6) / 3) * 3 - 1
-        # if hour < 0:
-        #     print('Data of today still not available')
-        #     return
     else:
         today = dt.date(date[0],date[1],date[2])
 
@@ -184,6 +180,8 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
     year = today.year
     date = f'{today.year}{today.month:02d}{today.day:02d}'
 
+    print(f'Dealing with {today.year}-{today.month:02d}-{today.day:02d} {hour:02d}:59:59')
+
     bbox = '-13.36,-41.3,99.14,3.79'
 
 
@@ -192,7 +190,11 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
     file_tmp = f'{folder}/gpm_{date}_{hour:02d}.geojson'
 
     response = requests.get(url_gpm)
+    if response.status_code != 200:
+        print(f'\tFailed to download data')
+        raise Exception
     open(file_tmp, "wb").write(response.content)
+
     with open(file_tmp, 'r') as f:
         data = json.load(f)
         data['features'] = [e for e in data['features'] if e['properties']['precip'] >= threshold_precip]
@@ -215,36 +217,22 @@ os.chdir('rain')
 
 # GPM Real-Time
 folder = 'gpm_realtime'
-#getGPMdata(folder=folder)
 for hour in range(2, 23 + 3, 3):
     try:
         getGPMdata(hour=hour, folder=folder)
     except:
-        print(f'Hour @{hour:02d} did not work')
-
-# for day in range(28,31):
-#     for hour in range(2,23+3,3):
-#         try:
-#             getGPMdata(date=[2022,11,day], hour=hour, folder=folder)
-#         except:
-#             print(f'{day:02d}-11-2022 @ {hour:02d} did not work')
-
-# for day in range(3,6):
-#     for hour in range(2, 23 + 3, 3):
-#         try:
-#             getGPMdata(date=[2022, 12, day], hour=hour, folder=folder)
-#         except:
-#             print(f'{day:02d}-12-2022 @ {hour:02d} did not work')
+        pass
 
 
 # GFS Real-Time
 folder = 'gfs_realtime'
-# getting 1d accumulation for cast for the next 5 days
+# getting 1d accumulation for cast for the next 5 days, with 3h interval
 for day in range(5):
-    try:
-        getGFSdata(start = day * 24 + 1, end=(day + 1) * 24, folder = folder, N=25)
-    except:
-        print(f'The GFS data was probably not ready')
+    for hour in range(0,24,3):
+        try:
+            getGFSdata(start = day * 24 + hour, end=(day + 1) * 24 + hour, folder = folder, N=25)
+        except:
+            print(f'The GFS data was probably not ready')
 
 # getting 5d accumulation for cast for the next 5 days
 try:
