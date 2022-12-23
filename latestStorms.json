@@ -1,16 +1,13 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH052023",
-            "SH062023"
+            "SH052023"
         ],
         "storms_shp": [
-            "SH052023",
-            "SH062023"
+            "SH052023"
         ],
         "windwater_shp": [
-            "SH052023",
-            "SH062023"
+            "SH052023"
         ]
     },
     "mpres_data": [
@@ -96,10 +93,10 @@
     "tc_realtime": [
         {
             "bbox": [
-                75.4583,
-                -22.1917,
+                74.7917,
+                -22.325,
                 97.7,
-                -7.175
+                -7.2917
             ],
             "id": "SH052023",
             "jtwc": "tc_realtime/taostc_SH052023_JTWC_SLOSH.geojson",
