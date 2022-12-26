@@ -93,10 +93,10 @@
     "tc_realtime": [
         {
             "bbox": [
-                66.7583,
-                -31.3083,
+                66.2417,
+                -33.5917,
                 97.7,
-                -7.4583
+                -8.1083
             ],
             "id": "SH052023",
             "jtwc": "tc_realtime/taostc_SH052023_JTWC_SLOSH.geojson",
