@@ -90,18 +90,5 @@
             "storm_name": "EMNATI"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                63.6583,
-                -38.7083,
-                97.7,
-                -7.3583
-            ],
-            "id": "SH052023",
-            "jtwc": "tc_realtime/taostc_SH052023_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH052023_losses_adm.json",
-            "storm_name": "DARIAN"
-        }
-    ]
+    "tc_realtime": []
 }
