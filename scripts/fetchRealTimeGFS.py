@@ -185,7 +185,7 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
     bbox = '-13.36,-41.3,99.14,3.79'
 
 
-    url_gpm = f'https://pmmpublisher.pps.eosdis.nasa.gov/products/gpm_3hr_1d/subset/Global/{year}/{day_of_year}/gpm_3hr_1d.{date}.{hour:02d}5959?bbox={bbox}'
+    url_gpm = f'https://pmmpublisher.pps.eosdis.nasa.gov/products/gpm_3hr_1d/subset/Global/{year}/{day_of_year:03d}/gpm_3hr_1d.{date}.{hour:02d}5959?bbox={bbox}'
 
     file_tmp = f'{folder}/gpm_{date}_{hour:02d}.geojson'
 
