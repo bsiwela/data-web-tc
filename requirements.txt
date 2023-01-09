@@ -62,7 +62,7 @@ partd==1.2.0
 pathos==0.2.8
 patsy==0.5.2
 peewee==3.14.10
-Pillow==9.0.1
+Pillow==9.3.0
 Pint==0.18
 pooch==1.6.0
 pox==0.3.0
