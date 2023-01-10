@@ -193,6 +193,9 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
     if response.status_code != 200:
         print(f'\tFailed to download data')
         raise Exception
+    if response.content == b'{"type":"FeatureCollection","features":[]}':
+        print(f'\tData still not available for {date} {hour:02d}5959')
+        raise Exception
     open(file_tmp, "wb").write(response.content)
 
     with open(file_tmp, 'r') as f:
@@ -220,11 +223,20 @@ folder = 'gpm_realtime'
 print(f'****************************************')
 print(f'************* GPM Real TIME ************')
 print(f'****************************************')
-for hour in range(2, 23 + 3, 3):
-    try:
-        getGPMdata(hour=hour, folder=folder)
-    except:
-        pass
+
+# Getting the last days of data
+N = 10
+for days in range(N,-1,-1):
+    date = dt.datetime.today() + dt.timedelta(days=-days)
+    year = date.year
+    month = date.month
+    day = date.day
+
+    for hour in range(2, 23 + 3, 3):
+        try:
+            getGPMdata(date=[year,month,day], hour=hour, folder=folder)
+        except:
+            pass
 
 
 # GFS Real-Time
