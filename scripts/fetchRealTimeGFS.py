@@ -225,7 +225,7 @@ print(f'************* GPM Real TIME ************')
 print(f'****************************************')
 
 # Getting the last days of data
-N = 10
+N = 1
 for days in range(N,-1,-1):
     date = dt.datetime.today() + dt.timedelta(days=-days)
     year = date.year
