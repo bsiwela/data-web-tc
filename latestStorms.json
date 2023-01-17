@@ -1,12 +1,14 @@
 {
     "current_storms": {
-        "current_storms": [],
+        "current_storms": [
+            "SH082023"
+        ],
         "storms_shp": [
-            "SH912023",
-            "SH962023"
+            "SH082023",
+            "SH912023"
         ],
         "windwater_shp": [
-            null
+            "SH082023"
         ]
     },
     "mpres_data": [
@@ -92,15 +94,15 @@
     "tc_realtime": [
         {
             "bbox": [
-                61.075,
-                -14.325,
-                84.3083,
-                -4.675
+                46.0417,
+                -20.775,
+                84.425,
+                -4.0417
             ],
-            "id": "SH962023",
-            "jtwc": "tc_realtime/taostc_SH962023_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH962023_losses_adm.json",
-            "storm_name": "INVEST"
+            "id": "SH082023",
+            "jtwc": "tc_realtime/taostc_SH082023_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH082023_losses_adm.json",
+            "storm_name": "EIGHT"
         }
     ]
 }
