@@ -1,10 +1,8 @@
 {
     "current_storms": {
-        "current_storms": [
-            null
-        ],
+        "current_storms": [],
         "storms_shp": [
-            null
+            "SH962023"
         ],
         "windwater_shp": [
             null
@@ -90,5 +88,18 @@
             "storm_name": "GOMBE"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                61.075,
+                -14.325,
+                84.3083,
+                -4.675
+            ],
+            "id": "SH962023",
+            "jtwc": "tc_realtime/taostc_SH962023_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH962023_losses_adm.json",
+            "storm_name": "INVEST"
+        }
+    ]
 }
