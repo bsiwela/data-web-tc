@@ -1,16 +1,16 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH092023",
-            "SH082023"
+            "SH082023",
+            "SH092023"
         ],
         "storms_shp": [
-            "SH092023",
-            "SH082023"
+            "SH082023",
+            "SH092023"
         ],
         "windwater_shp": [
-            "SH092023",
-            "SH082023"
+            "SH082023",
+            "SH092023"
         ]
     },
     "mpres_data": [
@@ -96,15 +96,15 @@
     "tc_realtime": [
         {
             "bbox": [
-                45.225,
-                -21.1917,
-                84.3917,
-                -4.0917
+                45.6917,
+                -20.225,
+                84.2083,
+                -4.8917
             ],
             "id": "SH082023",
             "jtwc": "tc_realtime/taostc_SH082023_JTWC_SLOSH.geojson",
             "losses": "tc_realtime/SH082023_losses_adm.json",
-            "storm_name": "EIGHT"
+            "storm_name": "CHENESO"
         }
     ]
 }
