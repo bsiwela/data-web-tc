@@ -1,17 +1,17 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH082023",
-            "SH092023"
+            "SH092023",
+            "SH082023"
         ],
         "storms_shp": [
             "SH922023",
-            "SH082023",
-            "SH092023"
+            "SH092023",
+            "SH082023"
         ],
         "windwater_shp": [
-            "SH082023",
-            "SH092023"
+            "SH092023",
+            "SH082023"
         ]
     },
     "mpres_data": [
@@ -94,18 +94,5 @@
             "storm_name": "DUMAKO"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                43.375,
-                -21.775,
-                83.7917,
-                -5.5083
-            ],
-            "id": "SH082023",
-            "jtwc": "tc_realtime/taostc_SH082023_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH082023_losses_adm.json",
-            "storm_name": "CHENESO"
-        }
-    ]
+    "tc_realtime": []
 }
