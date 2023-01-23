@@ -214,8 +214,7 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
 
     # remove temporary file (including the index .idx file created when downloading)
     for filename in glob.glob(f'{folder}/*'):
-        if filename.endswith('.geojson') and filename < f'{folder}/gpm_{date_allowed}.geojson' and filename != f'{folder}/gpm_1d.geojson'
-:
+        if filename.endswith('.geojson') and filename < f'{folder}/gpm_{date_allowed}.geojson' and filename != f'{folder}/gpm_1d.geojson':
             os.remove(filename)
 
 
