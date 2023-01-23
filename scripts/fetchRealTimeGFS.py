@@ -1,4 +1,4 @@
-import os, glob
+import os, glob, shutil
 import json
 import requests
 import datetime as dt
@@ -189,7 +189,6 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
 
     file_tmp = f'{folder}/gpm_{date}_{hour:02d}.geojson'
     file_real_time = f'{folder}/gpm_1d.geojson'
-    print(f'\tSaved {file_real_time}')
 
     response = requests.get(url_gpm)
     if response.status_code != 200:
@@ -199,7 +198,6 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
         print(f'\tData still not available for {date} {hour:02d}5959')
         raise Exception
     open(file_tmp, "wb").write(response.content)
-    open(file_real_time, "wb").write(response.content)
 
     with open(file_tmp, 'r') as f:
         data = json.load(f)
@@ -216,6 +214,9 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
     for filename in glob.glob(f'{folder}/*'):
         if filename.endswith('.geojson') and filename < f'{folder}/gpm_{date_allowed}.geojson' and filename != f'{folder}/gpm_1d.geojson':
             os.remove(filename)
+    
+    shutil.copy(file_tmp, file_real_time)
+    print(f'\tSaved {file_real_time}')
 
 
 
