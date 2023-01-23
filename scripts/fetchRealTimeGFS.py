@@ -189,6 +189,7 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
 
     file_tmp = f'{folder}/gpm_{date}_{hour:02d}.geojson'
     file_real_time = f'{folder}/gpm_1d.geojson'
+    print(f'\tSaved {file_real_time}')
 
     response = requests.get(url_gpm)
     if response.status_code != 200:
@@ -213,7 +214,8 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
 
     # remove temporary file (including the index .idx file created when downloading)
     for filename in glob.glob(f'{folder}/*'):
-        if filename.endswith('.geojson') and filename < f'{folder}/gpm_{date_allowed}.geojson':
+        if filename.endswith('.geojson') and filename < f'{folder}/gpm_{date_allowed}.geojson' and filename != f'{folder}/gpm_1d.geojson'
+:
             os.remove(filename)
 
 
