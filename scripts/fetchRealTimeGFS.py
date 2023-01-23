@@ -188,6 +188,7 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
     url_gpm = f'https://pmmpublisher.pps.eosdis.nasa.gov/products/gpm_3hr_1d/subset/Global/{year}/{day_of_year:03d}/gpm_3hr_1d.{date}.{hour:02d}5959?bbox={bbox}'
 
     file_tmp = f'{folder}/gpm_{date}_{hour:02d}.geojson'
+    file_real_time = f'{folder}/gpm_1d.geojson'
 
     response = requests.get(url_gpm)
     if response.status_code != 200:
@@ -197,6 +198,7 @@ def getGPMdata(folder, date=None, hour=None, decimals=2, days_archived=15, thres
         print(f'\tData still not available for {date} {hour:02d}5959')
         raise Exception
     open(file_tmp, "wb").write(response.content)
+    open(file_real_time, "wb").write(response.content)
 
     with open(file_tmp, 'r') as f:
         data = json.load(f)
