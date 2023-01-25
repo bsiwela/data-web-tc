@@ -106,10 +106,10 @@
     "tc_realtime": [
         {
             "bbox": [
-                39.1083,
-                -28.3417,
-                83.7917,
-                -5.5083
+                37.075,
+                -32.4417,
+                83.525,
+                -5.675
             ],
             "fmee": "tc_realtime/taostc_SH082023_FMEE_SLOSH.geojson",
             "id": "SH082023",
