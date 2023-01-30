@@ -103,18 +103,5 @@
             "storm_name": "DUMAKO"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                36.0583,
-                -49.5917,
-                82.775,
-                -6.1917
-            ],
-            "id": "SH082023",
-            "jtwc": "tc_realtime/taostc_SH082023_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH082023_losses_adm.json",
-            "storm_name": "CHENESO"
-        }
-    ]
+    "tc_realtime": []
 }
