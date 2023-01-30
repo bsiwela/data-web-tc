@@ -52,6 +52,10 @@ jobs:
       # execute python script latestStorms.py
       - name: execute python script latestStorms.py
         run: python scripts/latestStorms.py
+        
+      # execute python script pastStorms.py
+      - name: execute python script pastStorms.py
+        run: python scripts/pastStorms.py
     
       # commit files
       - name: commit files
