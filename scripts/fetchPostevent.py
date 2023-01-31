@@ -28,7 +28,7 @@ root_root = os.path.abspath(os.getcwd())
 os.chdir('mpres_data/postevent')
 dir_root = os.path.abspath(os.getcwd())
 
-for subfolder in list_subfolder:
+for subfolder, ext in zip(list_subfolder, ['.nc', '.zip']):
 
     os.chdir(dir_root)
 
@@ -41,7 +41,7 @@ for subfolder in list_subfolder:
 
     url_subfolder = f'{url}{subfolder}'
 
-    file_list = listFilesUrl(url_subfolder, username, password, ext='.nc')
+    file_list = listFilesUrl(url_subfolder, username, password, ext=ext)
 
     try:
         local_storm_files = [f'SH{re.search("SH(.+?)_", os.path.splitext(os.path.split(file)[1])[0]).group(1)}' for file in index['mpres_data'] if f'postevent/{subfolder}' in file and file.endswith('geojson')]
@@ -59,22 +59,13 @@ for subfolder in list_subfolder:
             if downloaded:
 
                 if subfolder == 'taos_swio30s_ofcl_windwater_nc':
-                    with ZipFile(filename, 'r') as zipObject:
-                        zippedFiles = zipObject.namelist()
-                        for zippedFile in zippedFiles:
-                            if zippedFile.endswith('.nc'): # only keep past and not fcst
-                                zipObject.extract(zippedFile) #, os.path.split(zipfile)[0])
-                                #zippedFile = f'{os.path.split(zipfile)[0]}/{zippedFile}'
-                                nc.nc2geojson(zippedFile)
-                            else:
-                                print(f'Unknown file format for: {zippedFile}')
-
-                            # running loss generation
-                            calculateLosses(storm_file=zippedFile, exp_file=os.path.join(root_root, 'arc_exposure.gzip'),
-                                                adm_file=os.path.join(root_root, 'adm2_full_precision.json'),
-                                                mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
-                                                geojson=False)
-                            os.remove(zippedFile)
+                    nc.nc2geojson(filename)
+                    # running loss generation
+                    calculateLosses(storm_file=filename, exp_file=os.path.join(root_root, 'arc_exposure.gzip'),
+                                    adm_file=os.path.join(root_root, 'adm2_full_precision.json'),
+                                    mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
+                                    geojson=False)
+                    os.remove(filename)
 
                 elif subfolder == 'taos_swio30s_ofcl_windwater_shp':
                     filename_shp = f'shp_{filename}'
