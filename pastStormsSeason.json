@@ -5659,6 +5659,24 @@
                 "time": "18:00",
                 "year": "2022"
             }
+        ],
+        "2023": [
+            {
+                "bbox": [
+                    36.6542,
+                    -41.7,
+                    82.7708,
+                    -6.1875
+                ],
+                "date": "2023-01-13",
+                "id": "SH082023",
+                "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH082023_losses_adm.json",
+                "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082023_JTWC_SLOSH.geojson",
+                "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH082023.geojson",
+                "storm_name": "CHENESO",
+                "time": "06:00",
+                "year": "2023"
+            }
         ]
     }
 }
