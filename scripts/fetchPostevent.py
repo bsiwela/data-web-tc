@@ -65,7 +65,7 @@ for subfolder, ext in zip(list_subfolder, ['.nc', '.zip']):
                                     adm_file=os.path.join(root_root, 'adm2_full_precision.json'),
                                     mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
                                     geojson=False)
-                    os.remove(filename)
+                    #os.remove(filename)
 
                 elif subfolder == 'taos_swio30s_ofcl_windwater_shp':
                     filename_shp = f'shp_{filename}'
