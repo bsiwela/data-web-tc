@@ -41,7 +41,7 @@ for subfolder in list_subfolder:
 
     url_subfolder = f'{url}{subfolder}'
 
-    file_list = listFilesUrl(url_subfolder, username, password, ext='.zip')
+    file_list = listFilesUrl(url_subfolder, username, password, ext='.nc')
 
     try:
         local_storm_files = [f'SH{re.search("SH(.+?)_", os.path.splitext(os.path.split(file)[1])[0]).group(1)}' for file in index['mpres_data'] if f'postevent/{subfolder}' in file and file.endswith('geojson')]
