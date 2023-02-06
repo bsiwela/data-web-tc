@@ -39,7 +39,7 @@ def getHistory(json_years, json_adm, json_past='pastStorms.json', json_latest='l
 
     dir = 'jtwc_history'
     list_losses = glob.glob(f'{dir}/**/**_losses_adm.json', recursive=True)
-    list_years = list(set([item.split('/')[1] for item in list_losses]))
+    #list_years = list(set([item.split('/')[1] for item in list_losses]))
     dict_years = {}
     dict_adm = {'records': []}
 
@@ -55,7 +55,10 @@ def getHistory(json_years, json_adm, json_past='pastStorms.json', json_latest='l
 
     # updating past storms with latest storms
     past_storm_dict.update(latest_storm_dict)
-    list_years.insert(0, str(int(max(list_years)) + 1))
+    #list_years.insert(0, str(int(max(list_years)) + 1))
+    ##############@@@@@@@
+    list_years = [str(item) for item in set([int(e[4:]) for e in past_storm_dict.keys()])][::-1]
+    ##############@@@@@@@
     list_losses = glob.glob(f'mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/**_losses_adm.json',
               recursive=True) + list_losses
 
