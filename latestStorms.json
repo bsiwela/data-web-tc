@@ -1,17 +1,19 @@
 {
     "current_storms": {
         "current_storms": [
+            "SH122023",
             "SH112023",
-            "SH122023"
+            "SH132023"
         ],
         "storms_shp": [
+            "SH122023",
             "SH112023",
-            "SH942023",
-            "SH122023"
+            "SH132023"
         ],
         "windwater_shp": [
+            "SH122023",
             "SH112023",
-            "SH122023"
+            "SH132023"
         ]
     },
     "mpres_data": [
@@ -172,14 +174,16 @@
     "tc_realtime": [
         {
             "bbox": [
-                87.0083,
-                -18.425,
-                102.3917,
-                -8.175
+                69.1417,
+                -23.5917,
+                101.7917,
+                -8.3917
             ],
-            "id": "SH942023",
-            "jtwc": "tc_realtime/taostc_SH942023_JTWC_SLOSH.geojson",
-            "storm_name": "INVEST"
+            "fmee": "tc_realtime/taostc_SH132023_FMEE_SLOSH.geojson",
+            "id": "SH132023",
+            "jtwc": "tc_realtime/taostc_SH132023_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH132023_losses_adm.json",
+            "storm_name": "DINGANI"
         }
     ]
 }
