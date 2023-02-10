@@ -6,7 +6,7 @@ name: fetchPostevent
 on:
   # Triggers the workflow every 3rd hour after 20 minutes
   schedule:
-    - cron: '10 */3 * * *'
+    - cron: '20 */3 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
