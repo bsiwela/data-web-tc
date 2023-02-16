@@ -168,6 +168,19 @@
     "tc_realtime": [
         {
             "bbox": [
+                61.1583,
+                -19.1583,
+                120.375,
+                -11.0417
+            ],
+            "fmee": "tc_realtime/taostc_SH112023_FMEE_SLOSH.geojson",
+            "id": "SH112023",
+            "jtwc": "tc_realtime/taostc_SH112023_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH112023_losses_adm.json",
+            "storm_name": "FREDDY"
+        },
+        {
+            "bbox": [
                 63.3417,
                 -36.4917,
                 101.375,

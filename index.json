@@ -140,9 +140,11 @@
     ],
     "tc_realtime": [
         "tc_realtime/SH112023_losses_adm.json",
+        "tc_realtime/taostc_SH112023_JTWC_SLOSH.geojson",
         "tc_realtime/taostc_SH132023_FMEE_SLOSH.geojson",
         "tc_realtime/taostc_SH132023_JTWC_SLOSH.geojson",
         "tc_realtime/SH132023_losses_adm.json",
+        "tc_realtime/taostc_SH112023_FMEE_SLOSH.geojson",
         "tc_realtime/README.md"
     ]
 }
