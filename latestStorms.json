@@ -1,16 +1,16 @@
 {
     "current_storms": {
         "current_storms": [
-            "SH112023",
-            "SH132023"
+            "SH132023",
+            "SH112023"
         ],
         "storms_shp": [
-            "SH112023",
-            "SH132023"
+            "SH132023",
+            "SH112023"
         ],
         "windwater_shp": [
-            "SH112023",
-            "SH132023"
+            "SH132023",
+            "SH112023"
         ]
     },
     "mpres_data": [
@@ -171,8 +171,8 @@
     "tc_realtime": [
         {
             "bbox": [
-                50.2083,
-                -21.2583,
+                48.625,
+                -21.9917,
                 120.2917,
                 -11.125
             ],
@@ -189,7 +189,6 @@
                 101.375,
                 -9.575
             ],
-            "fmee": "tc_realtime/taostc_SH132023_FMEE_SLOSH.geojson",
             "id": "SH132023",
             "jtwc": "tc_realtime/taostc_SH132023_JTWC_SLOSH.geojson",
             "losses": "tc_realtime/SH132023_losses_adm.json",
