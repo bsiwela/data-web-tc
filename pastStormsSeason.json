@@ -5727,6 +5727,22 @@
             },
             {
                 "bbox": [
+                    65.4208,
+                    -32.9,
+                    101.3125,
+                    -9.5625
+                ],
+                "date": "2023-01-28",
+                "id": "SH132023",
+                "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132023_losses_adm.json",
+                "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132023_JTWC_SLOSH.geojson",
+                "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132023.geojson",
+                "storm_name": "DINGANI",
+                "time": "18:00",
+                "year": "2023"
+            },
+            {
+                "bbox": [
                     82.1375,
                     -20.4375,
                     92.5958,
