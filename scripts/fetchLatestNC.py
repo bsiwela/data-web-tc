@@ -53,7 +53,7 @@ if data.iloc[0][0] == 'NONE':
             os.remove(file)
 else:
     print('Data currently on KAC ...')
-    for url_file in data[data.columns[-1]].unique():
+    for url_file in [url for url in data[data.columns[-1]].unique() if 'JTWC' in url]: #for url_file in data[data.columns[-1]].unique():
         print(f'dir : {os.getcwd()}')
         os.chdir(dir_root)
         print(f'dir : {os.getcwd()}')
