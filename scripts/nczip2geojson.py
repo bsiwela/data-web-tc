@@ -43,7 +43,7 @@ def processFilesPath(path, recursive, fields, N, decimals=2):
         nc2geojson(ncfile, fields, N, decimals)
 
 
-def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50, decimals=2):
+def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind', 'swath_peak_wind'], N=50, decimals=2):
 
     def zip2nc(zipfile):
         with ZipFile(zipfile, 'r') as zipObject:
