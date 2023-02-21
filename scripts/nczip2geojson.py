@@ -43,7 +43,7 @@ def processFilesPath(path, recursive, fields, N, decimals=2):
         nc2geojson(ncfile, fields, N, decimals)
 
 
-def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind', 'swath_peak_wind'], N=50, decimals=2):
+def zip2geojson(zipfile, fields=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], N=50, decimals=2):
 
     def zip2nc(zipfile):
         with ZipFile(zipfile, 'r') as zipObject:
@@ -196,7 +196,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Arguments to be passed to the script')
     parser.add_argument('-p', '--path', type=str, help='Path to folder to scan', default=None, dest='path')
     parser.add_argument('-nr', '--non_recursive', action='store_true', help='Recursive process', default=False, dest='non_recursive')
-    parser.add_argument('-f', '--fields', help='List of fields to extract from NetCDF', nargs='+', default=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind', 'swath_peak_wind'], dest='fields')
+    parser.add_argument('-f', '--fields', help='List of fields to extract from NetCDF', nargs='+', default=['storm_position', 'past_rain_total', 'past_peak_wind', 'past_peak_water', 'fcst_peak_wind'], dest='fields')
     parser.add_argument('-n', help='Number of Polygons to discretize the raw data', default=50, dest='N')
     parser.add_argument('-d', help='Decimals for GeoJSON', default=2, dest='decimals')
     args = parser.parse_args()
