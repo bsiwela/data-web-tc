@@ -46,6 +46,13 @@ jobs:
           KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
         run: python scripts/fetchLatestSHP.py
         
+      # execute python script fetchLatestNC.py
+      - name: execute python script fetchLatestNC.py
+        env:
+          KAC_USERNAME: ${{ secrets.KAC_USERNAME }}
+          KAC_PASSWORD: ${{ secrets.KAC_PASSWORD }}
+        run: python scripts/fetchLatestNC.py
+        
       # execute python script createIndex.py
       - name: execute python script createIndex.py
         run: python scripts/createIndex.py
