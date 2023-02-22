@@ -197,15 +197,15 @@
         },
         {
             "bbox": [
-                73.3583,
-                -15.7583,
+                58.3417,
+                -29.4583,
                 94.5917,
-                -7.8917
+                -7.825
             ],
-            "id": "SH932023",
-            "jtwc": "tc_realtime/taostc_SH932023_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH932023_losses_adm.json",
-            "storm_name": "INVEST"
+            "id": "SH142023",
+            "jtwc": "tc_realtime/taostc_SH142023_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH142023_losses_adm.json",
+            "storm_name": "FOURTEEN"
         }
     ]
 }
