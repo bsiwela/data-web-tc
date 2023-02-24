@@ -5,6 +5,8 @@
         "mpres_data/taos_swio_ofcl_storms_shp.zip.sha256",
         "mpres_data/taos_swio30s_ofcl_windwater_shp.zip.sha256",
         "mpres_data/xsr_test_shp.geojson",
+        "mpres_data/daily_xsr_shp.zip.sha256",
+        "mpres_data/daily_xsr_shp.geojson",
         "mpres_data/xsr_test_shp.zip.sha256",
         "mpres_data/postevent/README.md",
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
