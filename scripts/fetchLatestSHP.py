@@ -4,7 +4,7 @@ import numpy as np
 import shapely.geometry as geom
 import nczip2geojson as nc
 from urllib.parse import urlparse
-from utils import listFilesUrl, fetchUrl
+from utils import listFilesUrl, fetchUrl, get_current_utc_timestamp
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/mpres_data/'
 username = os.environ['KAC_USERNAME']
@@ -15,6 +15,10 @@ password = os.environ['KAC_PASSWORD']
 file_list = listFilesUrl(url, username, password, ext='.zip')
 
 os.chdir('mpres_data')
+
+# printing timestamp
+utc_timestamp = get_current_utc_timestamp()
+print(f'\033[32mTIMESTAMP: {utc_timestamp}\n\033[0m')
 
 for url_file in file_list:
     filename = os.path.basename(urlparse(url_file).path)
