@@ -54,6 +54,8 @@ for url_file in file_list:
                         if tech == 'TRAK':  # if the technology is 'TRAK'
                             last_lon = row.LON  # set last_lon to the current longitude
                             last_lat = row.LAT
+                        row.geometry = lineString
+                        gdf = gdf.append(row)
                             
                             
             geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
