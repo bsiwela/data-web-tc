@@ -6,7 +6,7 @@ import pandas as pd
 import nczip2geojson as nc
 from io import StringIO
 from urllib.parse import urlparse
-from utils import listFilesUrl, fetchUrl
+from utils import listFilesUrl, fetchUrl, get_current_utc_timestamp
 from ncgzip2losses import calculateLosses
 
 url = 'https://www.kacportal.com/portal/kacs3/arc/tc_realtime/arc_tc_data.csv'
@@ -14,6 +14,10 @@ username = os.environ['KAC_USERNAME']
 password = os.environ['KAC_PASSWORD']
 
 root_root = os.path.abspath(os.getcwd())
+
+# printing timestamp
+utc_timestamp = get_current_utc_timestamp()
+print(f'\033[32mTIMESTAMP: {utc_timestamp}\n\033[0m')
 
 csv = requests.get(url, auth=(username, password))
 data = pd.read_csv(StringIO(csv.text), header=None)
