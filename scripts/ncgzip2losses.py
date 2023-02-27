@@ -23,7 +23,9 @@ import json
 import pandas as pd
 import geopandas as gpd
 import xarray as xr
+
 from compactGeoJSON import densify
+from utils import get_current_utc_timestamp
 
 
 
@@ -314,6 +316,10 @@ def calculateLosses(storm_file, exp_file, adm_file, mapping_file, split, geojson
             for r1 in r0['adm1']:
                 r1['adm2'] = [{k: a[k] for k in a if k not in ['adm0_name', 'adm0_code', 'adm1_name', 'adm1_code']}
                               for a in data2['records'] if a['adm1_name'] == r1['adm1_name']]
+
+        # adding timestamp
+        utc_timestamp = get_current_utc_timestamp()
+        data['utc_timestamp'] = utc_timestamp
 
         with open(f'{jsonFileBase}.json', 'w') as f:
             json.dump(data, f)
