@@ -1,7 +1,6 @@
 [![fetchRealTimeSHP](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/fetchRealTimeSHP.yml/badge.svg)](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/fetchRealTimeSHP.yml)
 [![fetchRealTimeNC](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/fetchRealTimeNC.yml/badge.svg)](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/fetchRealTimeNC.yml)
 [![fetchPostevent](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/fetchPostevent.yml/badge.svg)](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/fetchPostevent.yml)
-[![fetchHistoryJTWC](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/fetchHistoryJTWC.yml/badge.svg)](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/fetchHistoryJTWC.yml)
 [![createIndex](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/createIndex.yml/badge.svg)](https://github.com/bertranddelvaux/data-web-tc/actions/workflows/createIndex.yml)
 
 # Tropical Cyclone Exporer (Web) - Backend
