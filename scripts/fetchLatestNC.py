@@ -62,12 +62,13 @@ else:
         downloaded = fetchUrl(url_file, username, password)
 
         if downloaded:
-            print(f'dir : {os.getcwd()}')
-            nc.nc2geojson(filename, N=50, fcst_peak_wind=True)  # converting it to geojson
-            print(f'dir : {os.getcwd()}')
+            # converting it to geojson
+            print(f'\033[32m\tConverting {filename} to geojson\033[0m')
+            nc.nc2geojson(filename, N=50, fcst_peak_wind=True)
 
             if 'JTWC' in filename:
                 # running loss generation
+                print(f'\033[32m\tCalculating losses for {filename} \033[0m')
                 calculateLosses(storm_file=filename, exp_file=os.path.join(root_root, 'arc_exposure.gzip'),
                                 adm_file=os.path.join(root_root, 'adm2_full_precision.json'),
                                 mapping_file=os.path.join(root_root, 'mapping.gzip'), split=False,
