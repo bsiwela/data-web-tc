@@ -53,4 +53,13 @@ for url_file in file_list:
                         row = gdf_storm.iloc[-1]  # get the last row of the current storm
                         if tech == 'TRAK':  # if the technology is 'TRAK'
                             last_lon = row.LON  # set last_lon to the current longitude
-                            last_lat = row.LAT 
+                            last_lat = row.LAT
+                            
+                            
+            geojsonFilePath = f'{os.path.splitext(filename)[0]}.geojson'
+            gdf.to_file(geojsonFilePath, driver='GeoJSON')
+
+        # removing nc file
+        os.remove(filename)
+
+        downloaded = fetchUrl(f'{url_file}.sha256', username, password)
