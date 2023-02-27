@@ -1,5 +1,6 @@
 import os
 import requests
+import datetime
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
@@ -28,3 +29,14 @@ def fetchUrl(url_file, username, password, filename=None):
         print(f'\t\t\033[91mCouldnt download {url_file}\033[0m')
 
     return downloaded
+
+
+def get_current_utc_timestamp():
+
+    # Get the current UTC datetime object
+    utc_datetime = datetime.datetime.utcnow()
+
+    # Format the datetime object as a human-friendly string
+    utc_timestamp = utc_datetime.strftime('%Y-%m-%d %H:%M:%S UTC')
+
+    return utc_timestamp
