@@ -22,6 +22,7 @@ for url_file in file_list:
 
     if downloaded:
         # converting it to geojson
+        print(f'\033[32m\tConverting {filename} to geojson\033[0m')
         nc.zip2geojson(filename)
 
         # adding lineString for storm shapefile
@@ -56,6 +57,5 @@ for url_file in file_list:
         os.remove(filename)
 
         downloaded = fetchUrl(f'{url_file}.sha256', username, password)
-
 
 
