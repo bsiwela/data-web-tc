@@ -29,6 +29,19 @@
         },
         {
             "bbox": [
+                62.9125,
+                -32.6875,
+                92.3708,
+                -9.5875
+            ],
+            "id": "SH142023",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH142023_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH142023_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH142023.geojson",
+            "storm_name": "ENALA"
+        },
+        {
+            "bbox": [
                 76.0125,
                 -15.2375,
                 98.1792,
