@@ -191,18 +191,5 @@
             "storm_name": "FREDDY"
         }
     ],
-    "tc_realtime": [
-        {
-            "bbox": [
-                62.7083,
-                -32.7417,
-                92.3417,
-                -9.625
-            ],
-            "id": "SH142023",
-            "jtwc": "tc_realtime/taostc_SH142023_JTWC_SLOSH.geojson",
-            "losses": "tc_realtime/SH142023_losses_adm.json",
-            "storm_name": "ENALA"
-        }
-    ]
+    "tc_realtime": []
 }
