@@ -13,19 +13,6 @@
     "mpres_data": [
         {
             "bbox": [
-                37.2208,
-                -31.4,
-                90.9,
-                -8.3
-            ],
-            "id": "SH082022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH082022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH082022.geojson",
-            "storm_name": "BATSIRAI"
-        },
-        {
-            "bbox": [
                 62.9125,
                 -32.6875,
                 92.3708,
@@ -36,70 +23,6 @@
             "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH142023_JTWC_SLOSH.geojson",
             "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH142023.geojson",
             "storm_name": "ENALA"
-        },
-        {
-            "bbox": [
-                76.0125,
-                -15.2375,
-                98.1792,
-                -0.9125
-            ],
-            "id": "SH042023",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH042023_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH042023.geojson",
-            "storm_name": "FOUR"
-        },
-        {
-            "bbox": [
-                37.0625,
-                -27.0208,
-                53.2875,
-                -10.8375
-            ],
-            "id": "SH242022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH242022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH242022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH242022.geojson",
-            "storm_name": "JASMINE"
-        },
-        {
-            "bbox": [
-                36.3875,
-                -34.5542,
-                79.3,
-                -12.4208
-            ],
-            "id": "SH132022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132022.geojson",
-            "storm_name": "EMNATI"
-        },
-        {
-            "bbox": [
-                34.6,
-                -18.4958,
-                56.3,
-                -13.0208
-            ],
-            "id": "SH192022",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH192022_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH192022_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH192022.geojson",
-            "storm_name": "GOMBE"
-        },
-        {
-            "bbox": [
-                65.4208,
-                -32.9,
-                101.3125,
-                -9.5625
-            ],
-            "id": "SH132023",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132023_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132023_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132023.geojson",
-            "storm_name": "DINGANI"
         },
         {
             "bbox": [
@@ -116,6 +39,31 @@
         },
         {
             "bbox": [
+                32.8,
+                -25.0708,
+                120.3292,
+                -11.1125
+            ],
+            "id": "SH112023",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH112023_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH112023_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH112023.geojson",
+            "storm_name": "FREDDY"
+        },
+        {
+            "bbox": [
+                120.3458,
+                -21.5625,
+                130.2458,
+                -14.6792
+            ],
+            "id": "SH062023",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH062023_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH062023.geojson",
+            "storm_name": "ELLIE"
+        },
+        {
+            "bbox": [
                 82.1375,
                 -20.4375,
                 92.5958,
@@ -128,16 +76,16 @@
         },
         {
             "bbox": [
-                72.1542,
-                -18.3625,
-                87.0958,
-                -8.1208
+                36.3875,
+                -34.5542,
+                79.3,
+                -12.4208
             ],
-            "id": "SH022023",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH022023_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH022023_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH022023.geojson",
-            "storm_name": "ASHLEY"
+            "id": "SH132022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132022_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132022.geojson",
+            "storm_name": "EMNATI"
         },
         {
             "bbox": [
@@ -154,6 +102,19 @@
         },
         {
             "bbox": [
+                37.2208,
+                -31.4,
+                90.9,
+                -8.3
+            ],
+            "id": "SH082022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH082022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH082022_JTWC_30_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH082022.geojson",
+            "storm_name": "BATSIRAI"
+        },
+        {
+            "bbox": [
                 33.6,
                 -19.9625,
                 60.8292,
@@ -167,15 +128,54 @@
         },
         {
             "bbox": [
-                120.3458,
-                -21.5625,
-                130.2458,
-                -14.6792
+                65.4208,
+                -32.9,
+                101.3125,
+                -9.5625
             ],
-            "id": "SH062023",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH062023_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH062023.geojson",
-            "storm_name": "ELLIE"
+            "id": "SH132023",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH132023_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH132023_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH132023.geojson",
+            "storm_name": "DINGANI"
+        },
+        {
+            "bbox": [
+                37.0625,
+                -27.0208,
+                53.2875,
+                -10.8375
+            ],
+            "id": "SH242022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH242022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH242022_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH242022.geojson",
+            "storm_name": "JASMINE"
+        },
+        {
+            "bbox": [
+                76.0125,
+                -15.2375,
+                98.1792,
+                -0.9125
+            ],
+            "id": "SH042023",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH042023_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH042023.geojson",
+            "storm_name": "FOUR"
+        },
+        {
+            "bbox": [
+                34.6,
+                -18.4958,
+                56.3,
+                -13.0208
+            ],
+            "id": "SH192022",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH192022_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH192022_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH192022.geojson",
+            "storm_name": "GOMBE"
         },
         {
             "bbox": [
@@ -192,16 +192,16 @@
         },
         {
             "bbox": [
-                32.8,
-                -25.0708,
-                120.3292,
-                -11.1125
+                72.1542,
+                -18.3625,
+                87.0958,
+                -8.1208
             ],
-            "id": "SH112023",
-            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH112023_losses_adm.json",
-            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH112023_JTWC_SLOSH.geojson",
-            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH112023.geojson",
-            "storm_name": "FREDDY"
+            "id": "SH022023",
+            "losses": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/SH022023_losses_adm.json",
+            "nc": "mpres_data/postevent/taos_swio30s_ofcl_windwater_nc/taostc_SH022023_JTWC_SLOSH.geojson",
+            "shp": "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_SH022023.geojson",
+            "storm_name": "ASHLEY"
         }
     ],
     "tc_realtime": [
