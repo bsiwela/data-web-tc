@@ -202,5 +202,18 @@
             "storm_name": "ASHLEY"
         }
     ],
-    "tc_realtime": []
+    "tc_realtime": [
+        {
+            "bbox": [
+                31.2958,
+                -26.4042,
+                120.3792,
+                -11.0708
+            ],
+            "id": "SH112023",
+            "jtwc": "tc_realtime/taostc_SH112023_JTWC_SLOSH.geojson",
+            "losses": "tc_realtime/SH112023_losses_adm.json",
+            "storm_name": "FREDDY"
+        }
+    ]
 }
