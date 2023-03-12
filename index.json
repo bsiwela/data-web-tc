@@ -150,8 +150,6 @@
         "mpres_data/postevent/taos_swio30s_ofcl_windwater_shp/taos_swio30s_ofcl_windwater_shp_WP042022.geojson"
     ],
     "tc_realtime": [
-        "tc_realtime/taostc_SH112023_JTWC_SLOSH.geojson",
-        "tc_realtime/SH112023_losses_adm.json",
         "tc_realtime/README.md"
     ]
 }
